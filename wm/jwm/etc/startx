@@ -1,0 +1,33 @@
+#!/bin/sh
+export DISPLAY=:0
+export XAUTHORITY=/tmp/.Xauthority
+export LANG=C
+export LC_ALL=C
+export IMLIB2_SHM_OPT=0
+export PATH=/usr/bin:/bin:/sbin
+
+# No GPU/DRM in this VM - force Mesa software rendering (llvmpipe).
+# The X server needs these too (it loads the swrast GLX provider); the
+# xterm/xclock/twm clients started below inherit them from here.
+export LIBGL_ALWAYS_SOFTWARE=1
+export GALLIUM_DRIVER=llvmpipe
+export MESA_LOADER_DRIVER_OVERRIDE=swrast
+
+mkdir -p /var/log
+exec > /var/log/startx.log 2>&1
+
+mkdir -p /tmp/.X11-unix
+chmod 1777 /tmp/.X11-unix
+
+cd /etc/X11
+
+/usr/libexec/Xorg :0 -config xorg.conf -nolisten tcp -noreset -quiet vt1 &
+sleep 4
+
+xsetroot -solid '#2a4d4d'
+jwm &
+sleep 1
+xterm -T login +u8 -fn 6x13B -geometry 80x24+5+5 -e /bin/login &
+xclock -analog -geometry 180x180-5+5 &
+sleep 1
+wait
