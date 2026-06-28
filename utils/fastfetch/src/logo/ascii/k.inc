@@ -248,6 +248,19 @@ static const FFlogo K[] = {
         .colorTitle = FF_COLOR_FG_WHITE,
     },
     #endif
+    #ifdef FASTFETCH_DATATEXT_LOGO_KYRONIX_SMALL
+    // KyronixSmall
+    {
+        .names = { "Kyronix_small" },
+        .type = FF_LOGO_LINE_TYPE_SMALL_BIT,
+        .lines = FASTFETCH_DATATEXT_LOGO_KYRONIX_SMALL,
+        .colors = {
+            FF_COLOR_FG_RED,
+        },
+        .colorKeys = FF_COLOR_FG_RED,
+        .colorTitle = FF_COLOR_FG_DEFAULT,
+    },
+    #endif
     // LAST
     {},
 };
