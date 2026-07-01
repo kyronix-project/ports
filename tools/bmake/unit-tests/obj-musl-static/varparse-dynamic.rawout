@@ -1,0 +1,4 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varparse-dynamic.mk:9: Variable ".TARGEX" is undefined
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varparse-dynamic.mk:12: Variable ".TARGXX" is undefined
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped in /home/ildar/kyronix-ports/tools/bmake/unit-tests

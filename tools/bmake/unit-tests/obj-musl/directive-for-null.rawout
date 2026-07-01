@@ -1,0 +1,6 @@
+bmake[1]: (stdin):2: Zero byte read from file
+	in bmake[1] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+*** Error code 2 (continuing)
+
+Stop.
+bmake: stopped making "all" in /home/ildar/kyronix-ports/tools/bmake/unit-tests

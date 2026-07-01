@@ -1,0 +1,29 @@
+job_pipe -1 -1, maxjobs 1, tokens 1, compat 0
+TokenPool_Take: pid 477971, aborting NONE, running 0
+TokenPool_Take: pid 477971 took a token
+MaybeSubMake: Looking for "/home/ildar/kyronix-ports/tools/bmake/obj-musl/bmake"
+# echo off
+echo silent
+# echo on
+# echo off
+# error checking off
+set +e
+# echo on
+echo ignerr; false
+# echo off
+# error checking on
+set -e
+# echo on
+echo always
+Running all
+	Command: sh
+JobExec: target all, pid 478011 added to jobs table
+job started, job table:
+job 0, status running, flags ---, pid 478011
+silent
+ignerr
+always
+Process with pid 478011 exited/stopped with status 0.
+JobFinish: target all, pid 478011, status 0
+TokenPool_Take: pid 477971, aborting NONE, running 0
+TokenPool_Take: pid 477971 took a token

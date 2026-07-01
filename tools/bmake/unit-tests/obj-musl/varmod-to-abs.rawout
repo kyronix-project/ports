@@ -1,0 +1,4 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-to-abs.mk:19: does-not-exist.c
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-to-abs.mk:21: does-not-exist.c
+cached_realpath: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-to-abs.mk -> /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-to-abs.mk
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-to-abs.mk:26: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-to-abs.mk

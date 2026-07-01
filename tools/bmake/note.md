@@ -1,0 +1,1 @@
+Do not forget to copy the `mk/` directory (the `.mk` system make rules that ship with bmake) into the Kyronix rootfs at `/usr/share/mk`. Without it, bmake falls back to a built-in minimal `sys.mk` and things like `bsd.prog.mk` style builds will not work.

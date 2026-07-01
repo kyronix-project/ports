@@ -1,0 +1,10 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-op-or.mk:36: Variable "UNDEF" is undefined
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-op-or.mk:41: Variable "UNDEF" is undefined
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-op-or.mk:44: Variable "UNDEF" is undefined
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-op-or.mk:60: Unknown operator "|"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-op-or.mk:66: Unknown operator "|"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-op-or.mk:72: Unknown operator "|"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-op-or.mk:78: Unknown operator "|"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-op-or.mk:87: Unknown operator "|"
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped in /home/ildar/kyronix-ports/tools/bmake/unit-tests

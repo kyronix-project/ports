@@ -1,0 +1,6 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/deptgt-begin.mk:19: warning: duplicate script for target ".BEGIN" ignored
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/deptgt-begin.mk:8: warning: using previous script for ".BEGIN" defined here
+: parse time
+: Making before-begin before .BEGIN.
+: .BEGIN
+: all

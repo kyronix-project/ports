@@ -1,0 +1,4 @@
+bmake[1]: warning: /home/ildar/kyronix-ports/tools/bmake/obj-musl/unit-tests/tmp/roobj: Permission denied
+/home/ildar/kyronix-ports/tools/bmake/obj-musl/unit-tests/tmp
+/home/ildar/kyronix-ports/tools/bmake/obj-musl/unit-tests/tmp/roobj
+/home/ildar/kyronix-ports/tools/bmake/obj-musl/unit-tests/tmp/roobj

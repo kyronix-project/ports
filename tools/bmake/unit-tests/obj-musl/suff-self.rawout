@@ -1,0 +1,5 @@
+bmake: Graph cycles through suff-self.suff
+`all' not remade because of errors.
+
+Stop.
+bmake: stopped making "all" in /home/ildar/kyronix-ports/tools/bmake/unit-tests

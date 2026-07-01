@@ -1,0 +1,6 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-token-number.mk:16: Malformed conditional "-0"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-token-number.mk:27: Malformed conditional "+0"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-token-number.mk:38: Malformed conditional "!-1"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/cond-token-number.mk:49: Malformed conditional "!+1"
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped making "all" in /home/ildar/kyronix-ports/tools/bmake/unit-tests

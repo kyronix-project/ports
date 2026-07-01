@@ -1,0 +1,10 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-if.mk:51: if-less endif
+	in .for loop from /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-if.mk:46 with directive = if
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-if.mk:51: if-less endif
+	in .for loop from /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-if.mk:46 with directive = ifdef
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-if.mk:51: if-less endif
+	in .for loop from /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-if.mk:46 with directive = ifndef
+VAR1
+VAR3
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped making "." in /home/ildar/kyronix-ports/tools/bmake/unit-tests
