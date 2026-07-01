@@ -1,0 +1,59 @@
+#*** Begin input graph for pass 1 in /home/ildar/kyronix-ports/tools/bmake/unit-tests:
+# all, unmade, type OP_DEPENDS|OP_HAS_COMMANDS, flags none
+# made-target, unmade, type OP_DEPENDS, flags none
+# made-target-no-sources, unmade, type OP_DEPENDS, flags none
+# made-source, unmade, type OP_DEPENDS, flags none
+# unmade-target, unmade, type OP_DEPENDS, flags none
+# unmade-sources, unmade, type none, flags none
+# unmade-silent-source, unmade, type OP_SILENT, flags none
+# unmade-target-no-sources, unmade, type OP_DEPENDS, flags none
+
+
+#
+#   Files that are only sources:
+#	unmade-sources [unmade-sources]
+#	unmade-silent-source [unmade-silent-source] .SILENT
+#*** Global Variables:
+.ALLTARGETS      =  all made-target made-target-no-sources made-source unmade-target unmade-sources unmade-silent-source unmade-target-no-sources
+.CURDIR          = /home/ildar/kyronix-ports/tools/bmake/unit-tests
+.INCLUDES        = # (empty)
+.LIBS            = # (empty)
+.MAKE            = /home/ildar/kyronix-ports/tools/bmake/obj-musl/bmake
+.MAKE.DEPENDFILE = .depend
+.MAKE.GID        = 1000
+.MAKE.JOBS.C     = yes
+.MAKE.LEVEL      = 0
+.MAKE.LEVEL.ENV  = MAKELEVEL
+.MAKE.MAKEFILES  = /home/ildar/kyronix-ports/tools/bmake/unit-tests/opt-debug-graph1.mk
+.MAKE.MAKEFILE_PREFERENCE = makefile Makefile
+.MAKE.OS         = Linux
+.MAKE.PID        = 476608
+.MAKE.PPID       = 476607
+.MAKE.SAVE_DOLLARS = no
+.MAKE.UID        = 1000
+.MAKE.VERSION    = 20260619
+.MAKEFLAGS       =  -r -k -d g1
+.MAKEOVERRIDES   = # (empty)
+.OBJDIR          = /home/ildar/kyronix-ports/tools/bmake/unit-tests
+.PATH            = . /home/ildar/kyronix-ports/tools/bmake/unit-tests
+.SYSPATH         = /usr/share/mk
+.TARGETS         = # (empty)
+.newline         = 
+# (ends with space)
+MACHINE          = x86_64
+MACHINE_ARCH     = x86_64
+MAKE             = /home/ildar/kyronix-ports/tools/bmake/obj-musl/bmake
+MAKE_VERSION     = 20260619
+MFLAGS           =   -r -k -d g1
+#*** Command-line Variables:
+
+#*** Directory Cache:
+# Stats: 0 hits 2 misses 0 near misses 0 losers (0%)
+#  refs  hits  directory
+#     1     0  /home/ildar/kyronix-ports/tools/bmake/unit-tests
+#     1     0  .
+#     2     0  /usr/share/mk
+
+#*** Suffixes:
+#*** Transformations:
+#*** End input graph for pass 1 in /home/ildar/kyronix-ports/tools/bmake/unit-tests:

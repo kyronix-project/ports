@@ -1,0 +1,4 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/recursive.mk:38: Unclosed variable "MISSING_PAREN"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/recursive.mk:40: Unclosed variable "MISSING_BRACE"
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped in /home/ildar/kyronix-ports/tools/bmake/unit-tests

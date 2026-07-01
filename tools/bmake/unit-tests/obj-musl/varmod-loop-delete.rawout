@@ -1,0 +1,11 @@
+/home/ildar/kyronix-ports/tools/bmake/obj-musl/bmake -f /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-loop-delete.mk delete-active-variable || true
+bmake[1]: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-loop-delete.mk:31: Cannot delete variable "VAR" while it is used
+	while evaluating "${:U:@VAR@@} rest of the value" with value ""
+	while evaluating variable "VAR" with value "${:U:@VAR@@} rest of the value"
+	in bmake[1] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+bmake[1]: Fatal errors encountered -- cannot continue
+bmake[1]: stopped making "delete-active-variable" in /home/ildar/kyronix-ports/tools/bmake/unit-tests
+
+/home/ildar/kyronix-ports/tools/bmake/obj-musl/bmake -f /home/ildar/kyronix-ports/tools/bmake/unit-tests/varmod-loop-delete.mk delete-active-variable-in-target || true
+: delete-active-variable-in-target: ' rest of the value'
+

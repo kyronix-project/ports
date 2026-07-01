@@ -1,0 +1,49 @@
+bmake[2]: Unknown modifier ":Z"
+	while evaluating "${:Z}" with value ""
+	in command "@echo ${:Z}"
+	in target "provoke-error" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:42
+	in bmake[2] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+*** Error code 2 (continuing)
+
+Stop.
+bmake[1]: stopped making "disabled-compat" in /home/ildar/kyronix-ports/tools/bmake/unit-tests
+bmake[2]: Unknown modifier ":Z"
+	while evaluating "${:Z}" with value ""
+	in command "@echo ${:Z}"
+	in target "provoke-error" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:42
+	in bmake[2] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+*** [disabled-parallel] Error code 2
+
+bmake[1]: stopped making "disabled-parallel" in /home/ildar/kyronix-ports/tools/bmake/unit-tests
+bmake[2]: Unknown modifier ":Z"
+	while evaluating "${:Z}" with value ""
+	in command "@echo ${:Z}"
+	in target "provoke-error" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:42
+	in bmake[2] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+	in command "/home/ildar/kyronix-ports/tools/bmake/obj-musl/bmake -f /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk provoke-error"
+	in target "enabled-compat" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:35
+	in bmake[1] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+*** Error code 2 (continuing)
+
+Stop.
+bmake[1]: stopped making "enabled-compat" in /home/ildar/kyronix-ports/tools/bmake/unit-tests
+bmake[2]: Unknown modifier ":Z"
+	while evaluating "${:Z}" with value ""
+	in command "@echo ${:Z}"
+	in target "provoke-error" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:42
+	in bmake[2] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+	in target "enabled-parallel" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:39
+	in bmake[1] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+*** [enabled-parallel] Error code 2
+
+bmake[1]: stopped making "enabled-parallel" in /home/ildar/kyronix-ports/tools/bmake/unit-tests
+.make484302[5]: warning: Invalid internal option "-J" in "/home/ildar/kyronix-ports/tools/bmake/unit-tests"; see the manual page
+	in .make484302[5] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+	in target "multi-stage-4" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:56
+	in bmake[4] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+	in target "multi-stage-3" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:54
+	in bmake[3] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+	in target "multi-stage-2" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:52
+	in bmake[2] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"
+	in target "multi-stage-1" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-make_stack_trace.mk:50
+	in bmake[1] in directory "/home/ildar/kyronix-ports/tools/bmake/unit-tests"

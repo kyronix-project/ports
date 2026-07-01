@@ -1,0 +1,9 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-dot-makeflags.mk:11: MAKEFLAGS=<undefined>
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-dot-makeflags.mk:13: .MAKEFLAGS=< -r -k>
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-dot-makeflags.mk:15: .MAKEOVERRIDES=<>
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-dot-makeflags.mk:21: MAKEFLAGS=<undefined>
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-dot-makeflags.mk:23: .MAKEFLAGS=< -r -k -D VARNAME -r>
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/varname-dot-makeflags.mk:25: .MAKEOVERRIDES=< VAR>
+runtime: MAKEFLAGS=< -r -k -D VARNAME -r VAR=value>
+runtime: .MAKEFLAGS=< -r -k -D VARNAME -r>
+runtime: .MAKEOVERRIDES=< VAR>

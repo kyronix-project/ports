@@ -1,0 +1,3 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-error.mk:14: message
+
+bmake: stopped in /home/ildar/kyronix-ports/tools/bmake/unit-tests

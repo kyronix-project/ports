@@ -1,0 +1,6 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-undef.mk:30: The .undef directive requires an argument
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-undef.mk:88: Unknown modifier ":Z"
+	while evaluating variable "VARNAMES" with value "VARNAMES"
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-undef.mk:105: warning: UT_EXPORTED is still listed in .MAKE.EXPORTED even though spaceit is not exported anymore.
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped making "all" in /home/ildar/kyronix-ports/tools/bmake/unit-tests

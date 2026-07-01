@@ -1,0 +1,13 @@
+: undefined 
+bmake: Unclosed variable "UNCLOSED"
+	in command ": $@ ${UNCLOSED"
+	in target "unclosed-expression" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/cmd-errors-lint.mk:19
+bmake: Unclosed expression, expecting "}"
+	while evaluating variable "UNCLOSED" with value ""
+	in command ": $@ ${UNCLOSED:"
+	in target "unclosed-modifier" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/cmd-errors-lint.mk:24
+bmake: Unknown modifier ":Z"
+	while evaluating variable "UNKNOWN" with value ""
+	in command ": $@ ${UNKNOWN:Z}"
+	in target "unknown-modifier" from /home/ildar/kyronix-ports/tools/bmake/unit-tests/cmd-errors-lint.mk:29
+: end

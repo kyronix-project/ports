@@ -1,0 +1,10 @@
+DIFF=diff
+DIFF_FLAGS=-u
+EGREP=grep -E
+MAKELEVEL=1
+TMPDIR=/home/ildar/kyronix-ports/tools/bmake/obj-musl/unit-tests/tmp
+UT_DOLLAR=This is $UT_FU
+UT_FOO=foobar is fubar
+UT_FU=fubar
+UT_TEST=export
+UT_ZOO=hoopie

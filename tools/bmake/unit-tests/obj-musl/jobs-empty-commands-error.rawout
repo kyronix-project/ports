@@ -1,0 +1,4 @@
+: 'Making existing-target out of nothing.'
+bmake: don't know how to make nonexistent-target (continuing)
+
+bmake: stopped making "all" in /home/ildar/kyronix-ports/tools/bmake/unit-tests

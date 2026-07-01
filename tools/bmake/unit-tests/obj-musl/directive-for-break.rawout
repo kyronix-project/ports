@@ -1,0 +1,5 @@
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-break.mk:45: break outside of for loop
+bmake: /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-break.mk:65: The .break directive does not take arguments
+	in .for loop from /home/ildar/kyronix-ports/tools/bmake/unit-tests/directive-for-break.mk:63 with i = 1
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped in /home/ildar/kyronix-ports/tools/bmake/unit-tests

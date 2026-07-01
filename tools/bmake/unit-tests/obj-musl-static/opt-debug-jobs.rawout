@@ -1,0 +1,27 @@
+job_pipe -1 -1, maxjobs 1, tokens 1, compat 0
+TokenPool_Take: pid 438012, aborting NONE, running 0
+TokenPool_Take: pid 438012 took a token
+MaybeSubMake: Looking for "/home/ildar/kyronix-ports/tools/bmake/obj-musl-static/bmake"
+echo ": expanded expression"
+{ : expanded expression 
+} || exit $?
+echo ":  variable"
+{ :  variable 
+} || exit $?
+echo ": 'single' and \"double\" quotes"
+{ : 'single' and "double" quotes 
+} || exit $?
+{ sleep 1 
+} || exit $?
+Running all
+	Command: sh
+JobExec: target all, pid 438013 added to jobs table
+job started, job table:
+job 0, status running, flags ---, pid 438013
+: expanded expression
+:  variable
+: 'single' and "double" quotes
+Process with pid 438013 exited/stopped with status 0.
+JobFinish: target all, pid 438013, status 0
+TokenPool_Take: pid 438012, aborting NONE, running 0
+TokenPool_Take: pid 438012 took a token
