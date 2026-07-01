@@ -1,0 +1,73 @@
+#!/bin/sh
+
+# This script is designed to provide a handy summary of the configuration
+# information being used to build perl. This is especially useful if you
+# are requesting help online or via email.
+
+# Note that the text lines /^Summary of/ .. /^\s*$/ are copied into Config.pm.
+cat <<'!NO!SUBS!'
+Summary of my perl5 (revision 5 version 42 subversion 2) configuration:
+   
+  Platform:
+    osname=linux
+    osvers=7.0.12-arch1-1
+    archname=x86_64-linux
+    uname='linux anmitali-arch 7.0.12-arch1-1 #1 smp preempt_dynamic wed, 10 jun 2026 08:58:02 +0000 x86_64 gnulinux '
+    config_args='-de -Dcc=musl-gcc -Dprefix=/usr/local/perl-musl -Dldflags=-L/usr/lib/musl/lib -L/usr/lib -Dlibc=/usr/lib/musl/lib/libc.a -Ui_gdbm -Ui_dbm -Ui_ndbm -Ui_crypt -Dlibs=-lpthread -ldl -lm -lutil -Dd_shmatprototype=define -Ud_eaccess'
+    hint=recommended
+    useposix=true
+    d_sigaction=define
+    useithreads=undef
+    usemultiplicity=undef
+    use64bitint=define
+    use64bitall=define
+    uselongdouble=undef
+    usemymalloc=n
+    default_inc_excludes_dot=define
+  Compiler:
+    cc='musl-gcc'
+    ccflags ='-fwrapv -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2'
+    optimize='-O2'
+    cppflags='-fwrapv -I/usr/local/include'
+    ccversion=''
+    gccversion='16.1.1 20260430'
+    gccosandvers=''
+    intsize=4
+    longsize=8
+    ptrsize=8
+    doublesize=8
+    byteorder=12345678
+    doublekind=3
+    d_longlong=define
+    longlongsize=8
+    d_longdbl=define
+    longdblsize=16
+    longdblkind=3
+    ivtype='long'
+    ivsize=8
+    nvtype='double'
+    nvsize=8
+    Off_t='off_t'
+    lseeksize=8
+    alignbytes=8
+    prototype=
+  Linker and Libraries:
+    ld='musl-gcc'
+    ldflags ='-L/usr/lib/musl/lib -L/usr/lib -L/usr/local/lib'
+    libpth=/usr/local/lib /lib/../lib /usr/lib/../lib /lib /usr/lib /lib64 /usr/lib64 /usr/local/lib64
+    libs=-lpthread -ldl -lm -lutil
+    perllibs=-lpthread -ldl -lm -lutil
+    libc=/usr/lib/musl/lib/libc.a
+    so=so
+    useshrplib=false
+    libperl=libperl.a
+    gnulibc_version=''
+  Dynamic Linking:
+    dlsrc=dl_dlopen.xs
+    dlext=so
+    d_dlsymun=undef
+    ccdlflags='-Wl,-E'
+    cccdlflags='-fPIC'
+    lddlflags='-shared -O2 -L/usr/lib/musl/lib -L/usr/lib -L/usr/local/lib'
+
+!NO!SUBS!

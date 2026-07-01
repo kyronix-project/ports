@@ -1,0 +1,18 @@
+Building for musl on a glibc system requires extra Configure flags:
+
+  sh Configure -de \
+    -Dcc=musl-gcc \
+    -Dprefix=/usr/local/perl-musl \
+    -Dldflags='-L/usr/lib/musl/lib -L/usr/lib' \
+    -Dlibc=/usr/lib/musl/lib/libc.a \
+    -Ui_gdbm -Ui_dbm -Ui_ndbm -Ui_crypt \
+    -Dlibs='-lpthread -ldl -lm -lutil' \
+    -Dd_shmatprototype=define \
+    -Ud_eaccess
+
+Reasons:
+- -Dlibc=.../libc.a        — otherwise Configure finds GLibC and extracts symbols from it
+- -Ui_gdbm/-Ui_crypt etc.  — system libgdbm/libcrypt are GLibC-linked, incompatible with musl
+- -Dd_shmatprototype=define — musl declares shmat in sys/shm.h, Configure misses this
+- -Ud_eaccess               — eaccess is a GLibC extension, not available in musl
+- -L/usr/lib                — GCC 16 adds -latomic_asneeded; musl-gcc can't find it without this path
