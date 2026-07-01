@@ -1,1 +1,1 @@
-Не работает REPL через 'lua'.
+REPL doesn't work via the 'lua' command. Compile statically, preferably with clang.
