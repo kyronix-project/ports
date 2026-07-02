@@ -1,0 +1,28 @@
+libstrace_a-string_to_uint.o: ../../src/string_to_uint.c config.h \
+ /usr/lib/musl/include/errno.h /usr/lib/musl/include/features.h \
+ /usr/lib/musl/include/bits/errno.h /usr/lib/musl/include/stdlib.h \
+ /usr/lib/musl/include/bits/alltypes.h /usr/lib/musl/include/alloca.h \
+ /usr/lib/musl/include/string.h /usr/lib/musl/include/strings.h \
+ ../../src/string_to_uint.h /usr/lib/musl/include/limits.h \
+ /usr/lib/musl/include/bits/limits.h ../../src/kernel_types.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h
+config.h:
+/usr/lib/musl/include/errno.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/bits/errno.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+../../src/string_to_uint.h:
+/usr/lib/musl/include/limits.h:
+/usr/lib/musl/include/bits/limits.h:
+../../src/kernel_types.h:
+/usr/include/asm/posix_types.h:
+/usr/include/asm/posix_types_64.h:
+/usr/include/asm-generic/posix_types.h:
+/usr/include/asm/bitsperlong.h:
+/usr/include/asm-generic/bitsperlong.h:

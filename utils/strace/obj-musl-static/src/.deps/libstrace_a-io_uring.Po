@@ -1,0 +1,156 @@
+libstrace_a-io_uring.o: ../../src/io_uring.c ../../src/defs.h config.h \
+ /usr/lib/musl/include/features.h /usr/lib/musl/include/stdbool.h \
+ /usr/lib/musl/include/stdint.h /usr/lib/musl/include/bits/alltypes.h \
+ /usr/lib/musl/include/bits/stdint.h /usr/lib/musl/include/inttypes.h \
+ /usr/lib/musl/include/sys/types.h /usr/lib/musl/include/endian.h \
+ /usr/lib/musl/include/sys/select.h /usr/lib/musl/include/stddef.h \
+ /usr/lib/musl/include/unistd.h /usr/lib/musl/include/stdlib.h \
+ /usr/lib/musl/include/alloca.h /usr/lib/musl/include/stdio.h \
+ /usr/lib/musl/include/string.h /usr/lib/musl/include/strings.h \
+ /usr/lib/musl/include/errno.h /usr/lib/musl/include/bits/errno.h \
+ /usr/lib/musl/include/time.h /usr/lib/musl/include/sys/time.h \
+ ../../src/arch_defs.h ../../src/linux/x86_64/arch_defs_.h \
+ ../../src/error_prints.h ../../src/gcc_compat.h ../../src/kernel_types.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h ../../src/list.h \
+ ../../src/macros.h ../../src/static_assert.h \
+ /usr/lib/musl/include/assert.h ../../src/mpers_type.h \
+ ../../src/number_set.h ../../src/string_to_uint.h \
+ /usr/lib/musl/include/limits.h /usr/lib/musl/include/bits/limits.h \
+ ../../src/sysent.h ../../src/xmalloc.h ../../src/xlat.h printers.h \
+ ../../src/print_fields.h ../../src/color.h ../../src/syscall.h \
+ ../../src/syscall_dummy.h sys_func.h ../../src/kernel_time_types.h \
+ ../../src/kernel_timespec.h /usr/include/linux/time_types.h \
+ ../../bundled/linux/include/uapi/linux/types.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/linux/posix_types.h \
+ ../../bundled/linux/include/uapi/linux/stddef.h \
+ ../../bundled/linux/include/uapi/linux/io_uring.h \
+ ../../bundled/linux/include/uapi/linux/fs.h /usr/include/linux/limits.h \
+ /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h \
+ ../../bundled/linux/include/uapi/linux/fscrypt.h \
+ ../../bundled/linux/include/uapi/linux/mount.h \
+ ../../bundled/linux/include/uapi/linux/io_uring/zcrx.h \
+ ../../bundled/linux/include/uapi/linux/io_uring/query.h \
+ ../../src/xlat/uring_async_cancel_flags.h ../../src/gcc_compat.h \
+ ../../src/static_assert.h ../../src/xlat/uring_clone_buffers_flags.h \
+ ../../src/xlat/uring_enter_flags.h \
+ ../../src/xlat/uring_files_update_fds.h ../../src/xlat/uring_iowq_acct.h \
+ ../../src/xlat/uring_op_flags.h ../../src/xlat/uring_ops.h \
+ ../../src/xlat/uring_setup_features.h ../../src/xlat/uring_setup_flags.h \
+ ../../src/xlat/uring_sqe_flags.h ../../src/xlat/uring_register_opcodes.h \
+ ../../src/xlat/uring_register_opcode_flags.h \
+ ../../src/xlat/uring_register_rsrc_flags.h \
+ ../../src/xlat/uring_restriction_opcodes.h \
+ ../../src/xlat/uring_napi_ops.h \
+ ../../src/xlat/uring_napi_tracking_strategies.h \
+ ../../src/xlat/uring_msg_ring_flags.h \
+ ../../src/xlat/uring_zcrx_reg_flags.h \
+ ../../src/xlat/uring_zcrx_area_flags.h \
+ ../../src/xlat/uring_mem_region_reg_flags.h \
+ ../../src/xlat/uring_query_ops.h ../../src/xlat/uring_zcrx_ctrl_ops.h \
+ ../../src/xlat/uring_rw_attr_flags.h ../../src/xlat/uring_nop_flags.h \
+ ../../src/xlat/uring_fixed_fd_flags.h \
+ ../../src/xlat/uring_accept_flags.h \
+ ../../src/xlat/uring_recvsend_flags.h ../../src/xlat/uring_socket_ops.h
+../../src/defs.h:
+config.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/stdbool.h:
+/usr/lib/musl/include/stdint.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/bits/stdint.h:
+/usr/lib/musl/include/inttypes.h:
+/usr/lib/musl/include/sys/types.h:
+/usr/lib/musl/include/endian.h:
+/usr/lib/musl/include/sys/select.h:
+/usr/lib/musl/include/stddef.h:
+/usr/lib/musl/include/unistd.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/stdio.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+/usr/lib/musl/include/errno.h:
+/usr/lib/musl/include/bits/errno.h:
+/usr/lib/musl/include/time.h:
+/usr/lib/musl/include/sys/time.h:
+../../src/arch_defs.h:
+../../src/linux/x86_64/arch_defs_.h:
+../../src/error_prints.h:
+../../src/gcc_compat.h:
+../../src/kernel_types.h:
+/usr/include/asm/posix_types.h:
+/usr/include/asm/posix_types_64.h:
+/usr/include/asm-generic/posix_types.h:
+/usr/include/asm/bitsperlong.h:
+/usr/include/asm-generic/bitsperlong.h:
+../../src/list.h:
+../../src/macros.h:
+../../src/static_assert.h:
+/usr/lib/musl/include/assert.h:
+../../src/mpers_type.h:
+../../src/number_set.h:
+../../src/string_to_uint.h:
+/usr/lib/musl/include/limits.h:
+/usr/lib/musl/include/bits/limits.h:
+../../src/sysent.h:
+../../src/xmalloc.h:
+../../src/xlat.h:
+printers.h:
+../../src/print_fields.h:
+../../src/color.h:
+../../src/syscall.h:
+../../src/syscall_dummy.h:
+sys_func.h:
+../../src/kernel_time_types.h:
+../../src/kernel_timespec.h:
+/usr/include/linux/time_types.h:
+../../bundled/linux/include/uapi/linux/types.h:
+/usr/include/asm/types.h:
+/usr/include/asm-generic/types.h:
+/usr/include/asm-generic/int-ll64.h:
+/usr/include/linux/posix_types.h:
+../../bundled/linux/include/uapi/linux/stddef.h:
+../../bundled/linux/include/uapi/linux/io_uring.h:
+../../bundled/linux/include/uapi/linux/fs.h:
+/usr/include/linux/limits.h:
+/usr/include/linux/ioctl.h:
+/usr/include/asm/ioctl.h:
+/usr/include/asm-generic/ioctl.h:
+../../bundled/linux/include/uapi/linux/fscrypt.h:
+../../bundled/linux/include/uapi/linux/mount.h:
+../../bundled/linux/include/uapi/linux/io_uring/zcrx.h:
+../../bundled/linux/include/uapi/linux/io_uring/query.h:
+../../src/xlat/uring_async_cancel_flags.h:
+../../src/gcc_compat.h:
+../../src/static_assert.h:
+../../src/xlat/uring_clone_buffers_flags.h:
+../../src/xlat/uring_enter_flags.h:
+../../src/xlat/uring_files_update_fds.h:
+../../src/xlat/uring_iowq_acct.h:
+../../src/xlat/uring_op_flags.h:
+../../src/xlat/uring_ops.h:
+../../src/xlat/uring_setup_features.h:
+../../src/xlat/uring_setup_flags.h:
+../../src/xlat/uring_sqe_flags.h:
+../../src/xlat/uring_register_opcodes.h:
+../../src/xlat/uring_register_opcode_flags.h:
+../../src/xlat/uring_register_rsrc_flags.h:
+../../src/xlat/uring_restriction_opcodes.h:
+../../src/xlat/uring_napi_ops.h:
+../../src/xlat/uring_napi_tracking_strategies.h:
+../../src/xlat/uring_msg_ring_flags.h:
+../../src/xlat/uring_zcrx_reg_flags.h:
+../../src/xlat/uring_zcrx_area_flags.h:
+../../src/xlat/uring_mem_region_reg_flags.h:
+../../src/xlat/uring_query_ops.h:
+../../src/xlat/uring_zcrx_ctrl_ops.h:
+../../src/xlat/uring_rw_attr_flags.h:
+../../src/xlat/uring_nop_flags.h:
+../../src/xlat/uring_fixed_fd_flags.h:
+../../src/xlat/uring_accept_flags.h:
+../../src/xlat/uring_recvsend_flags.h:
+../../src/xlat/uring_socket_ops.h:
