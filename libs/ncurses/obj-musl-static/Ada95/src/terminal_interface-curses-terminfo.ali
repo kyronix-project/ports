@@ -1,0 +1,151 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_EXCEPTIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U terminal_interface.curses.terminfo%b  terminal_interface-curses-terminfo.adb  f67268e0 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+
+U terminal_interface.curses.terminfo%s  terminal_interface-curses-terminfo.ads  dc9fdc93 NE OO PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-terminfo.ads  20200202233434 d0bfab30 terminal_interface.curses.terminfo%s
+D terminal_interface-curses-terminfo.adb  20200202233434 e0dcb0c8 terminal_interface.curses.terminfo%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [get_string terminal_interface__curses__terminfo 58 14 none]
+G c Z s b [has_string terminal_interface__curses__terminfo 61 13 none]
+G c Z s b [get_flag terminal_interface__curses__terminfo 65 13 none]
+G c Z s b [get_number terminal_interface__curses__terminfo 69 13 none]
+G c Z s b [put_string terminal_interface__curses__terminfo 77 14 none]
+G c Z b b [is_minusone_pointer terminal_interface__curses__terminfo 51 13 none]
+G r c none [get_string terminal_interface__curses__terminfo 58 14 none] [fill_string terminal_interface__curses__aux 96 13 none]
+X 1 ada.ads
+18K9*Ada 22e8 18|47r6 56r32
+X 3 a-unccon.ads
+20+9 Source 18|57r10
+21+9 Target 18|57r31
+23v14*Unchecked_Conversion 18|47w10 56r36
+X 4 interfac.ads
+47K9*Interfaces 247e15 17|43r6 72r42 73r44 18|45r6 45r24 46r6 46r32
+X 5 i-c.ads
+33K20*C 605e17 17|43w17 72r53 73r55 18|45w17 45r35 46r17 46r43
+62I9*int<integer> 17|72r55 73r57
+92M9*size_t 18|73r16 91r16 112r16 131r16 148r16
+109E9*char<character>
+124A9*char_array(109E9)<92M9> 18|70r32 72r16 88r31 90r16 109r31 111r16 128r30
+. 130r16 141r32 144r28 147r16
+189U14*To_C 18|75s7 94s7 115s7 133s7 151s7
+X 6 i-cstrin.ads
+48K22*Strings 183e25 18|46w19 46r45
+65P9*chars_ptr 18|51r38 53r38 57r20 88r50 92r14 109r50 113r14
+71p4*Null_Ptr{65P9} 18|96r17 117r17
+X 7 system.ads
+37K9*System 155e11 18|54r33
+X 12 s-stoele.ads
+43K16*Storage_Elements 104e28 18|54r40
+92M9*Integer_Address 18|54r57
+X 14 terminal_interface.ads
+43K9*Terminal_Interface 48e23 17|45r9 46r25 82r5 18|44r6 44r41 49r14 162r5
+X 15 terminal_interface-curses.ads
+48K28*Curses 14|43k9 15|2103e30 17|45r28 46r44 82r24 18|44r25 44r60 49r33
+. 162r24
+522X4*Curses_Exception 18|99r16 120r16 158r16
+2099M9 Curses_Bool 18|70r51 76r28
+X 16 terminal_interface-curses-aux.ads
+46K35*Aux 118e34 18|44w32 44r67
+49I12*C_Int{5|62I9} 18|128r49 142r32 143r49 144r47 149r13 155r29
+64i4*Curses_Err{49I12} 18|157r16
+66i4*Curses_True{49I12} 18|76r41
+96V13*Fill_String{string} 18|101s37
+X 17 terminal_interface-curses-terminfo.ads
+45K35*Terminfo 15|48k28 17|46r51 82l31 82e39 18|49b40 162l31 162t39
+55A9*Terminfo_String<string>(character)<integer> 59r39 77r35 18|85r39 101r20
+. 138r35
+58U14*Get_String 58>26 59<26 60<26 18|84b14 104l8 104t18
+58a26 Name{string} 18|84b26 90r33 94r13
+59a26 Value{55A9} 18|85b26 101m10
+60b26 Result{boolean} 18|86b26 97m10 102m10
+61V13*Has_String{boolean} 61>25 18|107b13 124l8 124t18
+61a25 Name{string} 18|107b25 111r33 115r13
+65V13*Get_Flag{boolean} 65>23 18|68b13 81l8 81t16
+65a23 Name{string} 18|68b23 72r33 75r13
+69V13*Get_Number{integer} 69>25 18|127b13 135l8 135t18
+69a25 Name{string} 18|127b25 130r33 133r13
+72P9*putctype(5|62I9) 72>38 74r26 79r35 18|140r35 143r32
+72i38 c{5|62I9}
+77U14*Put_String 77>26 78>26 79>26 18|138b14 160l8 160t18
+77a26 Str{55A9} 18|138b26 147r33 151r21
+78i26 affcnt{natural} 18|139b26 155r36
+79p26 putc{72P9} 18|140b26 152r10 155r45
+X 18 terminal_interface-curses-terminfo.adb
+51V13 Is_MinusOne_Pointer{boolean} 51>34 53b13 64l8 64t27 65r19 98s13 119s13
+51p34 P{6|65P9} 53b34 59r20
+54M12 Weird_Address<12|92M9> 55r34 57r41
+55m7 Invalid_Pointer{54M12} 59r25
+56V16 To_Weird[3|23]{54M12} 59s10
+70V16*tigetflag{15|2099M9} 70>27 71b<c,tigetflag>25 76s10
+70a27 id{5|124A9}
+72a7 Txt{5|124A9} 75m19 76r21
+73m7 Length{5|92M9} 75m24
+88V16*tigetstr{6|65P9} 88>26 89b<c,tigetstr>25 95s15
+88a26 id{5|124A9}
+90a7 Txt{5|124A9} 94m19 95r25
+91m7 Length{5|92M9} 94m24
+92p7 Txt2{6|65P9} 95m7 96r10 98r34 101r50
+109V16*tigetstr{6|65P9} 109>26 110b<c,tigetstr>25 116s15
+109a26 id{5|124A9}
+111a7 Txt{5|124A9} 115m19 116r25
+112m7 Length{5|92M9} 115m24
+113p7 Txt2{6|65P9} 116m7 117r10 119r34
+128V16*tigetstr{16|49I12} 128>26 129b<c,tigetstr>25 134s23
+128a26 s{5|124A9}
+130a7 Txt{5|124A9} 133m19 134r33
+131m7 Length{5|92M9} 133m24
+141V16*tputs{16|49I12} 141>23 142>23 143>23 145b<c,tputs>25 155s17
+141a23 str{5|124A9}
+142i23 affcnt{16|49I12}
+143p23 putc{17|72P9}
+144V16*putp{16|49I12} 144>22 146b<c,putp>25 153s17
+144a22 str{5|124A9}
+147a7 Txt{5|124A9} 151m27 153r23 155r24
+148m7 Length{5|92M9} 151m32
+149i7 Err{16|49I12} 153m10 155m10 157r10
+

@@ -1,0 +1,179 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U terminal_interface.curses.forms.field_types.user.choice%b  terminal_interface-curses-forms-field_types-user-choice.adb  eb99385c NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+W terminal_interface.curses.forms.field_types.user%s  terminal_interface-curses-forms-field_types-user.adb  terminal_interface-curses-forms-field_types-user.ali
+
+U terminal_interface.curses.forms.field_types.user.choice%s  terminal_interface-curses-forms-field_types-user-choice.ads  424bc860 EE OO PF PR PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+W terminal_interface.curses.forms.field_types.user%s  terminal_interface-curses-forms-field_types-user.adb  terminal_interface-curses-forms-field_types-user.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-finali.ads		20260501130736 099c16e4 ada.finalization%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-atacco.ads		20260501130736 5868e3ba system.address_to_access_conversions%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-finpri.ads		20260501130736 5970d55a system.finalization_primitives%s
+D s-finpri.adb		20260501130736 02c85f69 system.finalization_primitives%b
+D s-finroo.ads		20260501130736 0a7c3ed4 system.finalization_root%s
+D s-oscons.ads		20260501130736 8f610562 system.os_constants%s
+D s-oslock.ads		20260501130736 13fa6b78 system.os_locks%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-pooglo.ads		20260501130736 91708d21 system.pool_global%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20260501130736 45459446 system.storage_pools%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-forms.ads  20260703163925 29d1e06e terminal_interface.curses.forms%s
+D terminal_interface-curses-forms-field_types.ads  20260703163925 b4539bab terminal_interface.curses.forms.field_types%s
+D terminal_interface-curses-forms-field_types-user.ads  20200202233434 3c14a35d terminal_interface.curses.forms.field_types.user%s
+D terminal_interface-curses-forms-field_types-user-choice.ads  20200202233434 a58250da terminal_interface.curses.forms.field_types.user.choice%s
+D terminal_interface-curses-forms-field_types-user-choice.adb  20200202233434 4cc8092b terminal_interface.curses.forms.field_types.user.choice%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [c_generic_choice terminal_interface__curses__forms__field_types__user__choice 79 13 none]
+G c Z s b [generic_next terminal_interface__curses__forms__field_types__user__choice 81 13 none]
+G c Z s b [generic_prev terminal_interface__curses__forms__field_types__user__choice 88 13 none]
+G c Z s s [user_defined_field_type_with_choiceDA terminal_interface__curses__forms__field_types__user__choice 51 9 none]
+G c Z s s [user_defined_field_type_with_choiceDF terminal_interface__curses__forms__field_types__user__choice 51 9 none]
+G c Z s s [user_defined_field_type_with_choiceIP terminal_interface__curses__forms__field_types__user__choice 51 9 none]
+G c Z b b [to_pointer terminal_interface__curses__forms__field_types__user__choice__argument_conversions 61 13 48_4]
+G c Z b b [to_address terminal_interface__curses__forms__field_types__user__choice__argument_conversions 67 13 48_4]
+G r c none [c_generic_choice terminal_interface__curses__forms__field_types__user__choice 79 13 none] [new_fieldtype terminal_interface__curses__forms__field_types 223 13 none]
+G r c none [c_generic_choice terminal_interface__curses__forms__field_types__user__choice 79 13 none] [set_fieldtype_arg terminal_interface__curses__forms__field_types 228 13 none]
+G r c none [c_generic_choice terminal_interface__curses__forms__field_types__user__choice 79 13 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [c_generic_choice terminal_interface__curses__forms__field_types__user__choice 79 13 none] [set_fieldtype_choice terminal_interface__curses__forms__field_types 235 13 none]
+G r s user_defined_field_type [user_defined_field_type_with_choiceIP terminal_interface__curses__forms__field_types__user__choice 51 9 none] [user_defined_field_typeIP terminal_interface__curses__forms__field_types__user 49 9 none]
+X 12 interfac.ads
+47K9*Interfaces 247e15 40|43r6 49r21
+X 13 i-c.ads
+33K20*C 605e17 40|43w17 49r32
+62I9*int<integer> 40|49r34
+X 15 system.ads
+37K9*System 155e11 40|82r33 89r33 41|43r6 49r11 52r33 64r33
+67M9*Address 40|82r40 89r40 41|52r40 64r40
+X 16 s-atacco.ads
+42k16*Address_To_Access_Conversions 76e41 41|43w13 49r18
+50P9*Object_Pointer(38|212R9)
+61V13*To_Pointer{50P9[41|48]} 41|57s48[48] 69s48[48]
+X 30 s-stoele.ads
+92M9*Integer_Address
+X 34 terminal_interface.ads
+43K9*Terminal_Interface 48e23 40|45r9 47r7 95r5 41|44r6 44r41 46r14 105r5
+X 35 terminal_interface-curses.ads
+48K28*Curses 34|43k9 35|2103e30 40|45r28 47r26 95r24 41|44r25 44r60 46r33
+. 105r24
+2099M9 Curses_Bool 40|82r56 89r56 41|52r56 60r14 64r56 72r14
+X 36 terminal_interface-curses-aux.ads
+46K35*Aux 118e34 41|44w32 44r67
+70E9*Eti_Error 85e12 41|79r13
+87U14*Eti_Exception 41|92s13 97s13
+X 37 terminal_interface-curses-forms.ads
+46K35*Forms 35|48k28 37|782e36 40|45r35 47r33 95r31 41|46r40 105r31
+52M9*Field<30|92M9> 40|62r13 69r13 81r33 88r33 41|51r33 63r33
+288X4*Form_Exception 41|86r19
+X 38 terminal_interface-curses-forms-field_types.ads
+45K41*Field_Types 37|46k35 38|240e48 40|45r41 47r39 95r37 41|46r46 105r37
+64P9*Field_Type_Access(53R9)
+133P9 C_Field_Type(120R9) 40|79r37 41|77r37 80r13
+135p4 Null_Field_Type{133P9} 41|82r29 85r17 101r42
+143p4 M_Generic_Choice{133P9} 41|82r10 99m10 101r22 102r14
+163V13 Make_Arg{15|67M9} 41|89r39
+168V13 Copy_Arg{15|67M9} 41|90r39
+173U14 Free_Arg 41|91r39
+212R9 Argument 216e14 41|49r49
+213p7*Typ{64P9} 41|57r70 69r70
+217P9 Argument_Access(212R9) 41|57r10 69r10
+223V13 New_Fieldtype{133P9} 41|83s15
+228V13 Set_Fieldtype_Arg{36|70E9} 41|88s20
+235V13 Set_Fieldtype_Choice{36|70E9} 41|94s20
+X 39 terminal_interface-curses-forms-field_types-user.ads
+45K53*User 38|45k41 39|96e53 40|45r53 47r51 95r49 41|46r58 105r49
+49H9*User_Defined_Field_Type<38|53R9> 49e76 40|52r6
+57y13*Field_Check{boolean}
+64y13*Character_Check{boolean}
+71U14*Set_Field_Type<38|67p14>
+82V13 Generic_Field_Check{35|2099M9} 41|83r30
+89V13 Generic_Char_Check{35|2099M9} 41|84r30
+X 40 terminal_interface-curses-forms-field_types-user-choice.ads
+45K58*Choice 39|45k53 40|47r56 79E13 95l54 95e60 41|46b63 105l54 105t60
+49I12*C_Int{13|62I9}
+51H9*User_Defined_Field_Type_With_Choice<39|49R9> 39|57p13 64p13 71P14 40|52e46
+. 59r6 61p13 63r13 68p13 70r13
+58P9*User_Defined_Field_Type_With_Choice_Access(51R9) 41|55r25 56r9 67r25
+. 68r9
+61y13*Next{boolean} 62>7 63>7 41|59R17
+62m7 Fld{37|52M9}
+63r7 Typ{51R9}
+68y13*Previous{boolean} 69>7 70>7 41|71R17
+69m7 Fld{37|52M9}
+70r7 Typ{51R9}
+79V13 C_Generic_Choice{38|133P9} 41|77b13 103l8 103t24
+81V13 Generic_Next{35|2099M9} 81>27 82>27 83r26 41|51b13 61l8 61t20 95r42
+81m27 Fld{37|52M9} 41|51b27 59r23
+82m27 Usr{15|67M9} 41|52b27 57r60
+88V13 Generic_Prev{35|2099M9} 88>27 89>27 90r26 41|63b13 73l8 73t20 96r42
+88m27 Fld{37|52M9} 41|63b27 71r27
+89m27 Usr{15|67M9} 41|64b27 69r60
+X 41 terminal_interface-curses-forms-field_types-user-choice.adb
+48K12 Argument_Conversions[16|42] 57r27 69r27
+54b7 Result{boolean} 59m7 60r40
+55p7 Udf{40|58P9} 59r28
+66b7 Result{boolean} 71m7 72r40
+67p7 Udf{40|58P9} 71r32
+79e7 Res{36|70E9} 88m13 92r28 94m13 97r28
+80p7 T{38|133P9} 83m10 85r13 88r39 94r42 99r30
+

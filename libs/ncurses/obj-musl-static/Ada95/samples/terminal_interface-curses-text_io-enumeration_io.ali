@@ -1,0 +1,125 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U terminal_interface.curses.text_io.enumeration_io%b  terminal_interface-curses-text_io-enumeration_io.adb  1c47d8ac NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.adb  terminal_interface-curses-text_io.ali
+W terminal_interface.curses.text_io.aux%s  terminal_interface-curses-text_io-aux.adb  terminal_interface-curses-text_io-aux.ali
+
+U terminal_interface.curses.text_io.enumeration_io%s  terminal_interface-curses-text_io-enumeration_io.ads  70ad2230 BN EE NE OO PK GE
+Z ada.text_io.enumeration_io%s
+W terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.adb  terminal_interface-curses-text_io.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-tienau.ads		20260501130736 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20260501130736 77610959 ada.text_io.enumeration_io%s
+D a-tienio.adb		20260501130736 c9e6b5af ada.text_io.enumeration_io%b
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-text_io.ads  20200202233434 821d74f8 terminal_interface.curses.text_io%s
+D terminal_interface-curses-text_io-aux.ads  20200202233434 462e84fb terminal_interface.curses.text_io.aux%s
+D terminal_interface-curses-text_io-enumeration_io.ads  20200202233434 f2b056c8 terminal_interface.curses.text_io.enumeration_io%s
+D terminal_interface-curses-text_io-enumeration_io.adb  20200202233434 234362b7 terminal_interface.curses.text_io.enumeration_io%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [enumeration_io terminal_interface__curses__text_io 45 43 none]
+X 1 ada.ads
+18K9*Ada 22e8 39|42r6 43r6 43r35 49r23 58r14 61r18 63r18
+X 2 a-charac.ads
+16K13*Characters 18e19 39|43r10 43r39
+X 3 a-chahan.ads
+43K24*Handling 454e28 39|43w21 43r50
+224V13*To_Upper{character} 39|67s29
+X 12 a-textio.ads
+58K13*Text_IO 785e16 39|42w10 49r27 58r18 61r22 63r22
+89I12*Field{integer}
+93E9*Type_Set 93e45 39|58r26 61r30
+93n22*Lower_Case{93E9} 39|63r30
+X 14 a-tienio.ads
+26k21*Enumeration_IO 85e31 39|49r35
+77U14 Put 39|65s11[49]
+X 30 s-stoele.ads
+92M9*Integer_Address
+X 34 terminal_interface.ads
+43K9*Terminal_Interface 48e23 38|45r9 64r5 39|44r6 46r14 48r24 81r5
+X 35 terminal_interface-curses.ads
+48K28*Curses 34|43k9 35|2103e30 38|45r28 64r24 39|44r25 46r33 48r43 81r24
+56M9*Window<30|92M9> 38|51r15 39|52r15
+X 36 terminal_interface-curses-text_io.ads
+45K35*Text_IO 35|48k28 36|137e38 38|45r35 64r31 39|44r32 46r40 48r50 81r31
+51I12*Field{12|89I12} 38|47r20 53r15 58r15 39|54r15 57r27 74r15
+54E9*Type_Set 54e57 38|48r22 54r15 59r15 39|55r15 61r44 75r15
+54n46*Mixed_Case{54E9} 38|48r34 39|60r17 66r16
+63V13*Get_Window{35|56M9} 39|78s12
+X 37 terminal_interface-curses-text_io-aux.ads
+43K51*Aux 56e42 39|44w40 48r58
+49U14*Put_Buf 39|69s11
+X 38 terminal_interface-curses-text_io-enumeration_io.ads
+43E9 Enum 52r15 57r15 39|49r51 53r15 73r15
+45k43*Enumeration_IO 36|45k35 38|43z9 64l39 64e53 39|46b48 81l39 81t53
+47i4*Default_Width{36|51I12} 53r24 58r24 39|54r24 74r24
+48e4*Default_Setting{36|54E9} 54r27 59r27 39|55r27 75r27
+50U14*Put 51>7 52>7 53>7 54>7 39|51b14 70l8 70t11 78s7
+51m7 Win{35|56M9} 39|52b7 69r20
+52*7 Item{43E9} 39|53b7 65r21
+53i7 Width{36|51I12} 39|54b7 69r30
+54e7 Set{36|54E9} 39|55b7 60r10 61r58 66r10
+56U14*Put 57>7 58>7 59>7 39|72b14 79l8 79t11
+57*7 Item{43E9} 39|73b7 78r24
+58i7 Width{36|51I12} 39|74b7 78r30
+59e7 Set{36|54E9} 39|75b7 78r37
+X 39 terminal_interface-curses-text_io-enumeration_io.adb
+48K12 Aux=48:58 69r7
+49K12 EIO[14|26] 65r7
+57a7 Buf{string} 65m16 67m10 67r15 67r39 67r44 69r25
+58e7 Tset{12|93E9} 61m10 63m10 65r27
+

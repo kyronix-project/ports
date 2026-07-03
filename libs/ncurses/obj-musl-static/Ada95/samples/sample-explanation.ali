@@ -1,0 +1,394 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_ELABORATION_CODE
+
+U sample.explanation%b	sample-explanation.adb	29cb42ed OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W sample%s		sample.adb		sample.ali
+W sample.function_key_setting%s  sample-function_key_setting.adb  sample-function_key_setting.ali
+W sample.helpers%s	sample-helpers.adb	sample-helpers.ali
+W sample.keyboard_handler%s  sample-keyboard_handler.adb  sample-keyboard_handler.ali
+W sample.manifest%s	sample-manifest.ads	sample-manifest.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+
+U sample.explanation%s	sample-explanation.ads	c5afe8fd EE OO PK
+W sample%s		sample.adb		sample.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-explanation.ads  20200202233434 7883ef84 sample.explanation%s
+D sample-explanation.adb  20260703163927 8b25551f sample.explanation%b
+D sample-function_key_setting.ads  20200202233434 98be4b41 sample.function_key_setting%s
+D sample-helpers.ads	20200202233434 f14bffc4 sample.helpers%s
+D sample-keyboard_handler.ads  20200202233434 8206b64f sample.keyboard_handler%s
+D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-exctab.adb		20260501130736 89d79d5b system.exception_table%b
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses-panels.adb  20200202233434 e32236c5 terminal_interface.curses.panels%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [explain sample__explanation 48 14 none]
+G c Z s b [explain_context sample__explanation 51 14 none]
+G c Z s b [notepad sample__explanation 54 14 none]
+G c Z b b [explain sample__explanation 76 14 none]
+G c Z b b [release_string sample__explanation 79 14 none]
+G c Z b b [help_lineIP sample__explanation 70 9 none]
+G c Z b b [release_help_line sample__explanation 82 14 none]
+G c Z b b [search sample__explanation 86 13 none]
+G c Z b b [release_help sample__explanation 87 14 none]
+G c Z b b [check_file sample__explanation 89 13 none]
+G r c none [explain sample__explanation 48 14 none] [push_environment sample__function_key_setting 49 14 none]
+G r c none [explain sample__explanation 48 14 none] [default_labels sample__function_key_setting 77 14 none]
+G r c none [explain sample__explanation 48 14 none] [lines terminal_interface__curses 551 13 none]
+G r c none [explain sample__explanation 48 14 none] [columns terminal_interface__curses 554 13 none]
+G r c none [explain sample__explanation 48 14 none] [create terminal_interface__curses 740 13 none]
+G r c none [explain sample__explanation 48 14 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [explain sample__explanation 48 14 none] [set_background terminal_interface__curses 1279 14 none]
+G r c none [explain sample__explanation 48 14 none] [set_character_attributes terminal_interface__curses 988 14 none]
+G r c none [explain sample__explanation 48 14 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [explain sample__explanation 48 14 none] [box terminal_interface__curses 891 14 none]
+G r c none [explain sample__explanation 48 14 none] [add terminal_interface__curses 833 14 none]
+G r c none [explain sample__explanation 48 14 none] [window_title sample__helpers 49 14 none]
+G r c none [explain sample__explanation 48 14 none] [derived_window terminal_interface__curses 775 13 none]
+G r c none [explain sample__explanation 48 14 none] [refresh_without_update terminal_interface__curses 1223 14 none]
+G r c none [explain sample__explanation 48 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [explain sample__explanation 48 14 none] [set_meta_mode terminal_interface__curses 1075 14 none]
+G r c none [explain sample__explanation 48 14 none] [set_keypad_mode terminal_interface__curses 1081 14 none]
+G r c none [explain sample__explanation 48 14 none] [allow_scrolling terminal_interface__curses 1187 14 none]
+G r c none [explain sample__explanation 48 14 none] [set_echo_mode terminal_interface__curses 1069 14 none]
+G r c none [explain sample__explanation 48 14 none] [create terminal_interface__curses__panels 67 13 none]
+G r c none [explain sample__explanation 48 14 none] [top terminal_interface__curses__panels 82 14 none]
+G r c none [explain sample__explanation 48 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [explain sample__explanation 48 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [explain sample__explanation 48 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [explain sample__explanation 48 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [explain sample__explanation 48 14 none] [get_key sample__keyboard_handler 50 13 none]
+G r c none [explain sample__explanation 48 14 none] [find_context sample__function_key_setting 68 13 none]
+G r c none [explain sample__explanation 48 14 none] [pop_environment sample__function_key_setting 57 14 none]
+G r c none [explain sample__explanation 48 14 none] [move_cursor terminal_interface__curses 682 14 none]
+G r c none [explain sample__explanation 48 14 none] [scroll terminal_interface__curses 1493 14 none]
+G r c none [explain sample__explanation 48 14 none] [delete terminal_interface__curses__panels 139 14 none]
+G r c none [explain sample__explanation 48 14 none] [delete terminal_interface__curses 759 14 none]
+G r c none [explain sample__explanation 48 14 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [context sample__function_key_setting 65 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [push_environment sample__function_key_setting 49 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [default_labels sample__function_key_setting 77 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [lines terminal_interface__curses 551 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [columns terminal_interface__curses 554 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [create terminal_interface__curses 740 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [set_background terminal_interface__curses 1279 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [set_character_attributes terminal_interface__curses 988 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [box terminal_interface__curses 891 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [add terminal_interface__curses 833 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [window_title sample__helpers 49 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [derived_window terminal_interface__curses 775 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [refresh_without_update terminal_interface__curses 1223 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [set_meta_mode terminal_interface__curses 1075 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [set_keypad_mode terminal_interface__curses 1081 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [allow_scrolling terminal_interface__curses 1187 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [set_echo_mode terminal_interface__curses 1069 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [create terminal_interface__curses__panels 67 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [top terminal_interface__curses__panels 82 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [get_key sample__keyboard_handler 50 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [find_context sample__function_key_setting 68 13 none]
+G r c none [explain_context sample__explanation 51 14 none] [pop_environment sample__function_key_setting 57 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [move_cursor terminal_interface__curses 682 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [scroll terminal_interface__curses 1493 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [delete terminal_interface__curses__panels 139 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [delete terminal_interface__curses 759 14 none]
+G r c none [explain_context sample__explanation 51 14 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [notepad sample__explanation 54 14 none] [columns terminal_interface__curses 554 13 none]
+G r c none [notepad sample__explanation 54 14 none] [lines terminal_interface__curses 551 13 none]
+G r c none [notepad sample__explanation 54 14 none] [create terminal_interface__curses 740 13 none]
+G r c none [notepad sample__explanation 54 14 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [notepad sample__explanation 54 14 none] [set_background terminal_interface__curses 1279 14 none]
+G r c none [notepad sample__explanation 54 14 none] [set_character_attributes terminal_interface__curses 988 14 none]
+G r c none [notepad sample__explanation 54 14 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [notepad sample__explanation 54 14 none] [box terminal_interface__curses 891 14 none]
+G r c none [notepad sample__explanation 54 14 none] [window_title sample__helpers 49 14 none]
+G r c none [notepad sample__explanation 54 14 none] [create terminal_interface__curses__panels 67 13 none]
+G r c none [notepad sample__explanation 54 14 none] [add terminal_interface__curses 833 14 none]
+G r c none [notepad sample__explanation 54 14 none] [refresh_without_update terminal_interface__curses 1223 14 none]
+G r c none [notepad sample__explanation 54 14 none] [notepad_to_context sample__function_key_setting 72 14 none]
+G r c none [explain sample__explanation 76 14 none] [push_environment sample__function_key_setting 49 14 none]
+G r c none [explain sample__explanation 76 14 none] [default_labels sample__function_key_setting 77 14 none]
+G r c none [explain sample__explanation 76 14 none] [lines terminal_interface__curses 551 13 none]
+G r c none [explain sample__explanation 76 14 none] [columns terminal_interface__curses 554 13 none]
+G r c none [explain sample__explanation 76 14 none] [create terminal_interface__curses 740 13 none]
+G r c none [explain sample__explanation 76 14 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [explain sample__explanation 76 14 none] [set_background terminal_interface__curses 1279 14 none]
+G r c none [explain sample__explanation 76 14 none] [set_character_attributes terminal_interface__curses 988 14 none]
+G r c none [explain sample__explanation 76 14 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [explain sample__explanation 76 14 none] [box terminal_interface__curses 891 14 none]
+G r c none [explain sample__explanation 76 14 none] [add terminal_interface__curses 833 14 none]
+G r c none [explain sample__explanation 76 14 none] [window_title sample__helpers 49 14 none]
+G r c none [explain sample__explanation 76 14 none] [derived_window terminal_interface__curses 775 13 none]
+G r c none [explain sample__explanation 76 14 none] [refresh_without_update terminal_interface__curses 1223 14 none]
+G r c none [explain sample__explanation 76 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [explain sample__explanation 76 14 none] [set_meta_mode terminal_interface__curses 1075 14 none]
+G r c none [explain sample__explanation 76 14 none] [set_keypad_mode terminal_interface__curses 1081 14 none]
+G r c none [explain sample__explanation 76 14 none] [allow_scrolling terminal_interface__curses 1187 14 none]
+G r c none [explain sample__explanation 76 14 none] [set_echo_mode terminal_interface__curses 1069 14 none]
+G r c none [explain sample__explanation 76 14 none] [create terminal_interface__curses__panels 67 13 none]
+G r c none [explain sample__explanation 76 14 none] [top terminal_interface__curses__panels 82 14 none]
+G r c none [explain sample__explanation 76 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [explain sample__explanation 76 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [explain sample__explanation 76 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [explain sample__explanation 76 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [explain sample__explanation 76 14 none] [get_key sample__keyboard_handler 50 13 none]
+G r c none [explain sample__explanation 76 14 none] [find_context sample__function_key_setting 68 13 none]
+G r c none [explain sample__explanation 76 14 none] [pop_environment sample__function_key_setting 57 14 none]
+G r c none [explain sample__explanation 76 14 none] [move_cursor terminal_interface__curses 682 14 none]
+G r c none [explain sample__explanation 76 14 none] [scroll terminal_interface__curses 1493 14 none]
+G r c none [explain sample__explanation 76 14 none] [delete terminal_interface__curses__panels 139 14 none]
+G r c none [explain sample__explanation 76 14 none] [delete terminal_interface__curses 759 14 none]
+G r c none [explain sample__explanation 76 14 none] [update_screen terminal_interface__curses 1211 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 24|46r6 46r23 47r6 80r10 83r10
+X 15 a-textio.ads
+58K13*Text_IO 785e16 24|46w10 46r27
+67P9*File_Type 24|62r8 411r18
+69n23*In_File{69E9} 24|413r23 426r16 430r16
+115U14*Open 24|413s7 426s7 430s7
+131U14*Close 24|414s7
+153U14*Reset 24|320s7
+189V13*Standard_Error{67P9} 24|432s17
+521U14*Get_Line 24|312s10
+555U14*Put_Line 24|432s7
+601X4*Name_Error 24|417r12 438r13
+X 17 a-uncdea.ads
+23u15*Unchecked_Deallocation 24|47w10 80r14 83r14
+X 22 sample.ads
+42K9*Sample 44e11 23|46r9 60r5 24|51r6 51r35 52r6 52r27 53r6 53r39 54r6 54r26
+. 56r14 440r5
+X 23 sample-explanation.ads
+46K16*Explanation 22|42k9 23|60l12 60e23 24|56b21 440l12 440t23
+48U14*Explain 48>23 24|91b14 95l8 95t15 364s7
+48a23 Key{string} 24|91b23 94r16
+51U14*Explain_Context 24|361b14 365l8 365t23
+54U14*Notepad 54>23 24|367b14 408l8 408t15
+54a23 Key{string} 24|367b23 369r48
+57X4*Explanation_Not_Found
+58X4*Explanation_Error
+X 24 sample-explanation.adb
+58a4 Help_Keys{string} 165r43 166r43 167r34
+59a4 In_Help{string} 158r43 159r43 160r34
+61a4 File_Name{string} 424r10 428r15 429r22 430r25 434r19
+62p4 F{15|67P9} 312r20 320m14 320r14 426m13 426r13 430m13 430r13
+64R9 Help_Line 65r36 70c9 74e17 83r38 331r31
+65P9 Help_Line_Access(64R9) 66r23 72r23 84r38 86r42 87r42 107r41 118r18 119r18
+. 120r18 136r14 180r41 298r42 302r17 303r17 304r17 348r42 350r14 369r20 370r11
+67P9 String_Access(string) 68r23 73r17 81r38
+72p10*Prev{65P9} 261r41 264r53 265r51 338m31
+72p16*Next{65P9} 141r32 142r27 188r29 189r24 191r19 253r40 256r51 257r53
+. 337m28 354r27 378r24 400r24
+73p10*Line{67P9} 140r36 186r33 258r48 266r49 355m35 398r37
+76U14 Explain 76>23 77>23 94s7 97b14 160s25 167s25 296l8 296t15
+76a23 Key{string} 97b23 118r46 128r18
+77m23 Win{45|56M9} 98b23 112r21
+79U14 Release_String[17|23] 355s10
+82U14 Release_Help_Line[17|23] 356s10
+86V13 Search{65P9} 86>21 118s38 298b13 346l8 346t14 369s40
+86a21 Key{string} 298b21 324r25 325r21
+87U14 Release_Help 87=28 294s7 334s19 348b14 359l8 359t20 404s10
+87p28 Root{65P9} 348b28 353r20 354r18 355r26 356m29 357m10
+89V13 Check_File{boolean} 89>25 410b13 419l8 419t18 422s7 429s10
+89a25 Name{string} 410b25 413r32
+104V16 Filter_Key{45|72I12} 149b16 178l11 178t21 240s18 249s21 275s21
+105U17 Unknown_Key 124b17 132l11 132t22 145s13 238s10
+106U17 Redo 134b17 147l11 147t15 162s25 169s25
+107U17 To_Window 107=28 108=27 180b17 197l11 197t20 244s10
+107p28 C{65P9} 180b28 186r27 188r23 189m13 189r18 191r13
+108b27 More{boolean} 181b27 193m13 195m13
+110m7 Frame{45|56M9} 203m10 205r36 209r48 212r20 214r15 215r36 217r15 218r36
+. 219r24 220r31 221r34 227r23 283r10 284r17 287m18 287r18
+112m7 W{45|56M9} 127r15 128r15 129r15 130r15 131r15 140r21 154r27 160r43
+. 167r45 186r18 200r10 220m10 222r20 223r25 224r27 225r27 231r17 232r34 254r41
+. 255r36 258r33 262r41 263r36 266r33 281r14 286m18 286r18
+113i7 K{45|72I12} 240m13 241r23 249m16 250r19 251r24 275m16 276r26
+114m7 P{48|49M9} 227m10 228r15 285m18 285r18
+116i7 Height{45|62I12} 139r27 188r53 192r32 222m23 254r44
+117i7 Width{45|64I12} 222m31
+118p7 Help{65P9} 235r18 235r36 237r17 294m21 294r21
+119p7 Current{65P9} 235m7 244m21 244r21 253r28 256m28 256r39 258r36 265m28
+. 265r39
+120p7 Top_Line{65P9} 136r34 138r13 235m24 257m28 257r40 261r28 264m28 264r40
+. 266r36
+122b7 Has_More{boolean} 244m30 244r30 245r13
+136p10 H{65P9} 140r30 141r26 142m16 142r21
+139i17 L<integer> 140r24
+151i10 K{45|72I12} 154m13 155r16 156r21 177r17
+183i10 L{45|59I9} 186r21 187m13 187r18 188r49 192r28
+300i7 Last{natural} 312m31 313r13 313r63 324r13 325r40 332r67
+301a7 Buffer{string} 312m23 313r50 325r27 326r21 330r26 332r54
+302p7 Root{65P9} 334m33 334r33 335m19 345r14
+303p7 Current{65P9} 331m16 335r27 337r36 338r19 340r24
+304p7 Tail{65P9} 333r19 337r19 338r39 340m16
+306V16 Next_Line{boolean} 308b16 318l11 318t20 323s30 329s30
+310a10 H_End{string} 313r20 313r42
+321l7 Outer 323r15 342r18 344l16 344e21
+350p7 Next{65P9} 354m10 357r18
+369p7 H{65P9} 370r31 376r10 396r15 403r15
+370p7 T{65P9} 378m13 378r18 379r23 396m10 398r31 400m13 400r18 401r23 403m10
+. 404m24 404r24
+371i7 N{45|62I12} 380m13 380r18 382r27 382r51
+372i7 L{45|59I9} 398r21 399m13 399r18
+373m7 W{45|56M9} 382m10 384r36 388r48 391r20 393r15 394r24 395r26 398r18
+. 405r34
+374m7 P{48|49M9} 395m10 406r30
+411p7 The_File{15|67P9} 413m13 413r13 414m14 414r14
+X 25 sample-function_key_setting.ads
+47K16*Function_Key_Setting 24|53w13 53r46 25|83e32
+49U14*Push_Environment 24|159s25 166s25 201s10
+57U14*Pop_Environment 24|161s25 168s25 288s10
+65V13*Context{string} 24|364s16
+68V13*Find_Context{boolean} 24|158s29 165s29
+72U14*Notepad_To_Context 24|406s10
+77U14*Default_Labels 24|202s10
+X 26 sample-helpers.ads
+47K16*Helpers 24|54w13 54r33 26|55e19
+49U14*Window_Title 24|219s10 394s10
+X 27 sample-keyboard_handler.ads
+48K16*Keyboard_Handler 24|51w13 51r42 27|56e28
+50V13*Get_Key{45|72I12} 24|154s18
+X 28 sample-manifest.ads
+44K16*Manifest 24|52w13 52r34 28|68e20
+50i4*HELP_CODE{45|77I12} 24|157r24
+52i4*EXPLAIN_CODE{45|77I12} 24|164r24
+54i4*QUIT_CODE{45|77I12} 24|241r27 268r27 276r30
+64i4*Notepad_Color{45|412I12} 24|386r46 390r48
+65i4*Help_Color{45|412I12} 24|207r46 211r48
+X 40 s-stoele.ads
+92M9*Integer_Address
+X 44 terminal_interface.ads
+43K9*Terminal_Interface 24|48r6 48r37 49r6 49r44 44|48e23
+X 45 terminal_interface-curses.ads
+48K28*Curses 24|48w25 48r56 49r25 49r63 45|2103e30
+56M9*Window<40|92M9> 24|77r29 98r29 110r15 112r11 373r11
+57m4*Null_Window{56M9} 24|94r21 110r25 200r14 283r19
+59I9*Line_Position<integer> 24|183r14 372r11
+60I9*Column_Position<integer>
+62I12*Line_Count{59I9} 24|116r18 371r11
+64I12*Column_Count{60I9} 24|117r18
+67I9*Key_Code<integer>
+72I12*Real_Key_Code{67I9} 24|104r34 113r11 149r34 151r14
+77I12*Special_Key_Code{72I12} 24|155r21 250r24
+97i4*Key_Cursor_Down=97:59{77I12} 24|252r27
+100i4*Key_Cursor_Up=100:59{77I12} 24|260r27
+410I9*Color_Pair<short_integer>
+412I12*Redefinable_Color_Pair{410I9}
+422b10*Reverse_Video{boolean} 24|215m44
+486r4*Normal_Video{418R9} 24|208r46 210r48 387r46 389r48
+490r10*Attr{418R9} 24|208m37 387m37
+491i10*Color{410I9} 24|207m37 386m37
+492e10*Ch{character} 24|206m37 385m37
+551V13*Lines{62I12} 24|203s31 217s22 220s38 382s43
+554V13*Columns{64I12} 24|203s42 220s49 382s34 398s56
+682U14*Move_Cursor 24|254s28 262s28
+699U14*Add 24|130s10
+750V13*New_Window=755:14{56M9} 24|203s19 382s15
+759U14*Delete 24|286s10 287s10
+775V13*Derived_Window{56M9} 24|220s15
+824U14*Add 24|127s10 128s10 129s10 131s10 258s28 266s28
+833U14*Add 24|140s16 186s13 217s10 398s13
+891U14*Box 24|214s10 393s10
+988U14*Set_Character_Attributes 24|209s13 215s10 218s10 388s13
+989m7 Win{56M9} 24|209r39 388r39
+990r7 Attr{418R9} 24|210r39 389r39
+991i7 Color{410I9} 24|211r39 390r39
+1069U14*Set_Echo_Mode 24|226s10
+1075U14*Set_Meta_Mode 24|223s10
+1081U14*Set_KeyPad_Mode 24|224s10
+1187U14*Allow_Scrolling 24|225s10
+1211U14*Update_Screen 24|292s7
+1223U14*Refresh_Without_Update 24|221s10 232s10 405s10
+1245U14*Erase 24|212s13 391s13
+1251U14*Clear 24|231s10 281s7 284s10
+1279U14*Set_Background 24|205s13 384s13
+1280m7 Win{56M9} 24|205r29 384r29
+1281r7 Ch{488R9} 24|206r29 385r29
+1399U14*Get_Size 24|222s10
+1493U14*Scroll 24|255s28 263s28
+1897V13*Has_Colors{boolean} 24|204s13 383s13
+X 48 terminal_interface-curses-panels.ads
+45K35*Panels 24|49w32 49r70 48|147e37
+49M9*Panel<40|92M9> 24|114r11 374r11
+67V13*Create{49M9} 24|227s15
+72V13*New_Panel=72:59{49M9} 24|395s15
+82U14*Top 24|228s10
+92U14*Update_Panels 24|229s10 291s7
+139U14*Delete 24|285s10
+

@@ -1,0 +1,108 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+
+U terminal_interface.curses.forms.field_types.ipv4_address%b  terminal_interface-curses-forms-field_types-ipv4_address.adb  7e166d43 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+W terminal_interface.curses.forms.field_types%s  terminal_interface-curses-forms-field_types.adb  terminal_interface-curses-forms-field_types.ali
+
+U terminal_interface.curses.forms.field_types.ipv4_address%s  terminal_interface-curses-forms-field_types-ipv4_address.ads  990efcad BN EE OO PF PR PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W terminal_interface.curses.forms.field_types%s  terminal_interface-curses-forms-field_types.adb  terminal_interface-curses-forms-field_types.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-finali.ads		20260501130736 099c16e4 ada.finalization%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-finpri.ads		20260501130736 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20260501130736 0a7c3ed4 system.finalization_root%s
+D s-oscons.ads		20260501130736 8f610562 system.os_constants%s
+D s-oslock.ads		20260501130736 13fa6b78 system.os_locks%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-pooglo.ads		20260501130736 91708d21 system.pool_global%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-retsta.ads		20260501130736 0f6b06cb system.return_stack%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20260501130736 45459446 system.storage_pools%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-forms.ads  20260703163925 29d1e06e terminal_interface.curses.forms%s
+D terminal_interface-curses-forms-field_types.ads  20260703163925 b4539bab terminal_interface.curses.forms.field_types%s
+D terminal_interface-curses-forms-field_types-ipv4_address.ads  20200202233434 2d5d6706 terminal_interface.curses.forms.field_types.ipv4_address%s
+D terminal_interface-curses-forms-field_types-ipv4_address.adb  20200202233434 09f08852 terminal_interface.curses.forms.field_types.ipv4_address%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [set_field_type terminal_interface__curses__forms__field_types__ipv4_address 48 14 none]
+G c Z s s [internet_v4_address_fieldDA terminal_interface__curses__forms__field_types__ipv4_address 46 9 none]
+G c Z s s [internet_v4_address_fieldDF terminal_interface__curses__forms__field_types__ipv4_address 46 9 none]
+G c Z s s [internet_v4_address_fieldIP terminal_interface__curses__forms__field_types__ipv4_address 46 9 none]
+G r c none [set_field_type terminal_interface__curses__forms__field_types__ipv4_address 48 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_field_type terminal_interface__curses__forms__field_types__ipv4_address 48 14 none] [c_builtin_router terminal_interface__curses__forms__field_types 149 13 none]
+G r c none [set_field_type terminal_interface__curses__forms__field_types__ipv4_address 48 14 none] [wrap_builtin terminal_interface__curses__forms__field_types 152 14 none]
+G r s field_type [internet_v4_address_fieldIP terminal_interface__curses__forms__field_types__ipv4_address 46 9 none] [field_typeIP terminal_interface__curses__forms__field_types 53 9 none]
+X 29 s-stoele.ads
+92M9*Integer_Address
+X 33 terminal_interface.ads
+43K9*Terminal_Interface 48e23 38|42r9 44r7 52r5 39|43r6 43r41 45r14 59r5
+X 34 terminal_interface-curses.ads
+48K28*Curses 33|43k9 34|2103e30 38|42r28 44r26 52r24 39|43r25 43r60 45r33
+. 59r24
+X 35 terminal_interface-curses-aux.ads
+46K35*Aux 118e34 39|43w32 43r67
+70E9*Eti_Error 85e12 39|51r37
+87U14*Eti_Exception 39|55s7
+X 36 terminal_interface-curses-forms.ads
+46K35*Forms 34|48k28 36|782e36 38|42r35 44r33 52r31 39|45r40 59r31
+52M9*Field<29|92M9> 38|48r36 39|47r36 50r34
+X 37 terminal_interface-curses-forms-field_types.ads
+45K41*Field_Types 36|46k35 37|240e48 38|42r41 44r39 52r37 39|45r46 59r37
+53H9*Field_Type 53e50 38|46r42
+152U14 Wrap_Builtin 39|56s7
+X 38 terminal_interface-curses-forms-field_types-ipv4_address.ads
+42K53*IPV4_Address 37|45k41 38|44r51 52l49 52e61 39|45b58 59l49 59t61
+46R9*Internet_V4_Address_Field<37|53R9> 46e69 48P14 49r36 39|48r36
+48U14*Set_Field_Type<37|67p14> 48>30 49>30 39|47b14 57l8 57t22
+48m30 Fld{36|52M9} 39|47b30 50r43 56r21
+49r30 Typ{46R9} 39|48b30 56r26
+X 39 terminal_interface-curses-forms-field_types-ipv4_address.adb
+50V16*Set_Fld_Type{35|70E9} 50>30 52b<c,set_field_type_ipv4>25 55s22
+50m30 F{36|52M9}
+

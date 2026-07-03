@@ -1,0 +1,279 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U sample.keyboard_handler%b  sample-keyboard_handler.adb  4d9a8705 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+W ada.strings.maps.constants%s  a-stmaco.ads	a-stmaco.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W sample%s		sample.adb		sample.ali
+W sample.form_demo%s	sample-form_demo.adb	sample-form_demo.ali
+W sample.form_demo.aux%s  sample-form_demo-aux.adb  sample-form_demo-aux.ali
+W sample.form_demo.handler%s  sample-form_demo-handler.adb  sample-form_demo-handler.ali
+W sample.header_handler%s  sample-header_handler.adb  sample-header_handler.ali
+W sample.manifest%s	sample-manifest.ads	sample-manifest.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.forms%s  terminal_interface-curses-forms.adb  terminal_interface-curses-forms.ali
+W terminal_interface.curses.forms.field_types%s  terminal_interface-curses-forms-field_types.adb  terminal_interface-curses-forms-field_types.ali
+W terminal_interface.curses.forms.field_types.enumeration%s  terminal_interface-curses-forms-field_types-enumeration.adb  terminal_interface-curses-forms-field_types-enumeration.ali
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+
+U sample.keyboard_handler%s  sample-keyboard_handler.ads  e8d7fd72 EE NE OO PK
+W sample%s		sample.adb		sample.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chahan.adb		20260501130736 96cadc18 ada.characters.handling%b
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-finali.ads		20260501130736 099c16e4 ada.finalization%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-stmaco.ads		20260501130736 4b1f2a0b ada.strings.maps.constants%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cpoint.ads		20260501130736 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20260501130736 e467b078 interfaces.c.pointers%b
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-form_demo.ads	20200202233434 de425645 sample.form_demo%s
+D sample-form_demo-aux.ads  20200202233434 0389c44d sample.form_demo.aux%s
+D sample-form_demo-handler.ads  20200202233434 5c86a8a3 sample.form_demo.handler%s
+D sample-form_demo-handler.adb  20200202233434 eab3f413 sample.form_demo.handler%b
+D sample-header_handler.ads  20200202233434 d9c6a959 sample.header_handler%s
+D sample-keyboard_handler.ads  20200202233434 8206b64f sample.keyboard_handler%s
+D sample-keyboard_handler.adb  20200202233434 1051753a sample.keyboard_handler%b
+D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-finpri.ads		20260501130736 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20260501130736 0a7c3ed4 system.finalization_root%s
+D s-oscons.ads		20260501130736 8f610562 system.os_constants%s
+D s-oslock.ads		20260501130736 13fa6b78 system.os_locks%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-pooglo.ads		20260501130736 91708d21 system.pool_global%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-retsta.ads		20260501130736 0f6b06cb system.return_stack%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20260501130736 45459446 system.storage_pools%s
+D s-stratt.ads		20260501130736 80b8dafb system.stream_attributes%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-forms.ads  20260703163925 29d1e06e terminal_interface.curses.forms%s
+D terminal_interface-curses-forms.adb  20250124203923 80e46ff6 terminal_interface.curses.forms%b
+D terminal_interface-curses-forms-field_types.ads  20260703163925 b4539bab terminal_interface.curses.forms.field_types%s
+D terminal_interface-curses-forms-field_types-enumeration.ads  20200202233434 63a8ae2d terminal_interface.curses.forms.field_types.enumeration%s
+D terminal_interface-curses-forms-field_types-enumeration.adb  20200202233434 e01f9f28 terminal_interface.curses.forms.field_types.enumeration%b
+D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [get_key sample__keyboard_handler 50 13 none]
+G c Z s b [init_keyboard_handler sample__keyboard_handler 53 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [set_timeout_mode terminal_interface__curses 1123 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [get_keystroke terminal_interface__curses 922 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [update_header_window sample__header_handler 51 14 none]
+G r i none [get_key sample__keyboard_handler 50 13 none] [handler sample__form_demo 53 26 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [make sample__form_demo__aux 74 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [columns terminal_interface__curses 554 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [make sample__form_demo__aux 79 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [get_soft_label_key terminal_interface__curses 1693 14 none]
+G r s enumeration_info [get_key sample__keyboard_handler 50 13 none] [enumeration_infoIP terminal_interface__curses__forms__field_types__enumeration 56 9 none]
+G r s enumeration_field [get_key sample__keyboard_handler 50 13 none] [enumeration_fieldIP terminal_interface__curses__forms__field_types__enumeration 92 9 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [create terminal_interface__curses__forms 625 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [create terminal_interface__curses__forms__field_types__enumeration 65 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [set_field_type terminal_interface__curses__forms__field_types__enumeration 85 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [set_background terminal_interface__curses__forms 448 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [lines terminal_interface__curses 551 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [create sample__form_demo__aux 56 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [set_cursor_visibility terminal_interface__curses 1972 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [count_active sample__form_demo__aux 90 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [get_request sample__form_demo__aux 68 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [driver terminal_interface__curses__forms 713 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [get_buffer terminal_interface__curses__forms 364 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [function_key_code terminal_interface__curses 957 13 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [beep terminal_interface__curses 1041 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [destroy sample__form_demo__aux 63 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [delete terminal_interface__curses__forms 636 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [get_key sample__keyboard_handler 50 13 none] [free terminal_interface__curses__forms 138 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 31|43r6 43r23 44r6 44r29 45r6 45r38 46r6 46r34 47r6 47r35
+X 2 a-charac.ads
+16K13*Characters 18e19 31|46r10 46r38 47r10 47r39
+X 3 a-chahan.ads
+43K24*Handling 454e28 31|47w21 47r50
+282V13*To_Upper{string} 31|118s36
+X 5 a-chlat1.ads
+16K24*Latin_1 294e27 31|46w21 46r49
+33e4*LF{character} 31|109r24
+36e4*CR{character} 31|109r40
+X 9 a-string.ads
+16K13*Strings 35e16 31|43w10 43r27 44r10 44r33 45r10 45r42
+33n24*Left{33E9} 31|116r39 139r31
+X 10 a-strfix.ads
+49K21*Fixed 1390e22 31|44w18 44r41
+791U14*Translate 31|140s13
+1168U14*Trim 31|116s25 139s13
+X 11 a-strmap.ads
+51K21*Maps 650e21 31|45r18 45r50
+259A9*Character_Mapping(character)
+X 12 a-stmaco.ads
+38K26*Constants 915e31 31|45w23 45r55
+57a4*Upper_Case_Map{11|259A9} 31|140r36
+X 24 sample.ads
+42K9*Sample 44e11 30|48r9 56r5 31|54r6 54r33 55r6 55r32 56r6 56r27 57r6 64r14
+. 79r28 195r5
+X 25 sample-form_demo.ads
+42K16*Form_Demo 46e21 31|55r13 55r39 57r13 79r35
+X 26 sample-form_demo-aux.ads
+46K26*Aux 93e25 31|55w23 55r49
+74V13*Make{56|52M9} 31|86s13
+79V13*Make{56|52M9} 31|87s13
+80i20 Width{53|64I12} 31|87r40
+81i20 Top{53|59I9} 31|87r19
+82i20 Left{53|60I9} 31|87r29
+X 27 sample-form_demo-handler.ads
+53k26*Handler 65e29 31|57w23 79r45
+55U14 Drive_Me 31|164s19[79]
+X 29 sample-header_handler.ads
+46K16*Header_Handler 54e26 31|54w13 54r40
+51U14*Update_Header_Window 31|179s13
+X 30 sample-keyboard_handler.ads
+48K16*Keyboard_Handler 24|42k9 30|56l12 56e28 31|64b21 195l12 195t28
+50V13*Get_Key{53|72I12} 50>22 31|68b13 188l8 188t15
+50m22 Win{53|56M9} 31|68b22 175r25 177r30
+53U14*Init_Keyboard_Handler 31|190b14 193l8 193t29
+X 31 sample-keyboard_handler.adb
+66b4 In_Command{boolean} 136m10 170m10 180r35
+70i7 K{53|72I12} 177m10 178r13 180r16 181m13 182r23 187r14
+72V16 Command{53|72I12} 74b16 172l11 172t18 181s18
+76V19 My_Driver{boolean} 76>30 77>30 78>30 79r54 93b19 133l14 133t23
+76m30 F{56|53M9} 93b30 103r27 110r30
+77i30 C{53|67I9} 94b30 102r16 102r50 107r19 108r37
+78m30 P{61|49M9} 95b30 99r16
+79K18 Fh[27|53] 164r16
+81A15 Label_Array(string)<53|1666I9> 83r19
+83a10 Labels{81A15} 119r37 120r41 138m36 138r36 139m19 139r19 140m24 140r24
+. 141r16 155r22 156r57
+85p10 FA{56|136P9} 115r44 151r38 161r32 162r32 169m16 169r16
+90i10 K{53|72I12} 104m19 121m34 171r17
+91i10 N{natural} 142m16 142r21 145r13 147r49
+97e13 Ch{character} 108m16 109r19 109r35
+112a25 Buffer{string} 115m63 115r63 116m31 116r31 117r28 118r46
+113a25 Cmdc{string} 118m28 118r54 120r34
+119i32 I<integer> 120r49 122r58
+137i14 I{53|1666I9} 138r33 138r44 139r27 140r32 141r24
+147r16 Enum_Info{59|56R9} 149r32 156m22 160r38
+148r16 Enum_Field{59|63R9} 160m16 161r44
+149i16 J{positive} 156r39 157m22 157r27
+151m16 Frm{56|53M9} 164r29 165m24 165r24
+154i20 I{53|1666I9} 155r30 156r65
+X 32 sample-manifest.ads
+44K16*Manifest 31|56w13 56r34 32|68e20
+46i4*QUIT{53|383I12} 31|102r54
+X 47 s-stoele.ads
+92M9*Integer_Address
+X 52 terminal_interface.ads
+43K9*Terminal_Interface 30|42r6 42r37 31|49r6 49r44 50r6 50r43 51r6 52r6
+. 52|48e23
+X 53 terminal_interface-curses.ads
+48K28*Curses 30|42w25 42r56 31|49r25 49r63 50r25 50r62 51r25 52r25 53|2103e30
+56M9*Window<47|92M9> 30|50r28 31|68r28
+59I9*Line_Position<integer>
+60I9*Column_Position<integer>
+62I12*Line_Count{59I9}
+64I12*Column_Count{60I9}
+67I9*Key_Code<integer> 31|77r34 94r34
+72I12*Real_Key_Code{67I9} 30|50r62 31|68r62 70r11 72r31 74r31 90r15
+77I12*Special_Key_Code{72I12}
+81I12*Normal_Key_Code{72I12} 31|107r24
+89i4*Key_None{77I12} 31|90r32 104r24 178r17 182r28
+383I12*User_Key_Code{67I9} 31|102r21
+486r4*Normal_Video{418R9} 31|162r44
+551V13*Lines{62I12} 31|164s34
+554V13*Columns{64I12} 31|87s49 112s57
+645V13*Standard_Window{56M9} 30|50s38 31|68s38
+922V13*Get_Keystroke{72I12} 31|177s15
+949I12*Function_Key_Number{integer} 31|122r37
+957V13*Function_Key_Code{72I12} 31|121s39
+1120n50*Delayed{1120E9} 31|175r30
+1123U14*Set_Timeout_Mode 31|175s7
+1211U14*Update_Screen 31|166s31
+1666I9*Label_Number<integer> 31|81r37 137r19 154r25
+1693U14*Get_Soft_Label_Key 31|138s13
+X 56 terminal_interface-curses-forms.ads
+46K35*Forms 31|50w32 50r69 51r32 52r32 56|782e36
+52M9*Field<47|92M9>
+53M9*Form<47|92M9> 31|76r34 93r34 151r22
+55m4*Null_Field{52M9} 31|88r13
+133A9*Field_Array(52M9)<integer> 31|85r41
+136P9*Field_Array_Access(133A9) 31|85r15
+138U14*Free 31|169s10
+144I12*Form_Request_Code{53|67I9}
+209i4*F_Validate_Field{144I12} 31|103r30 110r33
+364U14*Get_Buffer 31|115s25
+365m7 Fld{52M9} 31|115r37
+367a7 Str{string} 31|115r56
+448U14*Set_Background 31|162s16
+625V13*Create{53M9} 31|151s30
+636U14*Delete 31|165s16
+707n27*Form_Ok{707E9} 31|103r50 110r53
+713V13*Driver{707E9} 31|103s19 110s22
+X 58 terminal_interface-curses-forms-field_types.ads
+45K41*Field_Types 31|51r38 52r38 58|240e48
+X 59 terminal_interface-curses-forms-field_types-enumeration.ads
+44K53*Enumeration 31|51w50 52r50 59|99e60
+48P9*String_Access(string)
+53A9*Enum_Array(48P9)<integer>
+56R9*Enumeration_Info 31|147r31 59|61e17
+60a10*Names{53A9} 31|149r42 156m32
+63R9*Enumeration_Field<58|53R9> 31|148r31 59|97e17
+65V13*Create{63R9} 31|160s30
+85U14*Set_Field_Type<58|67p14> 31|161s16
+X 61 terminal_interface-curses-panels.ads
+45K35*Panels 31|49w32 49r70 61|147e37
+49M9*Panel<47|92M9> 31|78r34 95r34
+54m4*Null_Panel{49M9} 31|99r20
+60X4*Panel_Exception 31|100r22
+92U14*Update_Panels 31|166s16
+

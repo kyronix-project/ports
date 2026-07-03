@@ -1,0 +1,357 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U sample.form_demo.aux%b  sample-form_demo-aux.adb  10270115 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W sample%s		sample.adb		sample.ali
+W sample.explanation%s	sample-explanation.adb	sample-explanation.ali
+W sample.form_demo%s	sample-form_demo.adb	sample-form_demo.ali
+W sample.helpers%s	sample-helpers.adb	sample-helpers.ali
+W sample.keyboard_handler%s  sample-keyboard_handler.adb  sample-keyboard_handler.ali
+W sample.manifest%s	sample-manifest.ads	sample-manifest.ali
+
+U sample.form_demo.aux%s  sample-form_demo-aux.ads  662cf731 EE NE OO PK
+W sample.form_demo%s	sample-form_demo.adb	sample-form_demo.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.forms%s  terminal_interface-curses-forms.adb  terminal_interface-curses-forms.ali
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cpoint.ads		20260501130736 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20260501130736 e467b078 interfaces.c.pointers%b
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-explanation.ads  20200202233434 7883ef84 sample.explanation%s
+D sample-form_demo.ads	20200202233434 de425645 sample.form_demo%s
+D sample-form_demo-aux.ads  20200202233434 0389c44d sample.form_demo.aux%s
+D sample-form_demo-aux.adb  20200202233434 ac58d971 sample.form_demo.aux%b
+D sample-helpers.ads	20200202233434 f14bffc4 sample.helpers%s
+D sample-keyboard_handler.ads  20200202233434 8206b64f sample.keyboard_handler%s
+D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-forms.ads  20260703163925 29d1e06e terminal_interface.curses.forms%s
+D terminal_interface-curses-forms.adb  20250124203923 80e46ff6 terminal_interface.curses.forms%b
+D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses-panels.adb  20200202233434 e32236c5 terminal_interface.curses.panels%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [geometry sample__form_demo__aux 48 14 none]
+G c Z s b [create sample__form_demo__aux 56 13 none]
+G c Z s b [destroy sample__form_demo__aux 63 14 none]
+G c Z s b [get_request sample__form_demo__aux 68 13 none]
+G c Z s b [make sample__form_demo__aux 74 13 none]
+G c Z s b [make sample__form_demo__aux 79 13 none]
+G c Z s b [default_driver sample__form_demo__aux 86 13 none]
+G c Z s b [count_active sample__form_demo__aux 90 13 none]
+G r c none [geometry sample__form_demo__aux 48 14 none] [scale terminal_interface__curses__forms 529 14 none]
+G r c none [geometry sample__form_demo__aux 48 14 none] [columns terminal_interface__curses 554 13 none]
+G r c none [create sample__form_demo__aux 56 13 none] [scale terminal_interface__curses__forms 529 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [columns terminal_interface__curses 554 13 none]
+G r c none [create sample__form_demo__aux 56 13 none] [create terminal_interface__curses 740 13 none]
+G r c none [create sample__form_demo__aux 56 13 none] [set_meta_mode terminal_interface__curses 1075 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [set_keypad_mode terminal_interface__curses 1081 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [create sample__form_demo__aux 56 13 none] [set_background terminal_interface__curses 1279 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [set_character_attributes terminal_interface__curses 988 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [derived_window terminal_interface__curses 775 13 none]
+G r c none [create sample__form_demo__aux 56 13 none] [box terminal_interface__curses 891 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [set_window terminal_interface__curses__forms 507 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [set_sub_window terminal_interface__curses__forms 518 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [window_title sample__helpers 49 14 none]
+G r c none [create sample__form_demo__aux 56 13 none] [create terminal_interface__curses__panels 67 13 none]
+G r c none [create sample__form_demo__aux 56 13 none] [post terminal_interface__curses__forms 674 14 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [get_window terminal_interface__curses__forms 513 13 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [get_sub_window terminal_interface__curses__forms 524 13 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [post terminal_interface__curses__forms 674 14 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [delete terminal_interface__curses__panels 139 14 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [set_window terminal_interface__curses__forms 507 14 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [set_sub_window terminal_interface__curses__forms 518 14 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [delete terminal_interface__curses 759 14 none]
+G r c none [destroy sample__form_demo__aux 63 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [get_request sample__form_demo__aux 68 13 none] [get_window terminal_interface__curses__forms 513 13 none]
+G r c none [get_request sample__form_demo__aux 68 13 none] [top terminal_interface__curses__panels 82 14 none]
+G r c none [get_request sample__form_demo__aux 68 13 none] [get_key sample__keyboard_handler 50 13 none]
+G r c none [get_request sample__form_demo__aux 68 13 none] [explain_context sample__explanation 51 14 none]
+G r c none [get_request sample__form_demo__aux 68 13 none] [explain sample__explanation 48 14 none]
+G r c none [make sample__form_demo__aux 74 13 none] [create terminal_interface__curses__forms 295 13 none]
+G r c none [make sample__form_demo__aux 74 13 none] [set_buffer terminal_interface__curses__forms 356 14 none]
+G r c none [make sample__form_demo__aux 74 13 none] [switch_options terminal_interface__curses__forms 405 14 none]
+G r c none [make sample__form_demo__aux 74 13 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [make sample__form_demo__aux 74 13 none] [set_background terminal_interface__curses__forms 448 14 none]
+G r c none [make sample__form_demo__aux 79 13 none] [create terminal_interface__curses__forms 295 13 none]
+G r c none [make sample__form_demo__aux 79 13 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [make sample__form_demo__aux 79 13 none] [set_foreground terminal_interface__curses__forms 428 14 none]
+G r c none [make sample__form_demo__aux 79 13 none] [set_background terminal_interface__curses__forms 448 14 none]
+G r c none [default_driver sample__form_demo__aux 86 13 none] [driver terminal_interface__curses__forms 713 13 none]
+G r c none [count_active sample__form_demo__aux 90 13 none] [field_count terminal_interface__curses__forms 609 13 none]
+G r c none [count_active sample__form_demo__aux 90 13 none] [fields terminal_interface__curses__forms 603 13 none]
+G r c none [count_active sample__form_demo__aux 90 13 none] [get_options terminal_interface__curses__forms 413 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 21|43r6 43r34
+X 2 a-charac.ads
+16K13*Characters 18e19 21|43r10 43r38
+X 4 a-chlat1.ads
+16K24*Latin_1 294e27 21|43w21 43r49
+24e4*SOH{character} 21|170r21
+25e4*STX{character} 21|161r21
+27e4*EOT{character} 21|165r21
+28e4*ENQ{character} 21|171r21
+29e4*ACK{character} 21|160r21
+30e4*BEL{character} 21|178r21
+31e4*BS{character} 21|176r21
+32e4*HT{character} 21|173r21
+33e4*LF{character} 21|184r26
+34e4*VT{character} 21|179r21
+35e4*FF{character} 21|162r21
+36e4*CR{character} 21|184r21
+37e4*SO{character} 21|181r21
+38e4*SI{character} 21|174r21
+40e4*DLE{character} 21|182r21
+42e4*DC2{character} 21|163r21
+44e4*DC4{character} 21|168r21
+45e4*NAK{character} 21|164r21
+46e4*SYN{character} 21|175r21
+47e4*ETB{character} 21|167r21
+48e4*CAN{character} 21|158r21
+49e4*EM{character} 21|177r21
+X 17 sample.ads
+42K9*Sample 44e11 20|46r9 93r5 21|45r6 45r27 46r6 46r26 47r6 47r35 48r6 48r30
+. 50r14 264r5
+X 18 sample-explanation.ads
+46K16*Explanation 60e23 21|48w13 48r37
+48U14*Explain 21|140s46
+51U14*Explain_Context 21|139s46
+X 19 sample-form_demo.ads
+42K16*Form_Demo 17|42k9 19|46e21 20|46r16 93r12 21|50r21 264r12
+X 20 sample-form_demo-aux.ads
+46K26*Aux 19|42k16 20|93l22 93e25 21|50b31 264l22 264t25
+48U14*Geometry 48>24 49<24 50<24 51<24 52<24 21|52b14 67l8 67t16 81s7
+48m24 F{37|53M9} 21|52b24 59r14
+49i24 L{34|62I12} 21|53b24 59m17 61m7 61r12
+50i24 C{34|64I12} 21|54b24 59m20 62m7 62r12 65r23
+51i24 Y{34|59I9} 21|55b24 66m7
+52i24 X{34|60I9} 21|56b24 65m7
+56V13*Create{39|49M9} 56>21 57>21 58>21 59>21 21|69b13 107l8 107t14
+56m21 F{37|53M9} 21|69b21 81r17 99r19 100r23 105r13
+57a21 Title{string} 21|70b21 101r10 102r27
+58i21 Lin{34|59I9} 21|71b21 82r30
+59i21 Col{34|60I9} 21|72b21 82r35
+63U14*Destroy 63>23 64=23 21|109b14 124l8 124t15
+63m23 F{37|53M9} 21|109b23 114r24 115r28 116r13 119r19 120r23
+64m23 P{39|49M9} 21|110b23 118m15
+68V13*Get_Request{34|67I9} 68>26 69>26 70>26 21|126b13 196l8 196t19
+68m26 F{37|53M9} 21|126b26 130r43
+69m26 P{39|49M9} 21|127b26 134r12
+70b26 Handle_CRLF{boolean} 21|128b26 185r22
+74V13*Make{37|52M9} 74>19 75>19 76>19 21|198b13 212l8 212t12
+74i19 Top{34|59I9} 21|198b19 205r31
+75i19 Left{34|60I9} 21|199b19 205r36
+76a19 Text{string} 21|200b19 203r50 206r27
+79V13*Make{37|52M9} 79>20 80>20 81>20 82>20 83>20 21|214b13 229l8 229t12
+79i20 Height{34|62I12} 21|214b20 220r42
+80i20 Width{34|64I12} 21|215b20 220r50
+81i20 Top{34|59I9} 21|216b20 220r57
+82i20 Left{34|60I9} 21|217b20 220r62
+83i20 Off_Screen{natural} 21|218b20 220r68
+86V13*Default_Driver{boolean} 86>29 87>29 88>29 21|231b13 245l8 245t22
+86m29 F{37|53M9} 21|231b29 240r21
+87i29 K{34|67I9} 21|232b29 239r10 239r44
+88m29 P{39|49M9} 21|233b29 236r10
+90V13*Count_Active{natural} 90>27 21|247b13 262l8 262t20
+90m27 F{37|53M9} 21|247b27 251r44 255r34
+X 21 sample-form_demo-aux.adb
+74m7 W{34|56M9} 82m7 83r22 84r24 86r33 90r43 93r17 95r28 98r12 99r22 102r24
+. 104r25
+74m10 S{34|56M9} 95m7 96r22 97r24 100r26
+75i7 L{34|62I12} 81m20 82r24 95r31
+76i7 C{34|64I12} 81m23 82r27 95r38
+77i7 Y{34|59I9} 81m26
+78i7 X{34|60I9} 81m29
+79m7 Pan{39|49M9} 104m7 106r14
+112m7 W{34|56M9} 114m7 117r14 122m15 122r15
+112m10 S{34|56M9} 115m7 121m15 121r15
+130m7 W{34|56M9} 136r24
+131i7 K{34|72I12} 136m10 137r13 138r18 153r53 155r16 156r34 188r29 190r38
+. 193r20
+132e7 Ch{character} 156m13 157r18
+202m7 Fld{37|52M9} 205m7 206r19 207r23 209r33 211r14
+203i7 C{34|64I12} 205r28
+220m7 Fld{37|52M9} 223r33 224r33 226r26 228r14
+249i7 N{natural} 257m16 257r21 261r14
+250r7 O{37|63R9} 255m41 256r16
+251i7 H{natural} 253r10 254r24
+254i14 I{integer} 255r37
+X 22 sample-helpers.ads
+47K16*Helpers 21|46w13 46r33 22|55e19
+49U14*Window_Title 21|102s10
+X 23 sample-keyboard_handler.ads
+48K16*Keyboard_Handler 21|47w13 47r42 23|56e28
+50V13*Get_Key{34|72I12} 21|136s15
+X 24 sample-manifest.ads
+44K16*Manifest 21|45w13 45r34 24|68e20
+46i4*QUIT{34|383I12} 21|143r53 158r35 239r48
+50i4*HELP_CODE{34|77I12} 21|139r21
+52i4*EXPLAIN_CODE{34|77I12} 21|140r21
+54i4*QUIT_CODE{34|77I12} 21|143r21
+58i4*Default_Colors{34|412I12} 21|88r43 91r45 209r47
+62i4*Form_Fore_Color{34|412I12} 21|223r47
+63i4*Form_Back_Color{34|412I12} 21|224r47
+X 30 s-stoele.ads
+92M9*Integer_Address
+X 33 terminal_interface.ads
+43K9*Terminal_Interface 20|42r6 42r38 43r6 43r45 44r6 44r45 33|48e23
+X 34 terminal_interface-curses.ads
+48K28*Curses 20|42w25 42r57 43r25 43r64 44r25 44r64 34|2103e30
+56M9*Window<30|92M9> 21|74r14 112r14 130r21
+57m4*Null_Window{56M9} 21|119r22 120r26
+59I9*Line_Position<integer> 20|51r33 58r29 74r33 81r34 21|55r33 71r29 77r11
+. 198r33 216r34
+60I9*Column_Position<integer> 20|52r33 59r29 75r33 82r34 21|56r33 72r29 78r11
+. 199r33 217r34
+62I12*Line_Count{59I9} 20|49r33 79r34 21|53r33 75r11 214r34
+64I12*Column_Count{60I9} 20|50r33 80r34 21|54r33 76r11 203r20 203r36 215r34
+67I9*Key_Code<integer> 20|70r64 87r33 21|128r64 232r33
+72I12*Real_Key_Code{67I9} 21|131r12
+77I12*Special_Key_Code{72I12} 21|137r18
+81I12*Normal_Key_Code{72I12} 21|155r21
+97i4*Key_Cursor_Down=97:59{77I12} 21|144r21
+100i4*Key_Cursor_Up=100:59{77I12} 21|145r21
+103i4*Key_Cursor_Left=103:59{77I12} 21|146r21
+106i4*Key_Cursor_Right=106:59{77I12} 21|147r21
+107i4*Key_Home{77I12} 21|141r21
+109i4*Key_Backspace{77I12} 21|150r21
+178i4*Key_Clear_Screen=178:59{77I12} 21|151r21
+184i4*Key_Clear_End_Of_Line=184:59{77I12} 21|152r21
+193i4*Key_Next_Page=193:59{77I12} 21|148r21
+196i4*Key_Previous_Page=196:59{77I12} 21|149r21
+250i4*Key_End{77I12} 21|142r21
+383I12*User_Key_Code{67I9} 21|239r15
+410I9*Color_Pair<short_integer>
+412I12*Redefinable_Color_Pair{410I9}
+422b10*Reverse_Video{boolean} 21|226m32
+486r4*Normal_Video{418R9} 21|89r43 92r45
+490r10*Attr{418R9} 21|89m34
+491i10*Color{410I9} 21|88m34
+492e10*Ch{character} 21|87m34
+554V13*Columns{64I12} 21|65s13
+750V13*New_Window=755:14{56M9} 21|82s12
+759U14*Delete 21|121s7 122s7
+775V13*Derived_Window{56M9} 21|95s12
+891U14*Box 21|98s7
+988U14*Set_Character_Attributes 21|90s10
+989m7 Win{56M9} 21|90r36
+990r7 Attr{418R9} 21|92r36
+991i7 Color{410I9} 21|91r36
+1075U14*Set_Meta_Mode 21|83s7 96s7
+1081U14*Set_KeyPad_Mode 21|84s7 97s7
+1245U14*Erase 21|93s10 117s7
+1279U14*Set_Background 21|86s10
+1280m7 Win{56M9} 21|86r26
+1281r7 Ch{488R9} 21|87r26
+1897V13*Has_Colors{boolean} 21|85s10 208s10 222s10
+X 37 terminal_interface-curses-forms.ads
+46K35*Forms 20|44w32 44r71 37|782e36
+52M9*Field<30|92M9> 20|76r48 83r55 21|200r48 202r13 218r55 220r22
+53M9*Form<30|92M9> 20|48r29 56r29 63r27 68r40 86r33 90r31 21|52r29 69r29
+. 109r27 126r40 231r33 247r31
+63R9*Field_Option_Set 21|250r11 37|75e17
+66b10*Active{boolean} 21|207m29 256r18
+144I12*Form_Request_Code{34|67I9}
+147i4*F_Next_Page{144I12} 21|148r53
+148i4*F_Previous_Page{144I12} 21|149r53
+152i4*F_Next_Field{144I12} 21|160r35
+153i4*F_Previous_Field{144I12} 21|161r35
+154i4*F_First_Field{144I12} 21|141r53
+155i4*F_Last_Field{144I12} 21|142r53
+160i4*F_Left_Field{144I12} 21|162r35
+161i4*F_Right_Field{144I12} 21|163r35
+162i4*F_Up_Field{144I12} 21|164r35
+163i4*F_Down_Field{144I12} 21|165r35
+165i4*F_Next_Char{144I12} 21|147r53
+166i4*F_Previous_Char{144I12} 21|146r53
+169i4*F_Next_Word{144I12} 21|167r35
+170i4*F_Previous_Word{144I12} 21|168r35
+171i4*F_Begin_Field{144I12} 21|170r35
+172i4*F_End_Field{144I12} 21|171r35
+177i4*F_Up_Char{144I12} 21|145r53
+178i4*F_Down_Char{144I12} 21|144r53
+180i4*F_New_Line{144I12} 21|186r29
+181i4*F_Insert_Char{144I12} 21|173r35
+182i4*F_Insert_Line{144I12} 21|174r35
+183i4*F_Delete_Char{144I12} 21|175r35
+184i4*F_Delete_Previous{144I12} 21|150r53 176r35
+185i4*F_Delete_Line{144I12} 21|177r35
+186i4*F_Delete_Word{144I12} 21|178r35
+188i4*F_Clear_EOF{144I12} 21|152r53 179r35
+189i4*F_Clear_Field{144I12} 21|151r53
+209i4*F_Validate_Field{144I12} 21|240r24
+210i4*F_Next_Choice{144I12} 21|181r35
+211i4*F_Previous_Choice{144I12} 21|182r35
+306V13*New_Field=312:45{52M9} 21|205s14 220s31
+356U14*Set_Buffer 21|206s7
+405U14*Switch_Options 21|207s7
+413U14*Get_Options 21|255s13
+428U14*Set_Foreground 21|223s10
+429m7 Fld{52M9} 21|223r26
+431i7 Color{34|410I9} 21|223r38
+448U14*Set_Background 21|209s10 224s10 226s10
+449m7 Fld{52M9} 21|209r26 224r26
+451i7 Color{34|410I9} 21|209r38 224r38
+507U14*Set_Window 21|99s7 119s7
+513V13*Get_Window{34|56M9} 21|114s12 130s31
+518U14*Set_Sub_Window 21|100s7 120s7
+524V13*Get_Sub_Window{34|56M9} 21|115s12
+529U14*Scale 21|59s7
+603V13*Fields{52M9} 21|255s26
+609V13*Field_Count{natural} 21|251s31
+674U14*Post 21|105s7 116s7
+707n27*Form_Ok{707E9} 21|240r44
+713V13*Driver{707E9} 21|240s13
+X 39 terminal_interface-curses-panels.ads
+45K35*Panels 20|43w32 43r71 39|147e37
+49M9*Panel<30|92M9> 20|59r53 64r34 69r40 88r33 21|72r53 79r13 110r34 127r40
+. 233r33
+54m4*Null_Panel{49M9} 21|236r14
+60X4*Panel_Exception 21|237r16
+72V13*New_Panel=72:59{49M9} 21|104s14
+82U14*Top 21|134s7
+92U14*Update_Panels 21|123s7
+139U14*Delete 21|118s7
+

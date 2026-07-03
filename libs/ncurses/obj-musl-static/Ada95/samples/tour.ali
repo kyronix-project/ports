@@ -1,0 +1,27 @@
+V "GNAT Lib v16"
+M P W=b
+A -O2
+A -gnatp
+A -gnatn
+P ZX
+
+RN
+
+U tour%b		tour.adb		39599eb0 NE OO SU
+W sample%s		sample.adb		sample.ali
+
+U tour%s		tour.ads		134b652e EE NE OO SU
+
+D sample.ads		20200202233434 bd2c0779 sample%s
+D system.ads		20260501130736 e2b7c99d system%s
+D tour.ads		20200202233434 134b652e tour%s
+D tour.adb		20200202233434 973efce7 tour%b
+G a e
+G c Z s b [tour standard 42 11 none]
+G r c none [tour standard 42 11 none] [whow sample 43 14 none]
+X 1 sample.ads
+42K9*Sample 44e11 4|42w6 42r18
+43U14*Whow 4|46s4
+X 3 tour.ads
+42U11*Tour 4|44b11 47l5 47t9
+

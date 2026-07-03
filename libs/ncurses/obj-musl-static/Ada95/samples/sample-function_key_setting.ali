@@ -1,0 +1,196 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_ELABORATION_CODE
+
+U sample.function_key_setting%b  sample-function_key_setting.adb  5d31bc3b OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_deallocation%s
+W sample%s		sample.adb		sample.ali
+W sample.manifest%s	sample-manifest.ads	sample-manifest.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U sample.function_key_setting%s  sample-function_key_setting.ads  b7a4c96f EE OO PK
+W sample%s		sample.adb		sample.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-function_key_setting.ads  20200202233434 98be4b41 sample.function_key_setting%s
+D sample-function_key_setting.adb  20200202233434 52c8cf4f sample.function_key_setting%b
+D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-exctab.adb		20260501130736 89d79d5b system.exception_table%b
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses-panels.adb  20200202233434 e32236c5 terminal_interface.curses.panels%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [push_environment sample__function_key_setting 49 14 none]
+G c Z s b [pop_environment sample__function_key_setting 57 14 none]
+G c Z s b [initialize sample__function_key_setting 61 14 none]
+G c Z s b [context sample__function_key_setting 65 13 none]
+G c Z s b [find_context sample__function_key_setting 68 13 none]
+G c Z s b [notepad_to_context sample__function_key_setting 72 14 none]
+G c Z s b [default_labels sample__function_key_setting 77 14 none]
+G c Z s b [notepad_window sample__function_key_setting 80 13 none]
+G c Z b b [release_string sample__function_key_setting 75 14 none]
+G c Z b b [label_arrayIP sample__function_key_setting 55 9 none]
+G c Z b b [key_environmentIP sample__function_key_setting 67 9 none]
+G c Z b b [release_environment sample__function_key_setting 79 14 none]
+G r c none [push_environment sample__function_key_setting 49 14 none] [get_soft_label_key terminal_interface__curses 1693 14 none]
+G r c none [push_environment sample__function_key_setting 49 14 none] [set_soft_label_key terminal_interface__curses 1676 14 none]
+G r c none [push_environment sample__function_key_setting 49 14 none] [hide terminal_interface__curses__panels 97 14 none]
+G r c none [push_environment sample__function_key_setting 49 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [push_environment sample__function_key_setting 49 14 none] [refresh_soft_label_keys_without_update terminal_interface__curses 1688 14 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [set_soft_label_key terminal_interface__curses 1676 14 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [refresh_soft_label_keys_without_update terminal_interface__curses 1688 14 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [get_window terminal_interface__curses__panels 102 13 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [delete terminal_interface__curses__panels 139 14 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [delete terminal_interface__curses 759 14 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [top terminal_interface__curses__panels 82 14 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [pop_environment sample__function_key_setting 57 14 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [initialize sample__function_key_setting 61 14 none] [init_soft_label_keys terminal_interface__curses 1670 14 none]
+G r c none [notepad_to_context sample__function_key_setting 72 14 none] [get_window terminal_interface__curses__panels 102 13 none]
+G r c none [notepad_to_context sample__function_key_setting 72 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [notepad_to_context sample__function_key_setting 72 14 none] [delete terminal_interface__curses__panels 139 14 none]
+G r c none [notepad_to_context sample__function_key_setting 72 14 none] [delete terminal_interface__curses 759 14 none]
+G r c none [notepad_to_context sample__function_key_setting 72 14 none] [top terminal_interface__curses__panels 82 14 none]
+G r c none [notepad_to_context sample__function_key_setting 72 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [notepad_to_context sample__function_key_setting 72 14 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [default_labels sample__function_key_setting 77 14 none] [set_soft_label_key terminal_interface__curses 1676 14 none]
+G r c none [default_labels sample__function_key_setting 77 14 none] [refresh_soft_label_keys_without_update terminal_interface__curses 1688 14 none]
+G r c none [notepad_window sample__function_key_setting 80 13 none] [get_window terminal_interface__curses__panels 102 13 none]
+X 1 ada.ads
+18K9*Ada 22e8 17|43r6 76r10 80r11
+X 11 a-uncdea.ads
+23u15*Unchecked_Deallocation 17|43w10 76r14 80r15
+X 15 sample.ads
+42K9*Sample 44e11 16|47r9 83r5 17|44r6 44r28 48r14 215r5
+X 16 sample-function_key_setting.ads
+47K16*Function_Key_Setting 15|42k9 16|83l12 83e32 17|48b21 215l12 215t32
+49U14*Push_Environment 49>32 50>32 17|85b14 113l8 113t24
+49a32 Key{string} 17|85b32 107r37
+50b32 Reset{boolean} 17|86b32 93r13 110r10
+57U14*Pop_Environment 17|115b14 133l8 133t23
+61U14*Initialize 61>26 62>26 17|182b14 194l8 194t18
+61e26 Mode{31|1662E9} 17|182b26 186r12 192r29
+62e26 Just{31|1667E9} 17|183b26 193r24
+65V13*Context{string} 17|135b13 143l8 143t15
+68V13*Find_Context{boolean} 68>27 17|145b13 162l8 162t20
+68a27 Key{string} 17|145b27 149r31 154r33
+72U14*Notepad_To_Context 72>34 17|129s10 164b14 180l8 180t26
+72m34 Pan{34|49M9} 17|164b34 174r25 175r10 176r16
+75X4*Function_Key_Stack_Error 17|120r16
+77U14*Default_Labels 17|196b14 203l8 203t22
+80V13*Notepad_Window{31|56M9} 17|205b13 213l8 213t22
+X 17 sample-function_key_setting.adb
+50i4 Max_Label_Length{positive} 54r34
+51i4 Number_Of_Keys{31|1666I9} 88r52 91r21 122r24 188m15 190m15
+52e4 Justification{31|1667E9} 123r54 193m7
+54A12 Label{string}<integer> 55r57
+55A9 Label_Array(54A12)<31|1666I9> 72r20
+57R9 Key_Environment 57d26 58r27 67c9 73e17 80r39 88r35
+57i26 N{31|1666I9} 67r27
+58P9 Env_Ptr(57R9) 59r23 69r20 81r39 83r19 88r20 117r11 147r11
+61P9 String_Access(string) 62r23 64r21 70r20 77r38
+64p4 Active_Context{61P9} 99r21 107m7 125r25 126m26 126r26 127m10 138r10
+. 139r17 149r10
+65m4 Active_Notepad{34|49M9} 100r24 106m7 168r10 169r27 171m18 171r18 174m7
+. 208r10 209r29
+67i27*N{31|1666I9} 72r38
+69p10*Prev{58P9} 97m13 130r32 157r27
+70p10*Help{61P9} 99m13 127r34 154r22
+71m10*Notepad{34|49M9} 100m13 102r16 103r22 129r36
+72a10*Labels{55A9} 92m39 123r42
+75U14 Release_String[11|23] 126s10
+79U14 Release_Environment[11|23] 131s10
+83p4 Top_Of_Stack{58P9} 97r21 109m7 117r22 119r10 130m10 147r22
+88p7 P{58P9} 92r33 97r7 99r7 100r7 102r10 103r16 109r23
+91i11 I<integer> 92r30 92r47 94r33
+117p7 P{58P9} 123r36 127r28 129r30 130r26 131m31 131r31
+122i14 I<integer> 123r33 123r50
+147p7 P{58P9} 153r23 154r16 157m16 157r21
+166m7 W{31|56M9} 169m10 170r17 172m18 172r18
+X 18 sample-manifest.ads
+44K16*Manifest 17|44w13 44r35 18|68e20
+49i4*FKEY_HELP{31|1666I9} 17|200r27
+51i4*FKEY_EXPLAIN{31|1666I9} 17|201r27
+53i4*FKEY_QUIT{31|1666I9} 17|199r27
+X 27 s-stoele.ads
+92M9*Integer_Address
+X 30 terminal_interface.ads
+43K9*Terminal_Interface 16|42r6 42r37 43r6 43r44 30|48e23
+X 31 terminal_interface-curses.ads
+48K28*Curses 16|42w25 42r56 43r25 43r63 31|2103e30
+56M9*Window<27|92M9> 16|80r35 17|166r11 205r35
+57m4*Null_Window{56M9} 17|211r17
+759U14*Delete 17|172s10
+1211U14*Update_Screen 17|179s7
+1251U14*Clear 17|170s10
+1662E9*Soft_Label_Key_Format 16|61r33 17|182r33 31|1665e55
+1664n35*PC_Style{1662E9} 16|61r58 17|182r58 187r15
+1665n35*PC_Style_With_Index{1662E9} 17|187r27
+1666I9*Label_Number<integer> 17|51r23 51r39 55r31 57r30 57r46 67r31 67r47
+1667E9*Label_Justification 16|62r33 17|52r23 183r33 31|1667e55
+1667n33*Left{1667E9} 16|62r56 17|52r46 183r56
+1670U14*Init_Soft_Label_Keys 17|192s7
+1676U14*Set_Soft_Label_Key 17|94s13 123s13 199s7 200s7 201s7
+1688U14*Refresh_Soft_Label_Keys_Without_Update 17|111s10 128s10 202s7
+1693U14*Get_Soft_Label_Key 17|92s10
+X 34 terminal_interface-curses-panels.ads
+45K35*Panels 16|43w32 43r70 34|147e37
+49M9*Panel<27|92M9> 16|72r40 17|65r21 71r20 164r40
+54m4*Null_Panel{49M9} 17|65r30 102r27 106r25 168r28 175r17 208r28
+82U14*Top 17|176s10
+92U14*Update_Panels 17|104s10 178s7
+97U14*Hide 17|103s10
+102V13*Get_Window{31|56M9} 17|169s15 209s17
+139U14*Delete 17|171s10
+

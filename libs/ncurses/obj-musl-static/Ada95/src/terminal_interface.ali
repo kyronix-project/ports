@@ -1,0 +1,16 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P ZX
+
+RN
+
+U terminal_interface%s	terminal_interface.ads	3a9703dd NE OO PU PK
+
+D system.ads		20260501130736 e2b7c99d system%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+G a e
+X 2 terminal_interface.ads
+43K9*Terminal_Interface 44r17 48l5 48e23
+

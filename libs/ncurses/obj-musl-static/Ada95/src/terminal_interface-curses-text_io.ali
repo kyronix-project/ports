@@ -1,0 +1,332 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+
+U terminal_interface.curses.text_io%b  terminal_interface-curses-text_io.adb  e0f59adc NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+U terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.ads  210ef307 BN EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-text_io.ads  20200202233434 821d74f8 terminal_interface.curses.text_io%s
+D terminal_interface-curses-text_io.adb  20200202233434 62e8ee24 terminal_interface.curses.text_io%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [set_window terminal_interface__curses__text_io 60 14 none]
+G c Z s b [get_window terminal_interface__curses__text_io 63 13 none]
+G c Z s b [flush terminal_interface__curses__text_io 66 14 none]
+G c Z s b [flush terminal_interface__curses__text_io 67 14 none]
+G c Z s b [line_length terminal_interface__curses__text_io 78 13 none]
+G c Z s b [line_length terminal_interface__curses__text_io 79 13 none]
+G c Z s b [page_length terminal_interface__curses__text_io 81 13 none]
+G c Z s b [page_length terminal_interface__curses__text_io 82 13 none]
+G c Z s b [new_line terminal_interface__curses__text_io 87 14 none]
+G c Z s b [new_line terminal_interface__curses__text_io 88 14 none]
+G c Z s b [new_page terminal_interface__curses__text_io 90 14 none]
+G c Z s b [new_page terminal_interface__curses__text_io 91 14 none]
+G c Z s b [set_col terminal_interface__curses__text_io 93 14 none]
+G c Z s b [set_col terminal_interface__curses__text_io 94 14 none]
+G c Z s b [set_line terminal_interface__curses__text_io 96 14 none]
+G c Z s b [set_line terminal_interface__curses__text_io 97 14 none]
+G c Z s b [col terminal_interface__curses__text_io 99 13 none]
+G c Z s b [col terminal_interface__curses__text_io 100 13 none]
+G c Z s b [line terminal_interface__curses__text_io 102 13 none]
+G c Z s b [line terminal_interface__curses__text_io 103 13 none]
+G c Z s b [put terminal_interface__curses__text_io 109 14 none]
+G c Z s b [put terminal_interface__curses__text_io 110 14 none]
+G c Z s b [put terminal_interface__curses__text_io 116 14 none]
+G c Z s b [put terminal_interface__curses__text_io 117 14 none]
+G c Z s b [put_line terminal_interface__curses__text_io 119 14 none]
+G c Z s b [put_line terminal_interface__curses__text_io 123 14 none]
+G r c none [get_window terminal_interface__curses__text_io 63 13 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [flush terminal_interface__curses__text_io 66 14 none] [refresh terminal_interface__curses 1216 14 none]
+G r c none [flush terminal_interface__curses__text_io 67 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [flush terminal_interface__curses__text_io 67 14 none] [refresh terminal_interface__curses 1216 14 none]
+G r c none [line_length terminal_interface__curses__text_io 78 13 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [line_length terminal_interface__curses__text_io 79 13 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [line_length terminal_interface__curses__text_io 79 13 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [page_length terminal_interface__curses__text_io 81 13 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [page_length terminal_interface__curses__text_io 81 13 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [page_length terminal_interface__curses__text_io 82 13 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [page_length terminal_interface__curses__text_io 82 13 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [page_length terminal_interface__curses__text_io 82 13 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [new_line terminal_interface__curses__text_io 87 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [new_line terminal_interface__curses__text_io 87 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [new_line terminal_interface__curses__text_io 87 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [new_line terminal_interface__curses__text_io 87 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [new_line terminal_interface__curses__text_io 87 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [new_line terminal_interface__curses__text_io 88 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [new_line terminal_interface__curses__text_io 88 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [new_line terminal_interface__curses__text_io 88 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [new_line terminal_interface__curses__text_io 88 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [new_line terminal_interface__curses__text_io 88 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [new_line terminal_interface__curses__text_io 88 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [new_page terminal_interface__curses__text_io 90 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [new_page terminal_interface__curses__text_io 91 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [new_page terminal_interface__curses__text_io 91 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [set_col terminal_interface__curses__text_io 93 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [set_col terminal_interface__curses__text_io 93 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [set_col terminal_interface__curses__text_io 93 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [set_col terminal_interface__curses__text_io 93 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [set_col terminal_interface__curses__text_io 93 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [set_col terminal_interface__curses__text_io 93 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [set_col terminal_interface__curses__text_io 94 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [set_col terminal_interface__curses__text_io 94 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [set_col terminal_interface__curses__text_io 94 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [set_col terminal_interface__curses__text_io 94 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [set_col terminal_interface__curses__text_io 94 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [set_col terminal_interface__curses__text_io 94 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [set_col terminal_interface__curses__text_io 94 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [set_line terminal_interface__curses__text_io 96 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [set_line terminal_interface__curses__text_io 96 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [set_line terminal_interface__curses__text_io 96 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [set_line terminal_interface__curses__text_io 96 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [set_line terminal_interface__curses__text_io 96 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [set_line terminal_interface__curses__text_io 97 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [set_line terminal_interface__curses__text_io 97 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [set_line terminal_interface__curses__text_io 97 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [set_line terminal_interface__curses__text_io 97 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [set_line terminal_interface__curses__text_io 97 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [set_line terminal_interface__curses__text_io 97 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [col terminal_interface__curses__text_io 99 13 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [col terminal_interface__curses__text_io 100 13 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [col terminal_interface__curses__text_io 100 13 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [line terminal_interface__curses__text_io 102 13 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [line terminal_interface__curses__text_io 103 13 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [line terminal_interface__curses__text_io 103 13 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [put terminal_interface__curses__text_io 109 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [put terminal_interface__curses__text_io 109 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [put terminal_interface__curses__text_io 109 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [put terminal_interface__curses__text_io 109 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [put terminal_interface__curses__text_io 109 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [put terminal_interface__curses__text_io 110 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [put terminal_interface__curses__text_io 110 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [put terminal_interface__curses__text_io 110 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [put terminal_interface__curses__text_io 110 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [put terminal_interface__curses__text_io 110 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [put terminal_interface__curses__text_io 110 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [put terminal_interface__curses__text_io 116 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [put terminal_interface__curses__text_io 116 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [put terminal_interface__curses__text_io 116 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [put terminal_interface__curses__text_io 116 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [put terminal_interface__curses__text_io 116 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [put terminal_interface__curses__text_io 117 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [put terminal_interface__curses__text_io 117 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [put terminal_interface__curses__text_io 117 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [put terminal_interface__curses__text_io 117 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [put terminal_interface__curses__text_io 117 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [put terminal_interface__curses__text_io 117 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [put_line terminal_interface__curses__text_io 119 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [put_line terminal_interface__curses__text_io 119 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [put_line terminal_interface__curses__text_io 119 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [put_line terminal_interface__curses__text_io 119 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [put_line terminal_interface__curses__text_io 119 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [put_line terminal_interface__curses__text_io 119 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [put_line terminal_interface__curses__text_io 123 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [put_line terminal_interface__curses__text_io 123 14 none] [scrolling_allowed terminal_interface__curses 1193 13 none]
+G r c none [put_line terminal_interface__curses__text_io 123 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [put_line terminal_interface__curses__text_io 123 14 none] [get_cursor_position terminal_interface__curses 1415 14 none]
+G r c none [put_line terminal_interface__curses__text_io 123 14 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [put_line terminal_interface__curses__text_io 123 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [put_line terminal_interface__curses__text_io 123 14 none] [add terminal_interface__curses 699 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 39|42r6 43r6 47r13 48r21 51r21 128r37 129r37 130r37 131r37
+. 132r37 133r37 134r37 135r37
+X 6 a-ioexce.ads
+16K13*IO_Exceptions 28e22 39|43w10 128r41 129r41 130r41 131r41 132r41 133r41
+. 134r41 135r41
+19X4*Status_Error 39|128r55
+20X4*Mode_Error 39|129r55
+21X4*Name_Error 39|130r55
+22X4*Use_Error 39|131r55
+23X4*Device_Error 39|132r55
+24X4*End_Error 39|133r55
+25X4*Data_Error 39|134r55
+26X4*Layout_Error 39|135r55
+X 15 a-textio.ads
+58K13*Text_IO 785e16 39|42w10 47r17 48r25 51r25
+80I9*Count<integer> 39|47r25 48r33
+89I12*Field{integer} 39|51r33
+X 31 s-stoele.ads
+92M9*Integer_Address
+X 35 terminal_interface.ads
+43K9*Terminal_Interface 48e23 39|45r9 137r5 40|43r14 339r5
+X 36 terminal_interface-curses.ads
+48K28*Curses 35|43k9 36|2103e30 39|45r28 137r24 40|43r33 339r24
+56M9*Window<31|92M9> 39|60r32 63r31 66r27 78r32 81r32 87r30 90r30 93r29 96r30
+. 99r24 102r25 109r26 116r26 120r14 40|45r21 47r32 53r31 64r27 85r32 103r32
+. 128r30 151r30 163r29 197r30 227r24 247r25 271r26 299r26 324r14
+57m4*Null_Window{56M9} 40|45r31 56r27
+59I9*Line_Position<integer> 40|165r12 199r12 200r12 211r13 229r11 249r11
+. 274r11 302r11
+60I9*Column_Position<integer> 40|166r12 167r12 176r13 201r12 230r11 250r11
+. 275r11 303r11
+62I12*Line_Count{59I9} 40|87r17 105r17 276r11 304r11
+64I12*Column_Count{60I9} 40|88r17 106r17 277r11 305r11
+645V13*Standard_Window{56M9} 40|57s17
+699U14*Add 40|140s13 286s7
+824U14*Add 40|314s7
+1193V13*Scrolling_Allowed{boolean} 40|108s10
+1216U14*Refresh 40|67s7
+1251U14*Clear 40|154s7
+1399U14*Get_Size 40|90s7 111s10 281s10 309s10
+1415U14*Get_Cursor_Position 40|174s7 208s7 233s7 253s7 280s10 308s10
+X 39 terminal_interface-curses-text_io.ads
+45K35*Text_IO 36|48k28 39|137l31 137e38 40|43b40 339l31 339t38
+48I12*Count{15|80I9} 49r30 49r47 78r47 79r32 81r47 82r32 40|85r47 94r14 97r32
+. 103r47 115r17 119r32 130r25 273r25 301r25
+49I12*Positive_Count{48I12} 87r48 88r34 93r43 94r28 96r43 97r29 99r39 100r24
+. 102r40 103r25 40|128r48 145r34 163r43 191r28 197r43 217r25 221r29 227r39
+. 238r14 241r24 247r40 258r14 261r25
+51I12*Field{15|89I12}
+52I12*Number_Base{integer}
+54E9*Type_Set 54e57
+54n22*Lower_Case{54E9}
+54n34*Upper_Case{54E9}
+54n46*Mixed_Case{54E9}
+60U14*Set_Window 60>26 40|47b14 51l8 51t18
+60m26 Win{36|56M9} 40|47b26 50r25
+63V13*Get_Window{36|56M9} 40|53b13 61l8 61t18 62r19 73s14 100s27 122s27 148s17
+. 160s17 194s16 224s17 244s19 264s20 292s12 320s12 336s17
+66U14*Flush 66>21 40|64b14 68l8 68t13 73s7
+66m21 Win{36|56M9} 40|64b21 67r16
+67U14*Flush 40|70b14 74l8 74t13
+78V13*Line_Length{48I12} 78>26 40|85b13 95l8 95t19 100s14
+78m26 Win{36|56M9} 40|85b26 90r17
+79V13*Line_Length{48I12} 40|97b13 101l8 101t19
+81V13*Page_Length{48I12} 81>26 40|103b13 117l8 117t19 122s14 130s34 273s34
+. 301s34
+81m26 Win{36|56M9} 40|103b26 108r29 111r20
+82V13*Page_Length{48I12} 40|119b13 123l8 123t19
+87U14*New_Line 87>24 87>38 40|128b14 143l8 143t16 148s7 178s10 217s10 329s7
+87m24 Win{36|56M9} 40|128b24 130r47 137r39 138r23 140r18
+87i38 Spacing{49I12} 40|128b38 132r14 136r21
+88U14*New_Line 88>24 40|145b14 149l8 149t16
+88i24 Spacing{49I12} 40|145b24 148r29
+90U14*New_Page 90>24 40|138s13 151b14 155l8 155t16 160s7 213s10 283s13 311s13
+90m24 Win{36|56M9} 40|151b24 154r14
+91U14*New_Page 40|157b14 161l8 161t16
+93U14*Set_Col 93>23 93>38 40|163b14 189l8 189t15 194s7
+93m23 Win{36|56M9} 40|163b23 174r28 178r20 186r18
+93i38 To{49I12} 40|163b38 170r14 175r22
+94U14*Set_Col 94>23 40|191b14 195l8 195t15
+94i23 To{49I12} 40|191b23 194r28
+96U14*Set_Line 96>24 96>38 40|197b14 219l8 219t16 224s7
+96m24 Win{36|56M9} 40|197b24 208r28 213r20 217r20
+96i38 To{49I12} 40|197b38 204r14 210r22
+97U14*Set_Line 97>24 40|221b14 225l8 225t16
+97i24 To{49I12} 40|221b24 224r29
+99V13*Col{49I12} 99>18 40|227b13 239l8 239t11 244s14
+99m18 Win{36|56M9} 40|227b18 233r28
+100V13*Col{49I12} 40|241b13 245l8 245t11
+102V13*Line{49I12} 102>19 40|137s33 247b13 259l8 259t12 264s14
+102m19 Win{36|56M9} 40|247b19 253r28
+103V13*Line{49I12} 40|261b13 265l8 265t12
+109U14*Put 109>19 109>34 40|271b14 287l8 287t11 292s7
+109m19 Win{36|56M9} 40|271b19 273r47 280r31 281r20 283r23 286r12
+109e34 Item{character} 40|271b34 286r17
+110U14*Put 110>19 40|289b14 293l8 293t11
+110e19 Item{character} 40|289b19 292r24
+116U14*Put 116>19 116>34 40|186s13 299b14 315l8 315t11 320s7 328s7
+116m19 Win{36|56M9} 40|299b19 301r47 308r31 309r20 311r23 314r12
+116a34 Item{string} 40|299b34 310r43 314r17
+117U14*Put 117>19 40|317b14 321l8 321t11
+117a19 Item{string} 40|317b19 320r24
+119U14*Put_Line 120>7 121>7 40|323b14 330l8 330t16 336s7
+120m7 Win{36|56M9} 40|324b7 328r12 329r17
+121a7 Item{string} 40|325b7 328r17
+123U14*Put_Line 124>7 40|332b14 337l8 337t16
+124a7 Item{string} 40|333b7 336r29
+128X4*Status_Error
+129X4*Mode_Error
+130X4*Name_Error
+131X4*Use_Error
+132X4*Device_Error
+133X4*End_Error
+134X4*Data_Error
+135X4*Layout_Error
+X 40 terminal_interface-curses-text_io.adb
+45m4 Default_Window{36|56M9} 50m7 56r10 59r17
+87i7 N_Lines{36|62I12} 90m22
+88i7 N_Cols{36|64I12} 90m31 94r21
+105i7 N_Lines{36|62I12} 111m25 115r24
+106i7 N_Cols{36|64I12} 111m34
+130i7 P_Size{39|48I12} 137r13 137r47
+136i11 I<integer>
+165i7 Y{36|59I9} 174m33
+166i7 X1{36|60I9} 174m36 177r10 179m10 181r10 183r48
+167i7 X2{36|60I9} 176m7 177r15 181r15 183r65
+168i7 N{natural} 175m7 175m27 175r32 176r30
+183a13 Filler{string} 186r23
+199i7 Y1{36|59I9} 208m33 212r15 214m10 216r10 217r46
+200i7 Y2{36|59I9} 211m7 212r10 216r15 217r41
+201i7 X{36|60I9} 208m37 209r29
+202i7 N{natural} 210m7 210m27 210r32 211r28
+229i7 Y{36|59I9} 233m33
+230i7 X{36|60I9} 233m36 234r21
+231i7 N{natural} 234m7 234m25 234r30 238r30
+249i7 Y{36|59I9} 253m33 254r21
+250i7 X{36|60I9} 253m36
+251i7 N{natural} 254m7 254m25 254r30 258r30
+273i7 P_Size{39|48I12} 279r10
+274i7 Y{36|59I9} 280m36 282r14
+275i7 X{36|60I9} 280m39 282r35
+276i7 L{36|62I12} 281m25 282r23
+277i7 C{36|64I12} 281m28 282r44
+301i7 P_Size{39|48I12} 307r10
+302i7 Y{36|59I9} 308m36 310r14
+303i7 X{36|60I9} 308m39 310r35
+304i7 L{36|62I12} 309m25 310r23
+305i7 C{36|64I12} 309m28 310r59
+

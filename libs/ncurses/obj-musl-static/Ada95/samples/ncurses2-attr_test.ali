@@ -1,0 +1,263 @@
+V "GNAT Lib v16"
+M P W=b
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U ncurses2.attr_test%b	ncurses2-attr_test.adb	9f782bbc NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ncurses2%s		ncurses2.ads		ncurses2.ali
+W ncurses2.util%s	ncurses2-util.adb	ncurses2-util.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.terminfo%s  terminal_interface-curses-terminfo.adb  terminal_interface-curses-terminfo.ali
+
+U ncurses2.attr_test%s	ncurses2-attr_test.ads	1961ca1c EE NE OO SU IL
+W ncurses2%s		ncurses2.ads		ncurses2.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chahan.adb		20260501130736 96cadc18 ada.characters.handling%b
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-stmaco.ads		20260501130736 4b1f2a0b ada.strings.maps.constants%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-tiinau.ads		20260501130736 3ca4fcff ada.text_io.integer_aux%s
+D a-tiinio.ads		20260501130736 76699c8f ada.text_io.integer_io%s
+D a-tiinio.adb		20260501130736 b79731f4 ada.text_io.integer_io%b
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D ncurses2.ads		20200202233434 49526333 ncurses2%s
+D ncurses2-attr_test.ads  20200202233434 5033a92f ncurses2.attr_test%s
+D ncurses2-attr_test.adb  20200202233434 30242f4c ncurses2.attr_test%b
+D ncurses2-util.ads	20200202233434 c110bb86 ncurses2.util%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-imageb.ads		20260501130736 3953e0e6 system.image_b%s
+D s-imagei.ads		20260501130736 11a376a2 system.image_i%s
+D s-imagew.ads		20260501130736 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20260501130736 0a8e1c41 system.img_biu%s
+D s-imgint.ads		20260501130736 86836590 system.img_int%s
+D s-imgllb.ads		20260501130736 47d0db9f system.img_llb%s
+D s-imglli.ads		20260501130736 29d6e8e4 system.img_lli%s
+D s-imglllb.ads		20260501130736 30212eed system.img_lllb%s
+D s-imgllli.ads		20260501130736 a5f1df83 system.img_llli%s
+D s-imglllw.ads		20260501130736 9e2b0560 system.img_lllw%s
+D s-imgllw.ads		20260501130736 bf9c9c15 system.img_llw%s
+D s-imgwiu.ads		20260501130736 912a95f2 system.img_wiu%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20260501130736 9081ae83 system.val_int%s
+D s-vallli.ads		20260501130736 b00d83a1 system.val_lli%s
+D s-valllli.ads		20260501130736 9b7fe923 system.val_llli%s
+D s-vallllu.ads		20260501130736 e493d873 system.val_lllu%s
+D s-valllu.ads		20260501130736 6c4ea24d system.val_llu%s
+D s-valuns.ads		20260501130736 c639d3c7 system.val_uns%s
+D s-valuei.ads		20260501130736 75953b98 system.value_i%s
+D s-valueu.ads		20260501130736 099f68d2 system.value_u%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-terminfo.ads  20200202233434 d0bfab30 terminal_interface.curses.terminfo%s
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [attr_test ncurses2 43 20 none]
+G r c none [attr_test ncurses2 43 20 none] [get_number terminal_interface__curses__terminfo 69 13 none]
+G r c none [attr_test ncurses2 43 20 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [attr_test ncurses2 43 20 none] [number_of_colors terminal_interface__curses 560 13 none]
+G r c none [attr_test ncurses2 43 20 none] [init_pair terminal_interface__curses 1883 14 none]
+G r c none [attr_test ncurses2 43 20 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [attr_test ncurses2 43 20 none] [set_background terminal_interface__curses 1279 14 none]
+G r c none [attr_test ncurses2 43 20 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [attr_test ncurses2 43 20 none] [add terminal_interface__curses 833 14 none]
+G r c none [attr_test ncurses2 43 20 none] [move_cursor terminal_interface__curses 682 14 none]
+G r c none [attr_test ncurses2 43 20 none] [add terminal_interface__curses 824 14 none]
+G r c none [attr_test ncurses2 43 20 none] [add terminal_interface__curses 699 14 none]
+G r c none [attr_test ncurses2 43 20 none] [switch_character_attribute terminal_interface__curses 977 14 none]
+G r c none [attr_test ncurses2 43 20 none] [set_character_attributes terminal_interface__curses 988 14 none]
+G r c none [attr_test ncurses2 43 20 none] [supported_attributes terminal_interface__curses 1843 13 none]
+G r c none [attr_test ncurses2 43 20 none] [get_background terminal_interface__curses 1296 13 none]
+G r c none [attr_test ncurses2 43 20 none] [refresh terminal_interface__curses 1216 14 none]
+G r c none [attr_test ncurses2 43 20 none] [getchar ncurses2__util 58 13 none]
+G r c none [attr_test ncurses2 43 20 none] [code_to_char ncurses2__util 74 13 none]
+G r c none [attr_test ncurses2 43 20 none] [ctoi ncurses2__util 75 13 none]
+G r c none [attr_test ncurses2 43 20 none] [ctrl ncurses2__util 54 13 none]
+G r c none [attr_test ncurses2 43 20 none] [touch terminal_interface__curses 1312 14 none]
+G r c none [attr_test ncurses2 43 20 none] [current_window terminal_interface__curses 651 13 none]
+G r c none [attr_test ncurses2 43 20 none] [end_windows terminal_interface__curses 666 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 28|47r6 48r6 203r22 215r22 244r10
+X 2 a-charac.ads
+16K13*Characters 18e19 28|47r10 244r14
+X 3 a-chahan.ads
+43K24*Handling 454e28 28|47w21 244r25
+121V13*Is_Digit{boolean} 28|244s34
+X 9 a-string.ads
+16K13*Strings 35e16 28|48r10 203r26 215r26
+X 10 a-strfix.ads
+49K21*Fixed 1390e22 28|48w18 203r34 215r34
+1342V14*"*"{string} 28|203s41 215s41
+X 19 a-tiinio.ads
+104U14*Put 28|343s16[29|68] 346s16[29|68]
+X 26 ncurses2.ads
+43K9*ncurses2 45e13 27|43r11 28|43r6 43r25 50r11 363r5
+X 27 ncurses2-attr_test.ads
+43U20*attr_test 26|43k9 28|50b20 363l14 363t23
+X 28 ncurses2-attr_test.adb
+52V14 subset{boolean} 52>22 52>29 64b13 87l8 87t14 220s20
+52r22 super{65|418R9} 64b21 67r10 68r10 69r10 70r10 71r10 72r10 73r10 74r10
+. 220r28
+52r29 sub{65|418R9} 64b28 67r33 68r34 69r37 70r29 71r37 72r38 73r47 74r43
+. 220r59
+53V14 intersect{boolean} 53>25 53>28 89b13 112l8 112t17 227s22
+53r25 b{65|418R9} 89b24 92r26 93r27 94r30 95r22 96r30 97r31 98r40 99r36
+53r28 a{65|418R9} 89b27 92r10 93r10 94r10 95r10 96r10 97r10 98r10 99r10
+54V14 has_A_COLOR{boolean} 54>27 114b13 121l8 121t19 222s31
+54r27 attr{65|488R9} 114b26 116r10
+55V14 show_attr{65|59I9} 55>25 56>25 57>25 58>25 59>25 124b13 235l8 235t17
+. 310s17 312s17 314s17 316s17 318s17 320s17 324s17 326s17
+55i25 row{65|59I9} 124b24 197r28 199r28 234r14
+56i25 skip{natural} 125b24 201r10 203r45 214r10 215r45
+57r25 attr{65|418R9} 126b24 206r46 208r44 212r46 218r10 220r66 227r61
+58a25 name{string} 127b24 198r19
+59b25 once{boolean} 128b24 205r10 211r10
+60U14 attr_getc 60=25 61=25 61=29 62<25 237b14 263l8 263t17 355s10
+60i25 skip{integer} 237b25 245m10
+61i25 fg{65|390I9} 238b25 253m41 253r48 254m41 254r48
+61i29 bg{65|390I9} 238b29 255m41 255r48 256m41 256r48
+62b25 result{boolean} 239b25 243m7 258m16 261m10
+130V16 make_record{65|418R9} 130>29 131b16 192l11 192t22 225s57
+130i29 n{integer} 131b29 150r15 151r18
+133r10 a{65|418R9} 153m13 158m13 163m13 168m13 173m13 178m13 183m13 188m13
+. 191r17
+134i10 m{integer} 150m10 152r17 155m10 157r17 160m10 162r17 165m10 167r17
+. 170m10 172r17 175m10 177r17 180m10 182r17 185m10 187r17
+135i10 rest{integer} 151m10 155r15 156m10 156r18 160r15 161m10 161r18 165r15
+. 166m10 166r18 170r15 171m10 171r18 175r15 176m10 176r18 180r15 181m10 181r18
+. 185r15 186m10 186r18
+194i7 ncv{integer} 222r19 225r70
+224r19 Color_Supported_Attributes{65|418R9} 227r33
+240i7 ch{65|67I9} 244r59 245r38 246r13 251r15
+241i7 nc{65|390I9} 253r60 254r60 255r60 256r60
+267a4 pairs(boolean) 276m4 297r23 299m19
+268i4 fg{65|390I9} 293r27 298r36 343r36 355m24 355r24
+268i8 bg{65|390I9} 293r66 298r40 346r36 355m28 355r28
+269i4 xmc{integer} 270r22 329r13
+270i4 skip{integer} 278r7 279m7 281r9
+271i4 n{integer} 281m4 310r33 312r33 314r33 316r33 318r33 320r33 324r33 326r33
+. 355m21 355r21
+283l4 loop 358e12
+284q7 declare 352e10
+285i10 row{65|59I9} 310m10 310r28 312m10 312r28 314m10 314r28 316m10 316r28
+. 318m10 318r28 320m10 320r28 324m10 324r28 326m10 326r28 328r31 334r31 337r31
+286r10 normal{65|488R9} 301m16 304r32
+292i21 pair{65|410I9} 297r30 298r30 299r26 301r32
+340a21 tmp1{string} 343m21 344r28 346m21 347r28
+354q7 declare 357e10
+354b15 result{boolean} 355m32 356r24
+X 29 ncurses2-util.ads
+46K18*util 28|43w15 43r34 29|77e18
+49r4*Blank2{65|488R9} 28|286r43 360r26
+54V13*CTRL{65|67I9} 28|246s18
+58V13*Getchar{65|67I9} 28|240s33
+68K12*Int_IO[19|46] 28|273r8
+74V13*Code_To_Char{character} 28|245s24
+75V13*ctoi{integer} 28|245s18
+X 52 s-stoele.ads
+92M9*Integer_Address
+X 64 terminal_interface.ads
+43K9*Terminal_Interface 28|44r6 44r37 45r6 46r5 64|48e23
+X 65 terminal_interface-curses.ads
+48K28*Curses 28|44w25 44r56 45r25 46r24 65|2103e30
+56M9*Window<52|92M9>
+59I9*Line_Position<integer> 28|55r32 59r48 124r31 128r47 285r16
+60I9*Column_Position<integer>
+67I9*Key_Code<integer> 28|240r21
+390I9*Color_Number<short_integer> 28|61r41 238r41 241r21 241r37 268r13 293r32
+397i4*Black{390I9} 28|268r29
+410I9*Color_Pair<short_integer> 28|116r24 267r19 292r37 293r15
+418R9*Character_Attribute_Set 28|52r35 53r32 57r32 64r34 89r31 126r31 130r49
+. 131r49 133r14 225r30 65|435e17
+420b10*Stand_Out{boolean} 28|67r16 67r37 92r12 92r28 153m15 310m37
+421b10*Under_Line{boolean} 28|68r16 68r38 93r12 93r29 158m15 316m37
+422b10*Reverse_Video{boolean} 28|69r16 69r41 94r12 94r32 163m15 312m37
+423b10*Blink{boolean} 28|70r16 70r33 95r12 95r24 168m15 320m37
+424b10*Dim_Character{boolean} 28|71r16 71r41 96r12 96r32 318m37
+425b10*Bold_Character{boolean} 28|72r16 72r42 97r12 97r33 173m15 314m37
+426b10*Protected_Character{boolean} 28|183m15
+427b10*Invisible_Character{boolean} 28|74r16 74r47 99r12 99r38 178m15 324m37
+428b10*Alternate_Character_Set{boolean} 28|73r16 73r51 98r12 98r42 188m15
+486r4*Normal_Video{418R9} 28|218r18 326r36
+488R9*Attributed_Character 28|54r34 114r33 286r19 65|493e17
+491i10*Color{410I9} 28|116r15 301m23
+560V13*Number_Of_Colors{natural} 28|241s51 293s46
+651V13*Current_Window{56M9} 28|248s17
+666U14*End_Windows 28|362s4
+682U14*Move_Cursor 28|197s7 199s7 328s10 334s10 337s10
+683i27 Line{59I9} 28|197r20 199r20 328r23 334r23 337r23
+684i27 Column{60I9} 28|197r33 199r33 328r36 334r40 337r40
+699U14*Add 28|200s7 217s7 345s16 348s16
+700e19 Ch{character} 28|200r12 217r12 345r21 348r21
+824U14*Add 28|198s7 203s10 210s7 215s10 221s16 228s22 330s13 332s13 335s10
+. 338s10 342s16 344s16 347s16
+825a19 Str{string} 28|198r12 203r15 210r12 215r15 221r21 228r27 330r18 332r18
+. 335r15 338r15 342r21 344r21 347r21
+833U14*Add 28|307s10
+834i19 Line{59I9} 28|307r15
+835i19 Column{60I9} 28|307r26
+836a19 Str{string} 28|308r15
+977U14*Switch_Character_Attribute 28|206s10 212s10
+979r7 Attr{418R9} 28|206r38 212r38
+980b7 On{boolean} 28|212r52
+988U14*Set_Character_Attributes 28|208s10
+990r7 Attr{418R9} 28|208r36
+1216U14*Refresh 28|249s10 351s10
+1245U14*Erase 28|305s10 361s4
+1279U14*Set_Background 28|304s10 360s4
+1281r7 Ch{488R9} 28|304r26 360r20
+1296V13*Get_Background{488R9} 28|222s44
+1312U14*Touch 28|247s10 248s10
+1843V13*Supported_Attributes{418R9} 28|220s37
+1883U14*Init_Pair 28|298s19
+1897V13*Has_Colors{boolean} 28|250s13 291s13 339s13
+X 68 terminal_interface-curses-terminfo.ads
+45K35*Terminfo 28|45w32 46r31 68|82e39
+69V13*Get_Number{integer} 28|194s33 269s30
+
