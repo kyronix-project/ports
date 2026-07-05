@@ -1,0 +1,83 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U sample.helpers%b	sample-helpers.adb	856c399a NE OO PK
+W sample%s		sample.adb		sample.ali
+W sample.explanation%s	sample-explanation.adb	sample-explanation.ali
+
+U sample.helpers%s	sample-helpers.ads	9b9ab4f9 EE NE OO PK
+W sample%s		sample.adb		sample.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-explanation.ads  20200202233434 7883ef84 sample.explanation%s
+D sample-helpers.ads	20200202233434 f14bffc4 sample.helpers%s
+D sample-helpers.adb	20200202233434 0ca429da sample.helpers%b
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [window_title sample__helpers 49 14 none]
+G c Z s b [not_implemented sample__helpers 53 14 none]
+G r c none [window_title sample__helpers 49 14 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [window_title sample__helpers 49 14 none] [add terminal_interface__curses 833 14 none]
+G r c none [not_implemented sample__helpers 53 14 none] [explain sample__explanation 48 14 none]
+X 14 sample.ads
+42K9*Sample 44e11 16|47r9 55r5 17|43r6 43r30 48r14 69r5
+X 15 sample-explanation.ads
+46K16*Explanation 60e23 17|43w13 43r37
+48U14*Explain 17|66s7
+X 16 sample-helpers.ads
+47K16*Helpers 14|42k9 16|55l12 55e19 17|48b21 69l12 69t19
+49U14*Window_Title 49>28 50>28 17|50b14 62l8 62t20
+49m28 Win{27|56M9} 17|50b28 57r17 61r12
+50a28 Title{string} 17|51b28 58r10 59r26 61r25
+53U14*Not_Implemented 17|64b14 67l8 67t23
+X 17 sample-helpers.adb
+53i7 Height{27|62I12} 57m22
+54i7 Width{27|64I12} 57m30 58r25 59r18
+55i7 Pos{27|60I9} 59m10 61r20
+X 23 s-stoele.ads
+92M9*Integer_Address
+X 26 terminal_interface.ads
+43K9*Terminal_Interface 16|42r6 42r37 26|48e23
+X 27 terminal_interface-curses.ads
+48K28*Curses 16|42w25 42r56 27|2103e30
+56M9*Window<23|92M9> 16|49r36 17|50r36
+59I9*Line_Position<integer>
+60I9*Column_Position<integer> 17|55r16
+62I12*Line_Count{59I9} 17|53r16
+64I12*Column_Count{60I9} 17|54r16
+833U14*Add 17|61s7
+1399U14*Get_Size 17|57s7
+

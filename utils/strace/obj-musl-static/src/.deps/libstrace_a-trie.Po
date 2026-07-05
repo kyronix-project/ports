@@ -1,0 +1,29 @@
+libstrace_a-trie.o: ../../src/trie.c config.h \
+ /usr/lib/musl/include/stdlib.h /usr/lib/musl/include/features.h \
+ /usr/lib/musl/include/bits/alltypes.h /usr/lib/musl/include/alloca.h \
+ /usr/lib/musl/include/stdio.h ../../src/trie.h \
+ /usr/lib/musl/include/stdbool.h /usr/lib/musl/include/stdint.h \
+ /usr/lib/musl/include/bits/stdint.h ../../src/macros.h \
+ /usr/lib/musl/include/stddef.h /usr/lib/musl/include/sys/types.h \
+ /usr/lib/musl/include/endian.h /usr/lib/musl/include/sys/select.h \
+ ../../src/gcc_compat.h ../../src/static_assert.h \
+ /usr/lib/musl/include/assert.h ../../src/xmalloc.h
+config.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/stdio.h:
+../../src/trie.h:
+/usr/lib/musl/include/stdbool.h:
+/usr/lib/musl/include/stdint.h:
+/usr/lib/musl/include/bits/stdint.h:
+../../src/macros.h:
+/usr/lib/musl/include/stddef.h:
+/usr/lib/musl/include/sys/types.h:
+/usr/lib/musl/include/endian.h:
+/usr/lib/musl/include/sys/select.h:
+../../src/gcc_compat.h:
+../../src/static_assert.h:
+/usr/lib/musl/include/assert.h:
+../../src/xmalloc.h:

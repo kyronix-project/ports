@@ -1,0 +1,275 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U sample.header_handler%b  sample-header_handler.adb  ef72ac7f NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z ada.text_io.integer_aux%s
+Z ada.text_io.integer_io%s
+W sample%s		sample.adb		sample.ali
+W sample.manifest%s	sample-manifest.ads	sample-manifest.ali
+W system%s		system.ads		system.ali
+W system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
+W system.img_int%s	s-imgint.ads		s-imgint.ali
+W system.img_llb%s	s-imgllb.ads		s-imgllb.ali
+W system.img_lli%s	s-imglli.ads		s-imglli.ali
+W system.img_lllb%s	s-imglllb.ads		s-imglllb.ali
+W system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+W system.img_lllw%s	s-imglllw.ads		s-imglllw.ali
+W system.img_llw%s	s-imgllw.ads		s-imgllw.ali
+W system.img_wiu%s	s-imgwiu.ads		s-imgwiu.ali
+W system.val_int%s	s-valint.ads		s-valint.ali
+W system.val_lli%s	s-vallli.ads		s-vallli.ali
+W system.val_llli%s	s-valllli.ads		s-valllli.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.adb  terminal_interface-curses-text_io.ali
+Z terminal_interface.curses.text_io.aux%s  terminal_interface-curses-text_io-aux.adb  terminal_interface-curses-text_io-aux.ali
+W terminal_interface.curses.text_io.integer_io%s  terminal_interface-curses-text_io-integer_io.adb  terminal_interface-curses-text_io-integer_io.ali  EA
+
+U sample.header_handler%s  sample-header_handler.ads  b317e264 EE NE OO PK
+W sample%s		sample.adb		sample.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-calend.ads		20260501130736 bf7f3cc9 ada.calendar%s
+D a-calend.adb		20260501130736 94844aff ada.calendar%b
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-tigeau.ads		20260501130736 e643cdf3 ada.text_io.generic_aux%s
+D a-tiinau.ads		20260501130736 3ca4fcff ada.text_io.integer_aux%s
+D a-tiinau.adb		20260501130736 199a0c7a ada.text_io.integer_aux%b
+D a-tiinio.ads		20260501130736 76699c8f ada.text_io.integer_io%s
+D a-tiinio.adb		20260501130736 b79731f4 ada.text_io.integer_io%b
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-header_handler.ads  20200202233434 d9c6a959 sample.header_handler%s
+D sample-header_handler.adb  20200202233434 13e1d983 sample.header_handler%b
+D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-imageb.ads		20260501130736 3953e0e6 system.image_b%s
+D s-imagei.ads		20260501130736 11a376a2 system.image_i%s
+D s-imagew.ads		20260501130736 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20260501130736 0a8e1c41 system.img_biu%s
+D s-imgint.ads		20260501130736 86836590 system.img_int%s
+D s-imgllb.ads		20260501130736 47d0db9f system.img_llb%s
+D s-imglli.ads		20260501130736 29d6e8e4 system.img_lli%s
+D s-imglllb.ads		20260501130736 30212eed system.img_lllb%s
+D s-imgllli.ads		20260501130736 a5f1df83 system.img_llli%s
+D s-imglllw.ads		20260501130736 9e2b0560 system.img_lllw%s
+D s-imgllw.ads		20260501130736 bf9c9c15 system.img_llw%s
+D s-imgwiu.ads		20260501130736 912a95f2 system.img_wiu%s
+D s-os_lib.ads		20260501130736 66ffd2a3 system.os_lib%s
+D s-osprim.ads		20260501130736 07fd65f6 system.os_primitives%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-string.ads		20260501130736 582aac7d system.strings%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20260501130736 9081ae83 system.val_int%s
+D s-vallli.ads		20260501130736 b00d83a1 system.val_lli%s
+D s-valllli.ads		20260501130736 9b7fe923 system.val_llli%s
+D s-vallllu.ads		20260501130736 e493d873 system.val_lllu%s
+D s-valllu.ads		20260501130736 6c4ea24d system.val_llu%s
+D s-valuns.ads		20260501130736 c639d3c7 system.val_uns%s
+D s-valuei.ads		20260501130736 75953b98 system.value_i%s
+D s-valueu.ads		20260501130736 099f68d2 system.value_u%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-text_io.ads  20200202233434 821d74f8 terminal_interface.curses.text_io%s
+D terminal_interface-curses-text_io-aux.ads  20200202233434 462e84fb terminal_interface.curses.text_io.aux%s
+D terminal_interface-curses-text_io-integer_io.ads  20200202233434 cec5743c terminal_interface.curses.text_io.integer_io%s
+D terminal_interface-curses-text_io-integer_io.adb  20200202233434 3470318a terminal_interface.curses.text_io.integer_io%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c b b b [b sample__header_handler 51 1 none]
+G c Z s b [init_header_handler sample__header_handler 48 14 none]
+G c Z s b [update_header_window sample__header_handler 51 14 none]
+G c Z b b [put sample__header_handler__int_io 50 14 53_4]
+G c Z b b [put sample__header_handler__int_io 56 14 53_4]
+G c Z b b [get sample__header_handler__int_io__iio 53 14 48_4_53_4]
+G c Z b b [get sample__header_handler__int_io__iio 62 14 48_4_53_4]
+G c Z b b [put sample__header_handler__int_io__iio 72 14 48_4_53_4]
+G c Z b b [put sample__header_handler__int_io__iio 85 14 48_4_53_4]
+G c Z b b [get sample__header_handler__int_io__iio 96 14 48_4_53_4]
+G c Z b b [put sample__header_handler__int_io__iio 104 14 48_4_53_4]
+G c Z b b [get sample__header_handler__int_io__iio__aux_int 55 14 48_4_48_4_53_4]
+G c Z b b [gets sample__header_handler__int_io__iio__aux_int 60 14 48_4_48_4_53_4]
+G c Z b b [put sample__header_handler__int_io__iio__aux_int 65 14 48_4_48_4_53_4]
+G c Z b b [puts sample__header_handler__int_io__iio__aux_int 71 14 48_4_48_4_53_4]
+G c Z b b [get sample__header_handler__int_io__iio__aux_lli 55 14 56_4_48_4_53_4]
+G c Z b b [gets sample__header_handler__int_io__iio__aux_lli 60 14 56_4_48_4_53_4]
+G c Z b b [put sample__header_handler__int_io__iio__aux_lli 65 14 56_4_48_4_53_4]
+G c Z b b [puts sample__header_handler__int_io__iio__aux_lli 71 14 56_4_48_4_53_4]
+G c Z b b [get sample__header_handler__int_io__iio__aux_llli 55 14 64_4_48_4_53_4]
+G c Z b b [gets sample__header_handler__int_io__iio__aux_llli 60 14 64_4_48_4_53_4]
+G c Z b b [put sample__header_handler__int_io__iio__aux_llli 65 14 64_4_48_4_53_4]
+G c Z b b [puts sample__header_handler__int_io__iio__aux_llli 71 14 64_4_48_4_53_4]
+G c Z b b [init_header_window sample__header_handler 67 13 none]
+G c Z b b [internal_update_header_window sample__header_handler 71 14 none]
+G c Z b b [n_out sample__header_handler 81 14 none]
+G r i none [b sample__header_handler 51 1 none] [integer_io terminal_interface__curses__text_io 45 43 none]
+G r c none [init_header_handler sample__header_handler 48 14 none] [rip_off_lines terminal_interface__curses 1960 14 none]
+G r c none [update_header_window sample__header_handler 51 14 none] [move_cursor terminal_interface__curses 682 14 none]
+G r c none [update_header_window sample__header_handler 51 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [update_header_window sample__header_handler 51 14 none] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [update_header_window sample__header_handler 51 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [update_header_window sample__header_handler 51 14 none] [refresh_without_update terminal_interface__curses 1223 14 none]
+G r c none [update_header_window sample__header_handler 51 14 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [put sample__header_handler__int_io 50 14 53_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__header_handler__int_io 56 14 53_4] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [put sample__header_handler__int_io 56 14 53_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [set_background terminal_interface__curses 1279 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [set_character_attributes terminal_interface__curses 988 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [leave_cursor_after_update terminal_interface__curses 1173 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [add terminal_interface__curses 833 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [move_cursor terminal_interface__curses 682 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [add terminal_interface__curses 699 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [add terminal_interface__curses 824 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [refresh_without_update terminal_interface__curses 1223 14 none]
+G r c none [init_header_window sample__header_handler 67 13 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [internal_update_header_window sample__header_handler 71 14 none] [move_cursor terminal_interface__curses 682 14 none]
+G r c none [internal_update_header_window sample__header_handler 71 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [internal_update_header_window sample__header_handler 71 14 none] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [internal_update_header_window sample__header_handler 71 14 none] [add terminal_interface__curses 824 14 none]
+G r c none [internal_update_header_window sample__header_handler 71 14 none] [refresh_without_update terminal_interface__curses 1223 14 none]
+G r c none [internal_update_header_window sample__header_handler 71 14 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [n_out sample__header_handler 81 14 none] [add terminal_interface__curses 699 14 none]
+G r c none [n_out sample__header_handler 81 14 none] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 31|43r6 43r24
+X 2 a-calend.ads
+36K13*Calendar 440e17 31|43w10 43r28
+42I9*Time<226I9> 31|117r25
+49I12*Month_Number{integer} 31|101r17 101r39 121r25
+50I12*Day_Number{integer} 31|122r25
+54O12*Day_Duration{duration}
+56V13*Clock{42I9} 31|117s41
+65V13*Month{49I12} 31|121s41
+66V13*Day{50I12} 31|122s41
+67V13*Seconds{54O12} 31|118s50
+226I9 Time_Rep<long_long_integer>
+X 29 sample.ads
+42K9*Sample 44e11 30|46r9 54r5 31|45r6 45r27 51r14 186r5
+X 30 sample-header_handler.ads
+46K16*Header_Handler 29|42k9 30|54l12 54e26 31|51b21 186l12 186t26
+48U14*Init_Header_Handler 31|75b14 79l8 79t27
+51U14*Update_Header_Window 31|150b14 154l8 154t28
+X 31 sample-header_handler.adb
+53K12 Int_IO[76|45] 55r8
+57m4 Header_Window{71|56M9} 89r15 90r15 92r15 124r10 130r26 131r29 132r18
+. 133r26 134r32 140r37 162m7
+59i4 Display_Hour{integer} 126r28 137m13
+60i4 Display_Min{integer} 125r23 136m13
+61i4 Display_Day{integer} 127r20 139m13
+62i4 Display_Month{integer} 128r20 138m13
+67V13 Init_Header_Window{integer} 67>33 68>33 69r26 78r25 156b13 184l8 184t26
+67m33 Win{71|56M9} 156b33 162r24 163r10 165r36 169r48 172r20 174r37 176r15
+68i33 Columns{71|64I12} 157b33 175r17
+71U14 Internal_Update_Header_Window 71>45 98b14 146l8 146t37 153s7 179s10
+71b45 Do_Update{boolean} 98b45 141r16
+81U14 N_Out 81>21 85b14 94l8 94t13 131s13 134s13 135s13
+81i21 N{integer} 85b21 88r10 90r30 92r30
+100A12 Month_Name_Array(string)<integer> 103r30
+103a7 Month_Names{100A12} 132r33
+117i7 Now{2|42I9} 118r59 121r48 122r46
+118i7 Sec{integer} 119r41 120r42
+119i7 Hour{integer} 120r48 126r20 134r20 137r30
+120i7 Minute{integer} 125r13 135r20 136r30
+121i7 Mon{2|49I12} 128r37 132r46 138r30
+122i7 D{2|50I12} 127r35 131r20 139r30
+159a7 Title{string} 175r44 176r32
+160i7 Pos{71|60I9} 175m10 176r23
+X 32 sample-manifest.ads
+44K16*Manifest 31|45w13 45r34 32|68e20
+66i4*Header_Color{71|412I12} 31|167r46 171r48
+X 57 s-stoele.ads
+92M9*Integer_Address
+X 70 terminal_interface.ads
+43K9*Terminal_Interface 30|42r6 42r37 31|44r6 54r6 70|48e23
+X 71 terminal_interface-curses.ads
+48K28*Curses 30|42w25 42r56 31|44r25 54r25 71|2103e30
+56M9*Window<57|92M9> 31|57r20 67r43 156r43
+57m4*Null_Window{56M9} 31|57r30 124r27 163r17
+60I9*Column_Position<integer> 31|160r16 175r27
+64I12*Column_Count{60I9} 31|68r43 157r43
+410I9*Color_Pair<short_integer>
+412I12*Redefinable_Color_Pair{410I9}
+486r4*Normal_Video{418R9} 31|168r46 170r48
+490r10*Attr{418R9} 31|168m37
+491i10*Color{410I9} 31|167m37
+492e10*Ch{character} 31|166m37
+682U14*Move_Cursor 31|130s13 133s13
+699U14*Add 31|89s10 131s24 134s27
+824U14*Add 31|132s13
+833U14*Add 31|176s10
+988U14*Set_Character_Attributes 31|169s13
+989m7 Win{56M9} 31|169r39
+990r7 Attr{418R9} 31|170r39
+991i7 Color{410I9} 31|171r39
+1173U14*Leave_Cursor_After_Update 31|174s10
+1211U14*Update_Screen 31|142s16
+1223U14*Refresh_Without_Update 31|140s13
+1245U14*Erase 31|172s13
+1279U14*Set_Background 31|165s13
+1280m7 Win{56M9} 31|165r29
+1281r7 Ch{488R9} 31|166r29
+1897V13*Has_Colors{boolean} 31|164s13
+1960U14*Rip_Off_Lines 31|78s7
+X 74 terminal_interface-curses-text_io.ads
+45K35*Text_IO 31|44r32 54r32 74|137e38
+X 76 terminal_interface-curses-text_io-integer_io.ads
+45k43*Integer_IO 31|44w40 47r57 54r40 76|64e49
+50U14 Put 31|90s10[53] 92s10[53]
+

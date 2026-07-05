@@ -1,0 +1,109 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P UA ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U status%b		status.adb		b730bf20 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.atomic_primitives%s  s-atopri.adb	s-atopri.ali
+Z system.interrupts%s	s-interr.adb		s-interr.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+U status%s		status.ads		2d524056 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+W ada.interrupts.names%s  a-intnam.ads		a-intnam.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.interrupts%s	s-interr.adb		s-interr.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-finali.ads		20260501130736 099c16e4 ada.finalization%s
+D a-interr.ads		20260501130736 bdf68b51 ada.interrupts%s
+D a-intnam.ads		20260501130736 7ffe29d4 ada.interrupts.names%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-taside.ads		20260501130736 c0a7c8d8 ada.task_identification%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D status.ads		20200202233434 52ac6982 status%s
+D status.adb		20200202233434 e59cd6a2 status%b
+D system.ads		20260501130736 e2b7c99d system%s
+D s-atacco.ads		20260501130736 5868e3ba system.address_to_access_conversions%s
+D s-atopri.ads		20260501130736 e19c1d89 system.atomic_primitives%s
+D s-c_time.ads		20260501130736 e502d0c0 system.c_time%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-finpri.ads		20260501130736 5970d55a system.finalization_primitives%s
+D s-finpri.adb		20260501130736 02c85f69 system.finalization_primitives%b
+D s-finroo.ads		20260501130736 0a7c3ed4 system.finalization_root%s
+D s-interr.ads		20260501130736 eb5619e8 system.interrupts%s
+D s-linux.ads		20260501130736 96312dab system.linux%s
+D s-multip.ads		20260501130736 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20260501130736 8f610562 system.os_constants%s
+D s-osinte.ads		20260501130736 bfc41750 system.os_interface%s
+D s-oslock.ads		20260501130736 13fa6b78 system.os_locks%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20260501130736 f470ae2d system.stack_usage%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-tasinf.ads		20260501130736 528dde74 system.task_info%s
+D s-taspri.ads		20260501130736 4fd5ef41 system.task_primitives%s
+D s-taskin.ads		20260501130736 e3b5765b system.tasking%s
+D s-taprob.ads		20260501130736 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20260501130736 60ad3dae system.tasking.protected_objects.entries%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [stop status__process 54 17 none]
+G c Z s b [continue status__process 55 16 none]
+G c Z s b [process__stopN status 54 7 none]
+G c Z s b [process__stopP status 54 7 none]
+G c Z s b [process__continueN status 55 7 none]
+G c Z s b [process__continueP status 55 7 none]
+G c Z s s [processTVDI status 53 4 none]
+G c Z s s [processTVDF status 53 4 none]
+G c Z s s [processTVIP status 53 4 none]
+X 1 ada.ads
+18K9*Ada 22e8 15|45r6 56r36
+X 4 a-interr.ads
+40K13*Interrupts 100e19 15|45r10 56r40
+42I9*Interrupt_ID<25|64I9>
+X 5 a-intnam.ads
+48K24*Names 166e25 15|45w21 56r51
+61i4*SIGINT{4|42I9} 15|56r57
+X 15 status.ads
+47K9*Status 61l5 61e11 16|45b14 58l5 58t11
+53w14*Process 16|47b19 56l8 56t15
+54U17 Stop 56r30 16|48b17 51l11 51t15
+55V16 Continue{boolean} 16|52b16 55l11 55t19
+58b7 Done{boolean} 16|50r10 54r21
+X 25 s-interr.ads
+64I9*Ada_Interrupt_ID<short_short_integer>
+X 36 s-stausa.ads
+206U14*Initialize 207i<c,__gnat_stack_usage_initialize>22
+265U14*Output_Results 269i<c,__gnat_stack_usage_output_results>22
+

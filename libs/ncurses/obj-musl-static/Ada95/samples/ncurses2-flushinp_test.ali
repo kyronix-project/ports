@@ -1,0 +1,160 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+
+U ncurses2.flushinp_test%b  ncurses2-flushinp_test.adb  6eccd601 NE OO PU SU IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ncurses2%s		ncurses2.ads		ncurses2.ali
+W ncurses2.util%s	ncurses2-util.adb	ncurses2-util.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+U ncurses2.flushinp_test%s  ncurses2-flushinp_test.ads  5cf35435 EE NE OO SU IL
+W ncurses2%s		ncurses2.ads		ncurses2.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-tiinio.ads		20260501130736 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D ncurses2.ads		20200202233434 49526333 ncurses2%s
+D ncurses2-flushinp_test.ads  20200202233434 c25c7b42 ncurses2.flushinp_test%s
+D ncurses2-flushinp_test.adb  20200202233434 ba7d5a81 ncurses2.flushinp_test%b
+D ncurses2-util.ads	20200202233434 c110bb86 ncurses2.util%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20260501130736 11a376a2 system.image_i%s
+D s-imgint.ads		20260501130736 86836590 system.img_int%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [flushinp_test ncurses2 44 20 none]
+G r c none [flushinp_test ncurses2 44 20 none] [clear terminal_interface__curses 1251 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [get_size terminal_interface__curses 1399 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [get_window_position terminal_interface__curses 1407 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [sub_window terminal_interface__curses 765 13 none]
+G r c none [flushinp_test ncurses2 44 20 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [flushinp_test ncurses2 44 20 none] [init_pair terminal_interface__curses 1883 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [change_background terminal_interface__curses 1287 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [set_character_attributes terminal_interface__curses 988 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [box terminal_interface__curses 891 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [add terminal_interface__curses 833 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [refresh terminal_interface__curses 1216 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [set_cbreak_mode terminal_interface__curses 1057 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [move_cursor terminal_interface__curses 682 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [add terminal_interface__curses 824 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [nap_milli_seconds terminal_interface__curses 1977 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [flush_input terminal_interface__curses 1809 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [delete terminal_interface__curses 759 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [flash_screen terminal_interface__curses 1046 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [set_echo_mode terminal_interface__curses 1069 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [getchar ncurses2__util 60 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [delete_character terminal_interface__curses 1505 14 none]
+G r c none [flushinp_test ncurses2 44 20 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [flushinp_test ncurses2 44 20 none] [clear_to_end_of_line terminal_interface__curses 1265 14 none]
+X 22 ncurses2.ads
+43K9*ncurses2 45e13 23|44r11 24|43r6 43r25 45r11 136r5
+X 23 ncurses2-flushinp_test.ads
+44U20*flushinp_test 22|43k9 23|44>35 24|45b20 136l14 136t27
+44m35 win{43|56M9} 24|45b35 64r11 65r14 66r25 69r26 82r13 85r9 87r9 88r9
+. 91r13 103r11 105r13 108r9 110r9 112r9 114r9 115r17 116r13 118r13 120r9
+. 122r14 124r17 125r22 126r13 127r17 129r9 132r14
+X 24 ncurses2-flushinp_test.adb
+47U14 Continue 47>24 49b14 56l8 56t16 122s4 132s4
+47m24 win{43|56M9} 49b24 52r20 53r12 54r16 55r16
+58i4 h{43|59I9} 65m19 68r10 69r44
+58i7 by{43|59I9} 66m30 69r39
+58i11 sh{43|59I9} 68m4 69r31 69r48
+59i4 w{43|60I9} 65m22 67r10 69r61
+59i7 bx{43|60I9} 66m34 69r56
+59i11 sw{43|60I9} 67m4 69r35 69r65
+61m4 subWin{43|56M9} 69m4 73r26 78r30 80r9 81r9 94r20 95r12 96r12 97r16 102m12
+. 102r12
+93i8 i{integer} 96r42
+93l20 loop 100e12
+X 25 ncurses2-util.ads
+46K18*util 24|43w15 43r34 25|77e18
+60U14*Getchar 24|55s7 118s4
+X 38 s-stoele.ads
+92M9*Integer_Address
+X 42 terminal_interface.ads
+43K9*Terminal_Interface 23|42r6 44r41 24|42r6 42r37 42|48e23
+X 43 terminal_interface-curses.ads
+48K28*Curses 23|42w25 44r60 24|42w25 42r56 43|2103e30
+56M9*Window<38|92M9> 23|44r67 24|45r41 47r30 49r30 61r13
+59I9*Line_Position<integer> 24|58r16
+60I9*Column_Position<integer> 24|59r16
+390I9*Color_Number<short_integer>
+401i4*Blue{390I9} 24|72r27
+403i4*Cyan{390I9} 24|72r21
+410I9*Color_Pair<short_integer>
+425b10*Bold_Character{boolean} 24|79m31
+486r4*Normal_Video{418R9} 24|75r56
+488R9*Attributed_Character 24|74r26 43|493e17
+490r10*Attr{418R9} 24|75m48
+491i10*Color{410I9} 24|74m59
+492e10*Ch{character} 24|74m48
+682U14*Move_Cursor 24|52s7 94s7 115s4 124s4 127s4
+759U14*Delete 24|102s4
+765V13*Sub_Window{56M9} 24|69s14
+824U14*Add 24|95s7 96s7 129s4
+825a19 Str{string} 24|95r20 96r20
+833U14*Add 24|53s7 81s4 85s4 87s4 88s4 108s4 110s4 112s4 114s4 120s4
+836a19 Str{string} 24|109r9
+891U14*Box 24|80s4
+988U14*Set_Character_Attributes 24|78s4
+1046U14*Flash_Screen 24|104s4
+1057U14*Set_Cbreak_Mode 24|84s4 134s4
+1069U14*Set_Echo_Mode 24|51s7 117s4
+1216U14*Refresh 24|54s7 82s4 91s4 97s7 105s4 116s4 126s4
+1245U14*Erase 24|103s4
+1251U14*Clear 24|64s4
+1265U14*Clear_To_End_Of_Line 24|128s4
+1287U14*Change_Background 24|73s7
+1399U14*Get_Size 24|65s4
+1407U14*Get_Window_Position 24|66s4
+1505U14*Delete_Character 24|125s4
+1809U14*Flush_Input 24|99s7 119s4
+1883U14*Init_Pair 24|72s7
+1897V13*Has_Colors{boolean} 24|71s7
+1977U14*Nap_Milli_Seconds 24|98s7 106s4
+

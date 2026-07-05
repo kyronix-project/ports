@@ -1,0 +1,45 @@
+V "GNAT Lib v16"
+M P W=b
+A -O2
+A -gnatp
+A -gnatn
+P ZX
+
+RN
+
+U ncurses%b		ncurses.adb		f435a27f NE OO SU IL
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W ncurses2%s		ncurses2.ads		ncurses2.ali
+W ncurses2.m%s		ncurses2-m.adb		ncurses2-m.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20260501130736 b5988c27 gnat%s
+D g-os_lib.ads		20260501130736 0db74523 gnat.os_lib%s
+D ncurses.adb		20200202233434 145e8ec9 ncurses%b
+D ncurses2.ads		20200202233434 49526333 ncurses2%s
+D ncurses2-m.ads	20200202233434 eddc6995 ncurses2.m%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-os_lib.ads		20260501130736 66ffd2a3 system.os_lib%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-string.ads		20260501130736 582aac7d system.strings%s
+G a e
+G c Z b b [ncurses standard 45 11 none]
+G r c none [ncurses standard 45 11 none] [main ncurses2__m 43 13 none]
+X 4 gnat.ads
+40K9*GNAT 63e9 6|43r6 43r23
+X 5 g-os_lib.ads
+51K14*OS_Lib=51:36 6|43w11 43r28
+X 6 ncurses.adb
+45U11*ncurses 45b11 48l5 48t12
+X 7 ncurses2.ads
+43K9*ncurses2 6|42r6 42r22 7|45e13
+X 8 ncurses2-m.ads
+42K18*m 6|42w15 42r31 8|44e15
+43V13*main{integer} 6|47s13
+X 11 s-os_lib.ads
+1055U14*OS_Exit 6|47s4
+

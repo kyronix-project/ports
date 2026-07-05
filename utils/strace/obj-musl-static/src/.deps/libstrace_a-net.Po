@@ -1,0 +1,262 @@
+libstrace_a-net.o: ../../src/net.c ../../src/defs.h config.h \
+ /usr/lib/musl/include/features.h /usr/lib/musl/include/stdbool.h \
+ /usr/lib/musl/include/stdint.h /usr/lib/musl/include/bits/alltypes.h \
+ /usr/lib/musl/include/bits/stdint.h /usr/lib/musl/include/inttypes.h \
+ /usr/lib/musl/include/sys/types.h /usr/lib/musl/include/endian.h \
+ /usr/lib/musl/include/sys/select.h /usr/lib/musl/include/stddef.h \
+ /usr/lib/musl/include/unistd.h /usr/lib/musl/include/stdlib.h \
+ /usr/lib/musl/include/alloca.h /usr/lib/musl/include/stdio.h \
+ /usr/lib/musl/include/string.h /usr/lib/musl/include/strings.h \
+ /usr/lib/musl/include/errno.h /usr/lib/musl/include/bits/errno.h \
+ /usr/lib/musl/include/time.h /usr/lib/musl/include/sys/time.h \
+ ../../src/arch_defs.h ../../src/linux/x86_64/arch_defs_.h \
+ ../../src/error_prints.h ../../src/gcc_compat.h ../../src/kernel_types.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h ../../src/list.h \
+ ../../src/macros.h ../../src/static_assert.h \
+ /usr/lib/musl/include/assert.h ../../src/mpers_type.h \
+ ../../src/number_set.h ../../src/string_to_uint.h \
+ /usr/lib/musl/include/limits.h /usr/lib/musl/include/bits/limits.h \
+ ../../src/sysent.h ../../src/xmalloc.h ../../src/xlat.h printers.h \
+ ../../src/print_fields.h ../../src/color.h ../../src/syscall.h \
+ ../../src/syscall_dummy.h sys_func.h /usr/lib/musl/include/sys/stat.h \
+ /usr/lib/musl/include/bits/stat.h /usr/lib/musl/include/sys/socket.h \
+ /usr/lib/musl/include/bits/socket.h /usr/lib/musl/include/sys/uio.h \
+ /usr/lib/musl/include/sys/un.h /usr/lib/musl/include/netinet/in.h \
+ /usr/lib/musl/include/netinet/udp.h /usr/lib/musl/include/arpa/inet.h \
+ /usr/lib/musl/include/net/if.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ ../../bundled/linux/include/uapi/linux/ip_vs.h \
+ ../../bundled/linux/include/uapi/linux/types.h \
+ /usr/include/linux/posix_types.h \
+ ../../bundled/linux/include/uapi/linux/stddef.h ../../src/netlink.h \
+ ../../bundled/linux/include/uapi/linux/netlink.h \
+ ../../bundled/linux/include/uapi/linux/const.h \
+ ../../bundled/linux/include/uapi/linux/socket.h \
+ /usr/include/linux/netfilter_arp/arp_tables.h /usr/include/linux/if.h \
+ ../../bundled/linux/include/uapi/linux/libc-compat.h \
+ /usr/include/linux/hdlc/ioctl.h /usr/include/linux/netfilter_arp.h \
+ /usr/include/linux/netfilter.h \
+ ../../bundled/linux/include/uapi/linux/in.h /usr/include/asm/byteorder.h \
+ /usr/include/linux/byteorder/little_endian.h /usr/include/linux/swab.h \
+ /usr/include/asm/swab.h ../../bundled/linux/include/uapi/linux/in6.h \
+ /usr/include/linux/netfilter/x_tables.h \
+ /usr/include/linux/netfilter_bridge/ebtables.h \
+ /usr/include/linux/netfilter_bridge.h \
+ /usr/lib/musl/include/netinet/if_ether.h \
+ /usr/lib/musl/include/net/ethernet.h /usr/lib/musl/include/net/if_arp.h \
+ ../../bundled/linux/include/uapi/linux/if_ether.h \
+ /usr/include/linux/if_vlan.h /usr/include/linux/if_pppox.h \
+ /usr/include/linux/if_pppol2tp.h /usr/include/linux/l2tp.h \
+ ../../bundled/linux/include/uapi/linux/typelimits.h \
+ /usr/include/linux/netfilter_ipv4/ip_tables.h \
+ /usr/include/linux/netfilter_ipv4.h \
+ /usr/include/linux/netfilter/xt_tcpudp.h \
+ /usr/include/linux/netfilter_ipv6/ip6_tables.h \
+ /usr/include/linux/netfilter_ipv6.h /usr/include/linux/if_packet.h \
+ /usr/include/linux/icmp.h ../../bundled/linux/include/uapi/linux/tcp.h \
+ ../../bundled/linux/include/uapi/linux/tipc.h \
+ /usr/include/linux/sockios.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ ../../bundled/linux/include/uapi/linux/vm_sockets.h \
+ ../../src/xlat/socktypes.h ../../src/gcc_compat.h \
+ ../../src/static_assert.h ../../src/xlat/sock_type_flags.h \
+ ../../src/xlat/socketlayers.h ../../src/xlat/inet_protocols.h \
+ ../../src/xlat/addrfams.h ../../src/xlat/ethernet_protocols.h \
+ ../../src/xlat/ax25_protocols.h ../../src/xlat/irda_protocols.h \
+ ../../src/xlat/can_protocols.h ../../src/xlat/bt_protocols.h \
+ ../../src/xlat/isdn_protocols.h ../../src/xlat/phonet_protocols.h \
+ ../../src/xlat/caif_protocols.h ../../src/xlat/nfc_protocols.h \
+ ../../src/xlat/kcm_protocols.h ../../src/xlat/smc_protocols.h \
+ ../../src/xlat/sock_options.h ../../src/xlat/getsock_options.h \
+ ../../src/xlat/setsock_options.h ../../src/xlat/sock_ip_options.h \
+ ../../src/xlat/getsock_ip_options.h ../../src/xlat/setsock_ip_options.h \
+ ../../src/xlat/sock_vsock_options.h ../../src/xlat/sock_ipv6_options.h \
+ ../../src/xlat/getsock_ipv6_options.h \
+ ../../src/xlat/setsock_ipv6_options.h ../../src/xlat/sock_ipx_options.h \
+ ../../src/xlat/sock_ax25_options.h ../../src/xlat/sock_netlink_options.h \
+ ../../src/xlat/sock_packet_options.h ../../src/xlat/sock_raw_options.h \
+ ../../src/xlat/sock_sctp_options.h ../../src/xlat/sock_tcp_options.h \
+ ../../src/xlat/sock_udp_options.h ../../src/xlat/sock_can_raw_options.h \
+ ../../src/xlat/sock_irda_options.h ../../src/xlat/sock_llc_options.h \
+ ../../src/xlat/sock_dccp_options.h ../../src/xlat/sock_tipc_options.h \
+ ../../src/xlat/sock_rxrpc_options.h \
+ ../../src/xlat/sock_pppol2tp_options.h \
+ ../../src/xlat/sock_bluetooth_options.h \
+ ../../src/xlat/sock_pnp_options.h ../../src/xlat/sock_rds_options.h \
+ ../../src/xlat/sock_iucv_options.h ../../src/xlat/sock_caif_options.h \
+ ../../src/xlat/sock_alg_options.h ../../src/xlat/sock_nfcllcp_options.h \
+ ../../src/xlat/sock_kcm_options.h ../../src/xlat/sock_tls_options.h \
+ ../../src/xlat/sock_xdp_options.h ../../src/xlat/sockopt_txrehash_vals.h \
+ ../../src/xlat/icmp_filter_flags.h ../../src/xlat/tcp_ao_keyf_flags.h \
+ ../../src/xlat/af_tipc_importance.h ../../src/xlat/af_tipc_flags.h \
+ ../../src/xlat/af_tipc_scope.h ../../src/xlat/packet_mreq_type.h
+../../src/defs.h:
+config.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/stdbool.h:
+/usr/lib/musl/include/stdint.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/bits/stdint.h:
+/usr/lib/musl/include/inttypes.h:
+/usr/lib/musl/include/sys/types.h:
+/usr/lib/musl/include/endian.h:
+/usr/lib/musl/include/sys/select.h:
+/usr/lib/musl/include/stddef.h:
+/usr/lib/musl/include/unistd.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/stdio.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+/usr/lib/musl/include/errno.h:
+/usr/lib/musl/include/bits/errno.h:
+/usr/lib/musl/include/time.h:
+/usr/lib/musl/include/sys/time.h:
+../../src/arch_defs.h:
+../../src/linux/x86_64/arch_defs_.h:
+../../src/error_prints.h:
+../../src/gcc_compat.h:
+../../src/kernel_types.h:
+/usr/include/asm/posix_types.h:
+/usr/include/asm/posix_types_64.h:
+/usr/include/asm-generic/posix_types.h:
+/usr/include/asm/bitsperlong.h:
+/usr/include/asm-generic/bitsperlong.h:
+../../src/list.h:
+../../src/macros.h:
+../../src/static_assert.h:
+/usr/lib/musl/include/assert.h:
+../../src/mpers_type.h:
+../../src/number_set.h:
+../../src/string_to_uint.h:
+/usr/lib/musl/include/limits.h:
+/usr/lib/musl/include/bits/limits.h:
+../../src/sysent.h:
+../../src/xmalloc.h:
+../../src/xlat.h:
+printers.h:
+../../src/print_fields.h:
+../../src/color.h:
+../../src/syscall.h:
+../../src/syscall_dummy.h:
+sys_func.h:
+/usr/lib/musl/include/sys/stat.h:
+/usr/lib/musl/include/bits/stat.h:
+/usr/lib/musl/include/sys/socket.h:
+/usr/lib/musl/include/bits/socket.h:
+/usr/lib/musl/include/sys/uio.h:
+/usr/lib/musl/include/sys/un.h:
+/usr/lib/musl/include/netinet/in.h:
+/usr/lib/musl/include/netinet/udp.h:
+/usr/lib/musl/include/arpa/inet.h:
+/usr/lib/musl/include/net/if.h:
+/usr/include/asm/types.h:
+/usr/include/asm-generic/types.h:
+/usr/include/asm-generic/int-ll64.h:
+../../bundled/linux/include/uapi/linux/ip_vs.h:
+../../bundled/linux/include/uapi/linux/types.h:
+/usr/include/linux/posix_types.h:
+../../bundled/linux/include/uapi/linux/stddef.h:
+../../src/netlink.h:
+../../bundled/linux/include/uapi/linux/netlink.h:
+../../bundled/linux/include/uapi/linux/const.h:
+../../bundled/linux/include/uapi/linux/socket.h:
+/usr/include/linux/netfilter_arp/arp_tables.h:
+/usr/include/linux/if.h:
+../../bundled/linux/include/uapi/linux/libc-compat.h:
+/usr/include/linux/hdlc/ioctl.h:
+/usr/include/linux/netfilter_arp.h:
+/usr/include/linux/netfilter.h:
+../../bundled/linux/include/uapi/linux/in.h:
+/usr/include/asm/byteorder.h:
+/usr/include/linux/byteorder/little_endian.h:
+/usr/include/linux/swab.h:
+/usr/include/asm/swab.h:
+../../bundled/linux/include/uapi/linux/in6.h:
+/usr/include/linux/netfilter/x_tables.h:
+/usr/include/linux/netfilter_bridge/ebtables.h:
+/usr/include/linux/netfilter_bridge.h:
+/usr/lib/musl/include/netinet/if_ether.h:
+/usr/lib/musl/include/net/ethernet.h:
+/usr/lib/musl/include/net/if_arp.h:
+../../bundled/linux/include/uapi/linux/if_ether.h:
+/usr/include/linux/if_vlan.h:
+/usr/include/linux/if_pppox.h:
+/usr/include/linux/if_pppol2tp.h:
+/usr/include/linux/l2tp.h:
+../../bundled/linux/include/uapi/linux/typelimits.h:
+/usr/include/linux/netfilter_ipv4/ip_tables.h:
+/usr/include/linux/netfilter_ipv4.h:
+/usr/include/linux/netfilter/xt_tcpudp.h:
+/usr/include/linux/netfilter_ipv6/ip6_tables.h:
+/usr/include/linux/netfilter_ipv6.h:
+/usr/include/linux/if_packet.h:
+/usr/include/linux/icmp.h:
+../../bundled/linux/include/uapi/linux/tcp.h:
+../../bundled/linux/include/uapi/linux/tipc.h:
+/usr/include/linux/sockios.h:
+/usr/include/asm/sockios.h:
+/usr/include/asm-generic/sockios.h:
+../../bundled/linux/include/uapi/linux/vm_sockets.h:
+../../src/xlat/socktypes.h:
+../../src/gcc_compat.h:
+../../src/static_assert.h:
+../../src/xlat/sock_type_flags.h:
+../../src/xlat/socketlayers.h:
+../../src/xlat/inet_protocols.h:
+../../src/xlat/addrfams.h:
+../../src/xlat/ethernet_protocols.h:
+../../src/xlat/ax25_protocols.h:
+../../src/xlat/irda_protocols.h:
+../../src/xlat/can_protocols.h:
+../../src/xlat/bt_protocols.h:
+../../src/xlat/isdn_protocols.h:
+../../src/xlat/phonet_protocols.h:
+../../src/xlat/caif_protocols.h:
+../../src/xlat/nfc_protocols.h:
+../../src/xlat/kcm_protocols.h:
+../../src/xlat/smc_protocols.h:
+../../src/xlat/sock_options.h:
+../../src/xlat/getsock_options.h:
+../../src/xlat/setsock_options.h:
+../../src/xlat/sock_ip_options.h:
+../../src/xlat/getsock_ip_options.h:
+../../src/xlat/setsock_ip_options.h:
+../../src/xlat/sock_vsock_options.h:
+../../src/xlat/sock_ipv6_options.h:
+../../src/xlat/getsock_ipv6_options.h:
+../../src/xlat/setsock_ipv6_options.h:
+../../src/xlat/sock_ipx_options.h:
+../../src/xlat/sock_ax25_options.h:
+../../src/xlat/sock_netlink_options.h:
+../../src/xlat/sock_packet_options.h:
+../../src/xlat/sock_raw_options.h:
+../../src/xlat/sock_sctp_options.h:
+../../src/xlat/sock_tcp_options.h:
+../../src/xlat/sock_udp_options.h:
+../../src/xlat/sock_can_raw_options.h:
+../../src/xlat/sock_irda_options.h:
+../../src/xlat/sock_llc_options.h:
+../../src/xlat/sock_dccp_options.h:
+../../src/xlat/sock_tipc_options.h:
+../../src/xlat/sock_rxrpc_options.h:
+../../src/xlat/sock_pppol2tp_options.h:
+../../src/xlat/sock_bluetooth_options.h:
+../../src/xlat/sock_pnp_options.h:
+../../src/xlat/sock_rds_options.h:
+../../src/xlat/sock_iucv_options.h:
+../../src/xlat/sock_caif_options.h:
+../../src/xlat/sock_alg_options.h:
+../../src/xlat/sock_nfcllcp_options.h:
+../../src/xlat/sock_kcm_options.h:
+../../src/xlat/sock_tls_options.h:
+../../src/xlat/sock_xdp_options.h:
+../../src/xlat/sockopt_txrehash_vals.h:
+../../src/xlat/icmp_filter_flags.h:
+../../src/xlat/tcp_ao_keyf_flags.h:
+../../src/xlat/af_tipc_importance.h:
+../../src/xlat/af_tipc_flags.h:
+../../src/xlat/af_tipc_scope.h:
+../../src/xlat/packet_mreq_type.h:

@@ -1,0 +1,302 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U sample.menu_demo.aux%b  sample-menu_demo-aux.adb  08889356 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W sample%s		sample.adb		sample.ali
+W sample.explanation%s	sample-explanation.adb	sample-explanation.ali
+W sample.helpers%s	sample-helpers.adb	sample-helpers.ali
+W sample.keyboard_handler%s  sample-keyboard_handler.adb  sample-keyboard_handler.ali
+W sample.manifest%s	sample-manifest.ads	sample-manifest.ali
+W sample.menu_demo%s	sample-menu_demo.adb	sample-menu_demo.ali
+
+U sample.menu_demo.aux%s  sample-menu_demo-aux.ads  329f7448 EE NE OO PK
+W sample.menu_demo%s	sample-menu_demo.adb	sample-menu_demo.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.menus%s  terminal_interface-curses-menus.adb  terminal_interface-curses-menus.ali
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cpoint.ads		20260501130736 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20260501130736 e467b078 interfaces.c.pointers%b
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-explanation.ads  20200202233434 7883ef84 sample.explanation%s
+D sample-helpers.ads	20200202233434 f14bffc4 sample.helpers%s
+D sample-keyboard_handler.ads  20200202233434 8206b64f sample.keyboard_handler%s
+D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D sample-menu_demo.ads	20200202233434 75f8e443 sample.menu_demo%s
+D sample-menu_demo-aux.ads  20200202233434 48e049d3 sample.menu_demo.aux%s
+D sample-menu_demo-aux.adb  20230617172159 ff9ec6ac sample.menu_demo.aux%b
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-menus.ads  20260703163925 9db15c8f terminal_interface.curses.menus%s
+D terminal_interface-curses-menus.adb  20250124203923 30aedf69 terminal_interface.curses.menus%b
+D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses-panels.adb  20200202233434 e32236c5 terminal_interface.curses.panels%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [geometry sample__menu_demo__aux 48 14 none]
+G c Z s b [create sample__menu_demo__aux 56 13 none]
+G c Z s b [destroy sample__menu_demo__aux 63 14 none]
+G c Z s b [get_request sample__menu_demo__aux 68 13 none]
+G c Z b b [geometry sample__menu_demo__aux 52 14 none]
+G r c none [geometry sample__menu_demo__aux 48 14 none] [set_mark terminal_interface__curses__menus 402 14 none]
+G r c none [geometry sample__menu_demo__aux 48 14 none] [spacing terminal_interface__curses__menus 507 14 none]
+G r c none [geometry sample__menu_demo__aux 48 14 none] [scale terminal_interface__curses__menus 382 14 none]
+G r c none [geometry sample__menu_demo__aux 48 14 none] [columns terminal_interface__curses 554 13 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_mark terminal_interface__curses__menus 402 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [spacing terminal_interface__curses__menus 507 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [scale terminal_interface__curses__menus 382 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [columns terminal_interface__curses 554 13 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [create terminal_interface__curses 740 13 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_meta_mode terminal_interface__curses 1075 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_keypad_mode terminal_interface__curses 1081 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [has_colors terminal_interface__curses 1897 13 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_background terminal_interface__curses 1279 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_foreground terminal_interface__curses__menus 422 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_background terminal_interface__curses__menus 442 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_grey terminal_interface__curses__menus 462 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [derived_window terminal_interface__curses 775 13 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [box terminal_interface__curses 891 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_window terminal_interface__curses__menus 360 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [set_sub_window terminal_interface__curses__menus 371 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [window_title sample__helpers 49 14 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [create terminal_interface__curses__panels 67 13 none]
+G r c none [create sample__menu_demo__aux 56 13 none] [post terminal_interface__curses__menus 321 14 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [get_window terminal_interface__curses__menus 366 13 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [get_sub_window terminal_interface__curses__menus 377 13 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [post terminal_interface__curses__menus 321 14 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [delete terminal_interface__curses__panels 139 14 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [set_window terminal_interface__curses__menus 360 14 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [set_sub_window terminal_interface__curses__menus 371 14 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [delete terminal_interface__curses 759 14 none]
+G r c none [destroy sample__menu_demo__aux 63 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [get_request sample__menu_demo__aux 68 13 none] [get_window terminal_interface__curses__menus 366 13 none]
+G r c none [get_request sample__menu_demo__aux 68 13 none] [top terminal_interface__curses__panels 82 14 none]
+G r c none [get_request sample__menu_demo__aux 68 13 none] [get_key sample__keyboard_handler 50 13 none]
+G r c none [get_request sample__menu_demo__aux 68 13 none] [explain_context sample__explanation 51 14 none]
+G r c none [get_request sample__menu_demo__aux 68 13 none] [explain sample__explanation 48 14 none]
+G r c none [geometry sample__menu_demo__aux 52 14 none] [set_mark terminal_interface__curses__menus 402 14 none]
+G r c none [geometry sample__menu_demo__aux 52 14 none] [spacing terminal_interface__curses__menus 507 14 none]
+G r c none [geometry sample__menu_demo__aux 52 14 none] [scale terminal_interface__curses__menus 382 14 none]
+G r c none [geometry sample__menu_demo__aux 52 14 none] [columns terminal_interface__curses 554 13 none]
+X 1 ada.ads
+18K9*Ada 22e8 24|43r6 43r34
+X 2 a-charac.ads
+16K13*Characters 18e19 24|43r10 43r38
+X 4 a-chlat1.ads
+16K24*Latin_1 294e27 24|43w21 43r49
+24e4*SOH{character} 24|192r21
+25e4*STX{character} 24|189r21
+27e4*EOT{character} 24|187r21
+28e4*ENQ{character} 24|193r21
+29e4*ACK{character} 24|188r21
+31e4*BS{character} 24|191r21
+33e4*LF{character} 24|196r26
+36e4*CR{character} 24|196r21
+37e4*SO{character} 24|184r21
+40e4*DLE{character} 24|185r21
+44e4*DC4{character} 24|194r21
+45e4*NAK{character} 24|186r21
+48e4*CAN{character} 24|183r21
+49e4*EM{character} 24|190r21
+X 17 sample.ads
+42K9*Sample 44e11 23|46r9 72r5 24|45r6 45r27 46r6 46r26 47r6 47r35 48r6 48r30
+. 50r14 205r5
+X 18 sample-explanation.ads
+46K16*Explanation 60e23 24|48w13 48r37
+48U14*Explain 24|167s44
+51U14*Explain_Context 24|166s44
+X 19 sample-helpers.ads
+47K16*Helpers 55e19 24|46w13 46r33
+49U14*Window_Title 24|131s10
+X 20 sample-keyboard_handler.ads
+48K16*Keyboard_Handler 56e28 24|47w13 47r42
+50V13*Get_Key{34|72I12} 24|163s15
+X 21 sample-manifest.ads
+44K16*Manifest 68e20 24|45w13 45r34
+46i4*QUIT{34|383I12} 24|169r51 183r35
+47i4*SELECT_ITEM{34|383I12} 24|196r40
+50i4*HELP_CODE{34|77I12} 24|166r21
+52i4*EXPLAIN_CODE{34|77I12} 24|167r21
+54i4*QUIT_CODE{34|77I12} 24|169r21
+56a4*Menu_Marker{string} 24|70r20
+59i4*Menu_Fore_Color{34|412I12} 24|119r45
+60i4*Menu_Back_Color{34|412I12} 24|117r43 120r45
+61i4*Menu_Grey_Color{34|412I12} 24|121r39
+X 22 sample-menu_demo.ads
+42K16*Menu_Demo 17|42k9 22|46e21 23|46r16 72r12 24|50r21 205r12
+X 23 sample-menu_demo-aux.ads
+46K26*Aux 22|42k16 23|72l22 72e25 24|50b31 205l22 205t25
+48U14*Geometry 48>24 49<24 50<24 51<24 52<24 24|86b14 96l8 96t16
+48m24 M{37|53M9} 24|86b24 95r17
+49i24 L{34|62I12} 24|87b24 95m20
+50i24 C{34|64I12} 24|88b24 95m23
+51i24 Y{34|59I9} 24|89b24 95m26
+52i24 X{34|60I9} 24|90b24 95m29
+56V13*Create{39|49M9} 56>21 57>21 58>21 59>21 24|98b13 136l8 136t14
+56m21 M{37|53M9} 24|98b21 110r17 119r33 120r33 121r27 128r19 129r23 134r13
+57a21 Title{string} 24|99b21 130r10 131r27
+58i21 Lin{34|59I9} 24|100b21 111r30
+59i21 Col{34|60I9} 24|101b21 111r35
+63U14*Destroy 63>23 64=23 24|138b14 153l8 153t15
+63m23 M{37|53M9} 24|138b23 143r24 144r28 145r13 148r19 149r23
+64m23 P{39|49M9} 24|139b23 147m15
+68V13*Get_Request{34|67I9} 68>26 68>36 24|155b13 203l8 203t19
+68m26 M{37|53M9} 24|155b26 157r43
+68m36 P{39|49M9} 24|155b36 161r12
+X 24 sample-menu_demo-aux.adb
+52U14 Geometry 52>24 53<24 54<24 55<24 56<24 57<24 58<24 60b14 84l8 84t16
+. 95s7 110s7
+52m24 M{37|53M9} 60b24 70r17 72r16 73r14
+53i24 L{34|62I12} 61b24 73m17 77m7 77r12
+54i24 C{34|64I12} 62b24 73m20 78m7 78r12 81r23
+55i24 Y{34|59I9} 63b24 82m7
+56i24 X{34|60I9} 64b24 81m7
+57i24 Fy{34|59I9} 65b24 72m29 75r35 77r20
+58i24 Fx{34|60I9} 66b24 72m33 75m7 75r13 78r20
+68i7 Spc_Desc{34|60I9} 72m19
+92i7 Fy{34|59I9} 95m32
+93i7 Fx{34|60I9} 95m36
+103m7 W{34|56M9} 111m7 112r22 113r24 115r33 122r17 124r28 127r12 128r22 131r24
+. 133r25
+103m10 S{34|56M9} 124m7 125r22 126r24 129r26
+104i7 L{34|62I12} 110m20 111r24 124r31
+105i7 C{34|64I12} 110m23 111r27 124r39
+106i7 Y{34|59I9} 110m26
+106i10 Fy{34|59I9} 110m32 124r35 124r47
+107i7 X{34|60I9} 110m29
+107i10 Fx{34|60I9} 110m36 124r43 124r51
+108m7 Pan{39|49M9} 133m7 135r14
+141m7 W{34|56M9} 143m7 146r14 151m15 151r15
+141m10 S{34|56M9} 144m7 150m15 150r15
+157m7 W{34|56M9} 163r24
+158i7 K{34|72I12} 163m10 164r13 165r18 178r51 180r16 181r34 197r40 200r20
+159e7 Ch{character} 181m13 182r18
+X 30 s-stoele.ads
+92M9*Integer_Address
+X 33 terminal_interface.ads
+43K9*Terminal_Interface 23|42r6 42r38 43r6 43r45 44r6 44r44 33|48e23
+X 34 terminal_interface-curses.ads
+48K28*Curses 23|42w25 42r57 43r25 43r64 44r25 44r63 34|2103e30
+56M9*Window<30|92M9> 24|103r14 141r14 157r21
+57m4*Null_Window{56M9} 24|148r22 149r26
+59I9*Line_Position<integer> 23|51r33 58r29 24|55r33 57r33 63r33 65r33 89r32
+. 92r12 100r29 106r15
+60I9*Column_Position<integer> 23|52r33 59r29 24|56r33 58r33 64r33 66r33 68r18
+. 75r18 90r32 93r12 101r29 107r15
+62I12*Line_Count{59I9} 23|49r33 24|53r33 61r33 87r32 104r11
+64I12*Column_Count{60I9} 23|50r33 24|54r33 62r33 88r32 105r11
+67I9*Key_Code<integer> 23|68r54 24|155r54
+72I12*Real_Key_Code{67I9} 24|158r12
+77I12*Special_Key_Code{72I12} 24|164r18
+81I12*Normal_Key_Code{72I12} 24|180r21
+97i4*Key_Cursor_Down=97:59{77I12} 24|170r21
+100i4*Key_Cursor_Up=100:59{77I12} 24|171r21
+103i4*Key_Cursor_Left=103:59{77I12} 24|172r21
+106i4*Key_Cursor_Right=106:59{77I12} 24|173r21
+107i4*Key_Home{77I12} 24|168r21
+109i4*Key_Backspace{77I12} 24|175r21
+193i4*Key_Next_Page=193:59{77I12} 24|176r21
+196i4*Key_Previous_Page=196:59{77I12} 24|177r21
+250i4*Key_End{77I12} 24|174r21
+383I12*User_Key_Code{67I9}
+410I9*Color_Pair<short_integer>
+412I12*Redefinable_Color_Pair{410I9}
+486r4*Normal_Video{418R9} 24|118r43
+490r10*Attr{418R9} 24|118m34
+491i10*Color{410I9} 24|117m34
+492e10*Ch{character} 24|116m34
+554V13*Columns{64I12} 24|81s13
+750V13*New_Window=755:14{56M9} 24|111s12
+759U14*Delete 24|150s7 151s7
+775V13*Derived_Window{56M9} 24|124s12
+891U14*Box 24|127s7
+1075U14*Set_Meta_Mode 24|112s7 125s7
+1081U14*Set_KeyPad_Mode 24|113s7 126s7
+1245U14*Erase 24|122s10 146s7
+1279U14*Set_Background 24|115s10
+1280m7 Win{56M9} 24|115r26
+1281r7 Ch{488R9} 24|116r26
+1897V13*Has_Colors{boolean} 24|114s10
+X 37 terminal_interface-curses-menus.ads
+46K35*Menus 23|44w32 44r70 37|674e36
+53M9*Menu<30|92M9> 23|48r29 56r29 63r27 68r30 24|52r29 60r29 86r28 98r29
+. 138r27 155r30
+61I12*Menu_Request_Code{34|67I9}
+84i4*REQ_LEFT_ITEM=84:50{61I12} 24|172r51
+85i4*REQ_RIGHT_ITEM=85:50{61I12} 24|173r51
+86i4*REQ_UP_ITEM=86:50{61I12} 24|171r51
+87i4*REQ_DOWN_ITEM=87:50{61I12} 24|170r51
+88i4*REQ_SCR_ULINE=88:50{61I12} 24|186r35
+89i4*REQ_SCR_DLINE=89:50{61I12} 24|187r35
+90i4*REQ_SCR_DPAGE=90:50{61I12} 24|176r51 188r35
+91i4*REQ_SCR_UPAGE=91:50{61I12} 24|177r51 189r35
+92i4*REQ_FIRST_ITEM=92:50{61I12} 24|168r51
+93i4*REQ_LAST_ITEM=93:50{61I12} 24|174r51
+94i4*REQ_NEXT_ITEM=94:50{61I12} 24|184r35
+95i4*REQ_PREV_ITEM=95:50{61I12} 24|185r35
+96i4*REQ_TOGGLE_ITEM=96:50{61I12} 24|194r35
+97i4*REQ_CLEAR_PATTERN=97:50{61I12} 24|190r35
+98i4*REQ_BACK_PATTERN=98:50{61I12} 24|175r51 191r35
+99i4*REQ_NEXT_MATCH=99:50{61I12} 24|192r35
+100i4*REQ_PREV_MATCH=100:50{61I12} 24|193r35
+321U14*Post 24|134s7 145s7
+360U14*Set_Window 24|128s7 148s7
+366V13*Get_Window{34|56M9} 24|143s12 157s31
+371U14*Set_Sub_Window 24|129s7 149s7
+377V13*Get_Sub_Window{34|56M9} 24|144s12
+382U14*Scale 24|73s7
+402U14*Set_Mark 24|70s7
+422U14*Set_Foreground 24|119s10
+423m7 Men{53M9} 24|119r26
+425i7 Color{34|410I9} 24|119r36
+442U14*Set_Background 24|120s10
+443m7 Men{53M9} 24|120r26
+445i7 Color{34|410I9} 24|120r36
+462U14*Set_Grey 24|121s10
+463m7 Men{53M9} 24|121r20
+465i7 Color{34|410I9} 24|121r30
+507U14*Spacing 24|72s7
+X 39 terminal_interface-curses-panels.ads
+45K35*Panels 23|43w32 43r71 39|147e37
+49M9*Panel<30|92M9> 23|59r53 64r34 68r40 24|101r53 108r13 139r34 155r40
+72V13*New_Panel=72:59{49M9} 24|133s14
+82U14*Top 24|161s7
+92U14*Update_Panels 24|152s7
+139U14*Delete 24|147s7
+

@@ -1,0 +1,74 @@
+libstrace_a-copy_file_range.o: ../../src/copy_file_range.c \
+ ../../src/defs.h config.h /usr/lib/musl/include/features.h \
+ /usr/lib/musl/include/stdbool.h /usr/lib/musl/include/stdint.h \
+ /usr/lib/musl/include/bits/alltypes.h \
+ /usr/lib/musl/include/bits/stdint.h /usr/lib/musl/include/inttypes.h \
+ /usr/lib/musl/include/sys/types.h /usr/lib/musl/include/endian.h \
+ /usr/lib/musl/include/sys/select.h /usr/lib/musl/include/stddef.h \
+ /usr/lib/musl/include/unistd.h /usr/lib/musl/include/stdlib.h \
+ /usr/lib/musl/include/alloca.h /usr/lib/musl/include/stdio.h \
+ /usr/lib/musl/include/string.h /usr/lib/musl/include/strings.h \
+ /usr/lib/musl/include/errno.h /usr/lib/musl/include/bits/errno.h \
+ /usr/lib/musl/include/time.h /usr/lib/musl/include/sys/time.h \
+ ../../src/arch_defs.h ../../src/linux/x86_64/arch_defs_.h \
+ ../../src/error_prints.h ../../src/gcc_compat.h ../../src/kernel_types.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h ../../src/list.h \
+ ../../src/macros.h ../../src/static_assert.h \
+ /usr/lib/musl/include/assert.h ../../src/mpers_type.h \
+ ../../src/number_set.h ../../src/string_to_uint.h \
+ /usr/lib/musl/include/limits.h /usr/lib/musl/include/bits/limits.h \
+ ../../src/sysent.h ../../src/xmalloc.h ../../src/xlat.h printers.h \
+ ../../src/print_fields.h ../../src/color.h ../../src/syscall.h \
+ ../../src/syscall_dummy.h sys_func.h
+../../src/defs.h:
+config.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/stdbool.h:
+/usr/lib/musl/include/stdint.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/bits/stdint.h:
+/usr/lib/musl/include/inttypes.h:
+/usr/lib/musl/include/sys/types.h:
+/usr/lib/musl/include/endian.h:
+/usr/lib/musl/include/sys/select.h:
+/usr/lib/musl/include/stddef.h:
+/usr/lib/musl/include/unistd.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/stdio.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+/usr/lib/musl/include/errno.h:
+/usr/lib/musl/include/bits/errno.h:
+/usr/lib/musl/include/time.h:
+/usr/lib/musl/include/sys/time.h:
+../../src/arch_defs.h:
+../../src/linux/x86_64/arch_defs_.h:
+../../src/error_prints.h:
+../../src/gcc_compat.h:
+../../src/kernel_types.h:
+/usr/include/asm/posix_types.h:
+/usr/include/asm/posix_types_64.h:
+/usr/include/asm-generic/posix_types.h:
+/usr/include/asm/bitsperlong.h:
+/usr/include/asm-generic/bitsperlong.h:
+../../src/list.h:
+../../src/macros.h:
+../../src/static_assert.h:
+/usr/lib/musl/include/assert.h:
+../../src/mpers_type.h:
+../../src/number_set.h:
+../../src/string_to_uint.h:
+/usr/lib/musl/include/limits.h:
+/usr/lib/musl/include/bits/limits.h:
+../../src/sysent.h:
+../../src/xmalloc.h:
+../../src/xlat.h:
+printers.h:
+../../src/print_fields.h:
+../../src/color.h:
+../../src/syscall.h:
+../../src/syscall_dummy.h:
+sys_func.h:

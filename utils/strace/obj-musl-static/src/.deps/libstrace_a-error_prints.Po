@@ -1,0 +1,22 @@
+libstrace_a-error_prints.o: ../../src/error_prints.c config.h \
+ /usr/lib/musl/include/errno.h /usr/lib/musl/include/features.h \
+ /usr/lib/musl/include/bits/errno.h /usr/lib/musl/include/stdarg.h \
+ /usr/lib/musl/include/bits/alltypes.h /usr/lib/musl/include/string.h \
+ /usr/lib/musl/include/strings.h /usr/lib/musl/include/stdio.h \
+ /usr/lib/musl/include/stdlib.h /usr/lib/musl/include/alloca.h \
+ ../../src/error_prints.h /usr/lib/musl/include/stdbool.h \
+ ../../src/gcc_compat.h
+config.h:
+/usr/lib/musl/include/errno.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/bits/errno.h:
+/usr/lib/musl/include/stdarg.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+/usr/lib/musl/include/stdio.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/alloca.h:
+../../src/error_prints.h:
+/usr/lib/musl/include/stdbool.h:
+../../src/gcc_compat.h:

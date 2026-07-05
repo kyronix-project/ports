@@ -1,0 +1,927 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U terminal_interface.curses.forms%b  terminal_interface-curses-forms.adb  4c9de466 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.ads	s-stoele.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+
+U terminal_interface.curses.forms%s  terminal_interface-curses-forms.ads  fc4c4bc1 BN EE OO PR PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+L "-lform"
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cpoint.ads		20260501130736 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20260501130736 e467b078 interfaces.c.pointers%b
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-exctab.adb		20260501130736 89d79d5b system.exception_table%b
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-forms.ads  20260703163925 29d1e06e terminal_interface.curses.forms%s
+D terminal_interface-curses-forms.adb  20250124203923 80e46ff6 terminal_interface.curses.forms%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [default_field_options terminal_interface__curses__forms 105 13 none]
+G c Z s b [default_form_options terminal_interface__curses__forms 127 13 none]
+G c Z s b [free terminal_interface__curses__forms 138 14 none]
+G c Z s b [request_name terminal_interface__curses__forms 278 14 none]
+G c Z s b [request_name terminal_interface__curses__forms 281 14 none]
+G c Z s b [create terminal_interface__curses__forms 295 13 none]
+G c Z s b [delete terminal_interface__curses__forms 317 14 none]
+G c Z s b [duplicate terminal_interface__curses__forms 323 13 none]
+G c Z s b [link terminal_interface__curses__forms 330 13 none]
+G c Z s b [set_justification terminal_interface__curses__forms 341 14 none]
+G c Z s b [get_justification terminal_interface__curses__forms 347 13 none]
+G c Z s b [set_buffer terminal_interface__curses__forms 356 14 none]
+G c Z s b [get_buffer terminal_interface__curses__forms 364 14 none]
+G c Z s b [get_buffer terminal_interface__curses__forms 370 13 none]
+G c Z s b [set_status terminal_interface__curses__forms 378 14 none]
+G c Z s b [changed terminal_interface__curses__forms 384 13 none]
+G c Z s b [set_maximum_size terminal_interface__curses__forms 389 14 none]
+G c Z s b [set_options terminal_interface__curses__forms 399 14 none]
+G c Z s b [switch_options terminal_interface__curses__forms 405 14 none]
+G c Z s b [get_options terminal_interface__curses__forms 413 14 none]
+G c Z s b [get_options terminal_interface__curses__forms 418 13 none]
+G c Z s b [set_foreground terminal_interface__curses__forms 428 14 none]
+G c Z s b [foreground terminal_interface__curses__forms 436 14 none]
+G c Z s b [foreground terminal_interface__curses__forms 441 14 none]
+G c Z s b [set_background terminal_interface__curses__forms 448 14 none]
+G c Z s b [background terminal_interface__curses__forms 456 14 none]
+G c Z s b [background terminal_interface__curses__forms 461 14 none]
+G c Z s b [set_pad_character terminal_interface__curses__forms 468 14 none]
+G c Z s b [pad_character terminal_interface__curses__forms 474 14 none]
+G c Z s b [info terminal_interface__curses__forms 484 14 none]
+G c Z s b [dynamic_info terminal_interface__curses__forms 495 14 none]
+G c Z s b [set_window terminal_interface__curses__forms 507 14 none]
+G c Z s b [get_window terminal_interface__curses__forms 513 13 none]
+G c Z s b [set_sub_window terminal_interface__curses__forms 518 14 none]
+G c Z s b [get_sub_window terminal_interface__curses__forms 524 13 none]
+G c Z s b [scale terminal_interface__curses__forms 529 14 none]
+G c Z s b [set_field_init_hook terminal_interface__curses__forms 543 14 none]
+G c Z s b [set_field_term_hook terminal_interface__curses__forms 549 14 none]
+G c Z s b [set_form_init_hook terminal_interface__curses__forms 555 14 none]
+G c Z s b [set_form_term_hook terminal_interface__curses__forms 561 14 none]
+G c Z s s [get_field_init_hook terminal_interface__curses__forms 567 13 none]
+G c Z s s [get_field_term_hook terminal_interface__curses__forms 572 13 none]
+G c Z s s [get_form_init_hook terminal_interface__curses__forms 577 13 none]
+G c Z s s [get_form_term_hook terminal_interface__curses__forms 582 13 none]
+G c Z s b [redefine terminal_interface__curses__forms 591 14 none]
+G c Z s b [fields terminal_interface__curses__forms 603 13 none]
+G c Z s b [field_count terminal_interface__curses__forms 609 13 none]
+G c Z s b [move terminal_interface__curses__forms 614 14 none]
+G c Z s b [create terminal_interface__curses__forms 625 13 none]
+G c Z s b [delete terminal_interface__curses__forms 636 14 none]
+G c Z s b [set_options terminal_interface__curses__forms 646 14 none]
+G c Z s b [switch_options terminal_interface__curses__forms 652 14 none]
+G c Z s b [get_options terminal_interface__curses__forms 660 14 none]
+G c Z s b [get_options terminal_interface__curses__forms 665 13 none]
+G c Z s b [post terminal_interface__curses__forms 674 14 none]
+G c Z s b [position_cursor terminal_interface__curses__forms 685 14 none]
+G c Z s b [data_ahead terminal_interface__curses__forms 694 13 none]
+G c Z s b [data_behind terminal_interface__curses__forms 699 13 none]
+G c Z s b [driver terminal_interface__curses__forms 713 13 none]
+G c Z s b [set_current terminal_interface__curses__forms 725 14 none]
+G c Z s b [current terminal_interface__curses__forms 731 13 none]
+G c Z s b [set_page terminal_interface__curses__forms 736 14 none]
+G c Z s b [page terminal_interface__curses__forms 742 13 none]
+G c Z s b [get_index terminal_interface__curses__forms 747 13 none]
+G c Z s b [set_new_page terminal_interface__curses__forms 759 14 none]
+G c Z s b [is_new_page terminal_interface__curses__forms 765 13 none]
+G c Z s s [field_option_setIP terminal_interface__curses__forms 63 9 none]
+G c Z s s [form_option_setIP terminal_interface__curses__forms 109 9 none]
+G c Z s s [field_arrayIP terminal_interface__curses__forms 133 9 none]
+G c Z b b [c_field_arrayIP terminal_interface__curses__forms 55 9 none]
+G c Z b b [value terminal_interface__curses__forms__f_array 54 13 56_4]
+G c Z b b [value terminal_interface__curses__forms__f_array 58 13 56_4]
+G c Z b b [Oadd terminal_interface__curses__forms__f_array 68 13 56_4]
+G c Z b b [Oadd terminal_interface__curses__forms__f_array 69 13 56_4]
+G c Z b b [Osubtract terminal_interface__curses__forms__f_array 70 13 56_4]
+G c Z b b [Osubtract terminal_interface__curses__forms__f_array 71 13 56_4]
+G c Z b b [increment terminal_interface__curses__forms__f_array 73 14 56_4]
+G c Z b b [decrement terminal_interface__curses__forms__f_array 74 14 56_4]
+G c Z b b [virtual_length terminal_interface__curses__forms__f_array 81 13 56_4]
+G c Z b b [copy_terminated_array terminal_interface__curses__forms__f_array 85 14 56_4]
+G c Z b b [copy_array terminal_interface__curses__forms__f_array 91 14 56_4]
+G c Z b b [to_pointer terminal_interface__curses__forms__f_array 42 13 56_4]
+G c Z b b [to_addr terminal_interface__curses__forms__f_array 43 13 56_4]
+G c Z b b [to_offset terminal_interface__curses__forms__f_array 44 13 56_4]
+G c Z b b [to_ptrdiff terminal_interface__curses__forms__f_array 45 13 56_4]
+G r c none [free terminal_interface__curses__forms 138 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [request_name terminal_interface__curses__forms 278 14 none] [fill_string terminal_interface__curses__aux 91 14 none]
+G r c none [request_name terminal_interface__curses__forms 281 14 none] [fill_string terminal_interface__curses__aux 96 13 none]
+G r c none [delete terminal_interface__curses__forms 317 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_justification terminal_interface__curses__forms 341 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_buffer terminal_interface__curses__forms 356 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [get_buffer terminal_interface__curses__forms 364 14 none] [fill_string terminal_interface__curses__aux 91 14 none]
+G r c none [get_buffer terminal_interface__curses__forms 370 13 none] [fill_string terminal_interface__curses__aux 96 13 none]
+G r c none [set_maximum_size terminal_interface__curses__forms 389 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_options terminal_interface__curses__forms 399 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [switch_options terminal_interface__curses__forms 405 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_foreground terminal_interface__curses__forms 428 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_background terminal_interface__curses__forms 448 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_pad_character terminal_interface__curses__forms 468 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [info terminal_interface__curses__forms 484 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [dynamic_info terminal_interface__curses__forms 495 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_window terminal_interface__curses__forms 507 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_sub_window terminal_interface__curses__forms 518 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [scale terminal_interface__curses__forms 529 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_field_init_hook terminal_interface__curses__forms 543 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_field_term_hook terminal_interface__curses__forms 549 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_form_init_hook terminal_interface__curses__forms 555 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_form_term_hook terminal_interface__curses__forms 561 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [redefine terminal_interface__curses__forms 591 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [move terminal_interface__curses__forms 614 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [delete terminal_interface__curses__forms 636 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_options terminal_interface__curses__forms 646 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [switch_options terminal_interface__curses__forms 652 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [post terminal_interface__curses__forms 674 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [position_cursor terminal_interface__curses__forms 685 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [driver terminal_interface__curses__forms 713 13 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_current terminal_interface__curses__forms 725 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_page terminal_interface__curses__forms 736 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_new_page terminal_interface__curses__forms 759 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 25|44r6 50r30 26|43r6 1005r32
+X 2 a-charac.ads
+16K13*Characters 18e19 25|44r10 50r34
+X 3 a-chlat1.ads
+16K24*Latin_1 294e27 25|44w21 50r45
+61e4*Space{character} 25|50r53
+X 6 a-uncdea.ads
+23u15*Unchecked_Deallocation 26|43w10 1005r36
+X 7 interfac.ads
+47K9*Interfaces 247e15 26|45r6 45r24 46r6 46r32 47r6 57r6
+X 8 i-c.ads
+33K20*C 605e17 26|45w17 45r35 46r17 46r43 47r17 57r17
+62I9*int<integer>
+89I9*ptrdiff_t<long_integer> 26|672r19
+109E9*char<character>
+124A9*char_array(109E9)<92M9> 26|208r43
+146V13*To_C{124A9} 26|213s59
+X 9 i-cpoint.ads
+44k22*Pointers 102e26 26|47w19 57r19
+47P9*Pointer(25|52M9) 26|664r45[56] 667r11[56]
+68V14*"+"{47P9[26|56]} 26|672s17[56]
+X 11 i-cstrin.ads
+48K22*Strings 183e25 26|46w19 46r45
+65P9*chars_ptr 26|68r55 76r55 224r50 235r50
+X 12 system.ads
+37K9*System 155e11 25|43w6 776r22 777r22 26|645r40 708r34
+67M9*Address 26|645r47 708r41
+X 20 s-stoele.ads
+43K16*Storage_Elements 104e28 25|776r29 777r29
+92M9*Integer_Address 25|776r46 777r46
+X 22 terminal_interface.ads
+43K9*Terminal_Interface 48e23 25|46r9 47r25 782r5 26|49r6 51r14 53r8 1032r5
+X 23 terminal_interface-curses.ads
+48K28*Curses 22|43k9 23|2103e30 25|46r28 47r44 782r24 26|49r25 51r33 53r27
+. 1032r24
+56M9*Window<20|92M9> 25|508r32 513r44 519r36 524r48 26|515r32 518r36 527r44
+. 529r45 532r20 540r36 543r36 552r48 554r45 557r20
+59I9*Line_Position<integer> 25|297r36 308r39 324r31 331r26 487r45 615r29
+. 26|94r36 128r31 149r26 462r45 481r29 690r29
+60I9*Column_Position<integer> 25|298r36 309r39 325r31 332r26 488r45 616r29
+. 26|95r36 129r31 150r26 463r45 482r29 691r29
+62I12*Line_Count{59I9} 25|295r36 306r39 485r45 496r42 530r35 26|92r36 460r45
+. 479r29 490r42 503r18 565r35 575r18
+64I12*Column_Count{60I9} 25|296r36 307r39 486r45 497r42 531r35 26|93r36 461r45
+. 480r29 491r42 504r18 566r35 576r18
+67I9*Key_Code<integer> 25|144r33 714r27 26|877r27
+72I12*Real_Key_Code{67I9}
+77I12*Special_Key_Code{72I12}
+380i4*Key_Max{77I12} 25|144r49 144r66 147r63 148r63 149r63 150r63 152r63
+. 153r63 154r63 155r63 156r63 157r63 158r63 159r63 160r63 161r63 162r63 163r63
+. 165r63 166r63 167r63 168r63 169r63 170r63 171r63 172r63 173r63 174r63 175r63
+. 176r63 177r63 178r63 180r63 181r63 182r63 183r63 184r63 185r63 186r63 187r63
+. 188r63 189r63 190r63 191r63 194r63 195r63 196r63 197r63 198r63 199r63 202r63
+. 203r63 204r63 205r63 206r63 207r63 209r63 210r63 211r63
+410I9*Color_Pair<short_integer> 25|431r15 431r29 443r38 451r15 451r29 463r38
+. 26|355r15 355r29 380r38 394r15 394r29 419r38
+418R9*Character_Attribute_Set 435e17 25|430r15 437r37 442r38 450r15 457r37
+. 462r38 26|354r15 370r37 379r38 393r15 409r37 418r38
+486r4*Normal_Video{418R9} 25|430r42 450r42 26|354r42 393r42
+488R9*Attributed_Character 493e17 26|358r39 372r48 382r48 397r39 411r48 421r48
+490r10*Attr{418R9} 26|364m44 375r32 385r33 403m44 414r32 424r33
+491i10*Color{410I9} 26|363m44 386r33 402m44 425r33
+492e10*Ch{character} 26|362m44 401m44
+X 24 terminal_interface-curses-aux.ads
+46K35*Aux 118e34 26|49w32 53r34
+49I12*C_Int{8|62I9} 26|68r41 71r39 76r41 79r46 100r45 102r41 102r57 103r41
+. 103r54 104r41 105r41 132r34 133r34 137r40 138r40 153r34 154r34 158r40 159r40
+. 177r39 182r38 189r48 207r43 213r43 224r36 227r39 235r36 238r46 247r38 260r50
+. 263r22 278r37 282r42 434r37 439r37 447r47 467r39 473r38 494r39 498r25 568r39
+. 572r22 672r30 681r42 693r42 697r33 697r47 842r42 845r22 858r43 861r22 879r46
+. 882r50 933r47 937r41 944r45 947r20 958r52 961r22 979r45 990r44 993r22
+64i4*Curses_Err{49I12} 26|963r16
+67i4*Curses_False{49I12} 26|265r16 847r16 863r16 995r16
+70E9*Eti_Error 85e12 26|117r48 177r53 209r16 247r52 278r51 295r63 309r62
+. 312r63 358r68 397r68 434r51 470r33 495r70 518r51 543r51 569r67 589r66 602r66
+. 615r65 628r65 645r63 693r56 729r41 747r61 761r60 764r61 806r43 808r45 827r52
+. 879r60 882r20 906r65 933r61 979r59
+72n7*E_Invalid_Field{70E9} 26|887r15
+73n7*E_Request_Denied{70E9} 26|889r15
+77n7*E_Unknown_Command{70E9} 26|885r15
+85n7*E_Ok{70E9} 26|251r56
+87U14*Eti_Exception 26|121s7 181s7 213s7 282s7 299s7 317s10 319s10 362s7
+. 401s7 438s7 475s7 500s7 522s7 547s7 574s7 593s7 606s7 619s7 632s7 653s10
+. 697s7 733s7 751s7 769s10 771s10 813s10 815s10 831s7 892s13 910s7 937s7
+. 983s7
+91U14*Fill_String 26|71s7 227s7
+96V13*Fill_String{string} 26|79s14 238s14
+X 25 terminal_interface-curses-forms.ads
+46K35*Forms 23|48k28 25|47r51 776E9 782l31 782e36 26|51b40 1032l31 1032t36
+50e4*Space=50:53{character} 469r52 26|431r52
+52M9*Field<20|92M9> 55r33 133r61 301r28 312r31 317r35 323r31 325r55 330r26
+. 332r50 341r40 347r38 357r16 365r16 371r16 378r35 384r28 389r38 399r37 405r40
+. 413r37 418r32 429r15 436r33 441r34 449r15 456r33 461r34 468r39 474r35 484r41
+. 495r38 604r46 614r29 726r33 731r41 747r30 759r39 765r32 776c9 779r26 26|55r62
+. 57r38 98r28 100r59 102r22 115r35 117r34 127r31 129r55 131r34 133r48 136r20
+. 148r26 150r50 152r34 154r48 157r20 173r40 176r39 187r38 189r34 202r16 206r41
+. 219r16 223r36 231r16 234r36 243r35 246r38 258r28 260r36 274r38 277r37 291r37
+. 294r38 304r40 308r37 311r38 325r37 328r34 337r32 353r15 357r39 369r33 372r34
+. 378r34 382r34 392r15 396r39 408r33 411r34 417r34 421r34 430r39 433r37 444r35
+. 447r33 459r41 468r32 489r38 495r32 660r46 689r29 693r28 904r33 906r51 915r41
+. 917r48 920r22 956r30 958r38 976r39 979r32 988r32 990r30
+53M9*Form<20|92M9> 56r33 507r32 513r31 518r36 524r35 529r31 539r55 543r42
+. 549r42 555r41 561r41 567r40 572r40 577r39 582r39 591r31 597r33 603r29 609r32
+. 625r57 630r59 636r35 646r37 652r40 660r37 665r32 674r27 685r37 694r31 699r32
+. 713r27 725r33 731r28 736r31 742r25 777c9 780r26 26|514r32 517r36 527r31
+. 529r32 539r36 542r36 552r35 554r32 564r31 569r31 585r42 588r39 598r42 601r39
+. 611r41 614r38 624r41 627r38 641r31 644r40 659r29 664r32 679r32 681r29 706r57
+. 708r57 711r13 727r35 729r28 743r37 746r37 756r40 760r36 763r37 777r37 780r33
+. 789r32 803r27 806r30 808r32 825r37 827r39 840r31 842r29 856r32 858r30 876r27
+. 879r34 903r33 906r39 915r28 917r35 930r31 933r36 942r25 944r32
+55m4*Null_Field{52M9} 418r41 779c4 26|57r60 107r16 122r14 140r14 161r14 337r41
+. 649r45 650r34 713r49 714r38 922r16 1010r30 1023r27
+56m4*Null_Form{53M9} 665r40 780c4 26|718r17 734r14 789r40 1029r27
+58E9*Field_Justification 61e39 342r40 347r52 26|174r40 182r45 187r52 192r14
+58n33*None{58E9} 342r63 26|174r63
+59n33*Left{58E9}
+60n33*Center{58E9}
+61n33*Right{58E9}
+63R9*Field_Option_Set 75e17 76r39 78r8 102r8 105r42 400r37 406r40 414r41
+. 419r33 26|292r37 295r38 305r40 309r37 312r38 326r41 328r48 338r33 340r13
+. 1020r42
+65b10*Visible{boolean} 80r10
+66b10*Active{boolean} 82r10
+67b10*Public{boolean} 84r10
+68b10*Edit{boolean} 86r10
+69b10*Wrap{boolean} 88r10
+70b10*Blank{boolean} 90r10
+71b10*Auto_Skip{boolean} 92r10
+72b10*Null_Ok{boolean} 94r10
+73b10*Pass_Ok{boolean} 96r10
+74b10*Static{boolean} 98r10
+105V13*Default_Field_Options{63R9} 107r19 26|1020b13 1024l8 1024t29
+109R9*Form_Option_Set 113e17 114r39 116r8 124r8 127r41 647r37 653r40 661r41
+. 665r58 26|744r37 747r37 757r40 761r36 764r37 778r41 780r46 789r58 791r13
+. 1026r41
+111b10*NL_Overload{boolean} 118r10
+112b10*BS_Overload{boolean} 120r10
+127V13*Default_Form_Options{109R9} 129r19 26|1026b13 1030l8 1030t28
+131I9*Buffer_Number<integer> 300r36 300r53 311r39 311r56 358r16 358r33 366r16
+. 366r33 372r16 372r33 490r45 26|97r36 97r53 203r16 203r33 220r16 220r33
+. 232r16 232r33 465r45 484r29
+133A9*Field_Array(52M9)<integer> 134r26 136r38 26|1006r10
+136P9*Field_Array_Access(133A9) 138r41 592r31 598r33 625r30 630r32 26|642r31
+. 706r30 1002r41 1006r23
+138U14*Free 138=20 139>20 26|1002b14 1016l8 1016t12
+138p20 FA{136P9} 26|1002b20 1008r10 1009r19 1009r31 1010r16 1011r24 1015m16
+139b20 Free_Fields{boolean} 26|1003b20 1008r30
+144I12*Form_Request_Code{23|67I9} 147r42 148r42 149r42 150r42 152r42 153r42
+. 154r42 155r42 156r42 157r42 158r42 159r42 160r42 161r42 162r42 163r42 165r42
+. 166r42 167r42 168r42 169r42 170r42 171r42 172r42 173r42 174r42 175r42 176r42
+. 177r42 178r42 180r42 181r42 182r42 183r42 184r42 185r42 186r42 187r42 188r42
+. 189r42 190r42 191r42 194r42 195r42 196r42 197r42 198r42 199r42 202r42 203r42
+. 204r42 205r42 206r42 207r42 209r42 210r42 211r42 214r23 215r23 216r23 217r23
+. 219r23 220r23 221r23 222r23 223r23 224r23 225r23 226r23 227r23 228r23 229r23
+. 230r23 232r23 233r23 234r23 235r23 236r23 237r23 238r23 239r23 240r23 241r23
+. 242r23 243r23 244r23 245r23 247r23 248r23 249r23 250r23 251r23 252r23 253r23
+. 254r23 255r23 256r23 257r23 258r23 260r23 261r23 262r23 263r23 264r23 265r23
+. 267r23 268r23 269r23 270r23 271r23 272r23 274r23 275r23 276r23 278r35 281r34
+. 26|65r35 74r33
+147i4*F_Next_Page{144I12} 214r49
+148i4*F_Previous_Page{144I12} 215r49
+149i4*F_First_Page{144I12} 216r49
+150i4*F_Last_Page{144I12} 217r49
+152i4*F_Next_Field{144I12} 219r49
+153i4*F_Previous_Field{144I12} 220r49
+154i4*F_First_Field{144I12} 221r49
+155i4*F_Last_Field{144I12} 222r49
+156i4*F_Sorted_Next_Field{144I12} 223r49
+157i4*F_Sorted_Previous_Field{144I12} 224r49
+158i4*F_Sorted_First_Field{144I12} 225r49
+159i4*F_Sorted_Last_Field{144I12} 226r49
+160i4*F_Left_Field{144I12} 227r49
+161i4*F_Right_Field{144I12} 228r49
+162i4*F_Up_Field{144I12} 229r49
+163i4*F_Down_Field{144I12} 230r49
+165i4*F_Next_Char{144I12} 232r49
+166i4*F_Previous_Char{144I12} 233r49
+167i4*F_Next_Line{144I12} 234r49
+168i4*F_Previous_Line{144I12} 235r49
+169i4*F_Next_Word{144I12} 236r49
+170i4*F_Previous_Word{144I12} 237r49
+171i4*F_Begin_Field{144I12} 238r49
+172i4*F_End_Field{144I12} 239r49
+173i4*F_Begin_Line{144I12} 240r49
+174i4*F_End_Line{144I12} 241r49
+175i4*F_Left_Char{144I12} 242r49
+176i4*F_Right_Char{144I12} 243r49
+177i4*F_Up_Char{144I12} 244r49
+178i4*F_Down_Char{144I12} 245r49
+180i4*F_New_Line{144I12} 247r49
+181i4*F_Insert_Char{144I12} 248r49
+182i4*F_Insert_Line{144I12} 249r49
+183i4*F_Delete_Char{144I12} 250r49
+184i4*F_Delete_Previous{144I12} 251r49
+185i4*F_Delete_Line{144I12} 252r49
+186i4*F_Delete_Word{144I12} 253r49
+187i4*F_Clear_EOL{144I12} 254r49
+188i4*F_Clear_EOF{144I12} 255r49
+189i4*F_Clear_Field{144I12} 256r49
+190i4*F_Overlay_Mode{144I12} 257r49
+191i4*F_Insert_Mode{144I12} 258r49
+194i4*F_ScrollForward_Line{144I12} 260r49
+195i4*F_ScrollBackward_Line{144I12} 261r49
+196i4*F_ScrollForward_Page{144I12} 262r49
+197i4*F_ScrollBackward_Page{144I12} 263r49
+198i4*F_ScrollForward_HalfPage{144I12} 264r49
+199i4*F_ScrollBackward_HalfPage{144I12} 265r49
+202i4*F_HScrollForward_Char{144I12} 267r49
+203i4*F_HScrollBackward_Char{144I12} 268r49
+204i4*F_HScrollForward_Line{144I12} 269r49
+205i4*F_HScrollBackward_Line{144I12} 270r49
+206i4*F_HScrollForward_HalfLine{144I12} 271r49
+207i4*F_HScrollBackward_HalfLine{144I12} 272r49
+209i4*F_Validate_Field{144I12} 274r49
+210i4*F_Next_Choice{144I12} 275r49
+211i4*F_Previous_Choice{144I12} 276r49
+214i4*REQ_NEXT_PAGE=214:49{144I12}
+215i4*REQ_PREV_PAGE=215:49{144I12}
+216i4*REQ_FIRST_PAGE=216:49{144I12}
+217i4*REQ_LAST_PAGE=217:49{144I12}
+219i4*REQ_NEXT_FIELD=219:49{144I12}
+220i4*REQ_PREV_FIELD=220:49{144I12}
+221i4*REQ_FIRST_FIELD=221:49{144I12}
+222i4*REQ_LAST_FIELD=222:49{144I12}
+223i4*REQ_SNEXT_FIELD=223:49{144I12}
+224i4*REQ_SPREV_FIELD=224:49{144I12}
+225i4*REQ_SFIRST_FIELD=225:49{144I12}
+226i4*REQ_SLAST_FIELD=226:49{144I12}
+227i4*REQ_LEFT_FIELD=227:49{144I12}
+228i4*REQ_RIGHT_FIELD=228:49{144I12}
+229i4*REQ_UP_FIELD=229:49{144I12}
+230i4*REQ_DOWN_FIELD=230:49{144I12}
+232i4*REQ_NEXT_CHAR=232:49{144I12}
+233i4*REQ_PREV_CHAR=233:49{144I12}
+234i4*REQ_NEXT_LINE=234:49{144I12}
+235i4*REQ_PREV_LINE=235:49{144I12}
+236i4*REQ_NEXT_WORD=236:49{144I12}
+237i4*REQ_PREV_WORD=237:49{144I12}
+238i4*REQ_BEG_FIELD=238:49{144I12}
+239i4*REQ_END_FIELD=239:49{144I12}
+240i4*REQ_BEG_LINE=240:49{144I12}
+241i4*REQ_END_LINE=241:49{144I12}
+242i4*REQ_LEFT_CHAR=242:49{144I12}
+243i4*REQ_RIGHT_CHAR=243:49{144I12}
+244i4*REQ_UP_CHAR=244:49{144I12}
+245i4*REQ_DOWN_CHAR=245:49{144I12}
+247i4*REQ_NEW_LINE=247:49{144I12}
+248i4*REQ_INS_CHAR=248:49{144I12}
+249i4*REQ_INS_LINE=249:49{144I12}
+250i4*REQ_DEL_CHAR=250:49{144I12}
+251i4*REQ_DEL_PREV=251:49{144I12}
+252i4*REQ_DEL_LINE=252:49{144I12}
+253i4*REQ_DEL_WORD=253:49{144I12}
+254i4*REQ_CLR_EOL=254:49{144I12}
+255i4*REQ_CLR_EOF=255:49{144I12}
+256i4*REQ_CLR_FIELD=256:49{144I12}
+257i4*REQ_OVL_MODE=257:49{144I12}
+258i4*REQ_INS_MODE=258:49{144I12}
+260i4*REQ_SCR_FLINE=260:49{144I12}
+261i4*REQ_SCR_BLINE=261:49{144I12}
+262i4*REQ_SCR_FPAGE=262:49{144I12}
+263i4*REQ_SCR_BPAGE=263:49{144I12}
+264i4*REQ_SCR_FHPAGE=264:49{144I12}
+265i4*REQ_SCR_BHPAGE=265:49{144I12}
+267i4*REQ_SCR_FCHAR=267:49{144I12}
+268i4*REQ_SCR_BCHAR=268:49{144I12}
+269i4*REQ_SCR_HFLINE=269:49{144I12}
+270i4*REQ_SCR_HBLINE=270:49{144I12}
+271i4*REQ_SCR_HFHALF=271:49{144I12}
+272i4*REQ_SCR_HBHALF=272:49{144I12}
+274i4*REQ_VALIDATION=274:49{144I12}
+275i4*REQ_NEXT_CHOICE=275:49{144I12}
+276i4*REQ_PREV_CHOICE=276:49{144I12}
+278U14*Request_Name 278>28 279<28 26|65b14 72l8 72t20
+278i28 Key{144I12} 26|65b28 71r46
+279a28 Name{string} 26|66b33 71m53
+281V14*Request_Name{string} 281>28 26|74b13 80l8 80t20
+281i28 Key{144I12} 26|74b27 79r53
+288X4*Form_Exception 26|108r16 141r16 162r16 252r16 651r16 670r16 715r16
+. 719r19 923r16 950r16 964r16
+295V13*Create{52M9} 295>21 296>21 297>21 298>21 299>21 300>21 312r45 26|92b13
+. 111l8 111t14
+295i21 Height{23|62I12} 26|92b21 102r48
+296i21 Width{23|64I12} 26|93b21 102r64
+297i21 Top{23|59I9} 26|94b21 103r48
+298i21 Left{23|60I9} 26|95b21 103r61
+299i21 Off_Screen{natural} 26|96b21 104r48
+300i21 More_Buffers{131I9} 26|97b21 105r48
+306V13*New_Field=312:45{52M9} 314r19
+306i24 Height{23|62I12}
+307i24 Width{23|64I12}
+308i24 Top{23|59I9}
+309i24 Left{23|60I9}
+310i24 Off_Screen{natural}
+311i24 More_Buffers{131I9}
+317U14*Delete 317=22 26|115b14 123l8 123t14 1011s16
+317m22 Fld{52M9} 26|115b22 121r34 122m7
+323V13*Duplicate{52M9} 323>24 324>24 325>24 26|127b13 144l8 144t17
+323m24 Fld{52M9} 26|127b24 136r40
+324i24 Top{23|59I9} 26|128b24 137r47
+325i24 Left{23|60I9} 26|129b24 138r47
+330V13*Link{52M9} 330>19 331>19 332>19 334r19 26|148b13 165l8 165t12
+330m19 Fld{52M9} 26|148b19 157r40
+331i19 Top{23|59I9} 26|149b19 158r47
+332i19 Left{23|60I9} 26|150b19 159r47
+341U14*Set_Justification 341>33 342>33 344r19 26|173b14 183l8 183t25
+341m33 Fld{52M9} 26|173b33 181r38
+342e33 Just{58E9} 26|174b33 182r70
+347V13*Get_Justification{58E9} 347>32 349r19 26|187b13 193l8 193t25
+347m32 Fld{52M9} 26|187b32 192r51
+356U14*Set_Buffer 357>7 358>7 359>7 26|201b14 214l8 214t18
+357m7 Fld{52M9} 26|202b7 213r38
+358i7 Buffer{131I9} 26|203b7 213r50
+359a7 Str{string} 26|204b7 213r65
+364U14*Get_Buffer 365>7 366>7 367<7 26|218b14 228l8 228t18
+365m7 Fld{52M9} 26|219b7 227r34
+366i7 Buffer{131I9} 26|220b7 227r46
+367a7 Str{string} 26|221b7 227m56
+370V13*Get_Buffer{string} 371>7 372>7 26|230b13 239l8 239t18
+371m7 Fld{52M9} 26|231b7 238r41
+372i7 Buffer{131I9} 26|232b7 238r53
+378U14*Set_Status 378>26 379>26 381r19 26|243b14 254l8 254t18
+378m26 Fld{52M9} 26|243b26 251r26
+379b26 Status{boolean} 26|244b26 251r44
+384V13*Changed{boolean} 384>22 386r19 26|258b13 270l8 270t15
+384m22 Fld{52M9} 26|258b22 263r45
+389U14*Set_Maximum_Size 389>32 390>32 392r19 26|274b14 283l8 283t24
+389m32 Fld{52M9} 26|274b32 282r37
+390i32 Max{natural} 26|275b32 282r49
+399U14*Set_Options 399>27 400>27 26|291b14 300l8 300t19
+399m27 Fld{52M9} 26|291b27 299r38
+400r27 Options{63R9} 26|292b27 299r43
+405U14*Switch_Options 405>30 406>30 407>30 26|304b14 321l8 321t22
+405m30 Fld{52M9} 26|304b30 317r40 319r41
+406r30 Options{63R9} 26|305b30 317r45 319r46
+407b30 On{boolean} 26|306b30 316r10
+413U14*Get_Options 413>27 414<27 26|325b14 333l8 333t19 342s7
+413m27 Fld{52M9} 26|325b27 332r30
+414r27 Options{63R9} 26|326b27 332m7
+418V13*Get_Options{63R9} 418>26 26|337b13 344l8 344t19 1023s14
+418m26 Fld{52M9} 26|337b26 342r20
+428U14*Set_Foreground 429>7 430>7 431>7 433r19 26|352b14 365l8 365t22
+429m7 Fld{52M9} 26|353b7 362r38
+430r7 Fore{23|418R9} 26|354b7 364r53
+431i7 Color{23|410I9} 26|355b7 363r53
+436U14*Foreground 436>26 437<26 26|369b14 376l8 376t18
+436m26 Fld{52M9} 26|369b26 375r27
+437r26 Fore{23|418R9} 26|370b26 375m7
+441U14*Foreground 441>26 442<26 443<26 26|378b14 387l8 387t18
+441m26 Fld{52M9} 26|378b26 385r28 386r28
+442r26 Fore{23|418R9} 26|379b26 385m7
+443i26 Color{23|410I9} 26|380b26 386m7
+448U14*Set_Background 449>7 450>7 451>7 26|391b14 404l8 404t22
+449m7 Fld{52M9} 26|392b7 401r38
+450r7 Back{23|418R9} 26|393b7 403r53
+451i7 Color{23|410I9} 26|394b7 402r53
+456U14*Background 456>26 457<26 26|408b14 415l8 415t18
+456m26 Fld{52M9} 26|408b26 414r27
+457r26 Back{23|418R9} 26|409b26 414m7
+461U14*Background 461>26 462<26 463<26 26|417b14 426l8 426t18
+461m26 Fld{52M9} 26|417b26 424r28 425r28
+462r26 Back{23|418R9} 26|418b26 424m7
+463i26 Color{23|410I9} 26|419b26 425m7
+468U14*Set_Pad_Character 468>33 469>33 471r19 26|430b14 440l8 440t25
+468m33 Fld{52M9} 26|430b33 438r37
+469e33 Pad{character} 26|431b33 439r59
+474U14*Pad_Character 474>29 475<29 477r19 26|444b14 451l8 451t21
+474m29 Fld{52M9} 26|444b29 450r40
+475e29 Pad{character} 26|445b29 450m7
+484U14*Info 484>20 485<20 486<20 487<20 488<20 489<20 490<20 492r19 26|459b14
+. 485l8 485t12
+484m20 Fld{52M9} 26|459b20 475r32
+485i20 Lines{23|62I12} 26|460b20 479m7
+486i20 Columns{23|64I12} 26|461b20 480m7
+487i20 First_Row{23|59I9} 26|462b20 481m7
+488i20 First_Column{23|60I9} 26|463b20 482m7
+489i20 Off_Screen{natural} 26|464b20 483m7
+490i20 Additional_Buffers{131I9} 26|465b20 484m7
+495U14*Dynamic_Info 495>28 496<28 497<28 498<28 500r19 26|489b14 506l8 506t20
+495m28 Fld{52M9} 26|489b28 500r32
+496i28 Lines{23|62I12} 26|490b28 503m7
+497i28 Columns{23|64I12} 26|491b28 504m7
+498i28 Max{natural} 26|492b28 505m7
+507U14*Set_Window 507>26 508>26 510r19 26|514b14 523l8 523t18
+507m26 Frm{53M9} 26|514b26 522r36
+508m26 Win{23|56M9} 26|515b26 522r41
+513V13*Get_Window{23|56M9} 513>25 515r19 26|527b13 535l8 535t18
+513m25 Frm{53M9} 26|527b25 532r40
+518U14*Set_Sub_Window 518>30 519>30 521r19 26|539b14 548l8 548t22
+518m30 Frm{53M9} 26|539b30 547r36
+519m30 Win{23|56M9} 26|540b30 547r41
+524V13*Get_Sub_Window{23|56M9} 524>29 526r19 26|552b13 560l8 560t22
+524m29 Frm{53M9} 26|552b29 557r40
+529U14*Scale 529>21 530<21 531<21 533r19 26|564b14 577l8 577t13
+529m21 Frm{53M9} 26|564b21 574r31
+530i21 Lines{23|62I12} 26|565b21 575m7
+531i21 Columns{23|64I12} 26|566b21 576m7
+539P9*Form_Hook_Function 539>49 540r26 544r42 550r42 556r41 562r41 567r53
+. 572r53 577r52 582r52 26|586r42 589r39 599r42 602r39 612r41 615r38 625r41
+. 628r38
+539m49 Frm{53M9}
+543U14*Set_Field_Init_Hook 543>35 544>35 546r19 26|585b14 594l8 594t27
+543m35 Frm{53M9} 26|585b35 593r38
+544p35 Proc{539P9} 26|586b35 593r43
+549U14*Set_Field_Term_Hook 549>35 550>35 552r19 26|598b14 607l8 607t27
+549m35 Frm{53M9} 26|598b35 606r38
+550p35 Proc{539P9} 26|599b35 606r43
+555U14*Set_Form_Init_Hook 555>34 556>34 558r19 26|611b14 620l8 620t26
+555m34 Frm{53M9} 26|611b34 619r37
+556p34 Proc{539P9} 26|612b34 619r42
+561U14*Set_Form_Term_Hook 561>34 562>34 564r19 26|624b14 633l8 633t26
+561m34 Frm{53M9} 26|624b34 632r37
+562p34 Proc{539P9} 26|625b34 632r42
+567V13*Get_Field_Init_Hook{539P9} 567>34 569b<c,field_init>22
+567m34 Frm{53M9}
+572V13*Get_Field_Term_Hook{539P9} 572>34 574b<c,field_term>22
+572m34 Frm{53M9}
+577V13*Get_Form_Init_Hook{539P9} 577>33 579b<c,form_init>22
+577m33 Frm{53M9}
+582V13*Get_Form_Term_Hook{539P9} 582>33 584b<c,form_term>22
+582m33 Frm{53M9}
+591U14*Redefine 591>24 592>24 594r19 598r61 26|641b14 655l8 655t16
+591m24 Frm{53M9} 26|641b24 653r41
+592p24 Flds{136P9} 26|642b24 649r22 649r32 650r10 650r20 653r46 653r56
+597U14*Set_Fields=598:61
+597m26 Frm{53M9}
+598p26 Flds{136P9}
+603V13*Fields{52M9} 603>21 604>21 606r19 26|659b13 675l8 675t14
+603m21 Frm{53M9} 26|659b21 667r32 669r48
+604i21 Index{positive} 26|660b21 669r27 672r37
+609V13*Field_Count{natural} 609>26 611r19 26|669s35 679b13 685l8 685t19
+609m26 Frm{53M9} 26|679b26 684r30
+614U14*Move 614>20 615>20 616>20 618r19 26|689b14 698l8 698t12
+614m20 Fld{52M9} 26|689b20 697r28
+615i20 Line{23|59I9} 26|690b20 697r40
+616i20 Column{23|60I9} 26|691b20 697r54
+625V13*Create{53M9} 625>21 631r14 26|706b13 723l8 723t14
+625p21 Fields{136P9} 26|706b21 713r22 713r34 714r10 714r22 717r24 717r36
+630V13*New_Form=631:14{53M9}
+630p23 Fields{136P9}
+636U14*Delete 636=22 26|727b14 735l8 735t14
+636m22 Frm{53M9} 26|727b22 733r28 734m7
+646U14*Set_Options 646>27 647>27 26|743b14 752l8 752t19
+646m27 Frm{53M9} 26|743b27 751r37
+647r27 Options{109R9} 26|744b27 751r42
+652U14*Switch_Options 652>30 653>30 654>30 26|756b14 773l8 773t22
+652m30 Frm{53M9} 26|756b30 769r39 771r40
+653r30 Options{109R9} 26|757b30 769r44 771r45
+654b30 On{boolean} 26|758b30 768r10
+660U14*Get_Options 660>27 661<27 26|777b14 785l8 785t19 793s7
+660m27 Frm{53M9} 26|777b27 784r29
+661r27 Options{109R9} 26|778b27 784m7
+665V13*Get_Options{109R9} 665>26 26|789b13 795l8 795t19 1029s14
+665m26 Frm{53M9} 26|789b26 793r20
+674U14*Post 674>20 675>20 678r19 26|803b14 817l8 817t12
+674m20 Frm{53M9} 26|803b20 813r33 815r35
+675b20 Post{boolean} 26|804b20 812r10
+685U14*Position_Cursor 685>31 687r19 26|825b14 832l8 832t23
+685m31 Frm{53M9} 26|825b31 831r39
+694V13*Data_Ahead{boolean} 694>25 696r19 26|840b13 852l8 852t18
+694m25 Frm{53M9} 26|840b25 845r38
+699V13*Data_Behind{boolean} 699>26 701r19 26|856b13 868l8 868t19
+699m26 Frm{53M9} 26|856b26 861r39
+707E9*Driver_Result 710e41 714r44 26|877r44
+707n27*Form_Ok{707E9} 26|893r20
+708n27*Request_Denied{707E9} 26|890r20
+709n27*Unknown_Request{707E9} 26|886r20
+710n27*Invalid_Field{707E9} 26|888r20
+713V13*Driver{707E9} 713>21 714>21 26|876b13 895l8 895t14
+713m21 Frm{53M9} 26|876b21 882r45
+714i21 Key{23|67I9} 26|877b21 882r57
+722I9*Page_Number<integer> 737r31 737r46 742r38 26|931r31 931r46 942r38 952r17
+725U14*Set_Current 725>27 726>27 728r19 26|903b14 911l8 911t19
+725m27 Frm{53M9} 26|903b27 910r39
+726m27 Fld{52M9} 26|904b27 910r44
+731V13*Current{52M9} 731>22 733r19 26|915b13 926l8 926t15
+731m22 Frm{53M9} 26|915b22 920r44
+736U14*Set_Page 736>24 737>24 739r19 26|930b14 938l8 938t16
+736m24 Frm{53M9} 26|930b24 937r36
+737i24 Page{722I9} 26|931b24 937r48
+742V13*Page{722I9} 742>19 744r19 26|942b13 954l8 954t12
+742m19 Frm{53M9} 26|942b19 947r39
+747V13*Get_Index{positive} 747>24 752r19 26|956b13 967l8 967t17
+747m24 Fld{52M9} 26|956b24 961r47
+759U14*Set_New_Page 759>28 760>28 762r19 26|976b14 984l8 984t20
+759m28 Fld{52M9} 26|976b28 983r32
+760b28 New_Page{boolean} 26|977b28 983r50
+765V13*Is_New_Page{boolean} 765>26 767r19 26|988b13 1000l8 1000t19
+765m26 Fld{52M9} 26|988b26 993r39
+X 26 terminal_interface-curses-forms.adb
+55A9 C_Field_Array(25|52M9)<integer> 57r45
+56K12 F_Array[9|44] 662r11
+68V16*Form_Request_Name{11|65P9} 68>35 69b<c,form_request_name>25 71s20
+68i35 Key{24|49I12}
+76V16*Form_Request_Name{11|65P9} 76>35 77b<c,form_request_name>25 79s27
+76i35 Key{24|49I12}
+100V16*Newfield{25|52M9} 100>26 100>29 100>32 100>35 100>38 100>41 101b<c,new_field>25
+. 102s31
+100i26 H{24|49I12}
+100i29 W{24|49I12}
+100i32 T{24|49I12}
+100i35 L{24|49I12}
+100i38 O{24|49I12}
+100i41 M{24|49I12}
+102m7 Fld{25|52M9} 107r10 110r14
+117V16*Free_Field{24|70E9} 117>28 118b<c,free_field>25 121s22
+117m28 Fld{25|52M9}
+131V16*Dup_Field{25|52M9} 131>27 132>27 133>27 134b<c,dup_field>25 136s29
+131m27 Fld{25|52M9}
+132i27 Top{24|49I12}
+133i27 Left{24|49I12}
+136m7 F{25|52M9} 140r10 143r14
+152V16*Lnk_Field{25|52M9} 152>27 153>27 154>27 155b<c,link_field>25 157s29
+152m27 Fld{25|52M9}
+153i27 Top{24|49I12}
+154i27 Left{24|49I12}
+157m7 F{25|52M9} 161r10 164r14
+176V16*Set_Field_Just{24|70E9} 176>32 177>32 178b<c,set_field_just>25 181s22
+176m32 Fld{25|52M9}
+177i32 Just{24|49I12}
+189V16*Field_Just{24|49I12} 189>28 190b<c,field_just>25 192s39
+189m28 Fld{25|52M9}
+206V16*Set_Fld_Buffer{24|70E9} 206>32 207>34 208>34 210b<c,set_field_buffer>25
+. 213s22
+206m32 Fld{25|52M9}
+207i34 Bufnum{24|49I12}
+208a34 S{8|124A9}
+223V16*Field_Buffer{11|65P9} 223>30 224>30 225b<c,field_buffer>25 227s20
+223m30 Fld{25|52M9}
+224i30 B{24|49I12}
+234V16*Field_Buffer{11|65P9} 234>30 235>30 236b<c,field_buffer>25 238s27
+234m30 Fld{25|52M9}
+235i30 B{24|49I12}
+246V16*Set_Fld_Status{24|70E9} 246>32 247>32 248b<c,set_field_status>25 251s10
+246m32 Fld{25|52M9}
+247i32 St{24|49I12}
+260V16*Field_Status{24|49I12} 260>30 261b<c,field_status>25 263s31
+260m30 Fld{25|52M9}
+263i7 Res{24|49I12} 265r10
+277V16*Set_Field_Max{24|70E9} 277>31 278>31 279b<c,set_max_field>25 282s22
+277m31 Fld{25|52M9}
+278i31 M{24|49I12}
+294V16*Set_Field_Opts{24|70E9} 294>32 295>32 296b<c,set_field_opts>25 299s22
+294m32 Fld{25|52M9}
+295r32 Opt{25|63R9}
+308V16*Field_Opts_On{24|70E9} 308>31 309>31 310b<c,field_opts_on>25 317s25
+308m31 Fld{25|52M9}
+309r31 Opt{25|63R9}
+311V16*Field_Opts_Off{24|70E9} 311>32 312>32 313b<c,field_opts_off>25 319s25
+311m32 Fld{25|52M9}
+312r32 Opt{25|63R9}
+328V16*Field_Opts{25|63R9} 328>28 329b<c,field_opts>25 332s18
+328m28 Fld{25|52M9}
+340r7 Fos{25|63R9} 342m25 343r14
+357V16*Set_Field_Fore{24|70E9} 357>32 358>32 359b<c,set_field_fore>25 362s22
+357m32 Fld{25|52M9}
+358r32 Attr{23|488R9}
+372V16*Field_Fore{23|488R9} 372>28 373b<c,field_fore>25 375s15
+372m28 Fld{25|52M9}
+382V16*Field_Fore{23|488R9} 382>28 383b<c,field_fore>25 385s16 386s16
+382m28 Fld{25|52M9}
+396V16*Set_Field_Back{24|70E9} 396>32 397>32 398b<c,set_field_back>25 401s22
+396m32 Fld{25|52M9}
+397r32 Attr{23|488R9}
+411V16*Field_Back{23|488R9} 411>28 412b<c,field_back>25 414s15
+411m28 Fld{25|52M9}
+421V16*Field_Back{23|488R9} 421>28 422b<c,field_back>25 424s16 425s16
+421m28 Fld{25|52M9}
+433V16*Set_Field_Pad{24|70E9} 433>31 434>31 435b<c,set_field_pad>25 438s22
+433m31 Fld{25|52M9}
+434i31 Ch{24|49I12}
+447V16*Field_Pad{24|49I12} 447>27 448b<c,field_pad>25 450s29
+447m27 Fld{25|52M9}
+467P12 C_Int_Access(24|49I12) 469r49
+468V16*Fld_Info{24|70E9} 468>26 469>26 469>29 469>32 469>36 469>40 469>44
+. 471b<c,field_info>25 475s22
+468m26 Fld{25|52M9}
+469p26 L{467P12}
+469p29 C{467P12}
+469p32 Fr{467P12}
+469p36 Fc{467P12}
+469p40 Os{467P12}
+469p44 Ab{467P12}
+473i7 L{24|49I12} 476m32 476r32 479r41
+473i10 C{24|49I12} 476m42 476r42 480r43
+473i13 Fr{24|49I12} 477m32 477r32 481r44
+473i17 Fc{24|49I12} 477m43 477r43 482r46
+473i21 Os{24|49I12} 478m32 478r32 483r38
+473i25 Ab{24|49I12} 478m43 478r43 484r44
+494P12 C_Int_Access(24|49I12) 495r49
+495V16*Dyn_Info{24|70E9} 495>26 495>39 495>42 495>45 496b<c,dynamic_field_info>25
+. 500s22
+495m26 Fld{25|52M9}
+495p39 L{494P12}
+495p42 C{494P12}
+495p45 M{494P12}
+498i7 L{24|49I12} 501m32 501r32 503r30
+498i10 C{24|49I12} 501m42 501r42 504r32
+498i13 M{24|49I12} 502m32 502r32 505r27
+517V16*Set_Form_Win{24|70E9} 517>30 518>30 519b<c,set_form_win>25 522s22
+517m30 Frm{25|53M9}
+518m30 Win{23|56M9}
+529V16*Form_Win{23|56M9} 529>26 530b<c,form_win>25 532s30
+529m26 Frm{25|53M9}
+532m7 W{23|56M9} 534r14
+542V16*Set_Form_Sub{24|70E9} 542>30 543>30 544b<c,set_form_sub>25 547s22
+542m30 Frm{25|53M9}
+543m30 Win{23|56M9}
+554V16*Form_Sub{23|56M9} 554>26 555b<c,form_sub>25 557s30
+554m26 Frm{25|53M9}
+557m7 W{23|56M9} 559r14
+568P12 C_Int_Access(24|49I12) 569r46
+569V16*M_Scale{24|70E9} 569>25 569>37 569>41 570b<c,scale_form>25 574s22
+569m25 Frm{25|53M9}
+569p37 Yp{568P12}
+569p41 Xp{568P12}
+572i7 X{24|49I12} 574m46 574r46 576r32
+572i10 Y{24|49I12} 574m36 574r36 575r30
+588V16*Set_Field_Init{24|70E9} 588>32 589>32 590b<c,set_field_init>25 593s22
+588m32 Frm{25|53M9}
+589p32 Proc{25|539P9}
+601V16*Set_Field_Term{24|70E9} 601>32 602>32 603b<c,set_field_term>25 606s22
+601m32 Frm{25|53M9}
+602p32 Proc{25|539P9}
+614V16*Set_Form_Init{24|70E9} 614>31 615>31 616b<c,set_form_init>25 619s22
+614m31 Frm{25|53M9}
+615p31 Proc{25|539P9}
+627V16*Set_Form_Term{24|70E9} 627>31 628>31 629b<c,set_form_term>25 632s22
+627m31 Frm{25|53M9}
+628p31 Proc{25|539P9}
+644V16*Set_Frm_Fields{24|70E9} 644>32 645>32 646b<c,set_form_fields>25 653s25
+644m32 Frm{25|53M9}
+645m32 Items{12|67M9}
+664V16*C_Fields{9|47P9[56]} 664>26 665b<c,form_fields>25 667s22
+664m26 Frm{25|53M9}
+667p7 P{9|47P9[56]} 669r10 672m10 672r15 673r17
+681V16*Count{24|49I12} 681>23 682b<c,field_count>25 684s23
+681m23 Frm{25|53M9}
+693V16*Move{24|70E9} 693>22 693>35 693>38 694b<c,move_field>25 697s22
+693m22 Fld{25|52M9}
+693i35 L{24|49I12}
+693i38 C{24|49I12}
+708V16*NewForm{25|53M9} 708>25 709b<c,new_form>25 717s15
+708m25 Fields{12|67M9}
+711m7 M{25|53M9} 717m10 718r13 721r17
+729V16*Free{24|70E9} 729>22 730b<c,free_form>25 733s22
+729m22 Frm{25|53M9}
+746V16*Set_Form_Opts{24|70E9} 746>31 747>31 748b<c,set_form_opts>25 751s22
+746m31 Frm{25|53M9}
+747r31 Opt{25|109R9}
+760V16*Form_Opts_On{24|70E9} 760>30 761>30 762b<c,form_opts_on>25 769s25
+760m30 Frm{25|53M9}
+761r30 Opt{25|109R9}
+763V16*Form_Opts_Off{24|70E9} 763>31 764>31 765b<c,form_opts_off>25 771s25
+763m31 Frm{25|53M9}
+764r31 Opt{25|109R9}
+780V16*Form_Opts{25|109R9} 780>27 781b<c,form_opts>25 784s18
+780m27 Frm{25|53M9}
+791r7 Fos{25|109R9} 793m25 794r14
+806V16*M_Post{24|70E9} 806>24 807b<c,post_form>25 813s25
+806m24 Frm{25|53M9}
+808V16*M_Unpost{24|70E9} 808>26 809b<c,unpost_form>25 815s25
+808m26 Frm{25|53M9}
+827V16*Pos_Form_Cursor{24|70E9} 827>33 828b<c,pos_form_cursor>25 831s22
+827m33 Frm{25|53M9}
+842V16*Ahead{24|49I12} 842>23 843b<c,data_ahead>25 845s31
+842m23 Frm{25|53M9}
+845i7 Res{24|49I12} 847r10
+858V16*Behind{24|49I12} 858>24 859b<c,data_behind>25 861s31
+858m24 Frm{25|53M9}
+861i7 Res{24|49I12} 863r10
+879V16*Frm_Driver{24|70E9} 879>28 879>40 880b<c,form_driver>25 882s33
+879m28 Frm{25|53M9}
+879i40 Key{24|49I12}
+882e7 R{24|70E9} 884r12 892r28
+906V16*Set_Current_Fld{24|70E9} 906>33 906>45 907b<c,set_current_field>25
+. 910s22
+906m33 Frm{25|53M9}
+906m45 Fld{25|52M9}
+917V16*Current_Fld{25|52M9} 917>29 918b<c,current_field>25 920s31
+917m29 Frm{25|53M9}
+920m7 Fld{25|52M9} 922r10 925r14
+933V16*Set_Frm_Page{24|70E9} 933>30 933>42 934b<c,set_form_page>25 937s22
+933m30 Frm{25|53M9}
+933i42 Pg{24|49I12}
+944V16*Get_Page{24|49I12} 944>26 945b<c,form_page>25 947s29
+944m26 Frm{25|53M9}
+947i7 P{24|49I12} 949r10 952r30
+958V16*Get_Fieldindex{24|49I12} 958>32 959b<c,field_index>25 961s31
+958m32 Fld{25|52M9}
+961i7 Res{24|49I12} 963r10 966r33
+979V16*Set_Page{24|70E9} 979>26 979>39 980b<c,set_new_page>25 983s22
+979m26 Fld{25|52M9}
+979i39 Flg{24|49I12}
+990V16*Is_New{24|49I12} 990>24 991b<c,new_page>25 993s31
+990m24 Fld{25|52M9}
+993i7 Res{24|49I12} 995r10
+1005U17 Release[6|23] 1015s7
+1009i14 I{integer} 1010r24 1011r32
+X 27 terminal_interface-curses_constants.ads
+6K28*Curses_Constants 25|48r38 80r31 81r15 82r31 83r15 84r31 85r15 86r31
+. 87r15 88r31 89r15 90r31 91r15 92r31 93r15 94r31 95r15 96r31 97r15 98r31
+. 99r15 102r34 118r33 119r15 120r33 121r15 124r33 27|383e40
+9a4*DFT_ARG_SUFFIX{string} 25|48r55
+279N4*O_VISIBLE_First 25|80r48
+280N4*O_VISIBLE_Last 25|81r32
+281N4*O_ACTIVE_First 25|82r48
+282N4*O_ACTIVE_Last 25|83r32
+283N4*O_PUBLIC_First 25|84r48
+284N4*O_PUBLIC_Last 25|85r32
+285N4*O_EDIT_First 25|86r48
+286N4*O_EDIT_Last 25|87r32
+287N4*O_WRAP_First 25|88r48
+288N4*O_WRAP_Last 25|89r32
+289N4*O_BLANK_First 25|90r48
+290N4*O_BLANK_Last 25|91r32
+291N4*O_AUTOSKIP_First 25|92r48
+292N4*O_AUTOSKIP_Last 25|93r32
+293N4*O_NULLOK_First 25|94r48
+294N4*O_NULLOK_Last 25|95r32
+295N4*O_PASSOK_First 25|96r48
+296N4*O_PASSOK_Last 25|97r32
+297N4*O_STATIC_First 25|98r48
+298N4*O_STATIC_Last 25|99r32
+299N4*Field_Options_Size 25|102r51 124r50
+303N4*O_NL_OVERLOAD_First 25|118r50
+304N4*O_NL_OVERLOAD_Last 25|119r32
+305N4*O_BS_OVERLOAD_First 25|120r50
+306N4*O_BS_OVERLOAD_Last 25|121r32
+

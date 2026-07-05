@@ -1,0 +1,226 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U sample.curses_demo%b	sample-curses_demo.adb	0eb2f252 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c%s	i-c.adb			i-c.ali
+W sample%s		sample.adb		sample.ali
+W sample.curses_demo%s	sample-curses_demo.adb	sample-curses_demo.ali
+W sample.curses_demo.attributes%s  sample-curses_demo-attributes.adb  sample-curses_demo-attributes.ali
+W sample.curses_demo.mouse%s  sample-curses_demo-mouse.adb  sample-curses_demo-mouse.ali
+W sample.explanation%s	sample-explanation.adb	sample-explanation.ali
+W sample.function_key_setting%s  sample-function_key_setting.adb  sample-function_key_setting.ali
+W sample.helpers%s	sample-helpers.adb	sample-helpers.ali
+W sample.manifest%s	sample-manifest.ads	sample-manifest.ali
+W sample.menu_demo%s	sample-menu_demo.adb	sample-menu_demo.ali
+Z sample.menu_demo.aux%s  sample-menu_demo-aux.adb  sample-menu_demo-aux.ali
+W sample.menu_demo.handler%s  sample-menu_demo-handler.adb  sample-menu_demo-handler.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+Z terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+W terminal_interface.curses.menus%s  terminal_interface-curses-menus.adb  terminal_interface-curses-menus.ali
+W terminal_interface.curses.mouse%s  terminal_interface-curses-mouse.adb  terminal_interface-curses-mouse.ali
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+W terminal_interface.curses.panels.user_data%s  terminal_interface-curses-panels-user_data.adb  terminal_interface-curses-panels-user_data.ali
+
+U sample.curses_demo%s	sample-curses_demo.ads	26bff89b EE NE OO PK
+W sample%s		sample.adb		sample.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cpoint.ads		20260501130736 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20260501130736 e467b078 interfaces.c.pointers%b
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-curses_demo.ads  20200202233434 9b93ffe2 sample.curses_demo%s
+D sample-curses_demo.adb  20200202233434 ce9e2202 sample.curses_demo%b
+D sample-curses_demo-attributes.ads  20200202233434 0467e0bb sample.curses_demo.attributes%s
+D sample-curses_demo-mouse.ads  20200202233434 849734e1 sample.curses_demo.mouse%s
+D sample-explanation.ads  20200202233434 7883ef84 sample.explanation%s
+D sample-function_key_setting.ads  20200202233434 98be4b41 sample.function_key_setting%s
+D sample-helpers.ads	20200202233434 f14bffc4 sample.helpers%s
+D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D sample-menu_demo.ads	20200202233434 75f8e443 sample.menu_demo%s
+D sample-menu_demo-aux.ads  20200202233434 48e049d3 sample.menu_demo.aux%s
+D sample-menu_demo-handler.ads  20200202233434 5a225f46 sample.menu_demo.handler%s
+D sample-menu_demo-handler.adb  20200202233434 420a7d44 sample.menu_demo.handler%b
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-expuns.ads		20260501130736 bacbc767 system.exp_uns%s
+D s-exponu.ads		20260501130736 7305628e system.exponu%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-menus.ads  20260703163925 9db15c8f terminal_interface.curses.menus%s
+D terminal_interface-curses-menus.adb  20250124203923 30aedf69 terminal_interface.curses.menus%b
+D terminal_interface-curses-mouse.ads  20260703163925 b102e51f terminal_interface.curses.mouse%s
+D terminal_interface-curses-mouse.adb  20200627185044 7c692c9a terminal_interface.curses.mouse%b
+D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses-panels.adb  20200202233434 e32236c5 terminal_interface.curses.panels%b
+D terminal_interface-curses-panels-user_data.ads  20260703163925 7a715738 terminal_interface.curses.panels.user_data%s
+D terminal_interface-curses-panels-user_data.adb  20250124203923 83d48ed6 terminal_interface.curses.panels.user_data%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c b b b [b sample__curses_demo 59 1 none]
+G c Z s b [demo sample__curses_demo 44 14 none]
+G c Z b b [set_user_data sample__curses_demo__pud 54 14 63_4]
+G c Z b b [get_user_data sample__curses_demo__pud 60 14 63_4]
+G c Z b b [get_user_data sample__curses_demo__pud 65 13 63_4]
+G r i none [b sample__curses_demo 59 1 none] [user_data terminal_interface__curses__panels 46 42 none]
+G r i none [demo sample__curses_demo 44 14 none] [handler sample__menu_demo 53 26 none]
+G r c none [demo sample__curses_demo 44 14 none] [create terminal_interface__curses__menus 190 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [create terminal_interface__curses__menus 637 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [item_count terminal_interface__curses__menus 628 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [has_mouse terminal_interface__curses__mouse 91 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [get_options terminal_interface__curses__menus 250 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [set_options terminal_interface__curses__menus 235 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [push_environment sample__function_key_setting 49 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [notepad sample__explanation 54 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [default_labels sample__function_key_setting 77 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [refresh_soft_label_keys_without_update terminal_interface__curses 1688 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [geometry sample__menu_demo__aux 48 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [create sample__menu_demo__aux 56 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [register_reportable_events terminal_interface__curses__mouse 103 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [start_mouse terminal_interface__curses__mouse 116 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [set_cursor_visibility terminal_interface__curses 1972 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [get_request sample__menu_demo__aux 68 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [driver terminal_interface__curses__menus 659 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [current terminal_interface__curses__menus 293 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [beep terminal_interface__curses 1041 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [get_index terminal_interface__curses__menus 309 13 none]
+G r c none [demo sample__curses_demo 44 14 none] [hide terminal_interface__curses__panels 97 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [update_panels terminal_interface__curses__panels 92 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [demo sample__curses_demo__attributes 44 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [demo sample__curses_demo__mouse 44 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [not_implemented sample__helpers 53 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [top terminal_interface__curses__panels 82 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [show terminal_interface__curses__panels 87 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [update_screen terminal_interface__curses 1211 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [end_mouse terminal_interface__curses__mouse 121 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [destroy sample__menu_demo__aux 63 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [pop_environment sample__function_key_setting 57 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [delete terminal_interface__curses__menus 644 14 none]
+G r c none [demo sample__curses_demo 44 14 none] [free terminal_interface__curses__menus 179 14 none]
+X 17 sample.ads
+42K9*Sample 44e11 18|42r9 46r5 19|49r6 49r27 50r6 50r26 51r6 51r39 53r6 53r30
+. 55r6 56r6 57r6 59r14 72r25 99r29 100r29 144r5
+X 18 sample-curses_demo.ads
+42K16*Curses_Demo 17|42k9 18|46l12 46e23 19|56r13 57r13 59b21 99r36 100r36
+. 144l12 144t23
+44U14*Demo 19|67b14 142l8 142t12
+X 19 sample-curses_demo.adb
+61I9 User_Data<integer> 62r40 63r41 79r45
+62P9 User_Data_Access(61I9) 63r52 79r21 80r12
+63K12 PUD[50|46] 89r10 111r10
+69V16 My_Driver{boolean} 69>27 70>27 71>27 72r51 82b16 114l11 114t20
+69m27 M{44|53M9} 82b27 86r57
+70i27 K{41|67I9} 83b27 90r13 91r16 93r19
+71m27 Pan{48|49M9} 84b27 89r29 95r25 104r24 105r25 111r29
+72K15 Mh[28|53] 137r7
+74p7 Itm{44|177P9} 78r30 94r26 103r26 118r34 126r26 128r26 141m13 141r13
+78m7 M{44|53M9} 118r27 137r20 140m15 140r15
+79p7 U1{62P9} 89r34 112r25 112r50
+80p7 U2{62P9} 111m34 111r34 112r34 112r55
+86i10 Idx{positive} 94r19 98r21 103r19
+87b10 Result{boolean} 92m16 113r17
+124r13 O{44|152R9} 126m39 127m13 128r39
+X 20 sample-curses_demo-attributes.ads
+42K28*Attributes 19|57w25 99r48 20|46e34
+44U14*Demo 19|99s59
+X 21 sample-curses_demo-mouse.ads
+42K28*Mouse 19|56w25 100r48 21|46e29
+44U14*Demo 19|100s54
+X 22 sample-explanation.ads
+46K16*Explanation 19|53w13 53r37 22|60e23
+54U14*Notepad 19|133s7
+X 23 sample-function_key_setting.ads
+47K16*Function_Key_Setting 19|51w13 51r46 23|83e32
+49U14*Push_Environment 19|132s7
+57U14*Pop_Environment 19|138s7
+77U14*Default_Labels 19|134s7
+X 24 sample-helpers.ads
+47K16*Helpers 19|50w13 50r33 24|55e19
+53U14*Not_Implemented 19|101s34
+X 25 sample-manifest.ads
+44K16*Manifest 19|49w13 49r34 25|68e20
+46i4*QUIT{41|383I12} 19|91r20
+47i4*SELECT_ITEM{41|383I12} 19|93r23
+X 26 sample-menu_demo.ads
+42K16*Menu_Demo 19|55r13 72r32 26|46e21
+X 28 sample-menu_demo-handler.ads
+53k26*Handler 19|55w23 72r42 28|65e29
+61U14 Drive_Me 19|137s10[72]
+X 37 s-stoele.ads
+92M9*Integer_Address
+X 40 terminal_interface.ads
+43K9*Terminal_Interface 19|43r6 43r37 44r6 44r43 45r6 45r44 46r6 46r45 47r6
+. 40|48e23
+X 41 terminal_interface-curses.ads
+48K28*Curses 19|43w25 43r56 44r25 44r62 45r25 45r63 46r25 46r64 47r25 41|2103e30
+67I9*Key_Code<integer> 19|70r31 83r31
+383I12*User_Key_Code{67I9} 19|90r18
+1211U14*Update_Screen 19|107s19
+1688U14*Refresh_Soft_Label_Keys_Without_Update 19|135s7
+X 44 terminal_interface-curses-menus.ads
+46K35*Menus 19|44w32 44r69 44|674e36
+52M9*Item<37|92M9>
+53M9*Menu<37|92M9> 19|69r31 78r12 82r31
+58m4*Null_Item{52M9} 19|77r10
+152R9*Item_Option_Set 19|124r17 44|155e17
+154b10*Selectable{boolean} 19|127m15
+174A9*Item_Array(52M9)<integer> 19|74r38
+177P9*Item_Array_Access(174A9) 19|74r13
+179U14*Free 19|141s7
+196V13*New_Item=198:14{52M9} 19|75s10 76s10
+235U14*Set_Options 19|128s13
+250U14*Get_Options 19|126s13
+293V13*Current{52M9} 19|86s48
+309V13*Get_Index{positive} 19|86s37
+628V13*Item_Count{natural} 19|118s15
+641V13*New_Menu=641:70{53M9} 19|78s20
+644U14*Delete 19|140s7
+X 46 terminal_interface-curses-mouse.ads
+45K35*Mouse 19|45w32 45r70 46|205e36
+91V13*Has_Mouse{boolean} 19|122s14
+X 48 terminal_interface-curses-panels.ads
+45K35*Panels 19|46w32 46r71 47r32 63r23 48|147e37
+49M9*Panel<37|92M9> 19|71r33 84r33
+82U14*Top 19|104s19
+87U14*Show 19|105s19
+92U14*Update_Panels 19|96s19 106s19
+97U14*Hide 19|95s19
+X 50 terminal_interface-curses-panels-user_data.ads
+46k42*User_Data 19|47w39 63r30 50|70e47
+54U14 Set_User_Data 19|89s14[63]
+60U14 Get_User_Data 19|111s14[63]
+

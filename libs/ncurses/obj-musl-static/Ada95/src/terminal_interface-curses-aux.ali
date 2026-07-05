@@ -1,0 +1,151 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+
+U terminal_interface.curses.aux%b  terminal_interface-curses-aux.adb  ec473f55 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+U terminal_interface.curses.aux%s  terminal_interface-curses-aux.ads  fdc0d1ae NE OO PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-aux.adb  20200202233434 b6fcbd42 terminal_interface.curses.aux%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [eti_exception terminal_interface__curses__aux 87 14 none]
+G c Z s b [fill_string terminal_interface__curses__aux 91 14 none]
+G c Z s b [fill_string terminal_interface__curses__aux 96 13 none]
+X 4 interfac.ads
+47K9*Interfaces 247e15 16|43r6 44r6 44r32 49r26 50r26 51r26 52r26 53r26 54r26
+. 55r26
+X 5 i-c.ads
+33K20*C 605e17 16|43w17 44r17 44r43 49r37 50r37 51r37 52r37 53r37 54r37 55r37
+62I9*int<integer> 16|49r39
+63I9*short<short_integer> 16|50r39
+64I9*long<long_integer> 16|51r39
+71M9*unsigned 16|53r39
+73M9*unsigned_long 16|54r39
+92M9*size_t 16|52r39
+X 6 i-cstrin.ads
+48K22*Strings 183e25 16|44w19 44r45 55r39
+65P9*chars_ptr 16|55r47 91r33 96r31 17|45r33 74r31
+71p4*Null_Ptr{65P9} 17|53r16 78r16
+126V13*Value{string} 17|61s18
+137V13*Strlen{5|92M9} 17|54s26 79s26
+X 7 system.ads
+37K9*System 155e11 16|42w6 56r30
+67M9*Address 16|56r37
+X 14 terminal_interface.ads
+43K9*Terminal_Interface 48e23 16|46r9 47r25 118r5 17|42r14 117r5
+X 15 terminal_interface-curses.ads
+48K28*Curses 14|43k9 15|2103e30 16|46r28 47r44 118r24 17|42r33 117r24
+528X4*Eti_System_Error 17|100r42
+529X4*Eti_Bad_Argument 17|101r42
+530X4*Eti_Posted 17|102r42
+531X4*Eti_Connected 17|103r42
+532X4*Eti_Bad_State 17|104r42
+533X4*Eti_No_Room 17|105r42
+534X4*Eti_Not_Posted 17|106r42
+535X4*Eti_Unknown_Command 17|107r42
+536X4*Eti_No_Match 17|108r42
+537X4*Eti_Not_Selectable 17|109r42
+538X4*Eti_Not_Connected 17|110r42
+539X4*Eti_Request_Denied 17|111r42
+540X4*Eti_Invalid_Field 17|112r42
+541X4*Eti_Current 17|113r42
+X 16 terminal_interface-curses-aux.ads
+46K35*Aux 15|48k28 16|47r51 70E9 118l31 118e34 17|42b40 117l31 117t34
+49I12*C_Int{5|62I9} 63r28 64r28 66r28 67r28 100r27
+50I12*C_Short{5|63I9}
+51I12*C_Long_Int{5|64I9}
+52M12*C_Size_T{5|92M9}
+53M12*C_UInt{5|71M9}
+54M12*C_ULong{5|73M9}
+55P12*C_Char_Ptr{6|65P9}
+56M12*C_Void_Ptr<7|67M9>
+63i4*Curses_Ok{49I12}
+64i4*Curses_Err{49I12}
+66i4*Curses_True{49I12}
+67i4*Curses_False{49I12}
+70E9*Eti_Error 85e12 87r36 100r8 101r26 102r8 17|95r36
+71n7*E_Current{70E9} 103r7 17|113r15
+72n7*E_Invalid_Field{70E9} 104r7 17|112r15
+73n7*E_Request_Denied{70E9} 105r7 17|111r15
+74n7*E_Not_Connected{70E9} 106r7 17|110r15
+75n7*E_Not_Selectable{70E9} 107r7 17|109r15
+76n7*E_No_Match{70E9} 108r7 17|108r15
+77n7*E_Unknown_Command{70E9} 109r7 17|107r15
+78n7*E_Not_Posted{70E9} 110r7 17|106r15
+79n7*E_No_Room{70E9} 111r7 17|105r15
+80n7*E_Bad_State{70E9} 112r7 17|104r15
+81n7*E_Connected{70E9} 113r7 17|103r15
+82n7*E_Posted{70E9} 114r7 17|102r15
+83n7*E_Bad_Argument{70E9} 115r7 17|101r15
+84n7*E_System_Error{70E9} 116r7 17|100r15
+85n7*E_Ok{70E9} 117r7 17|99r15
+87U14*Eti_Exception 87>29 17|95b14 115l8 115t21
+87e29 Code{70E9} 17|95b29 98r12
+91U14*Fill_String 91>27 92<27 17|45b14 72l8 72t19 86s16
+91p27 Cp{6|65P9} 17|45b27 53r10 54r34 61r25
+92a27 Str{string} 17|46b27 55r13 62m13 62r18 62r32 68r16 69m10 69r16 69r36
+96V13*Fill_String{string} 96>26 17|74b13 93l8 93t19
+96p26 Cp{6|65P9} 17|74b26 78r10 79r34 86r29
+X 17 terminal_interface-curses-aux.adb
+51i7 Len{natural} 54m10 55r26 59r30 62r44 65m10 68r10 69r28
+59a13 S{string} 61m13 62r57 62r60
+76i7 Len{natural} 79m10 80r13 84r33
+84a16 S{string} 86m33 87r23
+X 18 terminal_interface-curses_constants.ads
+6K28*Curses_Constants 16|63r37 64r37 66r37 67r37 103r28 104r28 105r28 106r28
+. 107r28 108r28 109r28 110r28 111r28 112r28 113r28 114r28 115r28 116r28 117r28
+. 18|383e40
+12N4*OK 16|63r54
+13N4*ERR 16|64r54
+15N4*TRUE 16|66r54
+16N4*FALSE 16|67r54
+80N4*E_OK 16|117r45
+81N4*E_SYSTEM_ERROR 16|116r45
+82N4*E_BAD_ARGUMENT 16|115r45
+83N4*E_POSTED 16|114r45
+84N4*E_CONNECTED 16|113r45
+85N4*E_BAD_STATE 16|112r45
+86N4*E_NO_ROOM 16|111r45
+87N4*E_NOT_POSTED 16|110r45
+88N4*E_UNKNOWN_COMMAND 16|109r45
+89N4*E_NO_MATCH 16|108r45
+90N4*E_NOT_SELECTABLE 16|107r45
+91N4*E_NOT_CONNECTED 16|106r45
+92N4*E_REQUEST_DENIED 16|105r45
+93N4*E_INVALID_FIELD 16|104r45
+94N4*E_CURRENT 16|103r45
+

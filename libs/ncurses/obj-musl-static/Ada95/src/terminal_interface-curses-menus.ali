@@ -1,0 +1,834 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U terminal_interface.curses.menus%b  terminal_interface-curses-menus.adb  48b7e818 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.ads	s-stoele.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+
+U terminal_interface.curses.menus%s  terminal_interface-curses-menus.ads  482cf720 BN EE OO PR PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+L "-lmenu"
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cpoint.ads		20260501130736 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20260501130736 e467b078 interfaces.c.pointers%b
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-exctab.adb		20260501130736 89d79d5b system.exception_table%b
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-menus.ads  20260703163925 9db15c8f terminal_interface.curses.menus%s
+D terminal_interface-curses-menus.adb  20250124203923 30aedf69 terminal_interface.curses.menus%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [request_name terminal_interface__curses__menus 102 14 none]
+G c Z s b [request_name terminal_interface__curses__menus 105 14 none]
+G c Z s b [default_menu_options terminal_interface__curses__menus 146 13 none]
+G c Z s b [default_item_options terminal_interface__curses__menus 167 13 none]
+G c Z s b [free terminal_interface__curses__menus 179 14 none]
+G c Z s b [create terminal_interface__curses__menus 190 13 none]
+G c Z s b [delete terminal_interface__curses__menus 202 14 none]
+G c Z s b [set_value terminal_interface__curses__menus 211 14 none]
+G c Z s b [value terminal_interface__curses__menus 217 13 none]
+G c Z s b [visible terminal_interface__curses__menus 226 13 none]
+G c Z s b [set_options terminal_interface__curses__menus 235 14 none]
+G c Z s b [switch_options terminal_interface__curses__menus 241 14 none]
+G c Z s b [get_options terminal_interface__curses__menus 250 14 none]
+G c Z s b [get_options terminal_interface__curses__menus 255 13 none]
+G c Z s b [name terminal_interface__curses__menus 264 14 none]
+G c Z s b [name terminal_interface__curses__menus 267 14 none]
+G c Z s b [description terminal_interface__curses__menus 273 14 none]
+G c Z s b [description terminal_interface__curses__menus 277 14 none]
+G c Z s b [set_current terminal_interface__curses__menus 287 14 none]
+G c Z s b [current terminal_interface__curses__menus 293 13 none]
+G c Z s b [set_top_row terminal_interface__curses__menus 298 14 none]
+G c Z s b [top_row terminal_interface__curses__menus 304 13 none]
+G c Z s b [get_index terminal_interface__curses__menus 309 13 none]
+G c Z s b [post terminal_interface__curses__menus 321 14 none]
+G c Z s b [set_options terminal_interface__curses__menus 332 14 none]
+G c Z s b [switch_options terminal_interface__curses__menus 338 14 none]
+G c Z s b [get_options terminal_interface__curses__menus 346 14 none]
+G c Z s b [get_options terminal_interface__curses__menus 351 13 none]
+G c Z s b [set_window terminal_interface__curses__menus 360 14 none]
+G c Z s b [get_window terminal_interface__curses__menus 366 13 none]
+G c Z s b [set_sub_window terminal_interface__curses__menus 371 14 none]
+G c Z s b [get_sub_window terminal_interface__curses__menus 377 13 none]
+G c Z s b [scale terminal_interface__curses__menus 382 14 none]
+G c Z s b [position_cursor terminal_interface__curses__menus 393 14 none]
+G c Z s b [set_mark terminal_interface__curses__menus 402 14 none]
+G c Z s b [mark terminal_interface__curses__menus 408 14 none]
+G c Z s b [mark terminal_interface__curses__menus 412 14 none]
+G c Z s b [set_foreground terminal_interface__curses__menus 422 14 none]
+G c Z s b [foreground terminal_interface__curses__menus 430 14 none]
+G c Z s b [foreground terminal_interface__curses__menus 435 14 none]
+G c Z s b [set_background terminal_interface__curses__menus 442 14 none]
+G c Z s b [background terminal_interface__curses__menus 450 14 none]
+G c Z s b [background terminal_interface__curses__menus 455 14 none]
+G c Z s b [set_grey terminal_interface__curses__menus 462 14 none]
+G c Z s b [grey terminal_interface__curses__menus 470 14 none]
+G c Z s b [grey terminal_interface__curses__menus 475 14 none]
+G c Z s b [set_pad_character terminal_interface__curses__menus 483 14 none]
+G c Z s b [pad_character terminal_interface__curses__menus 489 14 none]
+G c Z s b [set_spacing terminal_interface__curses__menus 499 14 none]
+G c Z s b [spacing terminal_interface__curses__menus 507 14 none]
+G c Z s b [set_pattern terminal_interface__curses__menus 519 13 none]
+G c Z s b [pattern terminal_interface__curses__menus 526 14 none]
+G c Z s b [set_format terminal_interface__curses__menus 536 14 none]
+G c Z s b [format terminal_interface__curses__menus 550 14 none]
+G c Z s b [set_item_init_hook terminal_interface__curses__menus 564 14 none]
+G c Z s b [set_item_term_hook terminal_interface__curses__menus 570 14 none]
+G c Z s b [set_menu_init_hook terminal_interface__curses__menus 576 14 none]
+G c Z s b [set_menu_term_hook terminal_interface__curses__menus 582 14 none]
+G c Z s b [get_item_init_hook terminal_interface__curses__menus 588 13 none]
+G c Z s b [get_item_term_hook terminal_interface__curses__menus 593 13 none]
+G c Z s b [get_menu_init_hook terminal_interface__curses__menus 598 13 none]
+G c Z s b [get_menu_term_hook terminal_interface__curses__menus 603 13 none]
+G c Z s b [redefine terminal_interface__curses__menus 612 14 none]
+G c Z s b [items terminal_interface__curses__menus 622 13 none]
+G c Z s b [item_count terminal_interface__curses__menus 628 13 none]
+G c Z s b [create terminal_interface__curses__menus 637 13 none]
+G c Z s b [delete terminal_interface__curses__menus 644 14 none]
+G c Z s b [driver terminal_interface__curses__menus 659 13 none]
+G c Z s s [menu_option_setIP terminal_interface__curses__menus 116 9 none]
+G c Z s s [item_option_setIP terminal_interface__curses__menus 152 9 none]
+G c Z s s [item_arrayIP terminal_interface__curses__menus 174 9 none]
+G c Z b b [c_item_arrayIP terminal_interface__curses__menus 52 9 none]
+G c Z b b [value terminal_interface__curses__menus__i_array 54 13 53_4]
+G c Z b b [value terminal_interface__curses__menus__i_array 58 13 53_4]
+G c Z b b [Oadd terminal_interface__curses__menus__i_array 68 13 53_4]
+G c Z b b [Oadd terminal_interface__curses__menus__i_array 69 13 53_4]
+G c Z b b [Osubtract terminal_interface__curses__menus__i_array 70 13 53_4]
+G c Z b b [Osubtract terminal_interface__curses__menus__i_array 71 13 53_4]
+G c Z b b [increment terminal_interface__curses__menus__i_array 73 14 53_4]
+G c Z b b [decrement terminal_interface__curses__menus__i_array 74 14 53_4]
+G c Z b b [virtual_length terminal_interface__curses__menus__i_array 81 13 53_4]
+G c Z b b [copy_terminated_array terminal_interface__curses__menus__i_array 85 14 53_4]
+G c Z b b [copy_array terminal_interface__curses__menus__i_array 91 14 53_4]
+G c Z b b [to_pointer terminal_interface__curses__menus__i_array 42 13 53_4]
+G c Z b b [to_addr terminal_interface__curses__menus__i_array 43 13 53_4]
+G c Z b b [to_offset terminal_interface__curses__menus__i_array 44 13 53_4]
+G c Z b b [to_ptrdiff terminal_interface__curses__menus__i_array 45 13 53_4]
+G r c none [request_name terminal_interface__curses__menus 102 14 none] [fill_string terminal_interface__curses__aux 91 14 none]
+G r c none [request_name terminal_interface__curses__menus 105 14 none] [fill_string terminal_interface__curses__aux 96 13 none]
+G r c none [free terminal_interface__curses__menus 179 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [delete terminal_interface__curses__menus 202 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_value terminal_interface__curses__menus 211 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_options terminal_interface__curses__menus 235 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [switch_options terminal_interface__curses__menus 241 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [name terminal_interface__curses__menus 264 14 none] [fill_string terminal_interface__curses__aux 91 14 none]
+G r c none [name terminal_interface__curses__menus 267 14 none] [fill_string terminal_interface__curses__aux 96 13 none]
+G r c none [description terminal_interface__curses__menus 273 14 none] [fill_string terminal_interface__curses__aux 91 14 none]
+G r c none [description terminal_interface__curses__menus 277 14 none] [fill_string terminal_interface__curses__aux 96 13 none]
+G r c none [set_current terminal_interface__curses__menus 287 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_top_row terminal_interface__curses__menus 298 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [post terminal_interface__curses__menus 321 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_options terminal_interface__curses__menus 332 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [switch_options terminal_interface__curses__menus 338 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_window terminal_interface__curses__menus 360 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_sub_window terminal_interface__curses__menus 371 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [scale terminal_interface__curses__menus 382 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [position_cursor terminal_interface__curses__menus 393 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_mark terminal_interface__curses__menus 402 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [mark terminal_interface__curses__menus 408 14 none] [fill_string terminal_interface__curses__aux 91 14 none]
+G r c none [mark terminal_interface__curses__menus 412 14 none] [fill_string terminal_interface__curses__aux 96 13 none]
+G r c none [set_foreground terminal_interface__curses__menus 422 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_background terminal_interface__curses__menus 442 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_grey terminal_interface__curses__menus 462 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_pad_character terminal_interface__curses__menus 483 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_spacing terminal_interface__curses__menus 499 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [spacing terminal_interface__curses__menus 507 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_pattern terminal_interface__curses__menus 519 13 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [pattern terminal_interface__curses__menus 526 14 none] [fill_string terminal_interface__curses__aux 91 14 none]
+G r c none [set_format terminal_interface__curses__menus 536 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [format terminal_interface__curses__menus 550 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_item_init_hook terminal_interface__curses__menus 564 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_item_term_hook terminal_interface__curses__menus 570 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_menu_init_hook terminal_interface__curses__menus 576 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [set_menu_term_hook terminal_interface__curses__menus 582 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [redefine terminal_interface__curses__menus 612 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [delete terminal_interface__curses__menus 644 14 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+G r c none [driver terminal_interface__curses__menus 659 13 none] [eti_exception terminal_interface__curses__aux 87 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 25|44r6 50r30 26|43r6 877r32
+X 2 a-charac.ads
+16K13*Characters 18e19 25|44r10 50r34
+X 3 a-chlat1.ads
+16K24*Latin_1 294e27 25|44w21 50r45
+61e4*Space{character} 25|50r53
+X 6 a-uncdea.ads
+23u15*Unchecked_Deallocation 26|43w10 877r36
+X 7 interfac.ads
+47K9*Interfaces 247e15 26|46r6 46r24 47r6 47r32 48r6 54r6 56r25 79r35 120r10
+. 124r10 444r35 642r35
+X 8 i-c.ads
+33K20*C 605e17 26|46w17 46r35 47r17 47r43 48r17 54r17 56r36 79r46 120r21
+. 124r21 444r46 642r46
+62I9*int<integer>
+89I9*ptrdiff_t<long_integer> 26|816r19
+92M9*size_t 26|93r28 450r13 648r13
+109E9*char<character> 26|79r48 444r48 642r48
+124A9*char_array(109E9)<92M9> 26|83r31 87r31 449r13 647r13
+189U14*To_C 26|96s7 97s7 452s7 651s7
+X 9 i-cpoint.ads
+44k22*Pointers 102e26 26|48w19 54r19
+47P9*Pointer(25|52M9) 26|808r45[53] 811r11[53]
+68V14*"+"{47P9[26|53]} 26|816s17[53]
+X 11 i-cstrin.ads
+48K22*Strings 183e25 26|47w19 47r45 56r38 120r23 124r23
+65P9*chars_ptr 26|56r46
+71p4*Null_Ptr{65P9} 26|119r17 123r17
+93U14*Free 26|120s31 124s31
+X 12 system.ads
+37K9*System 155e11 25|43w6 668r23 669r23 26|783r35 824r33
+67M9*Address 26|783r42 824r40
+X 20 s-stoele.ads
+43K16*Storage_Elements 104e28 25|668r30 669r30
+92M9*Integer_Address 25|668r47 669r47
+X 22 terminal_interface.ads
+43K9*Terminal_Interface 48e23 25|46r9 47r25 674r5 26|44r6 44r41 50r14 904r5
+X 23 terminal_interface-curses.ads
+48K28*Curses 22|43k9 23|2103e30 25|46r28 47r44 674r24 26|44r25 44r60 50r33
+. 904r24
+56M9*Window<20|92M9> 25|361r32 366r44 372r36 377r48 26|374r32 377r36 384r44
+. 386r45 389r20 395r36 398r36 405r48 407r45 410r20
+59I9*Line_Position<integer> 25|299r34 304r41 501r35 509r35 26|273r34 283r41
+. 293r14 604r35 620r35 635r16
+60I9*Column_Position<integer> 25|500r35 502r35 508r35 510r35 26|603r35 605r35
+. 619r35 621r35 634r16 636r16
+62I12*Line_Count{59I9} 25|383r35 537r36 551r36 26|416r35 427r16 672r36 688r36
+. 699r18
+64I12*Column_Count{60I9} 25|384r35 538r36 552r36 26|417r35 428r18 673r36
+. 689r36 700r18
+67I9*Key_Code<integer> 25|61r33 660r27 26|853r27
+72I12*Real_Key_Code{67I9}
+77I12*Special_Key_Code{72I12}
+380i4*Key_Max{77I12} 25|62r13 62r30 65r54 66r54 67r54 68r54 69r54 70r54 71r54
+. 72r54 73r54 74r54 75r54 76r54 77r54 78r54 79r54 80r54 81r54
+410I9*Color_Pair<short_integer> 25|425r15 425r29 437r38 445r15 445r29 457r38
+. 465r15 465r29 478r19 26|477r15 477r29 501r38 513r15 513r29 537r38 548r32
+. 548r46 573r32
+418R9*Character_Attribute_Set 435e17 25|424r15 431r38 436r38 444r15 451r37
+. 456r38 464r15 471r31 477r19 26|476r15 491r37 500r38 512r15 527r37 536r38
+. 547r32 563r31 572r31
+486r4*Normal_Video{418R9} 25|424r42 444r42 464r42 26|476r42 512r42 547r59
+488R9*Attributed_Character 493e17 26|480r38 483r21 493r46 503r46 516r38 519r21
+. 529r46 539r46 551r38 554r21 565r46 575r46
+490r10*Attr{418R9} 26|485m46 496r31 506r32 521m46 532r31 542r32 556m46 568r31
+. 578r32
+491i10*Color{410I9} 26|484m46 507r32 520m46 543r32 555m46 579r32
+492e10*Ch{character} 26|483m46 519m46 554m46
+528X4*Eti_System_Error 26|101r16
+X 24 terminal_interface-curses-aux.ads
+46K35*Aux 118e34 26|44w32 44r67
+49I12*C_Int{8|62I9} 26|62r36 65r34 70r36 73r41 134r36 143r45 156r45 276r35
+. 280r39 285r43 288r22 298r50 301r22 419r39 424r22 586r36 590r41 596r45 608r39
+. 613r35 614r35 615r35 623r39 628r25 676r36 677r36 682r36 683r36 691r39 696r22
+. 797r42 816r30 856r30 859r46
+64i4*Curses_Err{49I12} 26|290r16 303r16
+67i4*Curses_False{49I12} 26|146r27 159r27
+70E9*Eti_Error 85e12 26|113r45 134r50 170r61 182r60 185r61 252r50 276r49
+. 312r43 314r45 329r61 341r60 344r61 377r51 398r51 421r55 433r52 446r50 480r67
+. 516r67 551r67 586r50 608r53 625r60 644r56 649r13 677r50 693r54 707r65 718r65
+. 729r65 740r65 783r58 843r41 856r44 859r20
+73n7*E_Request_Denied{70E9} 26|866r15
+75n7*E_Not_Selectable{70E9} 26|866r34
+76n7*E_No_Match{70E9} 26|654r15 864r15
+77n7*E_Unknown_Command{70E9} 26|862r15
+87U14*Eti_Exception 26|126s7 138s7 174s7 190s10 192s10 256s7 280s7 319s10
+. 321s10 333s7 349s10 351s10 381s7 402s7 426s7 437s7 453s7 487s7 523s7 559s7
+. 590s7 612s7 630s7 657s13 681s7 698s7 711s7 722s7 733s7 744s7 791s10 847s7
+. 869s13
+91U14*Fill_String 26|65s7 220s7 237s7 462s7 668s7
+96V13*Fill_String{string} 26|73s14 228s14 245s14 470s14
+X 25 terminal_interface-curses-menus.ads
+46K35*Menus 23|48k28 25|47r51 668E9 674l31 674e36 26|50b40 904l31 904t36
+50e4*Space=50:53{character} 484r52 26|583r52
+52M9*Item<20|92M9> 58r25 174r60 191r56 197r58 202r35 211r33 217r26 226r28
+. 235r37 241r40 250r37 255r32 264r27 267r26 273r41 277r33 288r33 293r41 309r30
+. 623r45 668c9 671r25 26|52r61 54r38 77r56 80r55 94r16 106r35 108r33 110r33
+. 113r32 130r33 133r36 141r26 143r32 154r28 156r32 166r37 169r37 177r40 181r36
+. 184r37 196r37 199r33 206r32 214r27 217r32 223r25 225r32 231r41 234r33 240r32
+. 242r33 249r33 252r37 259r41 261r46 264r22 296r30 298r37 804r45
+53M9*Menu<20|92M9> 59r25 287r33 293r28 298r34 304r28 321r27 332r37 338r40
+. 346r37 351r32 360r32 366r31 371r36 377r35 382r31 393r37 402r31 408r27 412r26
+. 423r15 430r34 435r34 443r15 450r33 455r34 463r15 470r27 476r15 483r39 489r35
+. 499r35 507r31 519r33 526r30 536r36 550r32 560r55 564r41 570r41 576r41 582r41
+. 588r39 593r39 598r39 603r39 612r32 617r33 622r28 628r31 637r55 641r57 644r35
+. 659r27 669c9 672r25 26|248r33 251r37 259r28 261r33 272r34 275r35 283r28
+. 285r30 309r27 312r30 314r32 325r37 328r37 336r40 340r36 343r37 355r37 358r33
+. 365r32 373r32 376r36 384r31 386r32 394r36 397r36 405r35 407r32 415r31 420r34
+. 431r37 433r39 441r31 445r33 456r27 459r37 465r25 467r37 475r15 479r38 490r33
+. 493r33 499r34 503r33 511r15 515r38 526r33 529r33 535r34 539r33 546r32 550r38
+. 562r27 565r33 571r27 575r33 582r39 585r36 593r35 596r32 602r35 607r39 618r31
+. 624r39 639r33 643r39 662r30 665r35 671r36 675r36 687r32 692r33 703r41 706r38
+. 714r41 717r38 725r41 728r38 736r41 739r38 747r39 749r33 755r39 757r33 763r39
+. 765r33 771r39 773r33 779r32 782r35 795r31 797r29 803r28 808r32 822r55 824r56
+. 827r13 841r35 843r28 852r27 855r30
+58m4*Null_Item{52M9} 255r40 671c4 26|54r58 100r19 127r14 206r40 266r16 787r47
+. 788r36 829r47 830r36 882r30 900r27
+59m4*Null_Menu{53M9} 351r40 672c4 26|365r40 834r17 848r14 894r27
+61I12*Menu_Request_Code{23|67I9} 65r33 66r33 67r33 68r33 69r33 70r33 71r33
+. 72r33 73r33 74r33 75r33 76r33 77r33 78r33 79r33 80r33 81r33 84r24 85r24
+. 86r24 87r24 88r24 89r24 90r24 91r24 92r24 93r24 94r24 95r24 96r24 97r24
+. 98r24 99r24 100r24 102r35 105r34 26|59r35 68r33
+65i4*M_Left_Item{61I12} 84r50
+66i4*M_Right_Item{61I12} 85r50
+67i4*M_Up_Item{61I12} 86r50
+68i4*M_Down_Item{61I12} 87r50
+69i4*M_ScrollUp_Line{61I12} 88r50
+70i4*M_ScrollDown_Line{61I12} 89r50
+71i4*M_ScrollDown_Page{61I12} 90r50
+72i4*M_ScrollUp_Page{61I12} 91r50
+73i4*M_First_Item{61I12} 92r50
+74i4*M_Last_Item{61I12} 93r50
+75i4*M_Next_Item{61I12} 94r50
+76i4*M_Previous_Item{61I12} 95r50
+77i4*M_Toggle_Item{61I12} 96r50
+78i4*M_Clear_Pattern{61I12} 97r50
+79i4*M_Back_Pattern{61I12} 98r50
+80i4*M_Next_Match{61I12} 99r50
+81i4*M_Previous_Match{61I12} 100r50
+84i4*REQ_LEFT_ITEM=84:50{61I12}
+85i4*REQ_RIGHT_ITEM=85:50{61I12}
+86i4*REQ_UP_ITEM=86:50{61I12}
+87i4*REQ_DOWN_ITEM=87:50{61I12}
+88i4*REQ_SCR_ULINE=88:50{61I12}
+89i4*REQ_SCR_DLINE=89:50{61I12}
+90i4*REQ_SCR_DPAGE=90:50{61I12}
+91i4*REQ_SCR_UPAGE=91:50{61I12}
+92i4*REQ_FIRST_ITEM=92:50{61I12}
+93i4*REQ_LAST_ITEM=93:50{61I12}
+94i4*REQ_NEXT_ITEM=94:50{61I12}
+95i4*REQ_PREV_ITEM=95:50{61I12}
+96i4*REQ_TOGGLE_ITEM=96:50{61I12}
+97i4*REQ_CLEAR_PATTERN=97:50{61I12}
+98i4*REQ_BACK_PATTERN=98:50{61I12}
+99i4*REQ_NEXT_MATCH=99:50{61I12}
+100i4*REQ_PREV_MATCH=100:50{61I12}
+102U14*Request_Name 102>28 103<28 26|59b14 66l8 66t20
+102i28 Key{61I12} 26|59b28 65r41
+103a28 Name{string} 26|60b28 65m48
+105V14*Request_Name{string} 105>28 26|68b13 74l8 74t20
+105i28 Key{61I12} 26|68b27 73r48
+112X4*Menu_Exception 26|267r16 291r16 304r16 789r16 814r16 831r16 835r19
+116R9*Menu_Option_Set 124e17 125r39 127r8 143r8 146r41 333r37 339r40 347r41
+. 351r58 26|326r37 329r37 337r40 341r36 344r37 356r41 358r46 365r58 367r13
+. 891r41
+118b10*One_Valued{boolean} 129r10
+119b10*Show_Descriptions{boolean} 131r10
+120b10*Row_Major_Order{boolean} 133r10
+121b10*Ignore_Case{boolean} 135r10
+122b10*Show_Matches{boolean} 137r10
+123b10*Non_Cyclic{boolean} 139r10
+146V13*Default_Menu_Options{116R9} 148r19 26|891b13 895l8 895t28
+152R9*Item_Option_Set 155e17 156r39 158r8 164r8 167r41 236r37 242r40 251r41
+. 255r58 26|167r37 170r37 178r40 182r36 185r37 197r41 199r46 206r58 208r13
+. 897r41
+154b10*Selectable{boolean} 160r10
+167V13*Default_Item_Options{152R9} 169r19 26|897b13 901l8 901t28
+174A9*Item_Array(52M9)<integer> 175r26 177r37 26|878r10
+177P9*Item_Array_Access(174A9) 179r40 613r32 618r33 637r29 641r31 26|780r32
+. 822r29 874r40 878r22
+179U14*Free 179=20 180>20 26|874b14 888l8 888t12
+179p20 IA{177P9} 26|874b20 880r10 881r19 881r31 882r16 883r24 887m16
+180b20 Free_Items{boolean} 26|875b20 880r30
+190V13*Create{52M9} 190>21 191>21 198r14 26|76b13 104l8 104t14
+190a21 Name{string} 26|76b21 83r48 96r13
+191a21 Description{string} 26|77b21 87r48 97r13
+196V13*New_Item=198:14{52M9}
+196a23 Name{string}
+197a23 Description{string}
+202U14*Delete 202=22 26|106b14 128l8 128t14 883s16
+202m22 Itm{52M9} 26|106b22 118r24 122r24 126r32 127m7
+211U14*Set_Value 211>25 212>25 214r19 26|130b14 139l8 139t17
+211m25 Itm{52M9} 26|130b25 138r36
+212b25 Value{boolean} 26|131b25 138r54
+217V13*Value{boolean} 217>20 219r19 26|141b13 151l8 151t13
+217m20 Itm{52M9} 26|141b20 146r20
+226V13*Visible{boolean} 226>22 228r19 26|154b13 164l8 164t15
+226m22 Itm{52M9} 26|154b22 159r20
+235U14*Set_Options 235>27 236>27 26|166b14 175l8 175t19
+235m27 Itm{52M9} 26|166b27 174r37
+236r27 Options{152R9} 26|167b27 174r42
+241U14*Switch_Options 241>30 242>30 243>30 26|177b14 194l8 194t22
+241m30 Itm{52M9} 26|177b30 190r39 192r40
+242r30 Options{152R9} 26|178b30 190r44 192r45
+243b30 On{boolean} 26|179b30 189r10
+250U14*Get_Options 250>27 251<27 26|196b14 204l8 204t19 210s7
+250m27 Itm{52M9} 26|196b27 203r29
+251r27 Options{152R9} 26|197b27 203m7
+255V13*Get_Options{152R9} 255>26 26|206b13 212l8 212t19 900s14
+255m26 Itm{52M9} 26|206b26 210r20
+264U14*Name 264>20 265<20 26|214b14 221l8 221t12
+264m20 Itm{52M9} 26|214b20 220r30
+265a20 Name{string} 26|215b20 220m36
+267V14*Name{string} 267>20 26|223b13 229l8 229t12
+267m20 Itm{52M9} 26|223b19 228r37
+273U14*Description 273>27 274<27 26|231b14 238l8 238t19
+273m27 Itm{52M9} 26|231b27 237r30
+274a27 Description{string} 26|232b27 237m36
+277V14*Description{string} 277>27 26|240b13 246l8 246t19
+277m27 Itm{52M9} 26|240b26 245r37
+287U14*Set_Current 287>27 288>27 290r19 26|248b14 257l8 257t19
+287m27 Men{53M9} 26|248b27 256r37
+288m27 Itm{52M9} 26|249b27 256r42
+293V13*Current{52M9} 293>22 295r19 26|259b13 270l8 270t15
+293m22 Men{53M9} 26|259b22 264r41
+298U14*Set_Top_Row 298>27 299>27 301r19 26|272b14 281l8 281t19
+298m27 Men{53M9} 26|272b27 280r34
+299i27 Line{23|59I9} 26|273b27 280r46
+304V13*Top_Row{23|59I9} 304>22 306r19 26|283b13 294l8 294t15
+304m22 Men{53M9} 26|283b22 288r39
+309V13*Get_Index{positive} 309>24 314r19 26|296b13 307l8 307t17
+309m24 Itm{52M9} 26|296b24 301r46
+321U14*Post 321>20 322>20 325r19 26|309b14 323l8 323t12
+321m20 Men{53M9} 26|309b20 319r33 321r35
+322b20 Post{boolean} 26|310b20 318r10
+332U14*Set_Options 332>27 333>27 26|325b14 334l8 334t19
+332m27 Men{53M9} 26|325b27 333r37
+333r27 Options{116R9} 26|326b27 333r42
+338U14*Switch_Options 338>30 339>30 340>30 26|336b14 353l8 353t22
+338m30 Men{53M9} 26|336b30 349r40 351r40
+339r30 Options{116R9} 26|337b30 349r45 351r45
+340b30 On{boolean} 26|338b30 348r10
+346U14*Get_Options 346>27 347<27 26|355b14 363l8 363t19 369s7
+346m27 Men{53M9} 26|355b27 362r29
+347r27 Options{116R9} 26|356b27 362m7
+351V13*Get_Options{116R9} 351>26 26|365b13 371l8 371t19 894s14
+351m26 Men{53M9} 26|365b26 369r20
+360U14*Set_Window 360>26 361>26 363r19 26|373b14 382l8 382t18
+360m26 Men{53M9} 26|373b26 381r36
+361m26 Win{23|56M9} 26|374b26 381r41
+366V13*Get_Window{23|56M9} 366>25 368r19 26|384b13 392l8 392t18
+366m25 Men{53M9} 26|384b25 389r40
+371U14*Set_Sub_Window 371>30 372>30 374r19 26|394b14 403l8 403t22
+371m30 Men{53M9} 26|394b30 402r36
+372m30 Win{23|56M9} 26|395b30 402r41
+377V13*Get_Sub_Window{23|56M9} 377>29 379r19 26|405b13 413l8 413t22
+377m29 Men{53M9} 26|405b29 410r40
+382U14*Scale 382>21 383<21 384<21 386r19 26|415b14 429l8 429t13
+382m21 Men{53M9} 26|415b21 426r31
+383i21 Lines{23|62I12} 26|416b21 427m7
+384i21 Columns{23|64I12} 26|417b21 428m7
+393U14*Position_Cursor 393>31 395r19 26|431b14 438l8 438t23
+393m31 Men{53M9} 26|431b31 437r39
+402U14*Set_Mark 402>24 403>24 405r19 26|441b14 454l8 454t16
+402m24 Men{53M9} 26|441b24 453r32
+403a24 Mark{string} 26|442b24 449r30 452r13
+408U14*Mark 408>20 409<20 26|456b14 463l8 463t12
+408m20 Men{53M9} 26|456b20 462r35
+409a20 Mark{string} 26|457b20 462m41
+412V14*Mark{string} 412>20 26|465b13 471l8 471t12
+412m20 Men{53M9} 26|465b19 470r42
+422U14*Set_Foreground 423>7 424>7 425>7 427r19 26|474b14 488l8 488t22
+423m7 Men{53M9} 26|475b7 487r37
+424r7 Fore{23|418R9} 26|476b7 485r55
+425i7 Color{23|410I9} 26|477b7 484r55
+430U14*Foreground 430>26 431<26 26|490b14 497l8 497t18
+430m26 Men{53M9} 26|490b26 496r26
+431r26 Fore{23|418R9} 26|491b26 496m7
+435U14*Foreground 435>26 436<26 437<26 26|499b14 508l8 508t18
+435m26 Men{53M9} 26|499b26 506r27 507r27
+436r26 Fore{23|418R9} 26|500b26 506m7
+437i26 Color{23|410I9} 26|501b26 507m7
+442U14*Set_Background 443>7 444>7 445>7 26|510b14 524l8 524t22
+443m7 Men{53M9} 26|511b7 523r37
+444r7 Back{23|418R9} 26|512b7 521r55
+445i7 Color{23|410I9} 26|513b7 520r55
+450U14*Background 450>26 451<26 26|526b14 533l8 533t18
+450m26 Men{53M9} 26|526b26 532r26
+451r26 Back{23|418R9} 26|527b26 532m7
+455U14*Background 455>26 456<26 457<26 26|535b14 544l8 544t18
+455m26 Men{53M9} 26|535b26 542r27 543r27
+456r26 Back{23|418R9} 26|536b26 542m7
+457i26 Color{23|410I9} 26|537b26 543m7
+462U14*Set_Grey 463>7 464>7 465>7 467r19 26|546b14 560l8 560t16
+463m7 Men{53M9} 26|546b24 559r37
+464r7 Grey{23|418R9} 26|547b24 556r55
+465i7 Color{23|410I9} 26|548b24 555r55
+470U14*Grey 470>20 471<20 26|562b14 569l8 569t12
+470m20 Men{53M9} 26|562b20 568r26
+471r20 Grey{23|418R9} 26|563b20 568m7
+475U14*Grey 476>7 477<7 478<7 26|571b14 580l8 580t12
+476m7 Men{53M9} 26|571b20 578r27 579r27
+477r7 Grey{23|418R9} 26|572b20 578m7
+478i7 Color{23|410I9} 26|573b20 579m7
+483U14*Set_Pad_Character 483>33 484>33 486r19 26|582b14 591l8 591t25
+483m33 Men{53M9} 26|582b33 590r36
+484e33 Pad{character} 26|583b33 590r63
+489U14*Pad_Character 489>29 490<29 492r19 26|593b14 600l8 600t21
+489m29 Men{53M9} 26|593b29 599r39
+490e29 Pad{character} 26|594b29 599m7
+499U14*Set_Spacing 499>27 500>27 501>27 502>27 504r19 26|602b14 616l8 616t19
+499m27 Men{53M9} 26|602b27 612r35
+500i27 Descr{23|60I9} 26|603b27 613r42
+501i27 Row{23|59I9} 26|604b27 614r42
+502i27 Col{23|60I9} 26|605b27 615r42
+507U14*Spacing 507>23 508<23 509<23 510<23 512r19 26|618b14 637l8 637t15
+507m23 Men{53M9} 26|618b23 630r35
+508i23 Descr{23|60I9} 26|619b23 634m7
+509i23 Row{23|59I9} 26|620b23 635m7
+510i23 Col{23|60I9} 26|621b23 636m7
+519V13*Set_Pattern{boolean} 519>26 520>26 523r19 26|639b13 660l8 660t19
+519m26 Men{53M9} 26|639b26 652r27
+520a26 Text{string} 26|640b26 647r30 651r13
+526U14*Pattern 526>23 527<23 529r19 26|662b14 669l8 669t15
+526m23 Men{53M9} 26|662b23 668r33
+527a23 Text{string} 26|663b23 668m39
+536U14*Set_Format 536>26 537>26 538>26 547r19 26|671b14 685l8 685t18
+536m26 Men{53M9} 26|671b26 681r36
+537i26 Lines{23|62I12} 26|672b26 682r43
+538i26 Columns{23|64I12} 26|673b26 683r43
+550U14*Format 550>22 551<22 552<22 554r19 26|687b14 701l8 701t14
+550m22 Men{53M9} 26|687b22 698r32
+551i22 Lines{23|62I12} 26|688b22 699m7
+552i22 Columns{23|64I12} 26|689b22 700m7
+560P9*Menu_Hook_Function 560>49 561r26 565r41 571r41 577r41 583r41 588r52
+. 593r52 598r52 603r52 26|704r41 707r38 715r41 718r38 726r41 729r38 737r41
+. 740r38 747r52 749r46 755r52 757r46 763r52 765r46 771r52 773r46
+560m49 Men{53M9}
+564U14*Set_Item_Init_Hook 564>34 565>34 567r19 26|703b14 712l8 712t26
+564m34 Men{53M9} 26|703b34 711r37
+565p34 Proc{560P9} 26|704b34 711r42
+570U14*Set_Item_Term_Hook 570>34 571>34 573r19 26|714b14 723l8 723t26
+570m34 Men{53M9} 26|714b34 722r37
+571p34 Proc{560P9} 26|715b34 722r42
+576U14*Set_Menu_Init_Hook 576>34 577>34 579r19 26|725b14 734l8 734t26
+576m34 Men{53M9} 26|725b34 733r37
+577p34 Proc{560P9} 26|726b34 733r42
+582U14*Set_Menu_Term_Hook 582>34 583>34 585r19 26|736b14 745l8 745t26
+582m34 Men{53M9} 26|736b34 744r37
+583p34 Proc{560P9} 26|737b34 744r42
+588V13*Get_Item_Init_Hook{560P9} 588>33 590r19 26|747b13 753l8 753t26
+588m33 Men{53M9} 26|747b33 752r25
+593V13*Get_Item_Term_Hook{560P9} 593>33 595r19 26|755b13 761l8 761t26
+593m33 Men{53M9} 26|755b33 760r25
+598V13*Get_Menu_Init_Hook{560P9} 598>33 600r19 26|763b13 769l8 769t26
+598m33 Men{53M9} 26|763b33 768r25
+603V13*Get_Menu_Term_Hook{560P9} 603>33 605r19 26|771b13 777l8 777t26
+603m33 Men{53M9} 26|771b33 776r25
+612U14*Redefine 612>24 613>24 615r19 618r60 26|779b14 793l8 793t16
+612m24 Men{53M9} 26|779b24 791r36
+613p24 Items{177P9} 26|780b24 787r22 787r33 788r10 788r21 791r41
+617U14*Set_Items=618:60
+617m25 Men{53M9}
+618p25 Items{177P9}
+622V13*Items{52M9} 622>20 623>20 625r19 26|803b13 819l8 819t13
+622m20 Men{53M9} 26|803b20 811r32 813r47
+623i20 Index{positive} 26|804b20 813r27 816r37
+628V13*Item_Count{natural} 628>25 630r19 26|795b13 801l8 801t18 813s35
+628m25 Men{53M9} 26|795b25 800r30
+637V13*Create{53M9} 637>21 641r70 26|822b13 839l8 839t14
+637p21 Items{177P9} 26|822b21 829r22 829r33 830r10 830r21 833r24
+641V13*New_Menu=641:70{53M9}
+641p23 Items{177P9}
+644U14*Delete 644=22 26|841b14 849l8 849t14
+644m22 Men{53M9} 26|841b22 847r28 848m7
+653E9*Driver_Result 656e36 660r44 26|853r44
+653n27*Menu_Ok{653E9} 26|870r20
+654n27*Request_Denied{653E9} 26|867r20
+655n27*Unknown_Request{653E9} 26|863r20
+656n27*No_Match{653E9} 26|865r20
+659V13*Driver{653E9} 659>21 660>21 26|852b13 872l8 872t14
+659m21 Men{53M9} 26|852b21 859r41
+660i21 Key{23|67I9} 26|853b21 859r53
+X 26 terminal_interface-curses-menus.adb
+52A9 C_Item_Array(25|52M9)<integer> 54r44
+53K12 I_Array[9|44] 806r11
+56P12 chars_ptr{11|65P9} 62r50 70r50 108r46 110r46 116r13 217r45 225r45 234r46
+. 242r46 459r50 467r50 665r48
+62V16*Request_Name{56P12} 62>30 63b<c,menu_request_name>25 65s20
+62i30 Key{24|49I12}
+70V16*Request_Name{56P12} 70>30 71b<c,menu_request_name>25 73s27
+70i30 Key{24|49I12}
+79P12 Char_Ptr(8|109E9) 80r38
+80V16*Newitem{25|52M9} 80>25 80>31 81b<c,new_item>25 98s17
+80p25 Name{79P12}
+80p31 Desc{79P12}
+83A12 Name_String<8|124A9>(8|109E9)<8|92M9> 84r38 91r50
+84P12 Name_String_Ptr(83A12) 85r26 91r27
+87A12 Desc_String<8|124A9>(8|109E9)<8|92M9> 88r38 92r50
+88P12 Desc_String_Ptr(87A12) 89r26 92r27
+91p7 Name_Str{84P12} 96r19 98r26 98r40
+92p7 Desc_Str{88P12} 97r26 99r26 99r40
+93m7 Name_Len{8|92M9} 96m33
+93m17 Desc_Len{8|92M9} 97m40
+94m7 Result{25|52M9} 98m7 100r10 103r14
+108V16*Descname{56P12} 108>26 109b<c,item_description>25 118s14
+108m26 Itm{25|52M9}
+110V16*Itemname{56P12} 110>26 111b<c,item_name>25 122s14
+110m26 Itm{25|52M9}
+113V16*Freeitem{24|70E9} 113>26 114b<c,free_item>25 126s22
+113m26 Itm{25|52M9}
+116p7 Ptr{56P12} 118m7 119r10 120m37 120r37 122m7 123r10 124m37 124r37
+133V16*Set_Item_Val{24|70E9} 133>30 134>30 135b<c,set_item_value>25 138s22
+133m30 Itm{25|52M9}
+134i30 Val{24|49I12}
+143V16*Item_Val{24|49I12} 143>26 144b<c,item_value>25 146s10
+143m26 Itm{25|52M9}
+156V16*Item_Vis{24|49I12} 156>26 157b<c,item_visible>25 159s10
+156m26 Itm{25|52M9}
+169V16*Set_Item_Opts{24|70E9} 169>31 170>31 171b<c,set_item_opts>25 174s22
+169m31 Itm{25|52M9}
+170r31 Opt{25|152R9}
+181V16*Item_Opts_On{24|70E9} 181>30 182>30 183b<c,item_opts_on>25 190s25
+181m30 Itm{25|52M9}
+182r30 Opt{25|152R9}
+184V16*Item_Opts_Off{24|70E9} 184>31 185>31 186b<c,item_opts_off>25 192s25
+184m31 Itm{25|52M9}
+185r31 Opt{25|152R9}
+199V16*Item_Opts{25|152R9} 199>27 200b<c,item_opts>25 203s18
+199m27 Itm{25|52M9}
+208r7 Ios{25|152R9} 210m25 211r14
+217V16*Itemname{56P12} 217>26 218b<c,item_name>25 220s20
+217m26 Itm{25|52M9}
+225V16*Itemname{56P12} 225>26 226b<c,item_name>25 228s27
+225m26 Itm{25|52M9}
+234V16*Descname{56P12} 234>26 235b<c,item_description>25 237s20
+234m26 Itm{25|52M9}
+242V16*Descname{56P12} 242>26 243b<c,item_description>25 245s27
+242m26 Itm{25|52M9}
+251V16*Set_Curr_Item{24|70E9} 251>31 252>31 253b<c,set_current_item>25 256s22
+251m31 Men{25|53M9}
+252m31 Itm{25|52M9}
+261V16*Curr_Item{25|52M9} 261>27 262b<c,current_item>25 264s30
+261m27 Men{25|53M9}
+264m7 Res{25|52M9} 266r10 269r14
+275V16*Set_Toprow{24|70E9} 275>28 276>28 277b<c,set_top_row>25 280s22
+275m28 Men{25|53M9}
+276i28 Line{24|49I12}
+285V16*Toprow{24|49I12} 285>24 286b<c,top_row>25 288s31
+285m24 Men{25|53M9}
+288i7 Res{24|49I12} 290r10 293r29
+298V16*Get_Itemindex{24|49I12} 298>31 299b<c,item_index>25 301s31
+298m31 Itm{25|52M9}
+301i7 Res{24|49I12} 303r10 306r33
+312V16*M_Post{24|70E9} 312>24 313b<c,post_menu>25 319s25
+312m24 Men{25|53M9}
+314V16*M_Unpost{24|70E9} 314>26 315b<c,unpost_menu>25 321s25
+314m26 Men{25|53M9}
+328V16*Set_Menu_Opts{24|70E9} 328>31 329>31 330b<c,set_menu_opts>25 333s22
+328m31 Men{25|53M9}
+329r31 Opt{25|116R9}
+340V16*Menu_Opts_On{24|70E9} 340>30 341>30 342b<c,menu_opts_on>25 349s25
+340m30 Men{25|53M9}
+341r30 Opt{25|116R9}
+343V16*Menu_Opts_Off{24|70E9} 343>31 344>31 345b<c,menu_opts_off>25 351s25
+343m31 Men{25|53M9}
+344r31 Opt{25|116R9}
+358V16*Menu_Opts{25|116R9} 358>27 359b<c,menu_opts>25 362s18
+358m27 Men{25|53M9}
+367r7 Mos{25|116R9} 369m25 370r14
+376V16*Set_Menu_Win{24|70E9} 376>30 377>30 378b<c,set_menu_win>25 381s22
+376m30 Men{25|53M9}
+377m30 Win{23|56M9}
+386V16*Menu_Win{23|56M9} 386>26 387b<c,menu_win>25 389s30
+386m26 Men{25|53M9}
+389m7 W{23|56M9} 391r14
+397V16*Set_Menu_Sub{24|70E9} 397>30 398>30 399b<c,set_menu_sub>25 402s22
+397m30 Men{25|53M9}
+398m30 Win{23|56M9}
+407V16*Menu_Sub{23|56M9} 407>26 408b<c,menu_sub>25 410s30
+407m26 Men{25|53M9}
+410m7 W{23|56M9} 412r14
+419P12 C_Int_Access(24|49I12) 421r34
+420V16*M_Scale{24|70E9} 420>25 421>25 421>29 422b<c,scale_menu>25 426s22
+420m25 Men{25|53M9}
+421p25 Yp{419P12}
+421p29 Xp{419P12}
+424i7 X{24|49I12} 426m46 426r46 428r32
+424i10 Y{24|49I12} 426m36 426r36 427r28
+433V16*Pos_Menu_Cursor{24|70E9} 433>33 434b<c,pos_menu_cursor>25 437s22
+433m33 Men{25|53M9}
+444P12 Char_Ptr(8|109E9) 446r33
+445V16*Set_Mark{24|70E9} 445>26 446>26 447b<c,set_menu_mark>25 453s22
+445m26 Men{25|53M9}
+446p26 Mark{444P12}
+449a7 Txt{8|124A9} 452m19 453m37 453r37 453r42
+450m7 Len{8|92M9} 452m24
+459V16*Get_Menu_Mark{56P12} 459>31 460b<c,menu_mark>25 462s20
+459m31 Men{25|53M9}
+467V16*Get_Menu_Mark{56P12} 467>31 468b<c,menu_mark>25 470s27
+467m31 Men{25|53M9}
+479V16*Set_Menu_Fore{24|70E9} 479>31 480>31 481b<c,set_menu_fore>25 487s22
+479m31 Men{25|53M9}
+480r31 Attr{23|488R9}
+483r7 Ch{23|488R9} 487r42
+493V16*Menu_Fore{23|488R9} 493>27 494b<c,menu_fore>25 496s15
+493m27 Men{25|53M9}
+503V16*Menu_Fore{23|488R9} 503>27 504b<c,menu_fore>25 506s16 507s16
+503m27 Men{25|53M9}
+515V16*Set_Menu_Back{24|70E9} 515>31 516>31 517b<c,set_menu_back>25 523s22
+515m31 Men{25|53M9}
+516r31 Attr{23|488R9}
+519r7 Ch{23|488R9} 523r42
+529V16*Menu_Back{23|488R9} 529>27 530b<c,menu_back>25 532s15
+529m27 Men{25|53M9}
+539V16*Menu_Back{23|488R9} 539>27 540b<c,menu_back>25 542s16 543s16
+539m27 Men{25|53M9}
+550V16*Set_Menu_Grey{24|70E9} 550>31 551>31 552b<c,set_menu_grey>25 559s22
+550m31 Men{25|53M9}
+551r31 Attr{23|488R9}
+554r7 Ch{23|488R9} 559r42
+565V16*Menu_Grey{23|488R9} 565>27 566b<c,menu_grey>25 568s15
+565m27 Men{25|53M9}
+575V16*Menu_Grey{23|488R9} 575>27 576b<c,menu_grey>25 578s16 579s16
+575m27 Men{25|53M9}
+585V16*Set_Menu_Pad{24|70E9} 585>30 586>30 587b<c,set_menu_pad>25 590s22
+585m30 Men{25|53M9}
+586i30 Ch{24|49I12}
+596V16*Menu_Pad{24|49I12} 596>26 597b<c,menu_pad>25 599s29
+596m26 Men{25|53M9}
+607V16*Set_Spacing{24|70E9} 607>29 608>29 608>32 608>35 609b<c,set_menu_spacing>25
+. 612s22
+607m29 Men{25|53M9}
+608i29 D{24|49I12}
+608i32 R{24|49I12}
+608i35 C{24|49I12}
+623P12 C_Int_Access(24|49I12) 625r39
+624V16*Get_Spacing{24|70E9} 624>29 625>29 625>32 625>35 626b<c,menu_spacing>25
+. 630s22
+624m29 Men{25|53M9}
+625p29 D{623P12}
+625p32 R{623P12}
+625p35 C{623P12}
+628i7 D{24|49I12} 631m35 631r35 634r33
+628i10 R{24|49I12} 632m35 632r35 635r31
+628i13 C{24|49I12} 633m35 633r35 636r33
+642P12 Char_Ptr(8|109E9) 644r39
+643V16*Set_Pattern{24|70E9} 643>29 644>29 645b<c,set_menu_pattern>25 652s14
+643m29 Men{25|53M9}
+644p29 Pattern{642P12}
+647a7 S{8|124A9} 651m19 652m32 652r32 652r35
+648m7 L{8|92M9} 651m22
+649e7 Res{24|70E9} 652m7 653r12 657r28
+665V16*Get_Pattern{56P12} 665>29 666b<c,menu_pattern>25 668s20
+665m29 Men{25|53M9}
+675V16*Set_Menu_Fmt{24|70E9} 675>30 676>30 677>30 678b<c,set_menu_format>25
+. 681s22
+675m30 Men{25|53M9}
+676i30 Lin{24|49I12}
+677i30 Col{24|49I12}
+691P12 C_Int_Access(24|49I12) 693r33
+692V16*Menu_Fmt{24|70E9} 692>26 693>26 693>29 694b<c,menu_format>25 698s22
+692m26 Men{25|53M9}
+693p26 Y{691P12}
+693p29 X{691P12}
+696i7 L{24|49I12} 698m37 698r37 699r30
+696i10 C{24|49I12} 698m47 698r47 700r32
+706V16*Set_Item_Init{24|70E9} 706>31 707>31 708b<c,set_item_init>25 711s22
+706m31 Men{25|53M9}
+707p31 Proc{25|560P9}
+717V16*Set_Item_Term{24|70E9} 717>31 718>31 719b<c,set_item_term>25 722s22
+717m31 Men{25|53M9}
+718p31 Proc{25|560P9}
+728V16*Set_Menu_Init{24|70E9} 728>31 729>31 730b<c,set_menu_init>25 733s22
+728m31 Men{25|53M9}
+729p31 Proc{25|560P9}
+739V16*Set_Menu_Term{24|70E9} 739>31 740>31 741b<c,set_menu_term>25 744s22
+739m31 Men{25|53M9}
+740p31 Proc{25|560P9}
+749V16*Item_Init{25|560P9} 749>27 750b<c,item_init>25 752s14
+749m27 Men{25|53M9}
+757V16*Item_Term{25|560P9} 757>27 758b<c,item_term>25 760s14
+757m27 Men{25|53M9}
+765V16*Menu_Init{25|560P9} 765>27 766b<c,menu_init>25 768s14
+765m27 Men{25|53M9}
+773V16*Menu_Term{25|560P9} 773>27 774b<c,menu_term>25 776s14
+773m27 Men{25|53M9}
+782V16*Set_Items{24|70E9} 782>27 783>27 784b<c,set_menu_items>25 791s25
+782m27 Men{25|53M9}
+783m27 Items{12|67M9}
+797V16*Count{24|49I12} 797>23 798b<c,item_count>25 800s23
+797m23 Men{25|53M9}
+808V16*C_Mitems{9|47P9[53]} 808>26 809b<c,menu_items>25 811s22
+808m26 Men{25|53M9}
+811p7 P{9|47P9[53]} 813r10 816m10 816r15 817r17
+824V16*Newmenu{25|53M9} 824>25 825b<c,new_menu>25 833s15
+824m25 Items{12|67M9}
+827m7 M{25|53M9} 833m10 834r13 837r17
+843V16*Free{24|70E9} 843>22 844b<c,free_menu>25 847s22
+843m22 Men{25|53M9}
+855V16*Driver{24|70E9} 855>24 856>24 857b<c,menu_driver>25 859s33
+855m24 Men{25|53M9}
+856i24 Key{24|49I12}
+859e7 R{24|70E9} 861r12 869r28
+877U17 Release[6|23] 887s7
+881i14 I{integer} 882r24 883r32
+X 27 terminal_interface-curses_constants.ads
+6K28*Curses_Constants 25|48r38 129r39 130r15 131r39 132r15 133r39 134r15
+. 135r39 136r15 137r39 138r15 139r39 140r15 143r33 160r32 161r16 164r33 27|383e40
+9a4*DFT_ARG_SUFFIX{string} 25|48r55
+257N4*O_ONEVALUE_First 25|129r56
+258N4*O_ONEVALUE_Last 25|130r32
+259N4*O_SHOWDESC_First 25|131r56
+260N4*O_SHOWDESC_Last 25|132r32
+261N4*O_ROWMAJOR_First 25|133r56
+262N4*O_ROWMAJOR_Last 25|134r32
+263N4*O_IGNORECASE_First 25|135r56
+264N4*O_IGNORECASE_Last 25|136r32
+265N4*O_SHOWMATCH_First 25|137r56
+266N4*O_SHOWMATCH_Last 25|138r32
+267N4*O_NONCYCLIC_First 25|139r56
+268N4*O_NONCYCLIC_Last 25|140r32
+269N4*Menu_Options_Size 25|143r50
+273N4*O_SELECTABLE_First 25|160r49
+274N4*O_SELECTABLE_Last 25|161r33
+275N4*Item_Options_Size 25|164r50
+

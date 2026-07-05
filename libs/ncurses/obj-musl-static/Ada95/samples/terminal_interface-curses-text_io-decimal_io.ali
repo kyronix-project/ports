@@ -1,0 +1,154 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+
+U terminal_interface.curses.text_io.decimal_io%b  terminal_interface-curses-text_io-decimal_io.adb  dcf1f00c NE OO PK GE
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.decimal_aux%s
+Z ada.text_io.decimal_io%s
+W ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.img_decimal_128%s  s-imde128.ads	s-imde128.ali
+W system.img_decimal_32%s  s-imde32.ads		s-imde32.ali
+W system.img_decimal_64%s  s-imde64.ads		s-imde64.ali
+W system.val_decimal_128%s  s-vade128.ads	s-vade128.ali
+W system.val_decimal_32%s  s-vade32.ads		s-vade32.ali
+W system.val_decimal_64%s  s-vade64.ads		s-vade64.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.adb  terminal_interface-curses-text_io.ali
+W terminal_interface.curses.text_io.aux%s  terminal_interface-curses-text_io-aux.adb  terminal_interface-curses-text_io-aux.ali
+
+U terminal_interface.curses.text_io.decimal_io%s  terminal_interface-curses-text_io-decimal_io.ads  d18b4fe7 BN EE NE OO PK GE
+Z ada.text_io.decimal_io%s
+W terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.adb  terminal_interface-curses-text_io.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-tideau.ads		20260501130736 6ff6b109 ada.text_io.decimal_aux%s
+D a-tideau.adb		20260501130736 8f165633 ada.text_io.decimal_aux%b
+D a-tideio.ads		20260501130736 4f4dcdce ada.text_io.decimal_io%s
+D a-tideio.adb		20260501130736 e8f3464b ada.text_io.decimal_io%b
+D a-tigeau.ads		20260501130736 e643cdf3 ada.text_io.generic_aux%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-arit128.ads		20260501130736 354f2df1 system.arith_128%s
+D s-arit32.ads		20260501130736 efa0b417 system.arith_32%s
+D s-arit64.ads		20260501130736 60e313f7 system.arith_64%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-imaged.ads		20260501130736 13371993 system.image_d%s
+D s-imde128.ads		20260501130736 4c526c0b system.img_decimal_128%s
+D s-imde32.ads		20260501130736 9cd7a38f system.img_decimal_32%s
+D s-imde64.ads		20260501130736 893fdd50 system.img_decimal_64%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-vade128.ads		20260501130736 a41e3ce9 system.val_decimal_128%s
+D s-vade32.ads		20260501130736 28f7eebf system.val_decimal_32%s
+D s-vade64.ads		20260501130736 fff134eb system.val_decimal_64%s
+D s-valued.ads		20260501130736 a94e9aba system.value_d%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-text_io.ads  20200202233434 821d74f8 terminal_interface.curses.text_io%s
+D terminal_interface-curses-text_io-aux.ads  20200202233434 462e84fb terminal_interface.curses.text_io.aux%s
+D terminal_interface-curses-text_io-decimal_io.ads  20200202233434 53963b1f terminal_interface.curses.text_io.decimal_io%s
+D terminal_interface-curses-text_io-decimal_io.adb  20200202233434 fda60836 terminal_interface.curses.text_io.decimal_io%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s b [decimal_io terminal_interface__curses__text_io 45 43 none]
+X 1 ada.ads
+18K9*Ada 22e8 49|42r6 48r23
+X 9 a-textio.ads
+58K13*Text_IO 785e16 49|42w10 48r27
+89I12*Field{integer}
+X 12 a-tideio.ads
+46k21*Decimal_IO 120e27 49|48r35
+107U14 Put 49|63s11[48]
+X 16 interfac.ads
+68I9*Integer_64<long_long_integer>
+76I9*Integer_128<long_long_long_integer>
+95M9*Unsigned_64
+99M9*Unsigned_128
+X 20 s-arit128.ads
+48I12*Int128{16|76I9}
+58V13*Multiply_With_Ovflo_Check128{48I12} 59i<c,__gnat_mulv128>22
+92M12*Uns128{16|99M9}
+112V13*Uns_Multiply_With_Ovflo_Check128{92M12} 113i<c,__gnat_uns_mulv128>22
+X 22 s-arit64.ads
+48I12*Int64{16|68I9}
+74V13*Multiply_With_Ovflo_Check64{48I12} 75i<c,__gnat_mulv64>22
+158M12*Uns64{16|95M9}
+180V13*Uns_Multiply_With_Ovflo_Check64{158M12} 181i<c,__gnat_uns_mulv64>22
+X 36 s-stoele.ads
+92M9*Integer_Address
+X 44 terminal_interface.ads
+43K9*Terminal_Interface 48e23 48|45r9 67r5 49|43r6 45r14 47r24 76r5
+X 45 terminal_interface-curses.ads
+48K28*Curses 44|43k9 45|2103e30 48|45r28 67r24 49|43r25 45r33 47r43 76r24
+56M9*Window<36|92M9> 48|52r14 49|51r14
+X 46 terminal_interface-curses-text_io.ads
+45K35*Text_IO 45|48k28 46|137e38 48|45r35 67r31 49|43r32 45r40 47r50 76r31
+51I12*Field{9|89I12} 48|47r19 48r19 49r19 54r14 55r14 56r14 60r14 61r14 62r14
+. 49|53r14 54r14 55r14 57r26 58r13 69r14 70r14 71r14
+63V13*Get_Window{45|56M9} 49|73s12
+X 47 terminal_interface-curses-text_io-aux.ads
+43K51*Aux 56e42 49|43w40 47r58
+49U14*Put_Buf 49|64s11
+X 48 terminal_interface-curses-text_io-decimal_io.ads
+43D9 Num 47r28 48r28 53r14 59r14 49|48r47 52r14 68r14
+45k43*Decimal_IO 46|45k35 48|43z9 67l39 67e49 49|45b48 76l39 76t49
+47i4*Default_Fore{46|51I12} 54r23 60r23 49|53r23 69r23
+48i4*Default_Aft{46|51I12} 55r23 61r23 49|54r23 70r23
+49i4*Default_Exp{46|51I12} 56r23 62r23 49|55r23 71r23
+51U14*Put 52>7 53>7 54>7 55>7 56>7 49|50b14 65l8 65t11 73s7
+52m7 Win{45|56M9} 49|51b7 64r20
+53*7 Item{43D9} 49|52b7 63r21
+54i7 Fore{46|51I12} 49|53b7 58r22
+55i7 Aft{46|51I12} 49|54b7 58r33 63r27
+56i7 Exp{46|51I12} 49|55b7 60r10 61r27 63r32
+58U14*Put 59>7 60>7 61>7 62>7 49|67b14 74l8 74t11
+59*7 Item{43D9} 49|68b7 73r24
+60i7 Fore{46|51I12} 49|69b7 73r30
+61i7 Aft{46|51I12} 49|70b7 73r36
+62i7 Exp{46|51I12} 49|71b7 73r41
+X 49 terminal_interface-curses-text_io-decimal_io.adb
+47K12 Aux=47:58 64r7
+48K12 DIO[12|46] 63r7
+57a7 Buf{string} 63m16 64r25
+58i7 Len{46|51I12} 61m10 61r17 64r30
+

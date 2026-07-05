@@ -1,0 +1,117 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ncurses2.getopt%b	ncurses2-getopt.adb	d6ea1ec6 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ncurses2%s		ncurses2.ads		ncurses2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ncurses2.getopt%s	ncurses2-getopt.ads	5177649d EE NE OO PK IL
+W ncurses2%s		ncurses2.ads		ncurses2.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strbou.ads		20260501130736 d524f816 ada.strings.bounded%s
+D a-strbou.adb		20260501130736 4a759692 ada.strings.bounded%b
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-strsup.ads		20260501130736 48a25448 ada.strings.superbounded%s
+D a-strsup.adb		20260501130736 4268c0d5 ada.strings.superbounded%b
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D ncurses2.ads		20200202233434 49526333 ncurses2%s
+D ncurses2-getopt.ads	20200202233434 182507ae ncurses2.getopt%s
+D ncurses2-getopt.adb	20200202233434 a94c787b ncurses2.getopt%b
+D system.ads		20260501130736 e2b7c99d system%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+G a e
+G c Z s b [qgetopt ncurses2__getopt 50 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 24|46r6 47r6 48r6 48r23 74r25 108r12
+X 7 a-string.ads
+16K13*Strings 35e16 24|46r10 47r10 74r29 108r16
+X 8 a-strbou.ads
+50K21*Bounded 3007e24 24|47w18 74r37
+60k12*Generic_Bounded_Length 3005e30 24|74r45
+78R12 Bounded_String<13|66R9> 24|76r17[74]
+98V16 To_Bounded_String{78R12[24|74]} 24|84s18[74] 121s30[74] 129s30[74]
+. 144s30[74]
+130V16 To_String{string} 24|159s32[74]
+X 10 a-strfix.ads
+49K21*Fixed 1390e22 24|46w18 108r24
+252V13*Index{natural} 24|108s30
+X 18 a-textio.ads
+58K13*Text_IO 785e16 24|48w10 48r27
+67P9*File_Type
+189V13*Standard_Error{67P9} 24|111s23 133s29
+555U14*Put_Line 24|111s13 133s19
+X 22 ncurses2.ads
+43K9*ncurses2 45e13 23|43r9 61r5 24|50r14 164r5
+X 23 ncurses2-getopt.ads
+43K18*getopt 22|43k9 23|61l14 61e20 24|50b23 164l14 164t20
+45P9*stringa(string) 57r39 24|70r36
+47P9*stringfunc(string) 48>16 52r35 24|64r30
+48i16 n{positive}
+50U14*Qgetopt 50<23 51>23 52>23 53>23 54=23 57<23 24|62b14 162l8 162t15
+50i23 retval{integer} 24|62b23 80m10 90m13 97m13 158m10
+51i23 argc{integer} 24|63b23 79r10 132r31
+52p23 argv{47P9} 24|64b23 88r13 94r13 94r40 96r35 106r27 112r23 120r31 122r22
+. 122r49 128r31 130r22 130r49 134r29 144r49 150r27
+53a23 optstring{string} 24|66b23 108r37 117r13 118r16 136r22 136r33
+54i23 optind{integer} 24|67b23 79r17 88r19 94r19 94r46 95m13 95r23 96r41
+. 106r33 112r29 120r37 122r28 122r55 128r37 130r28 130r55 131m19 131r29 132r22
+. 134r35 143m19 143r29 144r55 145m19 145r29 150r33 151m16 151r26
+57p23 Optarg{45P9} 24|70b23 96m13 124m19 159m10
+X 24 ncurses2-getopt.adb
+52i4 nextchar{natural} 86r10 101m10 106r42 120r19 122r37 128r19 130r37 148m13
+. 150r16 152m16 154m16 154r28
+74K15 BS[8|60] 75r11
+76r7 optargx{8|78R12[74]} 84m7 121m19 129m19 144m19 159r43
+106e10 c{character} 108r61 110r25 112r64 113m13 135r67 137m22 139m22 158r35
+107i10 temp{natural} 110r13 117r24 118r27
+

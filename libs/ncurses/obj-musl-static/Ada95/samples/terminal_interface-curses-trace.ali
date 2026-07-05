@@ -1,0 +1,95 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U terminal_interface.curses.trace%b  terminal_interface-curses-trace.adb  ef52ec48 NE OO PK
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+U terminal_interface.curses.trace%s  terminal_interface-curses-trace.ads  57515043 NE OO PR PK
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D system.ads		20260501130736 e2b7c99d system%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-trace.ads  20260703163925 80ac1c07 terminal_interface.curses.trace%s
+D terminal_interface-curses-trace.adb  20260703163925 6ffef04f terminal_interface.curses.trace%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c Z s s [trace_attribute_setIP terminal_interface__curses__trace 46 9 none]
+G c Z s b [trace_on terminal_interface__curses__trace 115 14 none]
+G c Z s b [trace_put terminal_interface__curses__trace 119 14 none]
+X 10 terminal_interface.ads
+43K9*Terminal_Interface 48e23 12|43r9 44r25 125r5 13|43r14 57r5
+X 11 terminal_interface-curses.ads
+48K28*Curses 10|43k9 11|2103e30 12|43r28 44r44 125r24 13|43r33 57r24
+X 12 terminal_interface-curses-trace.ads
+43K35*Trace 11|48k28 12|44r51 125l31 125e36 13|43b40 57l31 57t36
+46R9*Trace_Attribute_Set 61e17 62r39 64r8 94r8 97r30 99r30 106r29 115r28
+. 122r28 13|45r28
+48b10*Times{boolean} 66r10 100m7
+49b10*Tputs{boolean} 68r10 101m7
+50b10*Update{boolean} 70r10 102m7
+51b10*Cursor_Move{boolean} 72r10 103m7
+52b10*Character_Output{boolean} 74r10 104m7
+53b10*Calls{boolean} 76r10
+54b10*Virtual_Puts{boolean} 78r10
+55b10*Input_Events{boolean} 80r10
+56b10*TTY_State{boolean} 82r10
+57b10*Internal_Calls{boolean} 84r10
+58b10*Character_Calls{boolean} 86r10
+59b10*Termcap_TermInfo{boolean} 88r10
+60b10*Attribute_Color{boolean} 90r10
+97r4*Trace_Disable{46R9}
+99r4*Trace_Ordinary{46R9}
+106r4*Trace_Maximum{46R9}
+115U14*Trace_On 115>24 13|45b14 49l8 49t16
+115r24 x{46R9} 13|45b24 46r29
+119U14*Trace_Put 119>25 13|51b14 55l8 55t17
+119a25 str{string} 13|51b25 52r29
+122r4*Current_Trace_Setting{46R9} 123m22 123r22
+X 14 terminal_interface-curses_constants.ads
+6K28*Curses_Constants 12|66r38 67r15 68r38 69r15 70r38 71r15 72r38 73r15
+. 74r38 75r15 76r38 77r15 78r38 79r15 80r38 81r15 82r38 83r15 84r38 85r15
+. 86r38 87r15 88r38 89r15 90r38 91r15 94r37 14|383e40
+356N4*TRACE_TIMES_First 12|66r55
+357N4*TRACE_TIMES_Last 12|67r32
+358N4*TRACE_TPUTS_First 12|68r55
+359N4*TRACE_TPUTS_Last 12|69r32
+360N4*TRACE_UPDATE_First 12|70r55
+361N4*TRACE_UPDATE_Last 12|71r32
+362N4*TRACE_MOVE_First 12|72r55
+363N4*TRACE_MOVE_Last 12|73r32
+364N4*TRACE_CHARPUT_First 12|74r55
+365N4*TRACE_CHARPUT_Last 12|75r32
+366N4*TRACE_CALLS_First 12|76r55
+367N4*TRACE_CALLS_Last 12|77r32
+368N4*TRACE_VIRTPUT_First 12|78r55
+369N4*TRACE_VIRTPUT_Last 12|79r32
+370N4*TRACE_IEVENT_First 12|80r55
+371N4*TRACE_IEVENT_Last 12|81r32
+372N4*TRACE_BITS_First 12|82r55
+373N4*TRACE_BITS_Last 12|83r32
+374N4*TRACE_ICALLS_First 12|84r55
+375N4*TRACE_ICALLS_Last 12|85r32
+376N4*TRACE_CCALLS_First 12|86r55
+377N4*TRACE_CCALLS_Last 12|87r32
+378N4*TRACE_DATABASE_First 12|88r55
+379N4*TRACE_DATABASE_Last 12|89r32
+380N4*TRACE_ATTRS_First 12|90r55
+381N4*TRACE_ATTRS_Last 12|91r32
+382N4*Trace_Size 12|94r54
+

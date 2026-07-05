@@ -1,0 +1,30 @@
+libstrace_a-xmalloc.o: ../../src/xmalloc.c config.h \
+ /usr/lib/musl/include/stdarg.h /usr/lib/musl/include/bits/alltypes.h \
+ /usr/lib/musl/include/stdio.h /usr/lib/musl/include/features.h \
+ /usr/lib/musl/include/stdlib.h /usr/lib/musl/include/alloca.h \
+ /usr/lib/musl/include/string.h /usr/lib/musl/include/strings.h \
+ ../../src/error_prints.h /usr/lib/musl/include/stdbool.h \
+ ../../src/gcc_compat.h ../../src/macros.h /usr/lib/musl/include/stddef.h \
+ /usr/lib/musl/include/sys/types.h /usr/lib/musl/include/endian.h \
+ /usr/lib/musl/include/sys/select.h ../../src/static_assert.h \
+ /usr/lib/musl/include/assert.h ../../src/xmalloc.h
+config.h:
+/usr/lib/musl/include/stdarg.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/stdio.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+../../src/error_prints.h:
+/usr/lib/musl/include/stdbool.h:
+../../src/gcc_compat.h:
+../../src/macros.h:
+/usr/lib/musl/include/stddef.h:
+/usr/lib/musl/include/sys/types.h:
+/usr/lib/musl/include/endian.h:
+/usr/lib/musl/include/sys/select.h:
+../../src/static_assert.h:
+/usr/lib/musl/include/assert.h:
+../../src/xmalloc.h:

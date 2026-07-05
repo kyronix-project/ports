@@ -1,0 +1,614 @@
+V "GNAT Lib v16"
+A -O2
+A -gnatp
+A -gnatn
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLICIT_LOOPS
+
+U sample.text_io_demo%b	sample-text_io_demo.adb	b5e98660 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+Z ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux_float%s  a-nuaufl.ads	a-nuaufl.ali
+Z ada.numerics.aux_generic_float%s
+Z ada.numerics.aux_long_float%s  a-nalofl.ads	a-nalofl.ali
+Z ada.numerics.aux_long_long_float%s  a-nallfl.ads  a-nallfl.ali
+Z ada.numerics.aux_short_float%s  a-nashfl.ads	a-nashfl.ali
+W ada.numerics.complex_types%s  a-nucoty.ads	a-nucoty.ali
+Z ada.numerics.generic_complex_types%s
+W ada.numerics.generic_elementary_functions%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.decimal_aux%s
+Z ada.text_io.decimal_io%s
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z ada.text_io.float_aux%s
+Z ada.text_io.float_io%s
+W ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z ada.text_io.integer_aux%s
+Z ada.text_io.integer_io%s
+Z ada.text_io.modular_io%s
+Z interfaces%s		interfac.ads		interfac.ali
+W sample%s		sample.adb		sample.ali
+W sample.explanation%s	sample-explanation.adb	sample-explanation.ali
+W sample.function_key_setting%s  sample-function_key_setting.adb  sample-function_key_setting.ali
+W sample.keyboard_handler%s  sample-keyboard_handler.adb  sample-keyboard_handler.ali
+W sample.manifest%s	sample-manifest.ads	sample-manifest.ali
+W system%s		system.ads		system.ali
+Z system.exn_flt%s	s-exnflt.ads		s-exnflt.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
+W system.img_decimal_128%s  s-imde128.ads	s-imde128.ali
+W system.img_decimal_32%s  s-imde32.ads		s-imde32.ali
+W system.img_decimal_64%s  s-imde64.ads		s-imde64.ali
+W system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+W system.img_int%s	s-imgint.ads		s-imgint.ali
+W system.img_lflt%s	s-imglfl.ads		s-imglfl.ali
+W system.img_llb%s	s-imgllb.ads		s-imgllb.ali
+W system.img_llf%s	s-imgllf.ads		s-imgllf.ali
+W system.img_lli%s	s-imglli.ads		s-imglli.ali
+W system.img_lllb%s	s-imglllb.ads		s-imglllb.ali
+W system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+W system.img_lllu%s	s-imglllu.ads		s-imglllu.ali
+W system.img_lllw%s	s-imglllw.ads		s-imglllw.ali
+W system.img_llu%s	s-imgllu.ads		s-imgllu.ali
+W system.img_llw%s	s-imgllw.ads		s-imgllw.ali
+W system.img_uns%s	s-imguns.ads		s-imguns.ali
+W system.img_util%s	s-imguti.adb		s-imguti.ali
+W system.img_wiu%s	s-imgwiu.ads		s-imgwiu.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.val_decimal_128%s  s-vade128.ads	s-vade128.ali
+W system.val_decimal_32%s  s-vade32.ads		s-vade32.ali
+W system.val_decimal_64%s  s-vade64.ads		s-vade64.ali
+Z system.val_enum_8%s	s-vaenu8.ads		s-vaenu8.ali
+W system.val_flt%s	s-valflt.ads		s-valflt.ali
+W system.val_int%s	s-valint.ads		s-valint.ali
+W system.val_lflt%s	s-vallfl.ads		s-vallfl.ali
+W system.val_llf%s	s-valllf.ads		s-valllf.ali
+W system.val_lli%s	s-vallli.ads		s-vallli.ali
+W system.val_llli%s	s-valllli.ads		s-valllli.ali
+W system.val_lllu%s	s-vallllu.ads		s-vallllu.ali
+W system.val_llu%s	s-valllu.ads		s-valllu.ali
+W system.val_uns%s	s-valuns.ads		s-valuns.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+W terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.adb  terminal_interface-curses-text_io.ali
+Z terminal_interface.curses.text_io.aux%s  terminal_interface-curses-text_io-aux.adb  terminal_interface-curses-text_io-aux.ali
+W terminal_interface.curses.text_io.complex_io%s  terminal_interface-curses-text_io-complex_io.adb  terminal_interface-curses-text_io-complex_io.ali  EA
+W terminal_interface.curses.text_io.decimal_io%s  terminal_interface-curses-text_io-decimal_io.adb  terminal_interface-curses-text_io-decimal_io.ali  EA
+W terminal_interface.curses.text_io.enumeration_io%s  terminal_interface-curses-text_io-enumeration_io.adb  terminal_interface-curses-text_io-enumeration_io.ali  EA
+W terminal_interface.curses.text_io.float_io%s  terminal_interface-curses-text_io-float_io.adb  terminal_interface-curses-text_io-float_io.ali  EA
+W terminal_interface.curses.text_io.integer_io%s  terminal_interface-curses-text_io-integer_io.adb  terminal_interface-curses-text_io-integer_io.ali  EA
+W terminal_interface.curses.text_io.modular_io%s  terminal_interface-curses-text_io-modular_io.adb  terminal_interface-curses-text_io-modular_io.ali  EA
+
+U sample.text_io_demo%s	sample-text_io_demo.ads	cd3d3a40 EE NE OO PK
+W sample%s		sample.adb		sample.ali
+
+D ada.ads		20260501130736 76789da1 ada%s
+D a-charac.ads		20260501130736 2d3ec45b ada.characters%s
+D a-chahan.ads		20260501130736 bf752ff6 ada.characters.handling%s
+D a-chahan.adb		20260501130736 96cadc18 ada.characters.handling%b
+D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20260501130736 8699d7ff ada.exceptions%s
+D a-ioexce.ads		20260501130736 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20260501130736 84bea7a3 ada.numerics%s
+D a-nuaufl.ads		20260501130736 d3e63031 ada.numerics.aux_float%s
+D a-nagefl.ads		20260501130736 53f456a7 ada.numerics.aux_generic_float%s
+D a-naliop.ads		20260501130736 6b421e5f ada.numerics.aux_linker_options%s
+D a-nalofl.ads		20260501130736 d6c95180 ada.numerics.aux_long_float%s
+D a-nallfl.ads		20260501130736 6ccf65a3 ada.numerics.aux_long_long_float%s
+D a-nashfl.ads		20260501130736 b54ed4fb ada.numerics.aux_short_float%s
+D a-nucoty.ads		20260501130736 b8c59445 ada.numerics.complex_types%s
+D a-ngcoty.ads		20260501130736 528b9c12 ada.numerics.generic_complex_types%s
+D a-ngelfu.ads		20260501130736 324808ac ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20260501130736 9e32f62a ada.numerics.generic_elementary_functions%b
+D a-stream.ads		20260501130736 cb01a8f8 ada.streams%s
+D a-string.ads		20260501130736 90ac6797 ada.strings%s
+D a-strfix.ads		20260501130736 8648dedb ada.strings.fixed%s
+D a-strmap.ads		20260501130736 f7e6ca10 ada.strings.maps%s
+D a-stmaco.ads		20260501130736 4b1f2a0b ada.strings.maps.constants%s
+D a-strsea.ads		20260501130736 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20260501130736 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260501130736 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260501130736 2dbf449c ada.tags%s
+D a-textio.ads		20260501130736 34ef47de ada.text_io%s
+D a-tideau.ads		20260501130736 6ff6b109 ada.text_io.decimal_aux%s
+D a-tideau.adb		20260501130736 8f165633 ada.text_io.decimal_aux%b
+D a-tideio.ads		20260501130736 4f4dcdce ada.text_io.decimal_io%s
+D a-tideio.adb		20260501130736 e8f3464b ada.text_io.decimal_io%b
+D a-tienau.ads		20260501130736 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20260501130736 77610959 ada.text_io.enumeration_io%s
+D a-tienio.adb		20260501130736 c9e6b5af ada.text_io.enumeration_io%b
+D a-tiflau.ads		20260501130736 40ab5f5e ada.text_io.float_aux%s
+D a-tiflau.adb		20260501130736 1a734a41 ada.text_io.float_aux%b
+D a-tiflio.ads		20260501130736 48a0360d ada.text_io.float_io%s
+D a-tiflio.adb		20260501130736 46ae63e6 ada.text_io.float_io%b
+D a-tigeau.ads		20260501130736 e643cdf3 ada.text_io.generic_aux%s
+D a-tiinau.ads		20260501130736 3ca4fcff ada.text_io.integer_aux%s
+D a-tiinau.adb		20260501130736 199a0c7a ada.text_io.integer_aux%b
+D a-tiinio.ads		20260501130736 76699c8f ada.text_io.integer_io%s
+D a-tiinio.adb		20260501130736 b79731f4 ada.text_io.integer_io%b
+D a-timoio.ads		20260501130736 db51d25a ada.text_io.modular_io%s
+D a-timoio.adb		20260501130736 76a8df5e ada.text_io.modular_io%b
+D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260501130736 9111f9c1 interfaces%s
+D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
+D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
+D sample.ads		20200202233434 bd2c0779 sample%s
+D sample-explanation.ads  20200202233434 7883ef84 sample.explanation%s
+D sample-function_key_setting.ads  20200202233434 98be4b41 sample.function_key_setting%s
+D sample-keyboard_handler.ads  20200202233434 8206b64f sample.keyboard_handler%s
+D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D sample-text_io_demo.ads  20200202233434 70113d39 sample.text_io_demo%s
+D sample-text_io_demo.adb  20200202233434 b36a72aa sample.text_io_demo%b
+D system.ads		20260501130736 e2b7c99d system%s
+D s-arit128.ads		20260501130736 354f2df1 system.arith_128%s
+D s-arit32.ads		20260501130736 efa0b417 system.arith_32%s
+D s-arit64.ads		20260501130736 60e313f7 system.arith_64%s
+D s-crtl.ads		20260501130736 823b6536 system.crtl%s
+D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
+D s-exnflt.ads		20260501130736 84371ff2 system.exn_flt%s
+D s-exponr.ads		20260501130736 2127300b system.exponr%s
+D s-fatflt.ads		20260501130736 11beb392 system.fat_flt%s
+D s-fatgen.ads		20260501130736 d28c6cfe system.fat_gen%s
+D s-fatgen.adb		20260501130736 6cc1fec9 system.fat_gen%b
+D s-ficobl.ads		20260501130736 dc5161d4 system.file_control_block%s
+D s-imageb.ads		20260501130736 3953e0e6 system.image_b%s
+D s-imaged.ads		20260501130736 13371993 system.image_d%s
+D s-imagei.ads		20260501130736 11a376a2 system.image_i%s
+D s-imager.ads		20260501130736 45c7157d system.image_r%s
+D s-imageu.ads		20260501130736 95851461 system.image_u%s
+D s-imagew.ads		20260501130736 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20260501130736 0a8e1c41 system.img_biu%s
+D s-imde128.ads		20260501130736 4c526c0b system.img_decimal_128%s
+D s-imde32.ads		20260501130736 9cd7a38f system.img_decimal_32%s
+D s-imde64.ads		20260501130736 893fdd50 system.img_decimal_64%s
+D s-imgflt.ads		20260501130736 d12816b5 system.img_flt%s
+D s-imgint.ads		20260501130736 86836590 system.img_int%s
+D s-imglfl.ads		20260501130736 941be202 system.img_lflt%s
+D s-imgllb.ads		20260501130736 47d0db9f system.img_llb%s
+D s-imgllf.ads		20260501130736 e85a7fe5 system.img_llf%s
+D s-imglli.ads		20260501130736 29d6e8e4 system.img_lli%s
+D s-imglllb.ads		20260501130736 30212eed system.img_lllb%s
+D s-imgllli.ads		20260501130736 a5f1df83 system.img_llli%s
+D s-imglllu.ads		20260501130736 731d8564 system.img_lllu%s
+D s-imglllw.ads		20260501130736 9e2b0560 system.img_lllw%s
+D s-imgllu.ads		20260501130736 047fb1fb system.img_llu%s
+D s-imgllw.ads		20260501130736 bf9c9c15 system.img_llw%s
+D s-imguns.ads		20260501130736 34f2a7d6 system.img_uns%s
+D s-imguti.ads		20260501130736 7719a4b9 system.img_util%s
+D s-imgwiu.ads		20260501130736 912a95f2 system.img_wiu%s
+D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
+D s-powflt.ads		20260501130736 a51ab9b8 system.powten_flt%s
+D s-powlfl.ads		20260501130736 ac0852c8 system.powten_lflt%s
+D s-powllf.ads		20260501130736 9b99e843 system.powten_llf%s
+D s-putima.ads		20260501130736 1b989439 system.put_images%s
+D s-secsta.ads		20260501130736 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260501130736 5d88fdea system.soft_links%s
+D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
+D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
+D s-vade128.ads		20260501130736 a41e3ce9 system.val_decimal_128%s
+D s-vade32.ads		20260501130736 28f7eebf system.val_decimal_32%s
+D s-vade64.ads		20260501130736 fff134eb system.val_decimal_64%s
+D s-vaenu8.ads		20260501130736 c24e5e75 system.val_enum_8%s
+D s-valflt.ads		20260501130736 78fc9326 system.val_flt%s
+D s-valint.ads		20260501130736 9081ae83 system.val_int%s
+D s-vallfl.ads		20260501130736 944236a7 system.val_lflt%s
+D s-valllf.ads		20260501130736 03043e61 system.val_llf%s
+D s-vallli.ads		20260501130736 b00d83a1 system.val_lli%s
+D s-valllli.ads		20260501130736 9b7fe923 system.val_llli%s
+D s-vallllu.ads		20260501130736 e493d873 system.val_lllu%s
+D s-valllu.ads		20260501130736 6c4ea24d system.val_llu%s
+D s-valrea.ads		20260501130736 f0598c00 system.val_real%s
+D s-valuns.ads		20260501130736 c639d3c7 system.val_uns%s
+D s-valuti.ads		20260501130736 ecabe223 system.val_util%s
+D s-valued.ads		20260501130736 a94e9aba system.value_d%s
+D s-valuei.ads		20260501130736 75953b98 system.value_i%s
+D s-valuen.ads		20260501130736 5bd81154 system.value_n%s
+D s-valuen.adb		20260501130736 7c71222f system.value_n%b
+D s-valueu.ads		20260501130736 099f68d2 system.value_u%s
+D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
+D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses-panels.adb  20200202233434 e32236c5 terminal_interface.curses.panels%b
+D terminal_interface-curses-text_io.ads  20200202233434 821d74f8 terminal_interface.curses.text_io%s
+D terminal_interface-curses-text_io-aux.ads  20200202233434 462e84fb terminal_interface.curses.text_io.aux%s
+D terminal_interface-curses-text_io-complex_io.ads  20200202233434 4caf2c0a terminal_interface.curses.text_io.complex_io%s
+D terminal_interface-curses-text_io-complex_io.adb  20200202233434 457fae5d terminal_interface.curses.text_io.complex_io%b
+D terminal_interface-curses-text_io-decimal_io.ads  20200202233434 53963b1f terminal_interface.curses.text_io.decimal_io%s
+D terminal_interface-curses-text_io-decimal_io.adb  20200202233434 fda60836 terminal_interface.curses.text_io.decimal_io%b
+D terminal_interface-curses-text_io-enumeration_io.ads  20200202233434 f2b056c8 terminal_interface.curses.text_io.enumeration_io%s
+D terminal_interface-curses-text_io-enumeration_io.adb  20200202233434 234362b7 terminal_interface.curses.text_io.enumeration_io%b
+D terminal_interface-curses-text_io-float_io.ads  20200202233434 660dec14 terminal_interface.curses.text_io.float_io%s
+D terminal_interface-curses-text_io-float_io.adb  20200202233434 7eb650b8 terminal_interface.curses.text_io.float_io%b
+D terminal_interface-curses-text_io-integer_io.ads  20200202233434 cec5743c terminal_interface.curses.text_io.integer_io%s
+D terminal_interface-curses-text_io-integer_io.adb  20200202233434 3470318a terminal_interface.curses.text_io.integer_io%b
+D terminal_interface-curses-text_io-modular_io.ads  20200202233434 9fa1fb9a terminal_interface.curses.text_io.modular_io%s
+D terminal_interface-curses-text_io-modular_io.adb  20200202233434 b8af9427 terminal_interface.curses.text_io.modular_io%b
+D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+G a e
+G c b b b [b sample__text_io_demo 76 1 none]
+G c Z s b [demo sample__text_io_demo 44 14 none]
+G c Z b b [sqrt sample__text_io_demo__math 53 13 89_4]
+G c Z b b [log sample__text_io_demo__math 77 13 89_4]
+G c Z b b [log sample__text_io_demo__math 82 13 89_4]
+G c Z b b [exp sample__text_io_demo__math 87 13 89_4]
+G c Z b b [Oexpon sample__text_io_demo__math 91 13 89_4]
+G c Z b b [sin sample__text_io_demo__math 100 13 89_4]
+G c Z b b [sin sample__text_io_demo__math 106 13 89_4]
+G c Z b b [cos sample__text_io_demo__math 112 13 89_4]
+G c Z b b [cos sample__text_io_demo__math 118 13 89_4]
+G c Z b b [tan sample__text_io_demo__math 124 13 89_4]
+G c Z b b [tan sample__text_io_demo__math 128 13 89_4]
+G c Z b b [cot sample__text_io_demo__math 134 13 89_4]
+G c Z b b [cot sample__text_io_demo__math 138 13 89_4]
+G c Z b b [arcsin sample__text_io_demo__math 145 13 89_4]
+G c Z b b [arcsin sample__text_io_demo__math 150 13 89_4]
+G c Z b b [arccos sample__text_io_demo__math 155 13 89_4]
+G c Z b b [arccos sample__text_io_demo__math 160 13 89_4]
+G c Z b b [arctan sample__text_io_demo__math 165 13 89_4]
+G c Z b b [arctan sample__text_io_demo__math 173 13 89_4]
+G c Z b b [arccot sample__text_io_demo__math 182 13 89_4]
+G c Z b b [arccot sample__text_io_demo__math 190 13 89_4]
+G c Z b b [sinh sample__text_io_demo__math 199 13 89_4]
+G c Z b b [cosh sample__text_io_demo__math 202 13 89_4]
+G c Z b b [tanh sample__text_io_demo__math 207 13 89_4]
+G c Z b b [coth sample__text_io_demo__math 212 13 89_4]
+G c Z b b [arcsinh sample__text_io_demo__math 217 13 89_4]
+G c Z b b [arccosh sample__text_io_demo__math 221 13 89_4]
+G c Z b b [arctanh sample__text_io_demo__math 227 13 89_4]
+G c Z b b [arccoth sample__text_io_demo__math 232 13 89_4]
+G c Z b b [sin sample__text_io_demo__math__aux 54 13 45_4_89_4]
+G c Z b b [cos sample__text_io_demo__math__aux 63 13 45_4_89_4]
+G c Z b b [tan sample__text_io_demo__math__aux 72 13 45_4_89_4]
+G c Z b b [exp sample__text_io_demo__math__aux 81 13 45_4_89_4]
+G c Z b b [sqrt sample__text_io_demo__math__aux 90 13 45_4_89_4]
+G c Z b b [log sample__text_io_demo__math__aux 99 13 45_4_89_4]
+G c Z b b [acos sample__text_io_demo__math__aux 108 13 45_4_89_4]
+G c Z b b [asin sample__text_io_demo__math__aux 117 13 45_4_89_4]
+G c Z b b [atan sample__text_io_demo__math__aux 126 13 45_4_89_4]
+G c Z b b [sinh sample__text_io_demo__math__aux 135 13 45_4_89_4]
+G c Z b b [cosh sample__text_io_demo__math__aux 144 13 45_4_89_4]
+G c Z b b [tanh sample__text_io_demo__math__aux 153 13 45_4_89_4]
+G c Z b b [pow sample__text_io_demo__math__aux 162 13 45_4_89_4]
+G c Z b b [exp_strict sample__text_io_demo__math 65 13 89_4]
+G c Z b b [local_atan sample__text_io_demo__math 69 13 89_4]
+G c Z b b [put sample__text_io_demo__int_io 50 14 92_4]
+G c Z b b [put sample__text_io_demo__int_io 56 14 92_4]
+G c Z b b [get sample__text_io_demo__int_io__iio 53 14 48_4_92_4]
+G c Z b b [get sample__text_io_demo__int_io__iio 62 14 48_4_92_4]
+G c Z b b [put sample__text_io_demo__int_io__iio 72 14 48_4_92_4]
+G c Z b b [put sample__text_io_demo__int_io__iio 85 14 48_4_92_4]
+G c Z b b [get sample__text_io_demo__int_io__iio 96 14 48_4_92_4]
+G c Z b b [put sample__text_io_demo__int_io__iio 104 14 48_4_92_4]
+G c Z b b [get sample__text_io_demo__int_io__iio__aux_int 55 14 48_4_48_4_92_4]
+G c Z b b [gets sample__text_io_demo__int_io__iio__aux_int 60 14 48_4_48_4_92_4]
+G c Z b b [put sample__text_io_demo__int_io__iio__aux_int 65 14 48_4_48_4_92_4]
+G c Z b b [puts sample__text_io_demo__int_io__iio__aux_int 71 14 48_4_48_4_92_4]
+G c Z b b [get sample__text_io_demo__int_io__iio__aux_lli 55 14 56_4_48_4_92_4]
+G c Z b b [gets sample__text_io_demo__int_io__iio__aux_lli 60 14 56_4_48_4_92_4]
+G c Z b b [put sample__text_io_demo__int_io__iio__aux_lli 65 14 56_4_48_4_92_4]
+G c Z b b [puts sample__text_io_demo__int_io__iio__aux_lli 71 14 56_4_48_4_92_4]
+G c Z b b [get sample__text_io_demo__int_io__iio__aux_llli 55 14 64_4_48_4_92_4]
+G c Z b b [gets sample__text_io_demo__int_io__iio__aux_llli 60 14 64_4_48_4_92_4]
+G c Z b b [put sample__text_io_demo__int_io__iio__aux_llli 65 14 64_4_48_4_92_4]
+G c Z b b [puts sample__text_io_demo__int_io__iio__aux_llli 71 14 64_4_48_4_92_4]
+G c Z b b [put sample__text_io_demo__real_io 51 14 96_4]
+G c Z b b [put sample__text_io_demo__real_io 58 14 96_4]
+G c Z b b [get sample__text_io_demo__real_io__fio 55 14 48_4_96_4]
+G c Z b b [get sample__text_io_demo__real_io__fio 64 14 48_4_96_4]
+G c Z b b [put sample__text_io_demo__real_io__fio 74 14 48_4_96_4]
+G c Z b b [put sample__text_io_demo__real_io__fio 88 14 48_4_96_4]
+G c Z b b [get sample__text_io_demo__real_io__fio 100 14 48_4_96_4]
+G c Z b b [put sample__text_io_demo__real_io__fio 108 14 48_4_96_4]
+G c Z b b [get sample__text_io_demo__real_io__fio__aux_float 58 14 42_4_48_4_96_4]
+G c Z b b [put sample__text_io_demo__real_io__fio__aux_float 63 14 42_4_48_4_96_4]
+G c Z b b [gets sample__text_io_demo__real_io__fio__aux_float 70 14 42_4_48_4_96_4]
+G c Z b b [puts sample__text_io_demo__real_io__fio__aux_float 75 14 42_4_48_4_96_4]
+G c Z b b [get sample__text_io_demo__real_io__fio__aux_long_float 58 14 45_4_48_4_96_4]
+G c Z b b [put sample__text_io_demo__real_io__fio__aux_long_float 63 14 45_4_48_4_96_4]
+G c Z b b [gets sample__text_io_demo__real_io__fio__aux_long_float 70 14 45_4_48_4_96_4]
+G c Z b b [puts sample__text_io_demo__real_io__fio__aux_long_float 75 14 45_4_48_4_96_4]
+G c Z b b [get sample__text_io_demo__real_io__fio__aux_long_long_float 58 14 49_4_48_4_96_4]
+G c Z b b [put sample__text_io_demo__real_io__fio__aux_long_long_float 63 14 49_4_48_4_96_4]
+G c Z b b [gets sample__text_io_demo__real_io__fio__aux_long_long_float 70 14 49_4_48_4_96_4]
+G c Z b b [puts sample__text_io_demo__real_io__fio__aux_long_long_float 75 14 49_4_48_4_96_4]
+G c Z b b [put sample__text_io_demo__enum_io 50 14 100_4]
+G c Z b b [put sample__text_io_demo__enum_io 56 14 100_4]
+G c Z b b [get sample__text_io_demo__enum_io__eio 33 14 49_4_100_4]
+G c Z b b [get sample__text_io_demo__enum_io__eio 38 14 49_4_100_4]
+G c Z b b [put sample__text_io_demo__enum_io__eio 45 14 49_4_100_4]
+G c Z b b [put sample__text_io_demo__enum_io__eio 58 14 49_4_100_4]
+G c Z b b [get sample__text_io_demo__enum_io__eio 69 14 49_4_100_4]
+G c Z b b [put sample__text_io_demo__enum_io__eio 77 14 49_4_100_4]
+G c Z b b [put sample__text_io_demo__c_io 55 14 104_4]
+G c Z b b [put sample__text_io_demo__c_io 62 14 104_4]
+G c Z b b [put sample__text_io_demo__c_io__fio 51 14 46_4_104_4]
+G c Z b b [put sample__text_io_demo__c_io__fio 58 14 46_4_104_4]
+G c Z b b [get sample__text_io_demo__c_io__fio__fio 55 14 48_4_46_4_104_4]
+G c Z b b [get sample__text_io_demo__c_io__fio__fio 64 14 48_4_46_4_104_4]
+G c Z b b [put sample__text_io_demo__c_io__fio__fio 74 14 48_4_46_4_104_4]
+G c Z b b [put sample__text_io_demo__c_io__fio__fio 88 14 48_4_46_4_104_4]
+G c Z b b [get sample__text_io_demo__c_io__fio__fio 100 14 48_4_46_4_104_4]
+G c Z b b [put sample__text_io_demo__c_io__fio__fio 108 14 48_4_46_4_104_4]
+G c Z b b [get sample__text_io_demo__c_io__fio__fio__aux_float 58 14 42_4_48_4_46_4_104_4]
+G c Z b b [put sample__text_io_demo__c_io__fio__fio__aux_float 63 14 42_4_48_4_46_4_104_4]
+G c Z b b [gets sample__text_io_demo__c_io__fio__fio__aux_float 70 14 42_4_48_4_46_4_104_4]
+G c Z b b [puts sample__text_io_demo__c_io__fio__fio__aux_float 75 14 42_4_48_4_46_4_104_4]
+G c Z b b [get sample__text_io_demo__c_io__fio__fio__aux_long_float 58 14 45_4_48_4_46_4_104_4]
+G c Z b b [put sample__text_io_demo__c_io__fio__fio__aux_long_float 63 14 45_4_48_4_46_4_104_4]
+G c Z b b [gets sample__text_io_demo__c_io__fio__fio__aux_long_float 70 14 45_4_48_4_46_4_104_4]
+G c Z b b [puts sample__text_io_demo__c_io__fio__fio__aux_long_float 75 14 45_4_48_4_46_4_104_4]
+G c Z b b [get sample__text_io_demo__c_io__fio__fio__aux_long_long_float 58 14 49_4_48_4_46_4_104_4]
+G c Z b b [put sample__text_io_demo__c_io__fio__fio__aux_long_long_float 63 14 49_4_48_4_46_4_104_4]
+G c Z b b [gets sample__text_io_demo__c_io__fio__fio__aux_long_long_float 70 14 49_4_48_4_46_4_104_4]
+G c Z b b [puts sample__text_io_demo__c_io__fio__fio__aux_long_long_float 75 14 49_4_48_4_46_4_104_4]
+G c Z b b [put sample__text_io_demo__d_io 51 14 108_4]
+G c Z b b [put sample__text_io_demo__d_io 58 14 108_4]
+G c Z b b [get sample__text_io_demo__d_io__dio 54 14 48_4_108_4]
+G c Z b b [get sample__text_io_demo__d_io__dio 63 14 48_4_108_4]
+G c Z b b [put sample__text_io_demo__d_io__dio 73 14 48_4_108_4]
+G c Z b b [put sample__text_io_demo__d_io__dio 87 14 48_4_108_4]
+G c Z b b [get sample__text_io_demo__d_io__dio 99 14 48_4_108_4]
+G c Z b b [put sample__text_io_demo__d_io__dio 107 14 48_4_108_4]
+G c Z b b [get sample__text_io_demo__d_io__dio__aux32 59 13 47_4_48_4_108_4]
+G c Z b b [put sample__text_io_demo__d_io__dio__aux32 64 14 47_4_48_4_108_4]
+G c Z b b [gets sample__text_io_demo__d_io__dio__aux32 72 13 47_4_48_4_108_4]
+G c Z b b [puts sample__text_io_demo__d_io__dio__aux32 77 14 47_4_48_4_108_4]
+G c Z b b [get sample__text_io_demo__d_io__dio__aux64 59 13 53_4_48_4_108_4]
+G c Z b b [put sample__text_io_demo__d_io__dio__aux64 64 14 53_4_48_4_108_4]
+G c Z b b [gets sample__text_io_demo__d_io__dio__aux64 72 13 53_4_48_4_108_4]
+G c Z b b [puts sample__text_io_demo__d_io__dio__aux64 77 14 53_4_48_4_108_4]
+G c Z b b [get sample__text_io_demo__d_io__dio__aux128 59 13 59_4_48_4_108_4]
+G c Z b b [put sample__text_io_demo__d_io__dio__aux128 64 14 59_4_48_4_108_4]
+G c Z b b [gets sample__text_io_demo__d_io__dio__aux128 72 13 59_4_48_4_108_4]
+G c Z b b [puts sample__text_io_demo__d_io__dio__aux128 77 14 59_4_48_4_108_4]
+G c Z b b [put sample__text_io_demo__m_io 50 14 112_4]
+G c Z b b [put sample__text_io_demo__m_io 56 14 112_4]
+G c Z b b [get sample__text_io_demo__m_io__mio 53 14 48_4_112_4]
+G c Z b b [get sample__text_io_demo__m_io__mio 62 14 48_4_112_4]
+G c Z b b [put sample__text_io_demo__m_io__mio 72 14 48_4_112_4]
+G c Z b b [put sample__text_io_demo__m_io__mio 85 14 48_4_112_4]
+G c Z b b [get sample__text_io_demo__m_io__mio 96 14 48_4_112_4]
+G c Z b b [put sample__text_io_demo__m_io__mio 104 14 48_4_112_4]
+G c Z b b [get sample__text_io_demo__m_io__mio__aux_uns 55 14 51_4_48_4_112_4]
+G c Z b b [gets sample__text_io_demo__m_io__mio__aux_uns 60 14 51_4_48_4_112_4]
+G c Z b b [put sample__text_io_demo__m_io__mio__aux_uns 65 14 51_4_48_4_112_4]
+G c Z b b [puts sample__text_io_demo__m_io__mio__aux_uns 71 14 51_4_48_4_112_4]
+G c Z b b [get sample__text_io_demo__m_io__mio__aux_llu 55 14 61_4_48_4_112_4]
+G c Z b b [gets sample__text_io_demo__m_io__mio__aux_llu 60 14 61_4_48_4_112_4]
+G c Z b b [put sample__text_io_demo__m_io__mio__aux_llu 65 14 61_4_48_4_112_4]
+G c Z b b [puts sample__text_io_demo__m_io__mio__aux_llu 71 14 61_4_48_4_112_4]
+G c Z b b [get sample__text_io_demo__m_io__mio__aux_lllu 55 14 72_4_48_4_112_4]
+G c Z b b [gets sample__text_io_demo__m_io__mio__aux_lllu 60 14 72_4_48_4_112_4]
+G c Z b b [put sample__text_io_demo__m_io__mio__aux_lllu 65 14 72_4_48_4_112_4]
+G c Z b b [puts sample__text_io_demo__m_io__mio__aux_lllu 71 14 72_4_48_4_112_4]
+G r i none [b sample__text_io_demo 76 1 none] [integer_io terminal_interface__curses__text_io 45 43 none]
+G r i none [b sample__text_io_demo 76 1 none] [float_io terminal_interface__curses__text_io 45 43 none]
+G r i none [b sample__text_io_demo 76 1 none] [enumeration_io terminal_interface__curses__text_io 45 43 none]
+G r i none [b sample__text_io_demo 76 1 none] [complex_io terminal_interface__curses__text_io 47 43 none]
+G r i none [b sample__text_io_demo 76 1 none] [decimal_io terminal_interface__curses__text_io 45 43 none]
+G r i none [b sample__text_io_demo 76 1 none] [modular_io terminal_interface__curses__text_io 45 43 none]
+G r c none [demo sample__text_io_demo 44 14 none] [standard_window terminal_interface__curses 645 13 none]
+G r c none [demo sample__text_io_demo 44 14 none] [create terminal_interface__curses__panels 67 13 none]
+G r c none [demo sample__text_io_demo 44 14 none] [push_environment sample__function_key_setting 49 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [default_labels sample__function_key_setting 77 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [notepad sample__explanation 54 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [set_echo_mode terminal_interface__curses 1069 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [set_meta_mode terminal_interface__curses 1075 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [set_keypad_mode terminal_interface__curses 1081 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [lines terminal_interface__curses 551 13 none]
+G r c none [demo sample__text_io_demo 44 14 none] [columns terminal_interface__curses 554 13 none]
+G r c none [demo sample__text_io_demo 44 14 none] [sub_window terminal_interface__curses 765 13 none]
+G r c none [demo sample__text_io_demo 44 14 none] [box terminal_interface__curses 891 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [refresh_without_update terminal_interface__curses 1223 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [immediate_update_mode terminal_interface__curses 1180 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [set_window terminal_interface__curses__text_io 60 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [put terminal_interface__curses__text_io 117 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [demo sample__text_io_demo 44 14 none] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [new_line terminal_interface__curses__text_io 88 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [put terminal_interface__curses__text_io 110 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [put terminal_interface__curses__text_io 109 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [get_key sample__keyboard_handler 50 13 none]
+G r c none [demo sample__text_io_demo 44 14 none] [explain_context sample__explanation 51 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [explain sample__explanation 48 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [erase terminal_interface__curses 1245 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [delete terminal_interface__curses__panels 139 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [delete terminal_interface__curses 759 14 none]
+G r c none [demo sample__text_io_demo 44 14 none] [pop_environment sample__function_key_setting 57 14 none]
+G r c none [put sample__text_io_demo__int_io 50 14 92_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__int_io 56 14 92_4] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [put sample__text_io_demo__int_io 56 14 92_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__real_io 51 14 96_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__real_io 58 14 96_4] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [put sample__text_io_demo__real_io 58 14 96_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__enum_io 50 14 100_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__enum_io 56 14 100_4] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [put sample__text_io_demo__enum_io 56 14 100_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__c_io 55 14 104_4] [put terminal_interface__curses__text_io 109 14 none]
+G r c none [put sample__text_io_demo__c_io 55 14 104_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__c_io 62 14 104_4] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [put sample__text_io_demo__c_io 62 14 104_4] [put terminal_interface__curses__text_io 109 14 none]
+G r c none [put sample__text_io_demo__c_io 62 14 104_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__c_io__fio 51 14 46_4_104_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__c_io__fio 58 14 46_4_104_4] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [put sample__text_io_demo__c_io__fio 58 14 46_4_104_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__d_io 51 14 108_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__d_io 58 14 108_4] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [put sample__text_io_demo__d_io 58 14 108_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__m_io 50 14 112_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+G r c none [put sample__text_io_demo__m_io 56 14 112_4] [get_window terminal_interface__curses__text_io 63 13 none]
+G r c none [put sample__text_io_demo__m_io 56 14 112_4] [put_buf terminal_interface__curses__text_io__aux 49 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 58|43r6 45r6 46r6 90r6 105r52
+X 8 a-numeri.ads
+20K13*Numerics 36e17 58|43r10 45r10 46r10 90r10 105r56
+X 15 a-nucoty.ads
+18K22*Complex_Types[16|39] 58|45w19 46r19 105r65
+X 16 a-ngcoty.ads
+42R9*Complex 58|121r21[15|18]
+X 17 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 236e46 58|43w19 90r19
+53V13 Sqrt{float} 58|147s28[89]
+X 28 a-textio.ads
+89I12*Field{integer}
+X 48 interfac.ads
+68I9*Integer_64<long_long_integer>
+76I9*Integer_128<long_long_long_integer>
+95M9*Unsigned_64
+99M9*Unsigned_128
+X 52 sample.ads
+42K9*Sample 44e11 57|42r9 46r5 58|64r6 64r27 65r6 65r39 66r6 66r35 67r6 67r30
+. 76r14 189r5
+X 53 sample-explanation.ads
+46K16*Explanation 60e23 58|67w13 67r37
+48U14*Explain 58|175s38
+51U14*Explain_Context 58|174s38
+54U14*Notepad 58|129s7
+X 54 sample-function_key_setting.ads
+47K16*Function_Key_Setting 83e32 58|65w13 65r46
+49U14*Push_Environment 58|127s7
+57U14*Pop_Environment 58|186s7
+77U14*Default_Labels 58|128s7
+X 55 sample-keyboard_handler.ads
+48K16*Keyboard_Handler 56e28 58|66w13 66r42
+50V13*Get_Key{130|72I12} 58|170s15
+X 56 sample-manifest.ads
+44K16*Manifest 68e20 58|64w13 64r34
+50i4*HELP_CODE{130|77I12} 58|174r21
+52i4*EXPLAIN_CODE{130|77I12} 58|175r21
+54i4*QUIT_CODE{130|77I12} 58|173r21
+X 57 sample-text_io_demo.ads
+42K16*Text_IO_Demo 52|42k9 57|46l12 46e24 58|76b21 189l12 189t24
+44U14*Demo 58|116b14 187l8 187t12
+X 58 sample-text_io_demo.adb
+78E9 Weekday 84e30 101r56 151r16
+78n21 Sunday{78E9}
+79n21 Monday{78E9}
+80n21 Tuesday{78E9}
+81n21 Wednesday{78E9}
+82n21 Thursday{78E9}
+83n21 Friday{78E9}
+84n21 Saturday{78E9}
+86D9 Dec 109r52 122r21 123r21
+87M9 Md 113r52 124r11 156r12 158r19
+89K12 Math[17|39] 147r23
+92K12 Int_IO[145|45] 94r8
+96K12 Real_IO[143|45] 98r8
+100K12 Enum_IO[141|45] 102r8
+104K12 C_IO[137|47] 106r8
+108K12 D_IO[139|45] 110r8
+112K12 M_IO[147|45] 114r8
+118m7 W{130|56M9} 134m7 137r22 138r24 139r30 141r19 184m15 184r15
+119m7 P{133|49M9} 183m15 183r15
+120i7 K{130|72I12} 170m10 171r13 172r18
+121r7 Im{16|42R9[15|18]} 165r12
+122d7 Fx{86D9} 166r12
+123d7 Dc{86D9} 167r12
+124m7 L{87M9} 156m7 159r18 160m13 160r18
+143i11 I{integer} 145r23 147r41
+151e11 W{78E9} 152r23
+157i11 I{integer}
+158m14 J{87M9}
+X 60 s-arit128.ads
+48I12*Int128{48|76I9}
+58V13*Multiply_With_Ovflo_Check128{48I12} 59i<c,__gnat_mulv128>22
+92M12*Uns128{48|99M9}
+112V13*Uns_Multiply_With_Ovflo_Check128{92M12} 113i<c,__gnat_uns_mulv128>22
+X 62 s-arit64.ads
+48I12*Int64{48|68I9}
+74V13*Multiply_With_Ovflo_Check64{48I12} 75i<c,__gnat_mulv64>22
+158M12*Uns64{48|95M9}
+180V13*Uns_Multiply_With_Ovflo_Check64{158M12} 181i<c,__gnat_uns_mulv64>22
+X 105 s-stoele.ads
+92M9*Integer_Address
+X 129 terminal_interface.ads
+43K9*Terminal_Interface 58|48r6 49r6 51r6 52r6 54r6 55r6 57r6 58r6 59r6 60r6
+. 61r6 62r6 93r6 97r6 101r6 105r6 109r6 113r6 129|48e23
+X 130 terminal_interface-curses.ads
+48K28*Curses 58|48w25 49r25 51r25 52r25 54r25 55r25 57r25 58r25 59r25 60r25
+. 61r25 62r25 93r25 97r25 101r25 105r25 109r25 113r25 130|2103e30
+56M9*Window<105|92M9> 58|118r11
+57m4*Null_Window{56M9} 58|181r19
+59I9*Line_Position<integer>
+60I9*Column_Position<integer>
+62I12*Line_Count{59I9}
+64I12*Column_Count{60I9}
+67I9*Key_Code<integer>
+72I12*Real_Key_Code{67I9} 58|120r11
+77I12*Special_Key_Code{72I12} 58|171r18
+551V13*Lines{62I12} 58|134s41
+554V13*Columns{64I12} 58|134s52
+645V13*Standard_Window{56M9} 58|119s28 134s24
+759U14*Delete 58|184s7
+765V13*Sub_Window{56M9} 58|134s12
+891U14*Box 58|135s7
+1069U14*Set_Echo_Mode 58|131s7
+1075U14*Set_Meta_Mode 58|132s7 137s7
+1081U14*Set_KeyPad_Mode 58|133s7 138s7
+1180U14*Immediate_Update_Mode 58|139s7
+1223U14*Refresh_Without_Update 58|136s7 182s14
+1245U14*Erase 58|182s7
+X 133 terminal_interface-curses-panels.ads
+45K35*Panels 58|51w32 52r32 133|147e37
+49M9*Panel<105|92M9> 58|119r11
+67V13*Create{49M9} 58|119s20
+139U14*Delete 58|183s7
+X 135 terminal_interface-curses-text_io.ads
+45K35*Text_IO 58|54w32 55r32 57r32 58r32 59r32 60r32 61r32 62r32 93r32 97r32
+. 101r32 105r32 109r32 113r32 135|137e38
+51I12*Field{28|89I12}
+60U14*Set_Window 58|141s7 181s7
+88U14*New_Line 58|148s10 154s7 163s7 165s17 166s17 167s17
+110U14*Put 58|152s27 159s22
+117U14*Put 58|144s10 146s10
+X 137 terminal_interface-curses-text_io-complex_io.ads
+47k43*Complex_IO 58|60w40 69r57 105r40 137|71e49
+62U14 Put 58|165s7[104]
+X 139 terminal_interface-curses-text_io-decimal_io.ads
+45k43*Decimal_IO 58|61w40 70r57 109r40 139|67e49
+58U14 Put 58|166s7[108] 167s7[108]
+X 141 terminal_interface-curses-text_io-enumeration_io.ads
+45k43*Enumeration_IO 58|59w40 71r57 101r40 141|64e53
+56U14 Put 58|152s10[100]
+57e7 Item{58|78E9} 58|152r15[100]
+X 143 terminal_interface-curses-text_io-float_io.ads
+45k43*Float_IO 58|58w40 72r57 97r40 143|67e47
+58U14 Put 58|147s10[96]
+59f7 Item{float} 58|147r15[96]
+61i7 Aft{135|51I12} 58|147r56[96]
+62i7 Exp{135|51I12} 58|147r46[96]
+X 145 terminal_interface-curses-text_io-integer_io.ads
+45k43*Integer_IO 58|57w40 73r57 93r40 145|64e49
+56U14 Put 58|145s10[92]
+57i7 Item{integer} 58|145r15[92]
+58i7 Width{135|51I12} 58|145r26[92]
+X 147 terminal_interface-curses-text_io-modular_io.ads
+45k43*Modular_IO 58|62w40 74r57 113r40 147|64e49
+56U14 Put 58|159s13[112]
+
