@@ -1,0 +1,5 @@
+This is a dynamic build (shared `libcrypto.so.4` / `libssl.so.4`), unlike most other ports here, which are static. OpenSSL gets frequent security fixes (TLS/crypto parsing bugs), and it is meant to be shared by many programs (curl, etc). Static linking would mean rebuilding and redeploying every consumer on every OpenSSL security update, so this one is built shared on purpose.
+
+`--openssldir` is set to `/etc/ssl`. Kyronix needs to provide a CA certificate bundle there, otherwise certificate verification will fail for any program linked against this library. `cacert.pem` in this directory is Mozilla's root bundle as published by the curl project (https://curl.se/ca/cacert.pem, dated 2026-05-14). Copy it into the rootfs at `/etc/ssl/cert.pem`.
+
+Built with `no-tests` (test suite not run here). `apps/openssl` and the shared libs need `linux/mman.h` and friends from the kernel headers to compile under musl-gcc; see `kernel-headers/` (symlinks to the host's `/usr/include/{asm,asm-generic,linux}`) and the `-idirafter` flag used for `CC` in the build. Same workaround as used for `utils/strace`.
