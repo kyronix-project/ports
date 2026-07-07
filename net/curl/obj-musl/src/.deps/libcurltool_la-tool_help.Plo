@@ -1,0 +1,108 @@
+libcurltool_la-tool_help.lo: ../../src/tool_help.c ../../src/tool_setup.h \
+ ../../lib/curl_setup.h ../lib/curl_config.h \
+ /usr/lib/musl/include/pthread.h /usr/lib/musl/include/features.h \
+ /usr/lib/musl/include/bits/alltypes.h /usr/lib/musl/include/sched.h \
+ /usr/lib/musl/include/time.h ../../include/curl/system.h \
+ /usr/lib/musl/include/sys/types.h /usr/lib/musl/include/endian.h \
+ /usr/lib/musl/include/sys/select.h /usr/lib/musl/include/sys/socket.h \
+ /usr/lib/musl/include/bits/socket.h /usr/lib/musl/include/stdio.h \
+ /usr/lib/musl/include/assert.h /usr/lib/musl/include/stdint.h \
+ /usr/lib/musl/include/bits/stdint.h /usr/lib/musl/include/limits.h \
+ /usr/lib/musl/include/bits/limits.h /usr/lib/musl/include/stdlib.h \
+ /usr/lib/musl/include/alloca.h /usr/lib/musl/include/string.h \
+ /usr/lib/musl/include/strings.h /usr/lib/musl/include/stdarg.h \
+ /usr/lib/musl/include/errno.h /usr/lib/musl/include/bits/errno.h \
+ /usr/lib/musl/include/sys/stat.h /usr/lib/musl/include/bits/stat.h \
+ /usr/lib/musl/include/sys/time.h /usr/lib/musl/include/fcntl.h \
+ /usr/lib/musl/include/bits/fcntl.h /usr/lib/musl/include/stdbool.h \
+ /usr/lib/musl/include/unistd.h ../../lib/functypes.h \
+ ../../lib/curl_ctype.h ../../lib/curlx/warnless.h \
+ ../../include/curl/curl.h ../../include/curl/curlver.h \
+ ../../include/curl/system.h ../../include/curl/easy.h \
+ ../../include/curl/multi.h ../../include/curl/curl.h \
+ ../../include/curl/urlapi.h ../../include/curl/options.h \
+ ../../include/curl/header.h ../../include/curl/websockets.h \
+ ../../include/curl/mprintf.h ../../include/curl/typecheck-gcc.h \
+ ../../lib/curlx/base64.h ../../lib/curlx/dynbuf.h \
+ ../../lib/curlx/fopen.h ../../lib/curlx/multibyte.h \
+ ../../lib/curlx/strcopy.h ../../lib/curlx/strdup.h \
+ ../../lib/curlx/strerr.h ../../lib/curlx/strparse.h \
+ ../../lib/curlx/timediff.h ../../lib/curlx/timeval.h \
+ ../../lib/curlx/wait.h ../../src/tool_help.h ../../src/tool_libinfo.h \
+ ../../src/tool_util.h ../../src/tool_version.h \
+ ../../include/curl/curlver.h ../../src/tool_hugehelp.h \
+ ../../src/tool_getparam.h ../../src/tool_cfgable.h \
+ ../../src/tool_sdecls.h ../../src/tool_urlglob.h ../../src/var.h \
+ ../../src/terminal.h
+../../src/tool_setup.h:
+../../lib/curl_setup.h:
+../lib/curl_config.h:
+/usr/lib/musl/include/pthread.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/sched.h:
+/usr/lib/musl/include/time.h:
+../../include/curl/system.h:
+/usr/lib/musl/include/sys/types.h:
+/usr/lib/musl/include/endian.h:
+/usr/lib/musl/include/sys/select.h:
+/usr/lib/musl/include/sys/socket.h:
+/usr/lib/musl/include/bits/socket.h:
+/usr/lib/musl/include/stdio.h:
+/usr/lib/musl/include/assert.h:
+/usr/lib/musl/include/stdint.h:
+/usr/lib/musl/include/bits/stdint.h:
+/usr/lib/musl/include/limits.h:
+/usr/lib/musl/include/bits/limits.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+/usr/lib/musl/include/stdarg.h:
+/usr/lib/musl/include/errno.h:
+/usr/lib/musl/include/bits/errno.h:
+/usr/lib/musl/include/sys/stat.h:
+/usr/lib/musl/include/bits/stat.h:
+/usr/lib/musl/include/sys/time.h:
+/usr/lib/musl/include/fcntl.h:
+/usr/lib/musl/include/bits/fcntl.h:
+/usr/lib/musl/include/stdbool.h:
+/usr/lib/musl/include/unistd.h:
+../../lib/functypes.h:
+../../lib/curl_ctype.h:
+../../lib/curlx/warnless.h:
+../../include/curl/curl.h:
+../../include/curl/curlver.h:
+../../include/curl/system.h:
+../../include/curl/easy.h:
+../../include/curl/multi.h:
+../../include/curl/curl.h:
+../../include/curl/urlapi.h:
+../../include/curl/options.h:
+../../include/curl/header.h:
+../../include/curl/websockets.h:
+../../include/curl/mprintf.h:
+../../include/curl/typecheck-gcc.h:
+../../lib/curlx/base64.h:
+../../lib/curlx/dynbuf.h:
+../../lib/curlx/fopen.h:
+../../lib/curlx/multibyte.h:
+../../lib/curlx/strcopy.h:
+../../lib/curlx/strdup.h:
+../../lib/curlx/strerr.h:
+../../lib/curlx/strparse.h:
+../../lib/curlx/timediff.h:
+../../lib/curlx/timeval.h:
+../../lib/curlx/wait.h:
+../../src/tool_help.h:
+../../src/tool_libinfo.h:
+../../src/tool_util.h:
+../../src/tool_version.h:
+../../include/curl/curlver.h:
+../../src/tool_hugehelp.h:
+../../src/tool_getparam.h:
+../../src/tool_cfgable.h:
+../../src/tool_sdecls.h:
+../../src/tool_urlglob.h:
+../../src/var.h:
+../../src/terminal.h:

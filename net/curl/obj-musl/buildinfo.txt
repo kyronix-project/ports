@@ -1,0 +1,13 @@
+# This is a generated file.  Do not edit.
+buildinfo.configure.tool: configure
+buildinfo.configure.args:  '--host=x86_64-linux-musl' '--enable-shared' '--disable-static' '--with-openssl' '--without-libpsl' '--disable-ldap' '--disable-ldaps' '--prefix=/usr' '--with-ca-bundle=/etc/ssl/cert.pem' '--without-ca-path' 'host_alias=x86_64-linux-musl' 'CC=musl-gcc -fno-link-libatomic -idirafter /home/ildar/kyronix-ports/net/curl/kernel-headers'
+buildinfo.host: x86_64-pc-linux-musl
+buildinfo.host.cpu: x86_64
+buildinfo.host.os: linux-musl
+buildinfo.target: x86_64-pc-linux-musl
+buildinfo.target.cpu: x86_64
+buildinfo.target.os: linux-musl
+buildinfo.target.flags: UNIX GCC
+buildinfo.compiler: GNU_C
+buildinfo.compiler.version: 16.1.1
+buildinfo.sysroot: 
