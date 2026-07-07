@@ -1,0 +1,351 @@
+vtls/libcurlu_la-openssl.lo: ../../lib/vtls/openssl.c \
+ ../../lib/curl_setup.h ../lib/curl_config.h \
+ /usr/lib/musl/include/pthread.h /usr/lib/musl/include/features.h \
+ /usr/lib/musl/include/bits/alltypes.h /usr/lib/musl/include/sched.h \
+ /usr/lib/musl/include/time.h ../../include/curl/system.h \
+ /usr/lib/musl/include/sys/types.h /usr/lib/musl/include/endian.h \
+ /usr/lib/musl/include/sys/select.h /usr/lib/musl/include/sys/socket.h \
+ /usr/lib/musl/include/bits/socket.h /usr/lib/musl/include/stdio.h \
+ /usr/lib/musl/include/assert.h /usr/lib/musl/include/stdint.h \
+ /usr/lib/musl/include/bits/stdint.h /usr/lib/musl/include/limits.h \
+ /usr/lib/musl/include/bits/limits.h /usr/lib/musl/include/stdlib.h \
+ /usr/lib/musl/include/alloca.h /usr/lib/musl/include/string.h \
+ /usr/lib/musl/include/strings.h /usr/lib/musl/include/stdarg.h \
+ /usr/lib/musl/include/errno.h /usr/lib/musl/include/bits/errno.h \
+ /usr/lib/musl/include/sys/stat.h /usr/lib/musl/include/bits/stat.h \
+ /usr/lib/musl/include/sys/time.h /usr/lib/musl/include/fcntl.h \
+ /usr/lib/musl/include/bits/fcntl.h /usr/lib/musl/include/stdbool.h \
+ /usr/lib/musl/include/unistd.h ../../lib/functypes.h \
+ ../../lib/curl_ctype.h ../../lib/curlx/warnless.h \
+ ../../include/curl/curl.h ../../include/curl/curlver.h \
+ ../../include/curl/system.h ../../include/curl/easy.h \
+ ../../include/curl/multi.h ../../include/curl/curl.h \
+ ../../include/curl/urlapi.h ../../include/curl/options.h \
+ ../../include/curl/header.h ../../include/curl/websockets.h \
+ ../../include/curl/mprintf.h ../../include/curl/typecheck-gcc.h \
+ ../../lib/urldata.h ../../lib/curl_setup.h \
+ /usr/lib/musl/include/netinet/in.h /usr/lib/musl/include/inttypes.h \
+ ../../lib/curlx/timeval.h ../../lib/curlx/timediff.h ../../lib/asyn.h \
+ ../../lib/curl_addrinfo.h /usr/lib/musl/include/netdb.h \
+ /usr/lib/musl/include/arpa/inet.h ../../lib/cookie.h ../../lib/llist.h \
+ ../../lib/creds.h ../../lib/psl.h ../../lib/formdata.h \
+ ../../lib/bufref.h ../../lib/http_chunks.h ../../lib/curlx/dynbuf.h \
+ ../../lib/hostip.h ../../lib/hash.h ../../lib/peer.h ../../lib/proxy.h \
+ ../../lib/splay.h ../../lib/dynhds.h ../../lib/request.h \
+ ../../lib/bufq.h ../../lib/ratelimit.h ../../lib/netrc.h \
+ ../../lib/vtls/vtls_config.h ../../lib/mime.h ../../lib/protocol.h \
+ ../../lib/ftp.h ../../lib/http.h ../../lib/smb.h ../../lib/mqtt.h \
+ ../../lib/ftplistparser.h ../../lib/multihandle.h ../../lib/conncache.h \
+ ../../lib/cshutdn.h ../../lib/dnscache.h ../../lib/multi_ev.h \
+ ../../lib/multi_ntfy.h ../../lib/uint-bset.h ../../lib/socketpair.h \
+ ../../lib/uint-spbset.h ../../lib/uint-table.h ../../lib/cf-socket.h \
+ ../../lib/curl_trc.h ../../lib/httpsrr.h ../../lib/formdata.h \
+ ../../lib/url.h ../../lib/curlx/inet_pton.h ../../lib/vtls/openssl.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/opensslv.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/macros.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/opensslconf.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/configuration.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ossl_typ.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/types.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/e_os2.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/safestack.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/stack.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ssl.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/e_ostime.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/comp.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/crypto.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/cryptoerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/symhacks.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/cryptoerr_legacy.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/core.h \
+ /usr/lib/musl/include/stddef.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/comperr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/bio.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/bioerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/buffer.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/buffererr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/evp.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/core_dispatch.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/indicator.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/params.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/bn.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/bnerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/evperr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/objects.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/obj_mac.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/asn1.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/asn1err.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/objectserr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ec.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ecerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/rsa.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/rsaerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dsa.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dh.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dherr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dsaerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/sha.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509err.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509_vfy.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/lhash.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pkcs7.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pkcs7err.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/http.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/conf.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/conferr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/conftypes.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pem.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pemerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/hmac.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/async.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/asyncerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ct.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/cterr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/sslerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/sslerr_legacy.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/prov_ssl.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ech.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/hpke.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ssl2.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ssl3.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/tls1.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dtls1.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/srtp.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/quic.h \
+ ../../lib/connect.h ../../lib/cf-dns.h ../../lib/progress.h \
+ ../../lib/vtls/vtls.h ../../lib/vtls/vtls_int.h ../../lib/cfilters.h \
+ ../../lib/curlx/timediff.h ../../lib/select.h \
+ /usr/lib/musl/include/poll.h /usr/lib/musl/include/bits/poll.h \
+ ../../lib/vtls/vtls_scache.h ../../lib/vauth/vauth.h ../../lib/bufref.h \
+ ../../lib/curlx/dynbuf.h ../../lib/vtls/keylog.h \
+ ../../lib/vtls/hostcheck.h ../../lib/transfer.h ../../lib/multiif.h \
+ ../../lib/curlx/strerr.h ../../lib/curlx/strparse.h \
+ ../../lib/curlx/strcopy.h ../../lib/curlx/strdup.h \
+ ../../lib/vtls/apple.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/rand.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/randerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509v3.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509v3err.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/err.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pkcs12.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pkcs12err.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ocsp.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ocsperr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/provider.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/store.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/storeerr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ui.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/uierr.h \
+ /home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/core_names.h
+../../lib/curl_setup.h:
+../lib/curl_config.h:
+/usr/lib/musl/include/pthread.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/sched.h:
+/usr/lib/musl/include/time.h:
+../../include/curl/system.h:
+/usr/lib/musl/include/sys/types.h:
+/usr/lib/musl/include/endian.h:
+/usr/lib/musl/include/sys/select.h:
+/usr/lib/musl/include/sys/socket.h:
+/usr/lib/musl/include/bits/socket.h:
+/usr/lib/musl/include/stdio.h:
+/usr/lib/musl/include/assert.h:
+/usr/lib/musl/include/stdint.h:
+/usr/lib/musl/include/bits/stdint.h:
+/usr/lib/musl/include/limits.h:
+/usr/lib/musl/include/bits/limits.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+/usr/lib/musl/include/stdarg.h:
+/usr/lib/musl/include/errno.h:
+/usr/lib/musl/include/bits/errno.h:
+/usr/lib/musl/include/sys/stat.h:
+/usr/lib/musl/include/bits/stat.h:
+/usr/lib/musl/include/sys/time.h:
+/usr/lib/musl/include/fcntl.h:
+/usr/lib/musl/include/bits/fcntl.h:
+/usr/lib/musl/include/stdbool.h:
+/usr/lib/musl/include/unistd.h:
+../../lib/functypes.h:
+../../lib/curl_ctype.h:
+../../lib/curlx/warnless.h:
+../../include/curl/curl.h:
+../../include/curl/curlver.h:
+../../include/curl/system.h:
+../../include/curl/easy.h:
+../../include/curl/multi.h:
+../../include/curl/curl.h:
+../../include/curl/urlapi.h:
+../../include/curl/options.h:
+../../include/curl/header.h:
+../../include/curl/websockets.h:
+../../include/curl/mprintf.h:
+../../include/curl/typecheck-gcc.h:
+../../lib/urldata.h:
+../../lib/curl_setup.h:
+/usr/lib/musl/include/netinet/in.h:
+/usr/lib/musl/include/inttypes.h:
+../../lib/curlx/timeval.h:
+../../lib/curlx/timediff.h:
+../../lib/asyn.h:
+../../lib/curl_addrinfo.h:
+/usr/lib/musl/include/netdb.h:
+/usr/lib/musl/include/arpa/inet.h:
+../../lib/cookie.h:
+../../lib/llist.h:
+../../lib/creds.h:
+../../lib/psl.h:
+../../lib/formdata.h:
+../../lib/bufref.h:
+../../lib/http_chunks.h:
+../../lib/curlx/dynbuf.h:
+../../lib/hostip.h:
+../../lib/hash.h:
+../../lib/peer.h:
+../../lib/proxy.h:
+../../lib/splay.h:
+../../lib/dynhds.h:
+../../lib/request.h:
+../../lib/bufq.h:
+../../lib/ratelimit.h:
+../../lib/netrc.h:
+../../lib/vtls/vtls_config.h:
+../../lib/mime.h:
+../../lib/protocol.h:
+../../lib/ftp.h:
+../../lib/http.h:
+../../lib/smb.h:
+../../lib/mqtt.h:
+../../lib/ftplistparser.h:
+../../lib/multihandle.h:
+../../lib/conncache.h:
+../../lib/cshutdn.h:
+../../lib/dnscache.h:
+../../lib/multi_ev.h:
+../../lib/multi_ntfy.h:
+../../lib/uint-bset.h:
+../../lib/socketpair.h:
+../../lib/uint-spbset.h:
+../../lib/uint-table.h:
+../../lib/cf-socket.h:
+../../lib/curl_trc.h:
+../../lib/httpsrr.h:
+../../lib/formdata.h:
+../../lib/url.h:
+../../lib/curlx/inet_pton.h:
+../../lib/vtls/openssl.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/opensslv.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/macros.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/opensslconf.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/configuration.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ossl_typ.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/types.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/e_os2.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/safestack.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/stack.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ssl.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/e_ostime.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/comp.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/crypto.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/cryptoerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/symhacks.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/cryptoerr_legacy.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/core.h:
+/usr/lib/musl/include/stddef.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/comperr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/bio.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/bioerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/buffer.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/buffererr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/evp.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/core_dispatch.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/indicator.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/params.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/bn.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/bnerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/evperr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/objects.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/obj_mac.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/asn1.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/asn1err.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/objectserr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ec.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ecerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/rsa.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/rsaerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dsa.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dh.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dherr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dsaerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/sha.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509err.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509_vfy.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/lhash.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pkcs7.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pkcs7err.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/http.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/conf.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/conferr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/conftypes.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pem.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pemerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/hmac.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/async.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/asyncerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ct.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/cterr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/sslerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/sslerr_legacy.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/prov_ssl.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ech.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/hpke.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ssl2.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ssl3.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/tls1.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/dtls1.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/srtp.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/quic.h:
+../../lib/connect.h:
+../../lib/cf-dns.h:
+../../lib/progress.h:
+../../lib/vtls/vtls.h:
+../../lib/vtls/vtls_int.h:
+../../lib/cfilters.h:
+../../lib/curlx/timediff.h:
+../../lib/select.h:
+/usr/lib/musl/include/poll.h:
+/usr/lib/musl/include/bits/poll.h:
+../../lib/vtls/vtls_scache.h:
+../../lib/vauth/vauth.h:
+../../lib/bufref.h:
+../../lib/curlx/dynbuf.h:
+../../lib/vtls/keylog.h:
+../../lib/vtls/hostcheck.h:
+../../lib/transfer.h:
+../../lib/multiif.h:
+../../lib/curlx/strerr.h:
+../../lib/curlx/strparse.h:
+../../lib/curlx/strcopy.h:
+../../lib/curlx/strdup.h:
+../../lib/vtls/apple.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/rand.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/randerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509v3.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/x509v3err.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/err.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pkcs12.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/pkcs12err.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ocsp.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ocsperr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/provider.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/store.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/storeerr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/ui.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/uierr.h:
+/home/ildar/kyronix-ports/libs/openssl/stage/usr/include/openssl/core_names.h:

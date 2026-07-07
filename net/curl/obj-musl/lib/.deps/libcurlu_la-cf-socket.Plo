@@ -1,0 +1,202 @@
+libcurlu_la-cf-socket.lo: ../../lib/cf-socket.c ../../lib/curl_setup.h \
+ ../lib/curl_config.h /usr/lib/musl/include/pthread.h \
+ /usr/lib/musl/include/features.h /usr/lib/musl/include/bits/alltypes.h \
+ /usr/lib/musl/include/sched.h /usr/lib/musl/include/time.h \
+ ../../include/curl/system.h /usr/lib/musl/include/sys/types.h \
+ /usr/lib/musl/include/endian.h /usr/lib/musl/include/sys/select.h \
+ /usr/lib/musl/include/sys/socket.h /usr/lib/musl/include/bits/socket.h \
+ /usr/lib/musl/include/stdio.h /usr/lib/musl/include/assert.h \
+ /usr/lib/musl/include/stdint.h /usr/lib/musl/include/bits/stdint.h \
+ /usr/lib/musl/include/limits.h /usr/lib/musl/include/bits/limits.h \
+ /usr/lib/musl/include/stdlib.h /usr/lib/musl/include/alloca.h \
+ /usr/lib/musl/include/string.h /usr/lib/musl/include/strings.h \
+ /usr/lib/musl/include/stdarg.h /usr/lib/musl/include/errno.h \
+ /usr/lib/musl/include/bits/errno.h /usr/lib/musl/include/sys/stat.h \
+ /usr/lib/musl/include/bits/stat.h /usr/lib/musl/include/sys/time.h \
+ /usr/lib/musl/include/fcntl.h /usr/lib/musl/include/bits/fcntl.h \
+ /usr/lib/musl/include/stdbool.h /usr/lib/musl/include/unistd.h \
+ ../../lib/functypes.h ../../lib/curl_ctype.h ../../lib/curlx/warnless.h \
+ ../../include/curl/curl.h ../../include/curl/curlver.h \
+ ../../include/curl/system.h ../../include/curl/easy.h \
+ ../../include/curl/multi.h ../../include/curl/curl.h \
+ ../../include/curl/urlapi.h ../../include/curl/options.h \
+ ../../include/curl/header.h ../../include/curl/websockets.h \
+ ../../include/curl/mprintf.h ../../include/curl/typecheck-gcc.h \
+ /usr/lib/musl/include/netinet/in.h /usr/lib/musl/include/inttypes.h \
+ /usr/lib/musl/include/sys/un.h /usr/include/linux/tcp.h \
+ /usr/include/linux/types.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/byteorder.h \
+ /usr/include/linux/byteorder/little_endian.h /usr/include/linux/swab.h \
+ /usr/include/asm/swab.h /usr/include/linux/socket.h \
+ /usr/lib/musl/include/netinet/udp.h /usr/lib/musl/include/sys/ioctl.h \
+ /usr/lib/musl/include/bits/ioctl.h \
+ /usr/lib/musl/include/bits/ioctl_fix.h /usr/lib/musl/include/netdb.h \
+ /usr/lib/musl/include/arpa/inet.h /usr/lib/musl/include/ifaddrs.h \
+ /usr/lib/musl/include/net/if.h ../../lib/urldata.h \
+ ../../lib/curlx/timeval.h ../../lib/curl_setup.h \
+ ../../lib/curlx/timediff.h ../../lib/asyn.h ../../lib/curl_addrinfo.h \
+ ../../lib/cookie.h ../../lib/llist.h ../../lib/creds.h ../../lib/psl.h \
+ ../../lib/formdata.h ../../lib/bufref.h ../../lib/http_chunks.h \
+ ../../lib/curlx/dynbuf.h ../../lib/hostip.h ../../lib/hash.h \
+ ../../lib/peer.h ../../lib/proxy.h ../../lib/splay.h ../../lib/dynhds.h \
+ ../../lib/request.h ../../lib/bufq.h ../../lib/ratelimit.h \
+ ../../lib/netrc.h ../../lib/vtls/vtls_config.h ../../lib/mime.h \
+ ../../lib/protocol.h ../../lib/ftp.h ../../lib/http.h ../../lib/smb.h \
+ ../../lib/mqtt.h ../../lib/ftplistparser.h ../../lib/multihandle.h \
+ ../../lib/conncache.h ../../lib/cshutdn.h ../../lib/dnscache.h \
+ ../../lib/multi_ev.h ../../lib/multi_ntfy.h ../../lib/uint-bset.h \
+ ../../lib/socketpair.h ../../lib/uint-spbset.h ../../lib/uint-table.h \
+ ../../lib/cf-socket.h ../../lib/curl_trc.h ../../lib/if2ip.h \
+ ../../lib/cfilters.h ../../lib/curlx/timediff.h ../../lib/connect.h \
+ ../../lib/select.h /usr/lib/musl/include/poll.h \
+ /usr/lib/musl/include/bits/poll.h ../../lib/multiif.h \
+ ../../lib/curlx/inet_ntop.h ../../lib/curlx/inet_pton.h \
+ ../../lib/progress.h ../../lib/rand.h ../../lib/sockaddr.h \
+ ../../lib/curlx/strdup.h ../../lib/system_win32.h \
+ ../../lib/curlx/nonblock.h ../../lib/curlx/strcopy.h \
+ ../../lib/curlx/version_win32.h ../../lib/curlx/strerr.h \
+ ../../lib/curlx/strparse.h
+../../lib/curl_setup.h:
+../lib/curl_config.h:
+/usr/lib/musl/include/pthread.h:
+/usr/lib/musl/include/features.h:
+/usr/lib/musl/include/bits/alltypes.h:
+/usr/lib/musl/include/sched.h:
+/usr/lib/musl/include/time.h:
+../../include/curl/system.h:
+/usr/lib/musl/include/sys/types.h:
+/usr/lib/musl/include/endian.h:
+/usr/lib/musl/include/sys/select.h:
+/usr/lib/musl/include/sys/socket.h:
+/usr/lib/musl/include/bits/socket.h:
+/usr/lib/musl/include/stdio.h:
+/usr/lib/musl/include/assert.h:
+/usr/lib/musl/include/stdint.h:
+/usr/lib/musl/include/bits/stdint.h:
+/usr/lib/musl/include/limits.h:
+/usr/lib/musl/include/bits/limits.h:
+/usr/lib/musl/include/stdlib.h:
+/usr/lib/musl/include/alloca.h:
+/usr/lib/musl/include/string.h:
+/usr/lib/musl/include/strings.h:
+/usr/lib/musl/include/stdarg.h:
+/usr/lib/musl/include/errno.h:
+/usr/lib/musl/include/bits/errno.h:
+/usr/lib/musl/include/sys/stat.h:
+/usr/lib/musl/include/bits/stat.h:
+/usr/lib/musl/include/sys/time.h:
+/usr/lib/musl/include/fcntl.h:
+/usr/lib/musl/include/bits/fcntl.h:
+/usr/lib/musl/include/stdbool.h:
+/usr/lib/musl/include/unistd.h:
+../../lib/functypes.h:
+../../lib/curl_ctype.h:
+../../lib/curlx/warnless.h:
+../../include/curl/curl.h:
+../../include/curl/curlver.h:
+../../include/curl/system.h:
+../../include/curl/easy.h:
+../../include/curl/multi.h:
+../../include/curl/curl.h:
+../../include/curl/urlapi.h:
+../../include/curl/options.h:
+../../include/curl/header.h:
+../../include/curl/websockets.h:
+../../include/curl/mprintf.h:
+../../include/curl/typecheck-gcc.h:
+/usr/lib/musl/include/netinet/in.h:
+/usr/lib/musl/include/inttypes.h:
+/usr/lib/musl/include/sys/un.h:
+/usr/include/linux/tcp.h:
+/usr/include/linux/types.h:
+/usr/include/asm/types.h:
+/usr/include/asm-generic/types.h:
+/usr/include/asm-generic/int-ll64.h:
+/usr/include/asm/bitsperlong.h:
+/usr/include/asm-generic/bitsperlong.h:
+/usr/include/linux/posix_types.h:
+/usr/include/linux/stddef.h:
+/usr/include/asm/posix_types.h:
+/usr/include/asm/posix_types_64.h:
+/usr/include/asm-generic/posix_types.h:
+/usr/include/asm/byteorder.h:
+/usr/include/linux/byteorder/little_endian.h:
+/usr/include/linux/swab.h:
+/usr/include/asm/swab.h:
+/usr/include/linux/socket.h:
+/usr/lib/musl/include/netinet/udp.h:
+/usr/lib/musl/include/sys/ioctl.h:
+/usr/lib/musl/include/bits/ioctl.h:
+/usr/lib/musl/include/bits/ioctl_fix.h:
+/usr/lib/musl/include/netdb.h:
+/usr/lib/musl/include/arpa/inet.h:
+/usr/lib/musl/include/ifaddrs.h:
+/usr/lib/musl/include/net/if.h:
+../../lib/urldata.h:
+../../lib/curlx/timeval.h:
+../../lib/curl_setup.h:
+../../lib/curlx/timediff.h:
+../../lib/asyn.h:
+../../lib/curl_addrinfo.h:
+../../lib/cookie.h:
+../../lib/llist.h:
+../../lib/creds.h:
+../../lib/psl.h:
+../../lib/formdata.h:
+../../lib/bufref.h:
+../../lib/http_chunks.h:
+../../lib/curlx/dynbuf.h:
+../../lib/hostip.h:
+../../lib/hash.h:
+../../lib/peer.h:
+../../lib/proxy.h:
+../../lib/splay.h:
+../../lib/dynhds.h:
+../../lib/request.h:
+../../lib/bufq.h:
+../../lib/ratelimit.h:
+../../lib/netrc.h:
+../../lib/vtls/vtls_config.h:
+../../lib/mime.h:
+../../lib/protocol.h:
+../../lib/ftp.h:
+../../lib/http.h:
+../../lib/smb.h:
+../../lib/mqtt.h:
+../../lib/ftplistparser.h:
+../../lib/multihandle.h:
+../../lib/conncache.h:
+../../lib/cshutdn.h:
+../../lib/dnscache.h:
+../../lib/multi_ev.h:
+../../lib/multi_ntfy.h:
+../../lib/uint-bset.h:
+../../lib/socketpair.h:
+../../lib/uint-spbset.h:
+../../lib/uint-table.h:
+../../lib/cf-socket.h:
+../../lib/curl_trc.h:
+../../lib/if2ip.h:
+../../lib/cfilters.h:
+../../lib/curlx/timediff.h:
+../../lib/connect.h:
+../../lib/select.h:
+/usr/lib/musl/include/poll.h:
+/usr/lib/musl/include/bits/poll.h:
+../../lib/multiif.h:
+../../lib/curlx/inet_ntop.h:
+../../lib/curlx/inet_pton.h:
+../../lib/progress.h:
+../../lib/rand.h:
+../../lib/sockaddr.h:
+../../lib/curlx/strdup.h:
+../../lib/system_win32.h:
+../../lib/curlx/nonblock.h:
+../../lib/curlx/strcopy.h:
+../../lib/curlx/version_win32.h:
+../../lib/curlx/strerr.h:
+../../lib/curlx/strparse.h:

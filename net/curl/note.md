@@ -1,0 +1,9 @@
+This is a dynamic build (shared `libcurl`), same reasoning as `libs/openssl`: curl/libcurl gets frequent security fixes and is meant to be shared by other programs, so static linking would mean rebuilding every consumer on every update.
+
+Built against the musl OpenSSL from `libs/openssl` (staged locally via `make DESTDIR=... install_sw` into `libs/openssl/stage`, then pointed at with `PKG_CONFIG_SYSROOT_DIR`/`PKG_CONFIG_LIBDIR`, since the OpenSSL `.pc` files hardcode `/usr` as prefix). Needs `libssl.so.4` and `libcrypto.so.4` (from `libs/openssl`) present in `/usr/lib` on Kyronix to run, plus the CA bundle at `/etc/ssl/cert.pem` (see `libs/openssl/note.md`), otherwise HTTPS requests will fail certificate verification.
+
+Disabled/not included in this build: zlib, brotli, zstd, HTTP/2 (nghttp2), IDN (libidn2), libssh(2), libpsl, LDAP. Only plain HTTP/1.1 and HTTPS (via OpenSSL) are guaranteed to work. Add these later as separate ports if Kyronix needs them.
+
+The real binary is `obj-musl/src/.libs/curl` (the `obj-musl/src/curl` at that path is a libtool wrapper shell script, not the actual binary, don't copy that one to the rootfs).
+
+Gotcha already hit once: by default curl's `./configure` auto-detects the CA bundle path from whatever exists on the build host, which gave `/etc/ssl/certs/ca-certificates.crt` here (Arch/Debian convention), not `/etc/ssl/cert.pem`. Confirmed on real Kyronix: `curl -v https://...` failed with "error adding trust anchors" because the file wasn't at that guessed path. Fixed by reconfiguring with an explicit `--with-ca-bundle=/etc/ssl/cert.pem --without-ca-path`, rebuilt, and reverified (`CAfile: /etc/ssl/cert.pem` in `-v` output, real HTTPS request to github.com returned 200). If this ever gets rebuilt from scratch, keep those two configure flags or it will silently regress to the build host's guessed path.
