@@ -55,7 +55,7 @@ def gen_fastfetch_datatext():
     help_escaped = c_escape(help_json)
 
     # Minimal default structure with only modules we keep
-    default_structure = "Title:Separator:OS:Host:Kernel:Uptime:Shell:Terminal:TerminalFont:TerminalSize:CPU:CPUUsage:Memory:Swap:Processes:LoadAvg:Locale:Users:Editor:Command:DateTime:Version:Display:LibC:Break:Colors"
+    default_structure = "Title:Separator:OS:Host:Kernel:Uptime:Shell:Terminal:TerminalSize:CPU:CPUUsage:Memory:Swap:Processes:LoadAvg:Locale:Break:Colors"
 
     content = f"""#pragma once
 
