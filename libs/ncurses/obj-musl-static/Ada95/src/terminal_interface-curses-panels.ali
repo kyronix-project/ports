@@ -40,12 +40,12 @@ D s-stache.ads		20260501130736 0b81c1fe system.stack_checking%s
 D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
 D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
 D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
-D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
-D terminal_interface-curses-panels.adb  20200202233434 e32236c5 terminal_interface.curses.panels%b
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260707185930 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-panels.ads  20260707185930 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses-panels.adb  20260707185930 e32236c5 terminal_interface.curses.panels%b
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [create terminal_interface__curses__panels 67 13 none]
 G c Z s b [bottom terminal_interface__curses__panels 77 14 none]

@@ -63,13 +63,13 @@ D interfac.ads		20260501130736 9111f9c1 interfaces%s
 D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
 D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
 D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
-D sample.ads		20200202233434 bd2c0779 sample%s
-D sample-explanation.ads  20200202233434 7883ef84 sample.explanation%s
-D sample-explanation.adb  20260703163927 8b25551f sample.explanation%b
-D sample-function_key_setting.ads  20200202233434 98be4b41 sample.function_key_setting%s
-D sample-helpers.ads	20200202233434 f14bffc4 sample.helpers%s
-D sample-keyboard_handler.ads  20200202233434 8206b64f sample.keyboard_handler%s
-D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D sample.ads		20260707185930 bd2c0779 sample%s
+D sample-explanation.ads  20260707185930 7883ef84 sample.explanation%s
+D sample-explanation.adb  20260707185930 8b25551f sample.explanation%b
+D sample-function_key_setting.ads  20260707185930 98be4b41 sample.function_key_setting%s
+D sample-helpers.ads	20260707185930 f14bffc4 sample.helpers%s
+D sample-keyboard_handler.ads  20260707185930 8206b64f sample.keyboard_handler%s
+D sample-manifest.ads	20260707185930 54ef9450 sample.manifest%s
 D system.ads		20260501130736 e2b7c99d system%s
 D s-crtl.ads		20260501130736 823b6536 system.crtl%s
 D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
@@ -85,13 +85,13 @@ D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
 D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
 D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
 D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
-D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
-D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
-D terminal_interface-curses-panels.adb  20200202233434 e32236c5 terminal_interface.curses.panels%b
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260707185930 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260707185930 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-panels.ads  20260707185930 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses-panels.adb  20260707185930 e32236c5 terminal_interface.curses.panels%b
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [explain sample__explanation 48 14 none]
 G c Z s b [explain_context sample__explanation 51 14 none]

@@ -12,10 +12,10 @@ W sample%s		sample.adb		sample.ali
 
 U tour%s		tour.ads		134b652e EE NE OO SU
 
-D sample.ads		20200202233434 bd2c0779 sample%s
+D sample.ads		20260707185930 bd2c0779 sample%s
 D system.ads		20260501130736 e2b7c99d system%s
-D tour.ads		20200202233434 134b652e tour%s
-D tour.adb		20200202233434 973efce7 tour%b
+D tour.ads		20260707185930 134b652e tour%s
+D tour.adb		20260707185930 973efce7 tour%b
 G a e
 G c Z s b [tour standard 42 11 none]
 G r c none [tour standard 42 11 none] [whow sample 43 14 none]

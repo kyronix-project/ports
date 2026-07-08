@@ -56,12 +56,12 @@ D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
 D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
 D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
 D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
-D terminal_interface-curses-putwin.ads  20200202233434 4686625b terminal_interface.curses.putwin%s
-D terminal_interface-curses-putwin.adb  20200202233434 9f972270 terminal_interface.curses.putwin%b
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260707185930 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-putwin.ads  20260707185930 4686625b terminal_interface.curses.putwin%s
+D terminal_interface-curses-putwin.adb  20260707185930 9f972270 terminal_interface.curses.putwin%b
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [put_window terminal_interface__curses__putwin 46 14 none]
 G c Z s b [get_window terminal_interface__curses__putwin 49 13 none]

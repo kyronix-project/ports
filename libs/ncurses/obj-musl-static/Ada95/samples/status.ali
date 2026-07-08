@@ -46,8 +46,8 @@ D a-taside.ads		20260501130736 c0a7c8d8 ada.task_identification%s
 D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20260501130736 9111f9c1 interfaces%s
 D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
-D status.ads		20200202233434 52ac6982 status%s
-D status.adb		20200202233434 e59cd6a2 status%b
+D status.ads		20260707185930 52ac6982 status%s
+D status.adb		20260707185930 e59cd6a2 status%b
 D system.ads		20260501130736 e2b7c99d system%s
 D s-atacco.ads		20260501130736 5868e3ba system.address_to_access_conversions%s
 D s-atopri.ads		20260501130736 e19c1d89 system.atomic_primitives%s

@@ -91,13 +91,13 @@ D s-valllu.ads		20260501130736 6c4ea24d system.val_llu%s
 D s-valuns.ads		20260501130736 c639d3c7 system.val_uns%s
 D s-valueu.ads		20260501130736 099f68d2 system.value_u%s
 D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses-text_io.ads  20200202233434 821d74f8 terminal_interface.curses.text_io%s
-D terminal_interface-curses-text_io-aux.ads  20200202233434 462e84fb terminal_interface.curses.text_io.aux%s
-D terminal_interface-curses-text_io-modular_io.ads  20200202233434 9fa1fb9a terminal_interface.curses.text_io.modular_io%s
-D terminal_interface-curses-text_io-modular_io.adb  20200202233434 b8af9427 terminal_interface.curses.text_io.modular_io%b
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-text_io.ads  20260707185930 821d74f8 terminal_interface.curses.text_io%s
+D terminal_interface-curses-text_io-aux.ads  20260707185930 462e84fb terminal_interface.curses.text_io.aux%s
+D terminal_interface-curses-text_io-modular_io.ads  20260707185930 9fa1fb9a terminal_interface.curses.text_io.modular_io%s
+D terminal_interface-curses-text_io-modular_io.adb  20260707185930 b8af9427 terminal_interface.curses.text_io.modular_io%b
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [modular_io terminal_interface__curses__text_io 45 43 none]
 X 1 ada.ads

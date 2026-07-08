@@ -84,14 +84,14 @@ D s-stopoo.ads		20260501130736 45459446 system.storage_pools%s
 D s-stposu.ads		20260501130736 f8e797ef system.storage_pools.subpools%s
 D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
 D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
-D terminal_interface-curses-forms.ads  20260703163925 29d1e06e terminal_interface.curses.forms%s
-D terminal_interface-curses-forms-field_types.ads  20260703163925 b4539bab terminal_interface.curses.forms.field_types%s
-D terminal_interface-curses-forms-field_types-user.ads  20200202233434 3c14a35d terminal_interface.curses.forms.field_types.user%s
-D terminal_interface-curses-forms-field_types-user.adb  20200202233434 3f1a1631 terminal_interface.curses.forms.field_types.user%b
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-aux.ads  20260707185930 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-forms.ads  20260707185930 29d1e06e terminal_interface.curses.forms%s
+D terminal_interface-curses-forms-field_types.ads  20260707185930 b4539bab terminal_interface.curses.forms.field_types%s
+D terminal_interface-curses-forms-field_types-user.ads  20260707185930 3c14a35d terminal_interface.curses.forms.field_types.user%s
+D terminal_interface-curses-forms-field_types-user.adb  20260707185930 3f1a1631 terminal_interface.curses.forms.field_types.user%b
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [set_field_type terminal_interface__curses__forms__field_types__user 71 14 none]
 G c Z s b [c_generic_type terminal_interface__curses__forms__field_types__user 80 13 none]
