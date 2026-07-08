@@ -108,11 +108,11 @@ D interfac.ads		20260501130736 9111f9c1 interfaces%s
 D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
 D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
 D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
-D ncurses2.ads		20200202233434 49526333 ncurses2%s
-D ncurses2-genericputs.ads  20200202233434 0639b31a ncurses2.genericputs%s
-D ncurses2-genericputs.adb  20200202233434 c3fa4fe1 ncurses2.genericputs%b
-D ncurses2-util.ads	20200202233434 c110bb86 ncurses2.util%s
-D ncurses2-util.adb	20200202233434 21a487ef ncurses2.util%b
+D ncurses2.ads		20260707185930 49526333 ncurses2%s
+D ncurses2-genericputs.ads  20260707185930 0639b31a ncurses2.genericputs%s
+D ncurses2-genericputs.adb  20260707185930 c3fa4fe1 ncurses2.genericputs%b
+D ncurses2-util.ads	20260707185930 c110bb86 ncurses2.util%s
+D ncurses2-util.adb	20260707185930 21a487ef ncurses2.util%b
 D system.ads		20260501130736 e2b7c99d system%s
 D s-crtl.ads		20260501130736 823b6536 system.crtl%s
 D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
@@ -147,12 +147,12 @@ D s-valuns.ads		20260501130736 c639d3c7 system.val_uns%s
 D s-valuei.ads		20260501130736 75953b98 system.value_i%s
 D s-valueu.ads		20260501130736 099f68d2 system.value_u%s
 D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
-D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
-D terminal_interface-curses-trace.ads  20260703163925 80ac1c07 terminal_interface.curses.trace%s
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260707185930 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260707185930 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-trace.ads  20260707185930 80ac1c07 terminal_interface.curses.trace%s
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [ctrl ncurses2__util 54 13 none]
 G c Z s b [ctrl ncurses2__util 56 13 none]

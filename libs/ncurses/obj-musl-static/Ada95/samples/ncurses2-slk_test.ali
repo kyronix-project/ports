@@ -61,10 +61,10 @@ D interfac.ads		20260501130736 9111f9c1 interfaces%s
 D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
 D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
 D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
-D ncurses2.ads		20200202233434 49526333 ncurses2%s
-D ncurses2-slk_test.ads	20200202233434 bef9d931 ncurses2.slk_test%s
-D ncurses2-slk_test.adb	20200202233434 115ab5aa ncurses2.slk_test%b
-D ncurses2-util.ads	20200202233434 c110bb86 ncurses2.util%s
+D ncurses2.ads		20260707185930 49526333 ncurses2%s
+D ncurses2-slk_test.ads	20260707185930 bef9d931 ncurses2.slk_test%s
+D ncurses2-slk_test.adb	20260707185930 115ab5aa ncurses2.slk_test%b
+D ncurses2-util.ads	20260707185930 c110bb86 ncurses2.util%s
 D system.ads		20260501130736 e2b7c99d system%s
 D s-atocou.ads		20260501130736 dc18efc3 system.atomic_counters%s
 D s-atocou.adb		20260501130736 6fe685de system.atomic_counters%b
@@ -91,11 +91,11 @@ D s-stratt.ads		20260501130736 80b8dafb system.stream_attributes%s
 D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
 D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
 D s-wchcon.ads		20260501130736 d9032363 system.wch_con%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
-D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260707185930 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260707185930 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [slk_test ncurses2 42 20 none]
 G r c none [slk_test ncurses2 42 20 none] [ctrl ncurses2__util 54 13 none]

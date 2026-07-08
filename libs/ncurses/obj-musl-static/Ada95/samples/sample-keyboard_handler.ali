@@ -66,15 +66,15 @@ D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
 D i-cpoint.ads		20260501130736 ee8a93ec interfaces.c.pointers%s
 D i-cpoint.adb		20260501130736 e467b078 interfaces.c.pointers%b
 D i-cstrin.ads		20260501130736 49eced87 interfaces.c.strings%s
-D sample.ads		20200202233434 bd2c0779 sample%s
-D sample-form_demo.ads	20200202233434 de425645 sample.form_demo%s
-D sample-form_demo-aux.ads  20200202233434 0389c44d sample.form_demo.aux%s
-D sample-form_demo-handler.ads  20200202233434 5c86a8a3 sample.form_demo.handler%s
-D sample-form_demo-handler.adb  20200202233434 eab3f413 sample.form_demo.handler%b
-D sample-header_handler.ads  20200202233434 d9c6a959 sample.header_handler%s
-D sample-keyboard_handler.ads  20200202233434 8206b64f sample.keyboard_handler%s
-D sample-keyboard_handler.adb  20200202233434 1051753a sample.keyboard_handler%b
-D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
+D sample.ads		20260707185930 bd2c0779 sample%s
+D sample-form_demo.ads	20260707185930 de425645 sample.form_demo%s
+D sample-form_demo-aux.ads  20260707185930 0389c44d sample.form_demo.aux%s
+D sample-form_demo-handler.ads  20260707185930 5c86a8a3 sample.form_demo.handler%s
+D sample-form_demo-handler.adb  20260707185930 eab3f413 sample.form_demo.handler%b
+D sample-header_handler.ads  20260707185930 d9c6a959 sample.header_handler%s
+D sample-keyboard_handler.ads  20260707185930 8206b64f sample.keyboard_handler%s
+D sample-keyboard_handler.adb  20260707185930 1051753a sample.keyboard_handler%b
+D sample-manifest.ads	20260707185930 54ef9450 sample.manifest%s
 D system.ads		20260501130736 e2b7c99d system%s
 D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
 D s-finpri.ads		20260501130736 5970d55a system.finalization_primitives%s
@@ -94,17 +94,17 @@ D s-stopoo.ads		20260501130736 45459446 system.storage_pools%s
 D s-stratt.ads		20260501130736 80b8dafb system.stream_attributes%s
 D s-traent.ads		20260501130736 c81cbf8c system.traceback_entries%s
 D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses.adb  20260703163925 7aa76634 terminal_interface.curses%b
-D terminal_interface-curses-aux.ads  20260703163925 5abb8217 terminal_interface.curses.aux%s
-D terminal_interface-curses-forms.ads  20260703163925 29d1e06e terminal_interface.curses.forms%s
-D terminal_interface-curses-forms.adb  20250124203923 80e46ff6 terminal_interface.curses.forms%b
-D terminal_interface-curses-forms-field_types.ads  20260703163925 b4539bab terminal_interface.curses.forms.field_types%s
-D terminal_interface-curses-forms-field_types-enumeration.ads  20200202233434 63a8ae2d terminal_interface.curses.forms.field_types.enumeration%s
-D terminal_interface-curses-forms-field_types-enumeration.adb  20200202233434 e01f9f28 terminal_interface.curses.forms.field_types.enumeration%b
-D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses.adb  20260707185930 7aa76634 terminal_interface.curses%b
+D terminal_interface-curses-aux.ads  20260707185930 5abb8217 terminal_interface.curses.aux%s
+D terminal_interface-curses-forms.ads  20260707185930 29d1e06e terminal_interface.curses.forms%s
+D terminal_interface-curses-forms.adb  20260707185930 80e46ff6 terminal_interface.curses.forms%b
+D terminal_interface-curses-forms-field_types.ads  20260707185930 b4539bab terminal_interface.curses.forms.field_types%s
+D terminal_interface-curses-forms-field_types-enumeration.ads  20260707185930 63a8ae2d terminal_interface.curses.forms.field_types.enumeration%s
+D terminal_interface-curses-forms-field_types-enumeration.adb  20260707185930 e01f9f28 terminal_interface.curses.forms.field_types.enumeration%b
+D terminal_interface-curses-panels.ads  20260707185930 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [get_key sample__keyboard_handler 50 13 none]
 G c Z s b [init_keyboard_handler sample__keyboard_handler 53 14 none]

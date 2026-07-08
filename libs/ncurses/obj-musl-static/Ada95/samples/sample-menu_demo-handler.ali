@@ -29,24 +29,24 @@ D a-chlat1.ads		20260501130736 e0d72e76 ada.characters.latin_1%s
 D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20260501130736 9111f9c1 interfaces%s
 D i-c.ads		20260501130736 dbdd3be7 interfaces.c%s
-D sample.ads		20200202233434 bd2c0779 sample%s
-D sample-manifest.ads	20200202233434 54ef9450 sample.manifest%s
-D sample-menu_demo.ads	20200202233434 75f8e443 sample.menu_demo%s
-D sample-menu_demo-aux.ads  20200202233434 48e049d3 sample.menu_demo.aux%s
-D sample-menu_demo-handler.ads  20200202233434 5a225f46 sample.menu_demo.handler%s
-D sample-menu_demo-handler.adb  20200202233434 420a7d44 sample.menu_demo.handler%b
+D sample.ads		20260707185930 bd2c0779 sample%s
+D sample-manifest.ads	20260707185930 54ef9450 sample.manifest%s
+D sample-menu_demo.ads	20260707185930 75f8e443 sample.menu_demo%s
+D sample-menu_demo-aux.ads  20260707185930 48e049d3 sample.menu_demo.aux%s
+D sample-menu_demo-handler.ads  20260707185930 5a225f46 sample.menu_demo.handler%s
+D sample-menu_demo-handler.adb  20260707185930 420a7d44 sample.menu_demo.handler%b
 D system.ads		20260501130736 e2b7c99d system%s
 D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
 D s-parame.ads		20260501130736 a1aeab5c system.parameters%s
 D s-stalib.ads		20260501130736 1c9580f6 system.standard_library%s
 D s-stoele.ads		20260501130736 ccded4e8 system.storage_elements%s
 D s-unstyp.ads		20260501130736 fa2a7f59 system.unsigned_types%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses.ads  20260703163925 d7fd4c44 terminal_interface.curses%s
-D terminal_interface-curses-menus.ads  20260703163925 9db15c8f terminal_interface.curses.menus%s
-D terminal_interface-curses-mouse.ads  20260703163925 b102e51f terminal_interface.curses.mouse%s
-D terminal_interface-curses-panels.ads  20260703163925 45cbc913 terminal_interface.curses.panels%s
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses.ads  20260707185930 d7fd4c44 terminal_interface.curses%s
+D terminal_interface-curses-menus.ads  20260707185930 9db15c8f terminal_interface.curses.menus%s
+D terminal_interface-curses-mouse.ads  20260707185930 b102e51f terminal_interface.curses.mouse%s
+D terminal_interface-curses-panels.ads  20260707185930 45cbc913 terminal_interface.curses.panels%s
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 G c Z s b [handler sample__menu_demo 53 26 none]
 X 7 sample.ads

@@ -12,8 +12,8 @@ W system%s		system.ads		system.ali
 W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
 
 D system.ads		20260501130736 e2b7c99d system%s
-D terminal_interface.ads  20200202233434 3a9703dd terminal_interface%s
-D terminal_interface-curses_constants.ads  20260703163925 44e80fae terminal_interface.curses_constants%s
+D terminal_interface.ads  20260707185930 3a9703dd terminal_interface%s
+D terminal_interface-curses_constants.ads  20260707204032 44e80fae terminal_interface.curses_constants%s
 G a e
 X 1 system.ads
 37K9*System 155e11 3|5w6 10r25 10r45

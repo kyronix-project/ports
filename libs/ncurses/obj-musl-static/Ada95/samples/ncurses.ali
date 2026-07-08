@@ -18,9 +18,9 @@ D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20260501130736 c3a8ac65 ada.unchecked_deallocation%s
 D gnat.ads		20260501130736 b5988c27 gnat%s
 D g-os_lib.ads		20260501130736 0db74523 gnat.os_lib%s
-D ncurses.adb		20200202233434 145e8ec9 ncurses%b
-D ncurses2.ads		20200202233434 49526333 ncurses2%s
-D ncurses2-m.ads	20200202233434 eddc6995 ncurses2.m%s
+D ncurses.adb		20260707185930 145e8ec9 ncurses%b
+D ncurses2.ads		20260707185930 49526333 ncurses2%s
+D ncurses2-m.ads	20260707185930 eddc6995 ncurses2.m%s
 D system.ads		20260501130736 e2b7c99d system%s
 D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
 D s-os_lib.ads		20260501130736 66ffd2a3 system.os_lib%s

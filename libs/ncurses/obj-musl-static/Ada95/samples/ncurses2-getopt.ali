@@ -52,9 +52,9 @@ D a-textio.ads		20260501130736 34ef47de ada.text_io%s
 D a-unccon.ads		20260501130736 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20260501130736 9111f9c1 interfaces%s
 D i-cstrea.ads		20260501130736 ffd01b9d interfaces.c_streams%s
-D ncurses2.ads		20200202233434 49526333 ncurses2%s
-D ncurses2-getopt.ads	20200202233434 182507ae ncurses2.getopt%s
-D ncurses2-getopt.adb	20200202233434 a94c787b ncurses2.getopt%b
+D ncurses2.ads		20260707185930 49526333 ncurses2%s
+D ncurses2-getopt.ads	20260707185930 182507ae ncurses2.getopt%s
+D ncurses2-getopt.adb	20260707185930 a94c787b ncurses2.getopt%b
 D system.ads		20260501130736 e2b7c99d system%s
 D s-crtl.ads		20260501130736 823b6536 system.crtl%s
 D s-exctab.ads		20260501130736 91bef6ef system.exception_table%s
