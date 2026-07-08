@@ -1,0 +1,8 @@
+--------------------
+./configure --help
+Ср 08 июл 2026 18:47:44 +05
+usage:
+  configure [--const] [--zprefix] [--prefix=PREFIX]  [--eprefix=EXPREFIX]
+    [--insecure] [--static] [--64] [--libdir=LIBDIR] [--sharedlibdir=LIBDIR]
+    [--includedir=INCLUDEDIR] [--mandir=MANDIR]
+    [--archs="-arch i386 -arch x86_64"] [--disable-crcvx]
